@@ -3,7 +3,7 @@
 /* eslint-disable no-dupe-keys */
 /* eslint-disable no-fallthrough */
 import React, { useState, useEffect, useRef, useMemo } from "react";
-import cereals from "../../../assets/images/Cereals/cereals.jpg";
+import cereals from "../../../assets/images/Cereals/Cereals.jpg";
 import fruits from "../../../assets/images/Fruits.jpg";
 import vegetables from "../../../assets/images/Vegetables.jpg";
 import nuts from "../../../assets/images/Nuts.jpg";
