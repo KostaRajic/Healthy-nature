@@ -1,0 +1,16 @@
+.forestsBackground {
+    position: fixed;
+    z-index: 10;
+    inset: 0;
+    overflow: auto;
+    background: url(../../../assets/images/Forests/forest.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.forestsBackground::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -2;
+  }

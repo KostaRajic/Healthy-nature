@@ -1,0 +1,16 @@
+.ornamentalPlantsBackground {
+    position: fixed;
+    z-index: 10;
+    inset: 0;
+    overflow: auto;
+    background: url(../../../assets/images/oramentalPlants.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.ornamentalPlantsBackground::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -2;
+  }
