@@ -113,6 +113,173 @@ Adam, or "Adam's Needle," is a common name often associated with a plant known a
         ],
       },
     ],
+    cultivationHeading: "Adam plant cultivation requires specific conditions for optimal growth. Here is an overview of the key factors involved in growing Adam plants:",
+cultivation: [
+  {
+    id: 21,
+    topic: "Climate",
+    children: [
+      {
+        id: 211,
+        topic: "Temperature",
+        text: "Adam plants thrive in warm climates. They prefer temperatures between 20°C to 30°C (68°F to 86°F) and are often found in subtropical regions."
+      },
+      {
+        id: 212,
+        topic: "Humidity",
+        text: "Moderate to high humidity is beneficial for Adam plants. They prefer environments with consistent moisture and can tolerate occasional dry spells."
+      }
+    ]
+  },
+  {
+    id: 22,
+    topic: "Soil",
+    children: [
+      {
+        id: 221,
+        topic: "pH",
+        text: "Adam plants prefer slightly acidic to neutral soils with a pH range of 6.0 to 7.0."
+      },
+      {
+        id: 222,
+        topic: "Soil Type",
+        text: "Well-drained, loamy or sandy soils are ideal for Adam plants, as they are sensitive to waterlogged conditions."
+      },
+      {
+        id: 223,
+        topic: "Soil Preparation",
+        text: "Before planting, incorporate organic matter, such as compost or well-rotted manure, to improve soil fertility and structure."
+      }
+    ]
+  },
+  {
+    id: 23,
+    topic: "Varieties",
+    text: "Common Adam plant varieties include: -Adam Variety A- known for its vibrant foliage and resilience. -Adam Variety B– favored for its unique flowers and adaptability."
+  },
+  {
+    id: 24,
+    topic: "Planting",
+    children: [
+      {
+        id: 241,
+        topic: "Time",
+        text: "The best time to plant Adam plants is in early spring or early fall, avoiding frost periods."
+      },
+      {
+        id: 242,
+        topic: "Spacing",
+        text: "Adam plants should be spaced about 30 to 60 centimeters (1 to 2 feet) apart, depending on the variety and intended use."
+      },
+      {
+        id: 243,
+        topic: "Pollination",
+        text: "Some Adam plant varieties may require cross-pollination for optimal fruit or flower production, so consider planting multiple varieties."
+      }
+    ]
+  },
+  {
+    id: 25,
+    topic: "Watering",
+    children: [
+      {
+        id: 251,
+        topic: "Establishment Phase",
+        text: "Young Adam plants require regular watering, especially during dry periods, to establish strong roots."
+      },
+      {
+        id: 252,
+        topic: "Mature Plants",
+        text: "Once established, Adam plants are moderately drought-tolerant but benefit from deep watering during prolonged dry spells."
+      },
+      {
+        id: 253,
+        topic: "Avoid Overwatering",
+        text: "Ensure proper drainage to prevent waterlogging, which can lead to root rot."
+      }
+    ]
+  },
+  {
+    id: 26,
+    topic: "Fertilization",
+    children: [
+      {
+        id: 261,
+        topic: "Nutrients",
+        text: "Adam plants benefit from a balanced fertilizer or organic compost to provide essential nutrients, particularly nitrogen and phosphorus."
+      },
+      {
+        id: 262,
+        topic: "Timing",
+        text: "Fertilizer should be applied in early spring before new growth begins. Avoid fertilizing late in the season."
+      }
+    ]
+  },
+  {
+    id: 27,
+    topic: "Pest and Disease Control",
+    children: [
+      {
+        id: 271,
+        topic: "Pests",
+        text: "Common pests affecting Adam plants include aphids, mealybugs, and spider mites. Integrated pest management (IPM) practices can help control these pests."
+      },
+      {
+        id: 272,
+        topic: "Diseases",
+        text: "Adam plants can be susceptible to fungal diseases and root rot. Proper cultural practices and timely treatments can mitigate these issues."
+      }
+    ]
+  },
+  {
+    id: 28,
+    topic: "Pruning",
+    children: [
+      {
+        id: 281,
+        topic: "Timing",
+        text: "Pruning should be done in late winter or early spring while the plant is dormant to minimize stress."
+      },
+      {
+        id: 282,
+        topic: "Technique",
+        text: "Remove dead, diseased, or overcrowded branches to promote airflow and overall plant health. Avoid excessive pruning."
+      }
+    ]
+  },
+  {
+    id: 29,
+    topic: "Harvesting",
+    children: [
+      {
+        id: 291,
+        topic: "Time",
+        text: "Adam plants may be ready for harvesting within 2 to 3 years, depending on the variety and care."
+      },
+      {
+        id: 292,
+        topic: "Signs of Maturity",
+        text: "Look for vibrant color and fullness in flowers or fruit to determine the best harvest time."
+      },
+      {
+        id: 293,
+        topic: "Handling",
+        text: "Handle harvested parts gently to prevent damage and ensure quality."
+      }
+    ]
+  },
+  {
+    id: 30,
+    topic: "Storage",
+    text: "Any harvested produce from Adam plants should be stored in a cool, dry place to maintain freshness."
+  },
+  {
+    id: 31,
+    topic: "Environmental Benefits",
+    text: "Adam plants contribute to biodiversity, provide habitat for wildlife, and can improve soil health through their root systems."
+  }
+]
+
   },
   {
     id: 2,
@@ -247,6 +414,173 @@ Adam, or "Adam's Needle," is a common name often associated with a plant known a
         ],
       },
     ],
+    cultivationHeading: "Peace Lily cultivation requires specific conditions for optimal growth. Here is an overview of the key factors involved in growing Peace Lilies:",
+cultivation: [
+  {
+    id: 21,
+    topic: "Climate",
+    children: [
+      {
+        id: 211,
+        topic: "Temperature",
+        text: "Peace Lilies thrive in warm, humid environments. They prefer temperatures between 18°C to 30°C (65°F to 85°F) and should be protected from cold drafts."
+      },
+      {
+        id: 212,
+        topic: "Humidity",
+        text: "High humidity is beneficial for Peace Lilies. They flourish in environments with humidity levels above 50% and benefit from regular misting or a humidifier."
+      }
+    ]
+  },
+  {
+    id: 22,
+    topic: "Soil",
+    children: [
+      {
+        id: 221,
+        topic: "pH",
+        text: "Peace Lilies prefer slightly acidic to neutral soils with a pH range of 5.5 to 7.0."
+      },
+      {
+        id: 222,
+        topic: "Soil Type",
+        text: "Well-drained, rich potting soil or a mix of peat moss, perlite, and compost is ideal for Peace Lilies."
+      },
+      {
+        id: 223,
+        topic: "Soil Preparation",
+        text: "Ensure the soil retains moisture but drains well to prevent root rot. Adding organic matter can enhance fertility and structure."
+      }
+    ]
+  },
+  {
+    id: 23,
+    topic: "Varieties",
+    text: "Common Peace Lily varieties include: -Spathiphyllum wallisii– the most popular variety, known for its elegant white flowers. -Spathiphyllum ‘Domino’– features variegated leaves with white and green patterns."
+  },
+  {
+    id: 24,
+    topic: "Planting",
+    children: [
+      {
+        id: 241,
+        topic: "Time",
+        text: "The best time to plant or repot Peace Lilies is in spring or early summer, allowing them to establish during the growing season."
+      },
+      {
+        id: 242,
+        topic: "Spacing",
+        text: "Peace Lilies should be spaced approximately 30 to 60 centimeters (1 to 2 feet) apart to allow for their growth."
+      },
+      {
+        id: 243,
+        topic: "Pollination",
+        text: "Peace Lilies are primarily self-pollinating, but introducing multiple plants can enhance flower production."
+      }
+    ]
+  },
+  {
+    id: 25,
+    topic: "Watering",
+    children: [
+      {
+        id: 251,
+        topic: "Establishment Phase",
+        text: "Young Peace Lilies require consistent moisture, but avoid overwatering. Water when the top inch of soil feels dry."
+      },
+      {
+        id: 252,
+        topic: "Mature Plants",
+        text: "Mature Peace Lilies are moderately drought-tolerant but prefer consistent moisture. Yellowing leaves may indicate overwatering."
+      },
+      {
+        id: 253,
+        topic: "Avoid Overwatering",
+        text: "Ensure proper drainage to prevent waterlogging, which can lead to root rot."
+      }
+    ]
+  },
+  {
+    id: 26,
+    topic: "Fertilization",
+    children: [
+      {
+        id: 261,
+        topic: "Nutrients",
+        text: "Peace Lilies benefit from a balanced, water-soluble fertilizer every 6-8 weeks during the growing season."
+      },
+      {
+        id: 262,
+        topic: "Timing",
+        text: "Fertilizer should be applied in spring and summer when the plant is actively growing. Avoid fertilizing in fall and winter."
+      }
+    ]
+  },
+  {
+    id: 27,
+    topic: "Pest and Disease Control",
+    children: [
+      {
+        id: 271,
+        topic: "Pests",
+        text: "Common pests affecting Peace Lilies include spider mites, aphids, and mealybugs. Regular inspection and insecticidal soap can help control these pests."
+      },
+      {
+        id: 272,
+        topic: "Diseases",
+        text: "Peace Lilies can suffer from root rot and leaf spot diseases. Ensure proper watering practices and remove any affected leaves."
+      }
+    ]
+  },
+  {
+    id: 28,
+    topic: "Pruning",
+    children: [
+      {
+        id: 281,
+        topic: "Timing",
+        text: "Pruning should be done in spring, removing dead or yellowing leaves to promote new growth."
+      },
+      {
+        id: 282,
+        topic: "Technique",
+        text: "Use clean, sharp scissors to cut leaves at the base to avoid damaging the plant. Avoid excessive pruning."
+      }
+    ]
+  },
+  {
+    id: 29,
+    topic: "Harvesting",
+    children: [
+      {
+        id: 291,
+        topic: "Time",
+        text: "Peace Lilies are typically appreciated for their blooms rather than harvested, but flowers can be cut when fully open."
+      },
+      {
+        id: 292,
+        topic: "Signs of Maturity",
+        text: "Mature flowers are white and fully open, indicating they are ready to be cut."
+      },
+      {
+        id: 293,
+        topic: "Handling",
+        text: "Handle flowers gently to avoid bruising and ensure they last longer in arrangements."
+      }
+    ]
+  },
+  {
+    id: 30,
+    topic: "Storage",
+    text: "Cut Peace Lily flowers should be stored in a cool place with water to maintain freshness."
+  },
+  {
+    id: 31,
+    topic: "Environmental Benefits",
+    text: "Peace Lilies help improve indoor air quality by filtering pollutants and contribute to humidity levels in their environment."
+  }
+]
+
   },
   {
     id: 3,
@@ -380,6 +714,168 @@ Adam, or "Adam's Needle," is a common name often associated with a plant known a
         ],
       },
     ],
+    cultivationHeading: "Chinese Money Plant cultivation requires specific conditions for optimal growth. Here is an overview of the key factors involved in growing Chinese Money Plants:",
+cultivation: [
+  {
+    id: 21,
+    topic: "Climate",
+    children: [
+      {
+        id: 211,
+        topic: "Temperature",
+        text: "Chinese Money Plants thrive in warm, indoor environments. They prefer temperatures between 18°C to 24°C (65°F to 75°F) and should be protected from cold drafts."
+      },
+      {
+        id: 212,
+        topic: "Humidity",
+        text: "Moderate humidity is ideal for Chinese Money Plants. They benefit from occasional misting, especially in dry conditions."
+      }
+    ]
+  },
+  {
+    id: 22,
+    topic: "Soil",
+    children: [
+      {
+        id: 221,
+        topic: "pH",
+        text: "Chinese Money Plants prefer slightly acidic to neutral soils with a pH range of 6.0 to 7.0."
+      },
+      {
+        id: 222,
+        topic: "Soil Type",
+        text: "A well-draining potting mix, such as a blend of potting soil, perlite, and orchid bark, is ideal for Chinese Money Plants."
+      },
+      {
+        id: 223,
+        topic: "Soil Preparation",
+        text: "Ensure the soil retains moisture while allowing excess water to drain, preventing root rot."
+      }
+    ]
+  },
+  {
+    id: 23,
+    topic: "Varieties",
+    text: "The Chinese Money Plant is primarily known by its scientific name, -Pilea peperomioides-. While variations exist, they typically feature round leaves on long stems."
+  },
+  {
+    id: 24,
+    topic: "Planting",
+    children: [
+      {
+        id: 241,
+        topic: "Time",
+        text: "The best time to plant or repot Chinese Money Plants is in spring, allowing them to establish during the growing season."
+      },
+      {
+        id: 242,
+        topic: "Spacing",
+        text: "When propagating, plant cuttings about 15 to 20 centimeters (6 to 8 inches) apart to allow for growth."
+      },
+      {
+        id: 243,
+        topic: "Pollination",
+        text: "Chinese Money Plants are primarily propagated through offsets rather than seeds. Pollination is not typically required."
+      }
+    ]
+  },
+  {
+    id: 25,
+    topic: "Watering",
+    children: [
+      {
+        id: 251,
+        topic: "Establishment Phase",
+        text: "Young Chinese Money Plants require regular watering, allowing the top inch of soil to dry out between waterings."
+      },
+      {
+        id: 252,
+        topic: "Mature Plants",
+        text: "Mature plants prefer consistent moisture but should not be overwatered. Yellowing leaves may indicate overwatering."
+      },
+      {
+        id: 253,
+        topic: "Avoid Overwatering",
+        text: "Ensure proper drainage to prevent waterlogging, which can lead to root rot."
+      }
+    ]
+  },
+  {
+    id: 26,
+    topic: "Fertilization",
+    children: [
+      {
+        id: 261,
+        topic: "Nutrients",
+        text: "Chinese Money Plants benefit from a balanced, water-soluble fertilizer every 4-6 weeks during the growing season."
+      },
+      {
+        id: 262,
+        topic: "Timing",
+        text: "Fertilizer should be applied in spring and summer when the plant is actively growing. Avoid fertilizing in fall and winter."
+      }
+    ]
+  },
+  {
+    id: 27,
+    topic: "Pest and Disease Control",
+    children: [
+      {
+        id: 271,
+        topic: "Pests",
+        text: "Common pests affecting Chinese Money Plants include spider mites and aphids. Regular inspection and insecticidal soap can help control these pests."
+      },
+      {
+        id: 272,
+        topic: "Diseases",
+        text: "Chinese Money Plants can suffer from root rot if overwatered. Ensure proper watering practices and remove any affected roots."
+      }
+    ]
+  },
+  {
+    id: 28,
+    topic: "Pruning",
+    children: [
+      {
+        id: 281,
+        topic: "Timing",
+        text: "Pruning can be done throughout the year to shape the plant and remove any dead or damaged leaves."
+      },
+      {
+        id: 282,
+        topic: "Technique",
+        text: "Use clean, sharp scissors to cut leaves at the base. Pruning promotes bushier growth."
+      }
+    ]
+  },
+  {
+    id: 29,
+    topic: "Propagation",
+    children: [
+      {
+        id: 291,
+        topic: "Offsets",
+        text: "Chinese Money Plants produce offsets (pups) that can be removed and replanted to propagate new plants."
+      },
+      {
+        id: 292,
+        topic: "Stem Cuttings",
+        text: "Stem cuttings can also be rooted in water or soil to grow new plants."
+      }
+    ]
+  },
+  {
+    id: 30,
+    topic: "Storage",
+    text: "When propagating offsets, ensure they are kept in a warm, bright location with indirect sunlight until roots develop."
+  },
+  {
+    id: 31,
+    topic: "Environmental Benefits",
+    text: "Chinese Money Plants are known for their air-purifying qualities, helping to improve indoor air quality by filtering out pollutants."
+  }
+]
+
   },
   {
     id: 4,
@@ -524,6 +1020,168 @@ Adam, or "Adam's Needle," is a common name often associated with a plant known a
         ],
       },
     ],
+    cultivationHeading: "Cactus cultivation requires specific conditions for optimal growth. Here is an overview of the key factors involved in growing cacti:",
+cultivation: [
+  {
+    id: 21,
+    topic: "Climate",
+    children: [
+      {
+        id: 211,
+        topic: "Temperature",
+        text: "Cacti thrive in warm, dry environments. Most species prefer temperatures between 20°C to 30°C (68°F to 86°F) during the growing season and can tolerate cooler temperatures at night."
+      },
+      {
+        id: 212,
+        topic: "Humidity",
+        text: "Cacti prefer low humidity levels. They are well-adapted to arid conditions and should be kept in environments with dry air."
+      }
+    ]
+  },
+  {
+    id: 22,
+    topic: "Soil",
+    children: [
+      {
+        id: 221,
+        topic: "pH",
+        text: "Cacti prefer slightly acidic to neutral soils with a pH range of 6.0 to 7.5."
+      },
+      {
+        id: 222,
+        topic: "Soil Type",
+        text: "A well-draining cactus mix, or a blend of potting soil, sand, and perlite, is ideal to prevent root rot."
+      },
+      {
+        id: 223,
+        topic: "Soil Preparation",
+        text: "Ensure the soil is loose and allows for proper drainage, which is crucial for cactus health."
+      }
+    ]
+  },
+  {
+    id: 23,
+    topic: "Varieties",
+    text: "Common cactus varieties include: -Saguaro Cactus- (Carnegiea gigantea) - known for its iconic tall structure. -Echinopsis - popular for its colorful flowers. -Opuntia- (Prickly Pear) - recognized for its edible pads and fruits."
+  },
+  {
+    id: 24,
+    topic: "Planting",
+    children: [
+      {
+        id: 241,
+        topic: "Time",
+        text: "The best time to plant or repot cacti is in spring when they begin their active growing season."
+      },
+      {
+        id: 242,
+        topic: "Spacing",
+        text: "When planting multiple cacti, space them appropriately to allow for growth without overcrowding."
+      },
+      {
+        id: 243,
+        topic: "Pollination",
+        text: "Some cacti require cross-pollination to produce seeds. In cultivation, hand pollination may be necessary."
+      }
+    ]
+  },
+  {
+    id: 25,
+    topic: "Watering",
+    children: [
+      {
+        id: 251,
+        topic: "Establishment Phase",
+        text: "Young cacti need moderate watering, allowing the soil to dry out completely between waterings."
+      },
+      {
+        id: 252,
+        topic: "Mature Plants",
+        text: "Mature cacti are drought-tolerant and should only be watered every few weeks during the growing season."
+      },
+      {
+        id: 253,
+        topic: "Avoid Overwatering",
+        text: "Overwatering is the most common issue. Always ensure that pots have drainage holes to prevent waterlogging."
+      }
+    ]
+  },
+  {
+    id: 26,
+    topic: "Fertilization",
+    children: [
+      {
+        id: 261,
+        topic: "Nutrients",
+        text: "Cacti benefit from a diluted, balanced fertilizer during the growing season, particularly formulated for succulents."
+      },
+      {
+        id: 262,
+        topic: "Timing",
+        text: "Fertilizer should be applied once a month during spring and summer. Avoid fertilizing in fall and winter."
+      }
+    ]
+  },
+  {
+    id: 27,
+    topic: "Pest and Disease Control",
+    children: [
+      {
+        id: 271,
+        topic: "Pests",
+        text: "Common pests affecting cacti include mealybugs, spider mites, and scale insects. Regular inspection and neem oil can help control these pests."
+      },
+      {
+        id: 272,
+        topic: "Diseases",
+        text: "Cacti can suffer from fungal infections if overwatered. Proper watering practices and ventilation help prevent these issues."
+      }
+    ]
+  },
+  {
+    id: 28,
+    topic: "Pruning",
+    children: [
+      {
+        id: 281,
+        topic: "Timing",
+        text: "Pruning is typically not necessary for cacti, but dead or damaged parts can be removed at any time."
+      },
+      {
+        id: 282,
+        topic: "Technique",
+        text: "Use gloves and clean, sharp tools to avoid injury from spines and to ensure clean cuts."
+      }
+    ]
+  },
+  {
+    id: 29,
+    topic: "Propagation",
+    children: [
+      {
+        id: 291,
+        topic: "Offsets",
+        text: "Many cacti produce offsets (pups) that can be carefully removed and replanted."
+      },
+      {
+        id: 292,
+        topic: "Seeds",
+        text: "Cacti can also be propagated from seeds, which should be sown in a well-draining medium and kept warm and moist."
+      }
+    ]
+  },
+  {
+    id: 30,
+    topic: "Storage",
+    text: "If storing cactus plants, ensure they are kept in a cool, dry location away from direct sunlight to prevent damage."
+  },
+  {
+    id: 31,
+    topic: "Environmental Benefits",
+    text: "Cacti help reduce air pollution, conserve water, and provide habitats for various wildlife in their native environments."
+  }
+]
+
   },
   {
     id: 5,
@@ -662,6 +1320,147 @@ Adam, or "Adam's Needle," is a common name often associated with a plant known a
         ],
       },
     ],
+    cultivationHeading: "Snake Plant cultivation requires specific conditions for optimal growth. Here is an overview of the key factors involved in growing Snake Plants:",
+cultivation: [
+  {
+    id: 21,
+    topic: "Climate",
+    children: [
+      {
+        id: 211,
+        topic: "Temperature",
+        text: "Snake Plants thrive in a wide range of temperatures, ideally between 18°C to 27°C (65°F to 80°F). They can tolerate cooler temperatures down to 10°C (50°F), but prolonged exposure can harm the plant."
+      },
+      {
+        id: 212,
+        topic: "Humidity",
+        text: "Snake Plants prefer low to moderate humidity. They are well-suited for indoor environments and can adapt to various humidity levels."
+      }
+    ]
+  },
+  {
+    id: 22,
+    topic: "Soil",
+    children: [
+      {
+        id: 221,
+        topic: "pH",
+        text: "Snake Plants thrive in slightly acidic to neutral soils, with a pH range of 6.0 to 7.0."
+      },
+      {
+        id: 222,
+        topic: "Soil Type",
+        text: "Well-draining potting mix is essential. A mix specifically formulated for succulents or cacti works well, or you can create your own by combining potting soil, sand, and perlite."
+      },
+      {
+        id: 223,
+        topic: "Soil Preparation",
+        text: "Ensure the soil is loose and aerated to allow for proper drainage, preventing root rot."
+      }
+    ]
+  },
+  {
+    id: 23,
+    topic: "Varieties",
+    text: "Common Snake Plant varieties include: -Sansevieria trifasciata- (Mother-in-Law's Tongue) - known for its upright, sword-like leaves. -Sansevieria cylindrica - features round, cylindrical leaves that can grow upright or cascade. -Sansevieria moonshine - recognized for its pale green leaves with silver markings."
+  },
+  {
+    id: 24,
+    topic: "Planting",
+    children: [
+      {
+        id: 241,
+        topic: "Time",
+        text: "The best time to plant or repot Snake Plants is in spring when they enter their active growing season."
+      },
+      {
+        id: 242,
+        topic: "Spacing",
+        text: "When planting multiple Snake Plants, space them appropriately to allow for their growth without overcrowding."
+      },
+      {
+        id: 243,
+        topic: "Propagation",
+        text: "Snake Plants can be propagated through leaf cuttings or division of the rhizome. Allow cuttings to callus for a few days before planting."
+      }
+    ]
+  },
+  {
+    id: 25,
+    topic: "Watering",
+    children: [
+      {
+        id: 251,
+        topic: "Establishment Phase",
+        text: "Water newly planted Snake Plants moderately, allowing the soil to dry out completely between waterings."
+      },
+      {
+        id: 252,
+        topic: "Mature Plants",
+        text: "Once established, Snake Plants are drought-tolerant and should be watered every 2-6 weeks, depending on the season and humidity."
+      },
+      {
+        id: 253,
+        topic: "Avoid Overwatering",
+        text: "Overwatering is a common issue. Always ensure pots have drainage holes to prevent waterlogging."
+      }
+    ]
+  },
+  {
+    id: 26,
+    topic: "Fertilization",
+    children: [
+      {
+        id: 261,
+        topic: "Nutrients",
+        text: "Snake Plants benefit from a balanced fertilizer formulated for houseplants. Dilute it to half strength."
+      },
+      {
+        id: 262,
+        topic: "Timing",
+        text: "Fertilize during the growing season in spring and summer, avoiding fertilization in fall and winter."
+      }
+    ]
+  },
+  {
+    id: 27,
+    topic: "Pest and Disease Control",
+    children: [
+      {
+        id: 271,
+        topic: "Pests",
+        text: "Common pests affecting Snake Plants include spider mites, mealybugs, and aphids. Regular inspection and insecticidal soap can help manage these pests."
+      },
+      {
+        id: 272,
+        topic: "Diseases",
+        text: "Snake Plants are generally resistant to diseases but can suffer from root rot if overwatered. Ensure proper drainage to prevent this issue."
+      }
+    ]
+  },
+  {
+    id: 28,
+    topic: "Pruning",
+    children: [
+      {
+        id: 281,
+        topic: "Timing",
+        text: "Pruning is typically not necessary, but dead or damaged leaves can be removed at any time."
+      },
+      {
+        id: 282,
+        topic: "Technique",
+        text: "Use clean, sharp scissors or shears to make clean cuts and avoid injury to the plant."
+      }
+    ]
+  },
+  {
+    id: 29,
+    topic: "Environmental Benefits",
+    text: "Snake Plants are known for their air-purifying qualities, helping to remove toxins from the air and improve indoor air quality."
+  }
+]
+
   },
   {
     id: 6,
@@ -811,6 +1610,168 @@ Adam, or "Adam's Needle," is a common name often associated with a plant known a
         ],
       },
     ],
+    cultivationHeading: "Lavender cultivation requires specific conditions for optimal growth. Here is an overview of the key factors involved in growing Lavender:",
+cultivation: [
+  {
+    id: 21,
+    topic: "Climate",
+    children: [
+      {
+        id: 211,
+        topic: "Temperature",
+        text: "Lavender thrives in warm climates with temperatures ranging from 20°C to 30°C (68°F to 86°F). It can tolerate drought and some frost."
+      },
+      {
+        id: 212,
+        topic: "Humidity",
+        text: "Lavender prefers low humidity levels, making it ideal for dry, Mediterranean climates. Excess humidity can lead to fungal diseases."
+      }
+    ]
+  },
+  {
+    id: 22,
+    topic: "Soil",
+    children: [
+      {
+        id: 221,
+        topic: "pH",
+        text: "Lavender prefers alkaline to neutral soils, with a pH range of 6.5 to 7.5."
+      },
+      {
+        id: 222,
+        topic: "Soil Type",
+        text: "Well-draining sandy or loamy soils are ideal for lavender. Poorly draining soils can cause root rot."
+      },
+      {
+        id: 223,
+        topic: "Soil Preparation",
+        text: "Before planting, amend the soil with sand or gravel to improve drainage."
+      }
+    ]
+  },
+  {
+    id: 23,
+    topic: "Varieties",
+    text: "Common lavender varieties include: -English Lavender- (Lavandula angustifolia) - known for its fragrant blooms and culinary uses. -French Lavender- (Lavandula dentata) - recognized for its distinctive toothed leaves and compact habit. -Spanish Lavender- (Lavandula stoechas) - characterized by its unique flower spikes and aromatic foliage."
+  },
+  {
+    id: 24,
+    topic: "Planting",
+    children: [
+      {
+        id: 241,
+        topic: "Time",
+        text: "The best time to plant lavender is in spring after the last frost or in early fall."
+      },
+      {
+        id: 242,
+        topic: "Spacing",
+        text: "Space lavender plants about 30 to 45 cm (12 to 18 inches) apart to allow for their growth and air circulation."
+      },
+      {
+        id: 243,
+        topic: "Propagation",
+        text: "Lavender can be propagated from seeds, cuttings, or division. Cuttings taken in late spring or early summer root well."
+      }
+    ]
+  },
+  {
+    id: 25,
+    topic: "Watering",
+    children: [
+      {
+        id: 251,
+        topic: "Establishment Phase",
+        text: "Water newly planted lavender regularly until established, ensuring the soil is well-drained."
+      },
+      {
+        id: 252,
+        topic: "Mature Plants",
+        text: "Once established, lavender is drought-tolerant and should be watered sparingly, allowing the soil to dry out completely between waterings."
+      },
+      {
+        id: 253,
+        topic: "Avoid Overwatering",
+        text: "Overwatering can lead to root rot; ensure good drainage and water only when necessary."
+      }
+    ]
+  },
+  {
+    id: 26,
+    topic: "Fertilization",
+    children: [
+      {
+        id: 261,
+        topic: "Nutrients",
+        text: "Lavender generally requires low fertilization. A light application of a balanced, slow-release fertilizer can be given in spring."
+      },
+      {
+        id: 262,
+        topic: "Timing",
+        text: "Fertilization should occur in early spring, just as new growth begins. Avoid fertilizing late in the season."
+      }
+    ]
+  },
+  {
+    id: 27,
+    topic: "Pest and Disease Control",
+    children: [
+      {
+        id: 271,
+        topic: "Pests",
+        text: "Common pests affecting lavender include aphids, spider mites, and whiteflies. Regular inspection and neem oil can help manage these pests."
+      },
+      {
+        id: 272,
+        topic: "Diseases",
+        text: "Lavender is susceptible to fungal diseases like root rot and lavender wilt. Ensure good air circulation and avoid overhead watering to mitigate these issues."
+      }
+    ]
+  },
+  {
+    id: 28,
+    topic: "Pruning",
+    children: [
+      {
+        id: 281,
+        topic: "Timing",
+        text: "Pruning should be done in early spring before new growth appears to encourage bushier growth and more blooms."
+      },
+      {
+        id: 282,
+        topic: "Technique",
+        text: "Cut back about one-third of the plant, focusing on removing dead or woody stems to promote healthy growth."
+      }
+    ]
+  },
+  {
+    id: 29,
+    topic: "Harvesting",
+    children: [
+      {
+        id: 291,
+        topic: "Time",
+        text: "Lavender is typically harvested in mid to late summer when the flowers are in full bloom."
+      },
+      {
+        id: 292,
+        topic: "Technique",
+        text: "Cut stems just above the leaves, and avoid cutting too much of the woody stems to ensure continued growth."
+      }
+    ]
+  },
+  {
+    id: 30.2,
+    topic: "Storage",
+    text: "Dried lavender should be stored in a cool, dark place in airtight containers to preserve fragrance and quality."
+  },
+  {
+    id: 31.2,
+    topic: "Environmental Benefits",
+    text: "Lavender attracts pollinators like bees and butterflies, contributing to biodiversity and supporting local ecosystems."
+  }
+]
+
   },
   {
     id: 7,
@@ -944,6 +1905,163 @@ In summary, Ficus plants symbolize abundance, prosperity, and resilience. Their 
         ],
       },
     ],
+    cultivationHeading: "Ficus cultivation requires specific conditions for optimal growth. Here is an overview of the key factors involved in growing Ficus:",
+cultivation: [
+  {
+    id: 21,
+    topic: "Climate",
+    children: [
+      {
+        id: 211,
+        topic: "Temperature",
+        text: "Ficus trees prefer temperatures between 15°C to 30°C (59°F to 86°F). They thrive in warm, humid environments."
+      },
+      {
+        id: 212,
+        topic: "Humidity",
+        text: "High humidity levels are beneficial for Ficus plants. Regular misting or using a humidity tray can help maintain moisture."
+      }
+    ]
+  },
+  {
+    id: 22,
+    topic: "Soil",
+    children: [
+      {
+        id: 221,
+        topic: "pH",
+        text: "Ficus prefers slightly acidic to neutral soils with a pH range of 6.0 to 7.0."
+      },
+      {
+        id: 222,
+        topic: "Soil Type",
+        text: "Well-draining potting soil or a mix of potting soil, peat moss, and perlite works well for Ficus."
+      },
+      {
+        id: 223,
+        topic: "Soil Preparation",
+        text: "Ensure the pot has drainage holes to prevent waterlogging, which can lead to root rot."
+      }
+    ]
+  },
+  {
+    id: 23,
+    topic: "Varieties",
+    text: "Common Ficus varieties include: -Fiddle Leaf Fig- (Ficus lyrata) - popular for its large, glossy leaves. -Weeping Fig (Ficus benjamina) - known for its graceful, drooping branches and small leaves. -Rubber Plant (Ficus elastica) - valued for its thick, glossy leaves and air-purifying qualities."
+  },
+  {
+    id: 24,
+    topic: "Planting",
+    children: [
+      {
+        id: 241,
+        topic: "Time",
+        text: "The best time to plant or repot Ficus is in spring when the plant is actively growing."
+      },
+      {
+        id: 242,
+        topic: "Spacing",
+        text: "For outdoor planting, space Ficus trees at least 2 to 3 meters (6 to 10 feet) apart to allow for their mature size."
+      },
+      {
+        id: 243,
+        topic: "Propagation",
+        text: "Ficus can be propagated through stem cuttings or air layering. Ensure cuttings have a few leaves and are taken from healthy stems."
+      }
+    ]
+  },
+  {
+    id: 25,
+    topic: "Watering",
+    children: [
+      {
+        id: 251,
+        topic: "Establishment Phase",
+        text: "Young Ficus plants require regular watering to establish roots. Keep the soil consistently moist but not soggy."
+      },
+      {
+        id: 252,
+        topic: "Mature Plants",
+        text: "Water mature Ficus plants when the top inch of soil feels dry. Reduce watering in winter when growth slows."
+      },
+      {
+        id: 253,
+        topic: "Avoid Overwatering",
+        text: "Overwatering can cause root rot; ensure good drainage and allow the soil to dry between waterings."
+      }
+    ]
+  },
+  {
+    id: 26,
+    topic: "Fertilization",
+    children: [
+      {
+        id: 261,
+        topic: "Nutrients",
+        text: "Ficus plants benefit from a balanced liquid fertilizer during the growing season (spring and summer) every 4-6 weeks."
+      },
+      {
+        id: 262,
+        topic: "Timing",
+        text: "Avoid fertilizing during the dormant winter months to prevent nutrient burn."
+      }
+    ]
+  },
+  {
+    id: 27,
+    topic: "Pest and Disease Control",
+    children: [
+      {
+        id: 271,
+        topic: "Pests",
+        text: "Common pests include spider mites, aphids, and scale insects. Regularly inspect plants and use insecticidal soap or neem oil if necessary."
+      },
+      {
+        id: 272,
+        topic: "Diseases",
+        text: "Ficus can be affected by fungal infections such as leaf spot. Ensure good air circulation and avoid overhead watering to prevent disease."
+      }
+    ]
+  },
+  {
+    id: 28,
+    topic: "Pruning",
+    children: [
+      {
+        id: 281,
+        topic: "Timing",
+        text: "Pruning should be done in spring to maintain shape and encourage bushier growth."
+      },
+      {
+        id: 282,
+        topic: "Technique",
+        text: "Trim back leggy growth and remove any dead or diseased branches to promote overall plant health."
+      }
+    ]
+  },
+  {
+    id: 29,
+    topic: "Harvesting",
+    children: [
+      {
+        id: 291,
+        topic: "Time",
+        text: "Ficus plants are primarily grown for ornamental purposes; harvesting is not typical. However, leaves can be collected for propagation."
+      }
+    ]
+  },
+  {
+    id: 30.2,
+    topic: "Storage",
+    text: "If propagating, keep cuttings in a warm, humid environment until roots develop. Store mature plants in a location with indirect sunlight."
+  },
+  {
+    id: 31.2,
+    topic: "Environmental Benefits",
+    text: "Ficus trees improve air quality by filtering toxins and providing shade, contributing to a healthier environment."
+  }
+]
+
   },
   {
     id: 8,
@@ -1103,6 +2221,168 @@ In summary, Ficus plants symbolize abundance, prosperity, and resilience. Their 
         ],
       },
     ],
+    cultivationHeading: "Rose cultivation requires specific conditions for optimal growth. Here is an overview of the key factors involved in growing roses:",
+cultivation: [
+  {
+    id: 21,
+    topic: "Climate",
+    children: [
+      {
+        id: 211,
+        topic: "Temperature",
+        text: "Roses thrive in moderate climates with temperatures between 15°C to 26°C (60°F to 80°F). They can tolerate colder temperatures but need protection from frost."
+      },
+      {
+        id: 212,
+        topic: "Humidity",
+        text: "Moderate humidity levels are beneficial for roses. They prefer environments that do not stay too wet, which can lead to fungal diseases."
+      }
+    ]
+  },
+  {
+    id: 22,
+    topic: "Soil",
+    children: [
+      {
+        id: 221,
+        topic: "pH",
+        text: "Roses prefer slightly acidic to neutral soils with a pH range of 6.0 to 6.8."
+      },
+      {
+        id: 222,
+        topic: "Soil Type",
+        text: "Well-draining loamy soil enriched with organic matter is ideal for rose cultivation."
+      },
+      {
+        id: 223,
+        topic: "Soil Preparation",
+        text: "Incorporate compost or well-rotted manure into the soil before planting to improve fertility and drainage."
+      }
+    ]
+  },
+  {
+    id: 23,
+    topic: "Varieties",
+    text: "Common rose varieties include: -Hybrid Tea Roses - known for their large blooms and long stems, ideal for cutting. -Floribunda Roses - valued for their continuous blooms and bushy growth. -Climbing Roses - suitable for trellises and fences, providing vertical interest."
+  },
+  {
+    id: 24,
+    topic: "Planting",
+    children: [
+      {
+        id: 241,
+        topic: "Time",
+        text: "The best time to plant roses is in early spring or fall when the temperatures are cooler."
+      },
+      {
+        id: 242,
+        topic: "Spacing",
+        text: "Space rose plants about 45 to 60 centimeters (18 to 24 inches) apart, depending on the variety and growth habit."
+      },
+      {
+        id: 243,
+        topic: "Pollination",
+        text: "Roses are self-pollinating but can benefit from cross-pollination. Attracting bees and other pollinators can enhance fruit set."
+      }
+    ]
+  },
+  {
+    id: 25,
+    topic: "Watering",
+    children: [
+      {
+        id: 251,
+        topic: "Establishment Phase",
+        text: "Newly planted roses require regular watering to establish roots, especially during dry spells."
+      },
+      {
+        id: 252,
+        topic: "Mature Plants",
+        text: "Once established, water roses deeply but infrequently, allowing the topsoil to dry out between waterings."
+      },
+      {
+        id: 253,
+        topic: "Avoid Overwatering",
+        text: "Prevent waterlogging by ensuring good drainage; excess water can lead to root rot."
+      }
+    ]
+  },
+  {
+    id: 26,
+    topic: "Fertilization",
+    children: [
+      {
+        id: 261,
+        topic: "Nutrients",
+        text: "Roses benefit from a balanced fertilizer or one specifically formulated for roses, especially high in phosphorus to promote blooming."
+      },
+      {
+        id: 262,
+        topic: "Timing",
+        text: "Fertilize roses in early spring and again in mid-summer to support blooming and overall health."
+      }
+    ]
+  },
+  {
+    id: 27,
+    topic: "Pest and Disease Control",
+    children: [
+      {
+        id: 271,
+        topic: "Pests",
+        text: "Common pests include aphids, spider mites, and rose slugs. Regular monitoring and using insecticidal soap can help control these pests."
+      },
+      {
+        id: 272,
+        topic: "Diseases",
+        text: "Roses can be affected by fungal diseases such as black spot and powdery mildew. Proper spacing, air circulation, and fungicides can mitigate these issues."
+      }
+    ]
+  },
+  {
+    id: 28,
+    topic: "Pruning",
+    children: [
+      {
+        id: 281,
+        topic: "Timing",
+        text: "Prune roses in late winter or early spring before new growth begins to shape the plant and encourage blooming."
+      },
+      {
+        id: 282,
+        topic: "Technique",
+        text: "Remove dead, diseased, or crossed branches and cut back healthy stems to promote vigorous growth."
+      }
+    ]
+  },
+  {
+    id: 29,
+    topic: "Harvesting",
+    children: [
+      {
+        id: 291,
+        topic: "Time",
+        text: "Roses are typically harvested for their blooms when they are in full bud but not yet fully open."
+      },
+      {
+        id: 292,
+        topic: "Handling",
+        text: "Use sharp shears to cut stems at an angle and immediately place them in water to extend their vase life."
+      }
+    ]
+  },
+  {
+    id: 30.2,
+    topic: "Storage",
+    text: "Store cut roses in a cool, dark place, ideally in water, to maintain freshness."
+  },
+  {
+    id: 31.2,
+    topic: "Environmental Benefits",
+    text: "Roses improve air quality, support biodiversity by attracting pollinators, and enhance landscapes, contributing to overall environmental health."
+  }
+]
+
   },
   {
     id: 9,
@@ -1240,6 +2520,168 @@ In summary, Ficus plants symbolize abundance, prosperity, and resilience. Their 
         ],
       },
     ],
+    cultivationHeading: "Summer Chocolate cultivation requires specific conditions for optimal growth. Here is an overview of the key factors involved in growing Summer Chocolate:",
+cultivation: [
+  {
+    id: 21,
+    topic: "Climate",
+    children: [
+      {
+        id: 211,
+        topic: "Temperature",
+        text: "Summer Chocolate thrives in warm climates, preferring temperatures between 15°C to 30°C (59°F to 86°F)."
+      },
+      {
+        id: 212,
+        topic: "Humidity",
+        text: "Moderate to high humidity levels are beneficial, as Summer Chocolate trees are native to tropical and subtropical regions."
+      }
+    ]
+  },
+  {
+    id: 22,
+    topic: "Soil",
+    children: [
+      {
+        id: 221,
+        topic: "pH",
+        text: "Summer Chocolate prefers slightly acidic to neutral soils with a pH range of 6.0 to 7.0."
+      },
+      {
+        id: 222,
+        topic: "Soil Type",
+        text: "Well-draining loamy or sandy soils enriched with organic matter are ideal for healthy growth."
+      },
+      {
+        id: 223,
+        topic: "Soil Preparation",
+        text: "Before planting, incorporate compost or well-rotted manure to improve soil fertility and drainage."
+      }
+    ]
+  },
+  {
+    id: 23,
+    topic: "Varieties",
+    text: "Common varieties of Summer Chocolate include: -Summer Chocolate (Syzygium australe) - known for its attractive foliage and small edible fruits."
+  },
+  {
+    id: 24,
+    topic: "Planting",
+    children: [
+      {
+        id: 241,
+        topic: "Time",
+        text: "The best time to plant Summer Chocolate is in early spring or fall when temperatures are moderate."
+      },
+      {
+        id: 242,
+        topic: "Spacing",
+        text: "Space trees about 3 to 4 meters (10 to 13 feet) apart to allow for their mature size."
+      },
+      {
+        id: 243,
+        topic: "Pollination",
+        text: "Summer Chocolate trees are self-pollinating but planting multiple trees can enhance fruit set."
+      }
+    ]
+  },
+  {
+    id: 25,
+    topic: "Watering",
+    children: [
+      {
+        id: 251,
+        topic: "Establishment Phase",
+        text: "Young Summer Chocolate trees need regular watering to establish roots, especially during dry spells."
+      },
+      {
+        id: 252,
+        topic: "Mature Trees",
+        text: "Once established, they are moderately drought-tolerant but benefit from deep watering during prolonged dry periods."
+      },
+      {
+        id: 253,
+        topic: "Avoid Overwatering",
+        text: "Ensure good drainage to prevent waterlogging, which can lead to root rot."
+      }
+    ]
+  },
+  {
+    id: 26,
+    topic: "Fertilization",
+    children: [
+      {
+        id: 261,
+        topic: "Nutrients",
+        text: "Summer Chocolate benefits from a balanced fertilizer, particularly one high in nitrogen and potassium to promote foliage growth."
+      },
+      {
+        id: 262,
+        topic: "Timing",
+        text: "Fertilizer should be applied in early spring and mid-summer to support healthy growth."
+      }
+    ]
+  },
+  {
+    id: 27,
+    topic: "Pest and Disease Control",
+    children: [
+      {
+        id: 271,
+        topic: "Pests",
+        text: "Common pests include scale insects, aphids, and caterpillars. Regular monitoring and insecticidal soap can help control these pests."
+      },
+      {
+        id: 272,
+        topic: "Diseases",
+        text: "Summer Chocolate can be susceptible to diseases such as leaf spot and root rot. Proper care and fungicides can mitigate these issues."
+      }
+    ]
+  },
+  {
+    id: 28,
+    topic: "Pruning",
+    children: [
+      {
+        id: 281,
+        topic: "Timing",
+        text: "Pruning should be done in late winter or early spring to promote new growth."
+      },
+      {
+        id: 282,
+        topic: "Technique",
+        text: "Remove dead or damaged branches to improve air circulation and overall tree health."
+      }
+    ]
+  },
+  {
+    id: 29,
+    topic: "Harvesting",
+    children: [
+      {
+        id: 291,
+        topic: "Time",
+        text: "Fruits can be harvested once they turn dark purple or black, typically in late summer to early fall."
+      },
+      {
+        id: 292,
+        topic: "Handling",
+        text: "Handle harvested fruits gently to avoid bruising and store them in a cool, dry place."
+      }
+    ]
+  },
+  {
+    id: 30.2,
+    topic: "Storage",
+    text: "Store harvested fruits in a cool environment to maintain freshness."
+  },
+  {
+    id: 31.2,
+    topic: "Environmental Benefits",
+    text: "Summer Chocolate trees provide shade, improve air quality, and contribute to local biodiversity."
+  }
+]
+
   },
   {
     id: 10,
@@ -1416,6 +2858,168 @@ In summary, Ficus plants symbolize abundance, prosperity, and resilience. Their 
         ],
       },
     ],
+    cultivationHeading: "Hibiscus cultivation requires specific conditions for optimal growth. Here is an overview of the key factors involved in growing Hibiscus:",
+cultivation: [
+  {
+    id: 21,
+    topic: "Climate",
+    children: [
+      {
+        id: 211,
+        topic: "Temperature",
+        text: "Hibiscus plants thrive in warm climates, preferring temperatures between 20°C to 30°C (68°F to 86°F). They can tolerate occasional cooler temperatures but are not frost-resistant."
+      },
+      {
+        id: 212,
+        topic: "Humidity",
+        text: "Moderate to high humidity is beneficial for Hibiscus. They flourish in regions with regular rainfall and can tolerate dry spells if watered properly."
+      }
+    ]
+  },
+  {
+    id: 22,
+    topic: "Soil",
+    children: [
+      {
+        id: 221,
+        topic: "pH",
+        text: "Hibiscus prefers slightly acidic to neutral soils with a pH range of 6.0 to 7.0."
+      },
+      {
+        id: 222,
+        topic: "Soil Type",
+        text: "Well-draining, loamy soil rich in organic matter is ideal for healthy growth."
+      },
+      {
+        id: 223,
+        topic: "Soil Preparation",
+        text: "Before planting, enrich the soil with compost or well-rotted manure to improve fertility and drainage."
+      }
+    ]
+  },
+  {
+    id: 23,
+    topic: "Varieties",
+    text: "Common varieties of Hibiscus include: -Hibiscus rosa-sinensis - known for its large, colorful flowers and often used in landscaping. -Hibiscus syriacus (Rose of Sharon) - a hardy shrub with various flower colors."
+  },
+  {
+    id: 24,
+    topic: "Planting",
+    children: [
+      {
+        id: 241,
+        topic: "Time",
+        text: "The best time to plant Hibiscus is in early spring or fall when temperatures are moderate."
+      },
+      {
+        id: 242,
+        topic: "Spacing",
+        text: "Space plants about 1 to 2 meters (3 to 6 feet) apart, depending on the variety and intended use."
+      },
+      {
+        id: 243,
+        topic: "Pollination",
+        text: "Hibiscus flowers are primarily pollinated by bees and other insects. Planting multiple flowers can enhance pollination and fruit set."
+      }
+    ]
+  },
+  {
+    id: 25,
+    topic: "Watering",
+    children: [
+      {
+        id: 251,
+        topic: "Establishment Phase",
+        text: "Young Hibiscus plants require regular watering, especially during dry periods, to establish strong roots."
+      },
+      {
+        id: 252,
+        topic: "Mature Plants",
+        text: "Once established, Hibiscus plants are moderately drought-tolerant but benefit from deep watering during prolonged dry spells."
+      },
+      {
+        id: 253,
+        topic: "Avoid Overwatering",
+        text: "Ensure good drainage to prevent waterlogging, which can lead to root rot."
+      }
+    ]
+  },
+  {
+    id: 26,
+    topic: "Fertilization",
+    children: [
+      {
+        id: 261,
+        topic: "Nutrients",
+        text: "Hibiscus benefits from a balanced fertilizer or organic compost to provide essential nutrients, especially potassium and phosphorus."
+      },
+      {
+        id: 262,
+        topic: "Timing",
+        text: "Fertilizer should be applied in early spring and again in mid-summer to support healthy growth and flowering."
+      }
+    ]
+  },
+  {
+    id: 27,
+    topic: "Pest and Disease Control",
+    children: [
+      {
+        id: 271,
+        topic: "Pests",
+        text: "Common pests affecting Hibiscus include aphids, whiteflies, and spider mites. Regular monitoring and insecticidal soap can help control these pests."
+      },
+      {
+        id: 272,
+        topic: "Diseases",
+        text: "Hibiscus can be susceptible to diseases such as leaf spot and root rot. Proper cultural practices and timely treatments can mitigate these issues."
+      }
+    ]
+  },
+  {
+    id: 28,
+    topic: "Pruning",
+    children: [
+      {
+        id: 281,
+        topic: "Timing",
+        text: "Pruning should be done in late winter or early spring before new growth begins."
+      },
+      {
+        id: 282,
+        topic: "Technique",
+        text: "Remove dead, diseased, or overcrowded branches to improve airflow and overall plant health."
+      }
+    ]
+  },
+  {
+    id: 29,
+    topic: "Harvesting",
+    children: [
+      {
+        id: 291,
+        topic: "Time",
+        text: "Hibiscus flowers can be harvested when fully open, typically during the warm months."
+      },
+      {
+        id: 292,
+        topic: "Handling",
+        text: "Handle harvested flowers gently to avoid bruising and store them in a cool place if not used immediately."
+      }
+    ]
+  },
+  {
+    id: 30.2,
+    topic: "Storage",
+    text: "Hibiscus flowers can be dried and stored in an airtight container to preserve their quality."
+  },
+  {
+    id: 31.2,
+    topic: "Environmental Benefits",
+    text: "Hibiscus plants provide nectar for pollinators, enhance biodiversity, and can be used for erosion control."
+  }
+]
+
   },
 ];
 export default ornamentalPlants;

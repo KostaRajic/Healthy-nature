@@ -2,7 +2,7 @@
 import { useState } from "react";
 import classes from "../../../style/universalClass.module.scss";
 
-export const ForestsAccordionInfo = ({ tree }) => {
+export const ForestsAccordionInfo = ({ tree, goBack }) => {
   const [activeIds, setActiveIds] = useState({});
 
   const toggleAccordion = (id) => {
@@ -33,8 +33,12 @@ export const ForestsAccordionInfo = ({ tree }) => {
 
   return (
     <div className={classes.accordionBackground}>
+      <h2><span>{tree.name}</span> info:</h2>
       <h3>{tree.benefitsHeading}</h3>
       {renderBenefits(tree.text)}
+      <button className={classes.btnClass} onClick={() => goBack(false)}>
+        Go Back
+      </button>
     </div>
   );
 };

@@ -4,11 +4,17 @@
     box-sizing: border-box;
     font-family: "Lora", serif;
     color: black;
+
 }
+
 
 body {
     width: 100vw;
     overflow: scroll;
+    background-image: url(../assets/images/heroBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 body::-webkit-scrollbar {

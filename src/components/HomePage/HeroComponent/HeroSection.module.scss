@@ -1,16 +1,13 @@
-.heroSectionContainer {
-    background-image: url(../../../assets/images/heroBG.jpg);
-    background-size: cover;
-    background-position: 100% 80%;
+.heroBackground {
+    background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
+    
+}
+
+.heroSectionContainer {
     height: 100vh;
 }
 
-.heroBackground {
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    height: 100vh;
-}
 
 h1 {
     color: white;

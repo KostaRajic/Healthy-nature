@@ -1,8 +1,6 @@
 .background {
   position: fixed;
   inset: 0;
-  background: url(../../assets/images/Vegetables/vegetables.webp);
-  background-size: contain;
   overflow: auto;
 }
 
@@ -11,7 +9,7 @@
   width: 1100px;
   background-color: wheat;
   border-radius: 20px;
-
+  display: flex;
 
   .imagesSection {
     padding-left: 18px;
@@ -30,7 +28,6 @@
     border-radius: 30px;
     border: none;
     cursor: grab;
-    
   }
   img:active {
     cursor: grabbing;
@@ -43,7 +40,7 @@
   }
   .btnClass {
     display: block;
-    margin: 70px auto;
+    margin: 50px auto;
     width: 170px;
     padding: 12px;
     background-color: white;
@@ -76,14 +73,28 @@
       width: 300px;
     }
 
+    .centralContent {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      h3 {
+        padding-top: 20px;
+        font-weight: 500;
+      }
+    }
+
     .inGeneralClass {
       overflow: auto;
-      padding: 0 0 20px 20px;
-      width: 500px;
-      margin: 30px;
+      width: 450px;
+      margin: 20px 30px 30px 30px;
       letter-spacing: 1px;
       font-weight: 500;
       text-align: center;
+      padding: 25px;
+      border: 1px dotted black;
+      border-radius: 20px;
+      background: white;
     }
     .inGeneralClass::-webkit-scrollbar {
       display: none;
@@ -92,14 +103,13 @@
       text-align: center;
       padding: 15px 0;
       font-size: 28px;
+      font-weight: 800;
     }
-
-    
 
     .asideButtonsClass {
       display: flex;
       justify-content: center;
-      padding: 40px;
+      padding: 20px;
       margin: 0 auto;
       flex-direction: column;
 
@@ -111,15 +121,15 @@
         border-radius: 20px;
         border: 1px solid black;
         cursor: pointer;
-        transition: transform .1s ease;
+        transition: transform 0.1s ease;
         font-weight: 600;
-    }
-        :first-child:hover {
-            transform: scale(1.1);
-        }
-        :first-child:active {
-            transform: scale(1);
-        }
+      }
+      :first-child:hover {
+        transform: scale(1.1);
+      }
+      :first-child:active {
+        transform: scale(1);
+      }
       :last-child {
         margin: 30px;
         height: 50px;
@@ -129,68 +139,149 @@
         border: 1px solid black;
         cursor: pointer;
         font-weight: 600;
-        transition: transform .1s ease;
+        transition: transform 0.1s ease;
       }
       :last-child:hover {
         transform: scale(1.1);
-    }
-        :last-child:active {
+      }
+      :last-child:active {
         transform: scale(1);
+      }
     }
   }
 
+  .accordionTopic {
+    border: 1px solid black;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 12px;
+    background-color: #f0f0f0;
+  }
+
+  .accordionText {
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0 10px 10px 10px;
+  }
+
+  .goBackFromList {
+    margin: 30px 50%;
+    transform: translate(-50%);
+    width: 170px;
+    padding: 12px;
+    background-color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: transform 0.3 ease-in-out;
+  }
+
+  .goBackFromList:hover {
+    transform: scale(1.1) translate(-45%);
+  }
+
+  .goBackFromList:active {
+    transform: scale(1) translate(-50%);
+  }
+
+  .nutritionClass {
+    padding-bottom: 30px;
+  }
+
+  .nutritionHeading {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+
+    span {
+      color: red;
+      text-decoration: underline;
+      font-size: 35px;
+    }
+  }
+
+  .nutritionDiv {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+    .nutritionElements {
+      margin-left: 20px;
+      color: black;
+      font-size: 22px;
+      font-weight: 800;
+    }
+
+    .nutritionQuantity {
+      color: red;
+      margin-left: 20px;
+    }
+
+    .measurementUnits {
+      color: black;
+      margin-left: 10px;
+      font-size: 20px;
+    }
+
+    .description {
+      color: black;
+      margin-left: 15px;
+      font-size: 18px;
+    }
+  }
+
+  .compareHeading {
+    padding: 35px 0 0 55px;
+    font-size: 35px;
+  }
+  .selectClassNutrition {
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    width: 450px;
+  }
 }
 
 .accordionTopic {
   border: 1px solid black;
-  font-weight: 600;
-  border-radius: 20px;
-  cursor: pointer;
-  padding: 12px;
-  background-color: #f0f0f0;
-  
-}
-.accordionText {
-  color: black;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1.5;
-  padding: 0 10px 10px 10px;
-}
-
-.goBackFromList {
-  margin: 30px 50%;
-  transform: translate(-50%);
-  width: 170px;
-  padding: 12px;
-  background-color: white;
-  font-weight: 700;
-  font-size: 18px;
-  border-radius: 20px;
-  cursor: pointer;
-  border: 1px solid black;
-  transition: transform 0.3 ease-in-out;
-}
-
-.goBackFromList:hover {
-  transform: scale(1.1) translate(-45%);
-}
-
-.goBackFromList:active {
-  transform: scale(1) translate(-50%);
-}
-}
-
-.accordionTopic {
-  border: 1px solid black;
-  font-weight: 600;
+  font-weight: 800;
   border-radius: 20px;
   cursor: pointer;
   padding: 12px;
   background-color: #f0f0f0;
 }
 
+.nutritionInfo {
+  h1 {
+    color: black;
+    padding: 30px 30px 15px 30px;
+    font-size: 45px;
+    margin-top: -77px;
+  }
 
+  h3 {
+    text-align: center;
+    font-size: 31px;
+  }
+
+  span {
+    color: red;
+  }
+
+  pre {
+    padding: 20px;
+    line-height: 1.5;
+  }
+}
 
 .accordionBackground {
   position: fixed;
@@ -201,6 +292,11 @@
   width: 1100px;
   background-color: wheat;
   color: black;
+  border-radius: 20px;
+
+  .accordionBackground::-webkit-scrollbar {
+    display: none;
+  }
 
   .accordionText {
     color: black;
@@ -208,12 +304,92 @@
     font-size: 15px;
     line-height: 1.5;
     padding: 0 10px 10px 10px;
+    background-color: white;
   }
 
+  h2 {
+    text-align: center;
+    margin: 30px;
+    font-size: 35px;
 
-  .btnClass {
-    display: block;
-    margin: 20px auto;
+    span {
+      color: red;
+    }
+  }
+
+  h3 {
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    border: 2px dotted black;
+    border-radius: 20px;
+  }
+}
+
+.cultivationHeadingClass {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.cultivationBackground {
+  position: fixed;
+  inset: 0;
+  overflow: auto;
+
+  .infoCultivation {
+    margin: 50px auto;
+    max-width: 1100px;
+    background-color: wheat;
+    border-radius: 20px;
+
+    .activeIdClass {
+      padding: 20px;
+      background-color: white;
+      border-radius: 20px;
+      margin: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: -18px;
+      padding-top: 22px;
+      font-size: 30px;
+
+      span {
+        color: red;
+      }
+    }
+
+    h3 {
+      text-align: center;
+      margin: 40px;
+      padding: 20px;
+      line-height: 1.6;
+      border: 2px dotted black;
+      border-radius: 20px;
+    }
+
+    p {
+      color: black;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 1.5;
+      padding: 0 10px 10px 10px;
+    }
+  }
+}
+
+.btnClassDiv {
+  display: flex;
+  padding: 30px 30px 50px 30px;
+  justify-content: center;
+  flex-direction: row;
+
+  .btnClass1 {
+    margin-right: 50px;
     width: 170px;
     padding: 12px;
     background-color: white;
@@ -224,13 +400,112 @@
     border: 1px solid black;
     transition: all 0.3 ease-in-out;
   }
+  .btnClass2 {
+    margin-left: 50px;
+    width: 170px;
+    padding: 12px;
+    background-color: white;
 
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: all 0.3 ease-in-out;
+  }
+
+  .btnClass1:hover {
+    transform: scale(1.2);
+  }
+  .btnClass1:active {
+    transform: scale(1.1);
+  }
+  .btnClass2:hover {
+    transform: scale(1.2);
+  }
+  .btnClass2:active {
+    transform: scale(1.1);
+  }
 }
 
-.cultivationHeadingClass {
-  padding: 20px;
+.btnClass {
+  display: block;
+  margin: 70px auto;
+  width: 170px;
+  padding: 12px;
+  background-color: white;
+  transform: translateY(-40px);
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: all 0.3 ease-in-out;
+}
+.btnClass:hover {
+  transform: translateY(-40px) scale(1.2);
+}
+.btnClass:active {
+  transform: translateY(-40px) scale(1.1);
+}
+
+.chooseVarietyBackground {
+  position: fixed;
+  inset: 0;
+  overflow: auto;
+}
+
+.chooseVarietyInfo {
+  display: flex;
+  margin: 50px auto;
+  width: 1100px;
+  background-color: wheat;
+  border-radius: 20px;
+
+  input {
+    margin: 50px 0 0 50px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+}
+  }
+
+.listOfVarietySearch {
+  margin: 15px;
+  font-size: 18px;
+  font-weight: 800;
+  margin-left: 50px;
+  cursor: pointer;
+  width: 80px;
+
+
+}
+.listOfVarietySearch:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+  color: red
+}
+
+.containerVarietySearch {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.searchedItem {
+  margin: 50px;
+}
+
+.quantityDifferenceClass{
+  font-size: 25px;
   text-align: center;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 1.5;
+  padding: 0 0 20px 0;
+  margin-left: 10px;
+
+  span {
+    margin-left: 10px;
+    color: red
+  }
 }

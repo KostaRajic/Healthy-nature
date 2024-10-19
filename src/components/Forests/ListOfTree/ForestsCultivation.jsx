@@ -4,7 +4,7 @@
 import { useState } from "react";
 import classes from "../../../style/universalClass.module.scss";
 
-export const FruitsCultivation = ({ fruit, goBack }) => {
+export const ForestsCultivation = ({ tree, goBack }) => {
   const [activeIds, setActiveIds] = useState({});
 
   const toggleAccordion = (id) => {
@@ -14,8 +14,8 @@ export const FruitsCultivation = ({ fruit, goBack }) => {
     }));
   };
 
-  const renderAccordion = (fruit) => {
-    return fruit?.map((item) => (
+  const renderAccordion = (tree) => {
+    return tree?.map((item) => (
       <div key={item.id}>
         <div
           className={classes.accordionTopic}
@@ -27,7 +27,7 @@ export const FruitsCultivation = ({ fruit, goBack }) => {
         {activeIds[item.id] && (
           <div className={classes.activeIdClass}>
             {item.text && <p className={classes.accordionText}>{item.text}</p>}
-            {item.children && renderAccordion(item.children)}
+            {item.children && renderAccordion(item.children, true)}
           </div>
         )}
       </div>
@@ -38,10 +38,10 @@ export const FruitsCultivation = ({ fruit, goBack }) => {
     <div className={classes.cultivationBackground}>
       <div className={classes.infoCultivation}>
         <h2>
-          <span>{fruit?.name}</span> cultivation:
+          <span>{tree?.name}</span> cultivation:
         </h2>
-        <h3>{fruit?.cultivationHeading}</h3>
-        {renderAccordion(fruit?.cultivation)}
+        <h3>{tree?.cultivationHeading}</h3>
+        {renderAccordion(tree?.cultivation)}
         <button className={classes.btnClass} onClick={() => goBack(false)}>
           Go Back
         </button>

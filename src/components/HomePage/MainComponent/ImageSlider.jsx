@@ -2,7 +2,7 @@
 /* eslint-disable no-unreachable */
 /* eslint-disable no-dupe-keys */
 /* eslint-disable no-fallthrough */
-import React, { useState, useEffect, useRef, useMemo } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import cereals from "../../../assets/images/Cereals/Cereals.jpg";
 import fruits from "../../../assets/images/Fruits.jpg";
 import vegetables from "../../../assets/images/Vegetables.jpg";
@@ -77,33 +77,40 @@ export const ImageSlider = () => {
     timeoutRef.current = setTimeout(() => {
       setNumb((prevNum) => (prevNum === 6 ? 1 : prevNum + 1));
       setFade(true);
-    }, 800);
+    }, 1500);
   };
 
   const handleMouseEnter = (index) => {
-    const updatedHoverEffect = [...hoverStates];
-    updatedHoverEffect[index] = true;
-    setHoverStates(updatedHoverEffect);
+    setHoverStates((prevStates) => {
+      const updatedHoverEffect = [...prevStates];
+      updatedHoverEffect[index] = true;
+      return updatedHoverEffect;
+    });
     setIsHovered(true);
     clearInterval(intervalRef.current);
+    clearTimeout(timeoutRef.current);
   };
-
+  
   const handleMouseLeave = (index) => {
-    const updatedHoverEffect = [...hoverStates];
-    updatedHoverEffect[index] = false;
-    setHoverStates(updatedHoverEffect);
+    setHoverStates((prevStates) => {
+      const updatedHoverEffect = [...prevStates];
+      updatedHoverEffect[index] = false;
+      return updatedHoverEffect;
+    });
     setIsHovered(false);
     intervalRef.current = setInterval(nextSlide, 5000);
   };
 
-  useEffect(() => {
-    intervalRef.current = setInterval(nextSlide, 5000);
 
-    return () => {
-      if (intervalRef.current) clearInterval(intervalRef.current);
-      if (timeoutRef.current) clearTimeout(timeoutRef.current);
-    };
-  }, [isHovered]);
+
+  // useEffect(() => {
+  //   intervalRef.current = setInterval(nextSlide, 5000);
+
+  //   return () => {
+  //     if (intervalRef.current) clearInterval(intervalRef.current);
+  //     if (timeoutRef.current) clearTimeout(timeoutRef.current);
+  //   };
+  // }, [isHovered]);
 
   return (
     <div>
@@ -146,7 +153,7 @@ export const ImageSlider = () => {
                 src={src}
                 alt={`Slide${index + 4}`}
                 style={{ opacity: fade ? "1" : "0" }}
-                onClick={handlePortal}
+
               />
               {hoverStates[index + 3] && (
                 <button

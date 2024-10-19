@@ -14,25 +14,138 @@ Regarding food safety, apple seeds contain amygdalin, which can release cyanide 
 Apple trees and their fruit are vulnerable to various threats, including fungi, bacteria, and pests. In 2010, the genome of the apple was sequenced, contributing to research aimed at enhancing disease resistance and improving breeding techniques.
 In 2013, global apple production reached 90.8 million tonnes, with China accounting for 49% of the total output. This widespread cultivation reflects the apple's importance as a staple fruit in diets worldwide.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 52 kcal – A low-calorie fruit, good for snacking.
-- Fats: 0.2g – Very low in fat, contributing to heart health.
-- Saturated fatty acids: 0g – Contains no harmful fats.
-- Cholesterol: 0mg – Cholesterol-free, promoting cardiovascular health.
-- Sodium: 1mg – Very low sodium, helping maintain healthy blood pressure.
-- Potassium: 107mg – Supports muscle function and regulates fluid balance.
-- Carbohydrates: 14g – A moderate source of natural sugars and energy.
-- Fiber: 2.4g – A good source of fiber, aiding digestion.
-- Sugar: 10g – Contains natural sugars for an energy boost.
-- Proteins: 0.3g – Provides a small amount of protein.
-- Vitamin C: 4.6mg – Contributes to immune function and skin health.
-- Calcium: 6mg – Provides a small amount of calcium for bone health.
-- Iron: 0.1mg – Trace amounts, helps with oxygen transport in blood.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0mg – Contains small amounts of B vitamins supporting metabolism.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 5mg – Helps with muscle function and nerve signaling.`,
+    nutritionText: [
+      {
+        element: "Energy value:",
+        quantity: 52,
+        measurementUnits: "kcal",
+        description:
+          "– Low in calories, making it a healthy, light snack option.",
+      },
+      {
+        element: "Fats:",
+        quantity: 0.2,
+        measurementUnits: "g",
+        description: "– Very low in fat, mostly made up of unsaturated fats.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.03,
+        measurementUnits: "g",
+        description:
+          "– Contains a negligible amount of saturated fats, promoting heart health.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Cholesterol-free, making it heart-healthy.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, helping to maintain normal blood pressure.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 107,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of potassium, important for muscle function.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 13.8,
+        measurementUnits: "g",
+        description:
+          "– Primarily composed of carbohydrates, mainly sugars and fiber.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 2.4,
+        measurementUnits: "g",
+        description:
+          "– A good source of dietary fiber, supporting healthy digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 10.4,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars, providing sweetness without added sugar.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 0.3,
+        measurementUnits: "g",
+        description: "– Low in protein, typical of most fruits.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 4.6,
+        measurementUnits: "mg",
+        description:
+          "– A decent source of vitamin C, important for immune health and skin.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 6,
+        measurementUnits: "mg",
+        description:
+          "– Contains a small amount of calcium, contributing to bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of iron, important for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– No vitamin D present, which is obtained from sunlight or fortified foods.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.04,
+        measurementUnits: "mg",
+        description:
+          "– Helps support metabolism and brain function, though in small amounts.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description:
+          "– Does not contain vitamin B12, typically found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 5,
+        measurementUnits: "mg",
+        description:
+          "– A small source of magnesium, important for muscle and nerve health.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.04,
+        measurementUnits: "mg",
+        description:
+          "– Contains a trace amount of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.18,
+        measurementUnits: "mg",
+        description:
+          "– A small amount of vitamin E, which helps protect cells from oxidative damage.",
+      },
+    ],
     cultivationHeading:
       "Apple cultivation involves growing apple trees, a process that requires specific conditions and care to produce high-quality fruit. Here's an overview of the key aspects of apple cultivation",
     cultivation: [
@@ -179,25 +292,131 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
                 In addition to their impressive nutritional profile, apricots have been valued for their medicinal properties in traditional practices. They are believed to support heart health, due to their potassium content, which helps regulate blood pressure and maintain proper electrolyte balance. The natural sugars in apricots provide an energy boost, making them an ideal choice for snacks, especially for athletes or those with active lifestyles.
                 Apricot kernels, found inside the pit, are used in some cultures for oil extraction, offering benefits for skin care and even culinary purposes. However, the kernels should be consumed cautiously, as they contain amygdalin, a compound that can release cyanide in the body when eaten in large amounts. Apricots have a short growing season, typically available in late spring and summer, and their delicate nature requires gentle handling during harvest and transport. Despite this, their bright flavor and nutritional richness make them a cherished fruit worldwide.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 48 kcal – A low-calorie fruit, suitable for healthy snacking.
-- Fats: 0.1 g – Very low in fat, making them heart-friendly.
-- Saturated fatty acids: 0 g – Contains no harmful fats.
-- Cholesterol: 0 mg – Cholesterol-free, supporting cardiovascular health.
-- Sodium: 1 mg – Very low sodium, promoting healthy blood pressure.
-- Potassium: 259 mg – Helps regulate fluid balance and supports muscle function.
-- Carbohydrates: 12 g – Provides a moderate source of energy from natural sugars.
-- Fiber: 2 g – Good source of fiber, aiding in digestion.
-- Sugar: 9.2 g – Contains natural sugars, offering a quick energy boost.
-- Proteins: 1.4 g – Provides a small amount of protein for muscle repair.
-- Vitamin C: 10 mg – Supports immune function and skin health.
-- Calcium: 13 mg – Contributes to bone health and strength.
-- Iron: 0.5 mg – Important for red blood cell formation.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.1 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 10 mg – Supports muscle function and energy production.`,
+    nutritionText: [
+      {
+        element: "Energy value:",
+        quantity: 48,
+        measurementUnits: "kcal",
+        description: "– Low in calories, making it a healthy snack option.",
+      },
+      {
+        element: "Fats:",
+        quantity: 0.1,
+        measurementUnits: "g",
+        description: "– Very low in fat, contributing to a heart-healthy diet.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0,
+        measurementUnits: "g",
+        description: "– Contains negligible saturated fats.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Cholesterol-free, promoting cardiovascular health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, beneficial for maintaining healthy blood pressure.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 259,
+        measurementUnits: "mg",
+        description:
+          "– Good source of potassium, important for muscle function and heart health.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 12,
+        measurementUnits: "g",
+        description: "– Contains carbohydrates mainly from natural sugars.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 2,
+        measurementUnits: "g",
+        description: "– High in dietary fiber, promoting healthy digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 9,
+        measurementUnits: "g",
+        description: "– Contains natural sugars, providing a sweet flavor.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 1.4,
+        measurementUnits: "g",
+        description:
+          "– Contains small amounts of protein, contributing to overall intake.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 10,
+        measurementUnits: "mg",
+        description: "– A source of vitamin C, important for immune function.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 6,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of calcium, supporting bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.17,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of iron, essential for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– No vitamin D present, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain function.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description: "– Lacks vitamin B12, which is found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 10,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of magnesium, important for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Contains trace amounts of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.9,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of vitamin E, an antioxidant that protects cells.",
+      },
+    ],
     cultivationHeading: `Apricot cultivation requires specific conditions for optimal growth and fruit production. Here is an overview of the key factors involved in growing apricots`,
     cultivation: [
       {
@@ -240,10 +459,7 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
       {
         id: 23,
         topic: `Varieties`,
-        text: `Popular apricot varieties include:
-                            - Moorpark, Tilton, and Goldcot (known for their sweet flavor and adaptability).
-                            - Golden Delicious and Jonathan (used for baking or cooking).
-                            `,
+        text: `Popular apricot varieties include: - Moorpark, Tilton, and Goldcot (known for their sweet flavor and adaptability).- Golden Delicious and Jonathan (used for baking or cooking).`,
       },
       {
         id: 24,
@@ -385,25 +601,135 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
                   Athletes often favor bananas due to their quick energy boost, provided by natural sugars like glucose, fructose, and sucrose. This makes them an ideal pre- or post-workout snack, aiding in muscle recovery and electrolyte balance. Bananas are also known for being gentle on the stomach and are often recommended for those recovering from digestive issues.
                   Beyond being eaten raw, bananas are incredibly versatile in cooking. They can be blended into smoothies, baked into bread, muffins, or cakes, and used in savory dishes such as curries or grilled as a dessert. Unripe bananas, also known as plantains, are a staple in many tropical cuisines, often fried or boiled. With their nutritional benefits and culinary flexibility, bananas are truly a global staple enjoyed in various forms.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 89 kcal – A moderate-calorie fruit that provides energy.
-- Fats: 0.3 g – Very low in fat, promoting heart health.
-- Saturated fatty acids: 0.1 g – Contains minimal saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, supporting cardiovascular health.
-- Sodium: 1 mg – Very low in sodium, which helps maintain healthy blood pressure.
-- Potassium: 358 mg – High in potassium, essential for heart and muscle function.
-- Carbohydrates: 23 g – Provides a good source of energy from natural sugars.
-- Fiber: 2.6 g – Good source of dietary fiber, aiding digestion.
-- Sugar: 12 g – Contains natural sugars that provide a quick energy boost.
-- Proteins: 1.1 g – Provides a small amount of protein for muscle repair.
-- Vitamin C: 8.7 mg – Supports immune function and skin health.
-- Calcium: 5 mg – Contributes to bone health, though in small amounts.
-- Iron: 0.3 mg – Important for red blood cell formation.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.4 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 27 mg – Supports muscle function and energy production.`,
+    nutritionText: [
+      {
+        element: "Energy value:",
+        quantity: 89,
+        measurementUnits: "kcal",
+        description:
+          "– Provides a moderate amount of calories, making it a good source of energy.",
+      },
+      {
+        element: "Fats:",
+        quantity: 0.3,
+        measurementUnits: "g",
+        description: "– Very low in fat, contributing to a heart-healthy diet.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.1,
+        measurementUnits: "g",
+        description:
+          "– Contains minimal saturated fats, supporting overall health.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Cholesterol-free, promoting cardiovascular health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, beneficial for blood pressure management.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 358,
+        measurementUnits: "mg",
+        description:
+          "– High in potassium, essential for muscle function and regulating blood pressure.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 22.8,
+        measurementUnits: "g",
+        description:
+          "– A rich source of carbohydrates, providing quick energy.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 2.6,
+        measurementUnits: "g",
+        description: "– Contains dietary fiber, promoting digestive health.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 12.2,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars, contributing to its sweet taste.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 1.1,
+        measurementUnits: "g",
+        description:
+          "– Provides a small amount of protein, aiding in muscle repair.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 8.7,
+        measurementUnits: "mg",
+        description:
+          "– A good source of vitamin C, supporting the immune system.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 5,
+        measurementUnits: "mg",
+        description:
+          "– Contains a small amount of calcium, contributing to bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.3,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of iron, essential for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Does not contain vitamin D, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.4,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description: "– Lacks vitamin B12, which is found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 27,
+        measurementUnits: "mg",
+        description:
+          "– Contains magnesium, important for many bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.15,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Contains minimal vitamin E, an antioxidant.",
+      },
+    ],
     cultivationHeading: `Bananas are one of the most widely consumed fruits in the world and are primarily grown in tropical regions. They are typically grown in large-scale plantations, but they can also be cultivated in smaller home gardens. Here's an overview of banana cultivation`,
     cultivation: [
       {
@@ -586,25 +912,133 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
                 In addition to being consumed fresh, blackberries are commonly used in jams, pies, cobblers, and smoothies. They also pair well with both sweet and savory dishes, such as salads, yogurt, or roasted meats. Due to their high antioxidant content, blackberries have become a popular ingredient in health-conscious recipes and beverages.
                 Blackberries are relatively easy to grow, often found in wild thickets or home gardens. However, they have a short shelf life and are delicate, requiring gentle handling during harvest. Their combination of flavor, versatility, and nutritional benefits makes blackberries a cherished fruit enjoyed in a wide variety of culinary traditions around the world.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 43 kcal – A low-calorie fruit, making it a healthy snack option.
-- Fats: 0.5 g – Very low in fat, promoting heart health.
-- Saturated fatty acids: 0 g – Contains no saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, supporting cardiovascular health.
-- Sodium: 1 mg – Extremely low in sodium, which helps maintain healthy blood pressure.
-- Potassium: 162 mg – Important for fluid balance and muscle function.
-- Carbohydrates: 10 g – Provides a moderate source of energy.
-- Fiber: 5 g – High in dietary fiber, aiding digestion and promoting gut health.
-- Sugar: 4.9 g – Contains natural sugars that provide sweetness and energy.
-- Proteins: 1.4 g – Contributes to muscle repair and growth.
-- Vitamin C: 21 mg – Supports immune function and skin health.
-- Calcium: 29 mg – Important for bone health.
-- Iron: 0.6 mg – Necessary for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically obtained from sunlight or fortified foods.
-- Vitamin B6: 0 mg – Contains trace amounts that support metabolism.
-- Vitamin B12: 0 µg – No vitamin B12, usually found in animal products.
-- Magnesium: 20 mg – Supports muscle function and energy production.`,
+    nutritionText: [
+      {
+        element: "Energy value:",
+        quantity: 43,
+        measurementUnits: "kcal",
+        description:
+          "– Low in calories, making it an excellent option for a healthy snack.",
+      },
+      {
+        element: "Fats:",
+        quantity: 0.5,
+        measurementUnits: "g",
+        description: "– Very low in fat, contributing to a heart-healthy diet.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.0,
+        measurementUnits: "g",
+        description: "– Contains negligible saturated fats.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Cholesterol-free, promoting cardiovascular health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, beneficial for maintaining healthy blood pressure.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 162,
+        measurementUnits: "mg",
+        description:
+          "– Good source of potassium, important for muscle function and heart health.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 9.6,
+        measurementUnits: "g",
+        description: "– Contains carbohydrates primarily from natural sugars.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 5.3,
+        measurementUnits: "g",
+        description: "– High in dietary fiber, promoting healthy digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 4.9,
+        measurementUnits: "g",
+        description: "– Contains natural sugars, providing a sweet flavor.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 1.4,
+        measurementUnits: "g",
+        description:
+          "– Contains small amounts of protein, contributing to overall intake.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 21,
+        measurementUnits: "mg",
+        description:
+          "– A good source of vitamin C, important for immune function.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 29,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of calcium, supporting bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.6,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of iron, essential for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– No vitamin D present, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain function.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description: "– Lacks vitamin B12, which is found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 20,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of magnesium, important for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Contains trace amounts of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.9,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of vitamin E, an antioxidant that protects cells.",
+      },
+    ],
     cultivationHeading: `Blackberries are popular fruits known for their sweet, tart flavor and are commonly grown in temperate regions. They can be cultivated on both commercial farms and in home gardens, and they are relatively easy to grow compared to other fruits. Here’s an overview of blackberry cultivation`,
     cultivation: [
       {
@@ -792,25 +1226,136 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
                 Incorporating blueberries into your diet is simple. They can be enjoyed fresh, frozen, or dried and can be added to smoothies, yogurt, salads, and baked goods. As a versatile ingredient, they can enhance both sweet and savory dishes.
                 In summary, blueberries are not just a delicious treat; they are a nutritional powerhouse packed with health benefits. Regularly including them in your diet can contribute to improved health and well-being, making them a smart addition to any meal plan.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 57 kcal – A low-calorie fruit, making it a healthy choice for snacking.
-- Fats: 0.3 g – Very low in fat, promoting heart health.
-- Saturated fatty acids: 0.1 g – Contains minimal saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, supporting cardiovascular health.
-- Sodium: 1 mg – Extremely low in sodium, beneficial for maintaining healthy blood pressure.
-- Potassium: 77 mg – Important for fluid balance and muscle function.
-- Carbohydrates: 14.5 g – Provides a moderate source of energy.
-- Fiber: 2.4 g – Good source of dietary fiber, aiding digestion.
-- Sugar: 10 g – Contains natural sugars that provide sweetness and energy.
-- Proteins: 0.7 g – Contributes to muscle repair and growth.
-- Vitamin C: 9.7 mg – Supports immune function and skin health.
-- Calcium: 6 mg – Important for bone health.
-- Iron: 0.3 mg – Necessary for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.1 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 6 mg – Supports muscle function and energy production`,
+    nutritionText: [
+      {
+        element: "Energy value:",
+        quantity: 57,
+        measurementUnits: "kcal",
+        description:
+          "– Low in calories, making them a great snack for weight management.",
+      },
+      {
+        element: "Fats:",
+        quantity: 0.3,
+        measurementUnits: "g",
+        description: "– Very low in fat, contributing to a healthy diet.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.1,
+        measurementUnits: "g",
+        description:
+          "– Contains minimal saturated fats, supporting heart health.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description:
+          "– Cholesterol-free, beneficial for cardiovascular health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, aiding in blood pressure management.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 77,
+        measurementUnits: "mg",
+        description:
+          "– Contains potassium, essential for fluid balance and muscle function.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 14.5,
+        measurementUnits: "g",
+        description: "– A good source of carbohydrates, providing energy.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 2.4,
+        measurementUnits: "g",
+        description: "– High in dietary fiber, promoting healthy digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 10,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars, contributing to their sweetness.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 0.7,
+        measurementUnits: "g",
+        description:
+          "– Provides a small amount of protein, beneficial for muscle repair.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 9.7,
+        measurementUnits: "mg",
+        description:
+          "– Good source of vitamin C, supporting the immune system.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 6,
+        measurementUnits: "mg",
+        description:
+          "– Contains a small amount of calcium, contributing to bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of iron, essential for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Does not contain vitamin D, which is typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description: "– Lacks vitamin B12, which is found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 6,
+        measurementUnits: "mg",
+        description:
+          "– Contains magnesium, important for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.6,
+        measurementUnits: "mg",
+        description:
+          "– Contains vitamin E, an antioxidant that protects cells.",
+      },
+    ],
     cultivationHeading: `Blueberries are popular berries known for their sweet-tart flavor and numerous health benefits. They are primarily grown in cooler regions and can be cultivated in both commercial farms and home gardens. Blueberry cultivation requires specific soil and environmental conditions for successful growth. Here’s an overview of blueberry cultivation`,
     cultivation: [
       {
@@ -999,25 +1544,133 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
                 Cherries are not only delicious but also versatile in culinary uses. They can be eaten fresh, added to salads, blended into smoothies, or cooked down into sauces. Their natural sweetness makes them a fantastic ingredient in desserts, while their tartness adds a refreshing contrast to savory dishes.
                 In summary, cherries are a nutrient-rich fruit that offers a multitude of health benefits and culinary possibilities. Their sweet and tart flavors make them a delightful addition to any diet, providing both taste and nutrition in every bite.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 63 kcal – A moderate-calorie fruit that provides energy.
-- Fats: 0.2 g – Very low in fat, promoting heart health.
-- Saturated fatty acids: 0 g – Contains no saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, supporting cardiovascular health.
-- Sodium: 1 mg – Extremely low in sodium, beneficial for maintaining healthy blood pressure.
-- Potassium: 222 mg – Important for fluid balance and muscle function.
-- Carbohydrates: 16 g – Provides a good source of energy.
-- Fiber: 2.1 g – Contains dietary fiber, aiding digestion.
-- Sugar: 12 g – Contains natural sugars that provide sweetness and energy.
-- Proteins: 1 g – Contributes to muscle repair and growth.
-- Vitamin C: 7 mg – Supports immune function and skin health.
-- Calcium: 18 mg – Important for bone health.
-- Iron: 0.36 mg – Necessary for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.1 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 11 mg – Supports muscle function and energy production.`,
+    nutritionText: [
+      {
+        element: "Energy value:",
+        quantity: 63,
+        measurementUnits: "kcal",
+        description:
+          "– Low in calories, making cherries a delicious and guilt-free snack.",
+      },
+      {
+        element: "Fats:",
+        quantity: 0.2,
+        measurementUnits: "g",
+        description: "– Very low in fat, promoting heart health.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.0,
+        measurementUnits: "g",
+        description: "– Contains negligible saturated fats.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description:
+          "– Cholesterol-free, beneficial for cardiovascular health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, helping maintain healthy blood pressure.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 222,
+        measurementUnits: "mg",
+        description:
+          "– A good source of potassium, important for muscle function and heart health.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 16,
+        measurementUnits: "g",
+        description: "– Contains carbohydrates primarily from natural sugars.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 1.6,
+        measurementUnits: "g",
+        description: "– Provides dietary fiber, aiding in digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 12.8,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars that contribute to its sweetness.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 1.1,
+        measurementUnits: "g",
+        description: "– Contains small amounts of protein.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 7,
+        measurementUnits: "mg",
+        description:
+          "– A good source of vitamin C, supporting immune function.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 18,
+        measurementUnits: "mg",
+        description: "– Provides small amounts of calcium for bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.4,
+        measurementUnits: "mg",
+        description:
+          "– Contains trace amounts of iron, important for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– No vitamin D present, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description:
+          "– Lacks vitamin B12, which is primarily found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 11,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of magnesium, important for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Contains trace amounts of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description: "– Contains small amounts of vitamin E, an antioxidant.",
+      },
+    ],
     cultivationHeading: `Cherries are delicious fruits that are popular for their sweet flavor and are commonly used in desserts, jams, and beverages. They can be grown in both commercial orchards and home gardens. Here’s an overview of cherry cultivation`,
     cultivation: [
       {
@@ -1205,25 +1858,137 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
                   These berries can be enjoyed in various forms, from fresh and dried to juice and sauce. While fresh cranberries can be too tart for some, they are perfect in salads, baked goods, and sauces, enhancing both flavor and nutrition. Dried cranberries, often sweetened, make for a convenient snack or addition to granola and trail mixes.
                   In summary, cranberries are not just a seasonal treat but a powerhouse of nutrients that contribute to overall health. Their unique flavor and impressive health benefits make them a valuable addition to any diet.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 46 kcal – A low-calorie fruit, making it a great option for healthy snacking.
-- Fats: 0.1 g – Very low in fat, promoting heart health.
-- Saturated fatty acids: 0 g – Contains no saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, supporting cardiovascular health.
-- Sodium: 2 mg – Low sodium content, beneficial for maintaining healthy blood pressure.
-- Potassium: 77 mg – Important for fluid balance and muscle function.
-- Carbohydrates: 12 g – Provides a moderate source of energy.
-- Fiber: 4.6 g – High in dietary fiber, aiding digestion and promoting gut health.
-- Sugar: 4.3 g – Contains natural sugars that provide sweetness and energy.
-- Proteins: 0.4 g – Contributes to muscle repair and growth.
-- Vitamin C: 14 mg – Supports immune function and skin health.
-- Calcium: 5 mg – Contributes to bone health.
-- Iron: 0.2 mg – Necessary for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.1 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 6 mg – Supports muscle function and energy production.`,
+    nutritionText: [
+      {
+        element: "Energy value:",
+        quantity: 46,
+        measurementUnits: "kcal",
+        description:
+          "– Low in calories, making them a healthy addition to various dishes.",
+      },
+      {
+        element: "Fats:",
+        quantity: 0.1,
+        measurementUnits: "g",
+        description:
+          "– Very low in fat, contributing to their healthy profile.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.0,
+        measurementUnits: "g",
+        description:
+          "– Contains negligible amounts of saturated fats, supporting heart health.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description:
+          "– Cholesterol-free, beneficial for cardiovascular health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, aiding in blood pressure management.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 83,
+        measurementUnits: "mg",
+        description:
+          "– Contains potassium, essential for fluid balance and muscle function.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 12.2,
+        measurementUnits: "g",
+        description:
+          "– Provides carbohydrates, primarily from natural sugars and fiber.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 4.6,
+        measurementUnits: "g",
+        description: "– High in dietary fiber, promoting healthy digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 4.3,
+        measurementUnits: "g",
+        description: "– Contains natural sugars, adding a slight sweetness.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 0.4,
+        measurementUnits: "g",
+        description:
+          "– Provides a small amount of protein, beneficial for muscle repair.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 14.0,
+        measurementUnits: "mg",
+        description:
+          "– Good source of vitamin C, supporting the immune system.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 18,
+        measurementUnits: "mg",
+        description:
+          "– Contains a small amount of calcium, contributing to bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of iron, essential for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Does not contain vitamin D, which is typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description: "– Lacks vitamin B12, which is found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 6,
+        measurementUnits: "mg",
+        description:
+          "– Contains magnesium, important for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Contains vitamin E, an antioxidant that protects cells.",
+      },
+    ],
     cultivationHeading: `Cranberries are tart, red berries that are well-known for their use in juices, sauces, and various culinary applications. They are primarily grown in specific regions of North America and require particular growing conditions. Here’s an overview of cranberry cultivation`,
     cultivation: [
       {
@@ -1412,25 +2177,132 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
                   Culinary-wise, currants can be used in a variety of ways. They are often enjoyed in jams, jellies, sauces, or baked goods like scones and muffins. Fresh currants can be added to salads or desserts for a burst of tartness.
                   In summary, currants are a nutrient-dense fruit that offers numerous health benefits. Their bright flavor and versatility make them a great addition to any diet, enhancing both taste and nutrition.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 63 kcal – A moderate-calorie fruit, providing energy.
-- Fats: 0.4 g – Very low in fat, promoting heart health.
-- Saturated fatty acids: 0 g – Contains no saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, supporting cardiovascular health.
-- Sodium: 2 mg – Low in sodium, beneficial for maintaining healthy blood pressure.
-- Potassium: 322 mg – High in potassium, supporting muscle function and fluid balance.
-- Carbohydrates: 15.4 g – Provides a good source of natural sugars for energy.
-- Fiber: 4.3 g – A good source of fiber, aiding digestion.
-- Sugar: 6.8 g – Contains natural sugars for sweetness and energy.
-- Proteins: 1.4 g – A small amount of protein, contributing to muscle repair.
-- Vitamin C: 181 mg – Extremely high in vitamin C, boosting immune function and skin health.
-- Calcium: 55 mg – Supports bone health.
-- Iron: 1 mg – Important for red blood cell formation.
-- Vitamin D: 0 IU – No vitamin D, typically obtained from sunlight or fortified foods.
-- Vitamin B6: 0 mg – Contains trace amounts that support metabolism.
-- Vitamin B12: 0 µg – No vitamin B12, typically found in animal products.
-- Magnesium: 24 mg – Supports muscle function and energy production.`,
+    nutritionText: [
+      {
+        element: "Energy value:",
+        quantity: 70,
+        measurementUnits: "kcal",
+        description:
+          "– Low in calories, currants are a sweet and nutritious snack.",
+      },
+      {
+        element: "Fats:",
+        quantity: 0.2,
+        measurementUnits: "g",
+        description:
+          "– Very low in fat, making them a healthy addition to your diet.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.0,
+        measurementUnits: "g",
+        description: "– Contains negligible saturated fats.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Cholesterol-free, beneficial for heart health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description: "– Very low in sodium, supporting healthy blood pressure.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 332,
+        measurementUnits: "mg",
+        description:
+          "– A good source of potassium, important for muscle function and overall health.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 15.5,
+        measurementUnits: "g",
+        description: "– Contains carbohydrates primarily from natural sugars.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 4.3,
+        measurementUnits: "g",
+        description: "– High in dietary fiber, promoting healthy digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 8.0,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars that contribute to their sweetness.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 1.0,
+        measurementUnits: "g",
+        description: "– Contains small amounts of protein.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 41,
+        measurementUnits: "mg",
+        description:
+          "– A rich source of vitamin C, supporting immune function and skin health.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 55,
+        measurementUnits: "mg",
+        description: "– Provides a moderate amount of calcium for bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 1.0,
+        measurementUnits: "mg",
+        description:
+          "– Contains iron, essential for blood health and preventing anemia.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– No vitamin D present, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description:
+          "– Lacks vitamin B12, which is primarily found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 17,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of magnesium, essential for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Contains trace amounts of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description: "– Contains small amounts of vitamin E, an antioxidant.",
+      },
+    ],
     cultivationHeading: `Currants are small, tart berries that come in various colors, including red, black, and white. They are widely used in jams, jellies, desserts, and beverages. Currants are hardy plants that can thrive in various conditions, making them suitable for both commercial production and home gardens. Here’s an overview of currant cultivation`,
     cultivation: [
       {
@@ -1619,25 +2491,137 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
                   Figs can be enjoyed both fresh and dried. Fresh figs are juicy and delicate, making them perfect for salads, desserts, or even paired with savory dishes like cheese and prosciutto. Dried figs, on the other hand, offer a concentrated sweetness and make a convenient snack or ingredient in baked goods, energy bars, and cereals.
                   In summary, figs are a nutrient-rich fruit that not only satisfies sweet cravings but also provides significant health benefits. Their unique flavor, combined with their versatility, makes them a valuable addition to any diet.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 74 kcal – A moderate-calorie fruit, providing natural energy.
-- Fats: 0.3 g – Very low in fat, promoting heart health.
-- Saturated fatty acids: 0 g – Contains no saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, supporting cardiovascular health.
-- Sodium: 1 mg – Very low in sodium, helping to maintain healthy blood pressure.
-- Potassium: 232 mg – High in potassium, essential for heart and muscle function.
-- Carbohydrates: 19.2 g – Provides a good source of natural sugars and energy.
-- Fiber: 2.9 g – A good source of dietary fiber, aiding digestion and promoting gut health.
-- Sugar: 16.3 g – Contains natural sugars, making them sweet and energizing.
-- Proteins: 0.8 g – Contributes to muscle repair and growth.
-- Vitamin C: 2 mg – Supports immune function and skin health.
-- Calcium: 35 mg – Important for bone health.
-- Iron: 0.4 mg – Necessary for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.1 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 17 mg – Supports muscle function and energy production.`,
+    nutritionText: [
+      {
+        element: "Energy value:",
+        quantity: 46,
+        measurementUnits: "kcal",
+        description:
+          "– Low in calories, making them a healthy addition to various dishes.",
+      },
+      {
+        element: "Fats:",
+        quantity: 0.1,
+        measurementUnits: "g",
+        description:
+          "– Very low in fat, contributing to their healthy profile.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.0,
+        measurementUnits: "g",
+        description:
+          "– Contains negligible amounts of saturated fats, supporting heart health.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description:
+          "– Cholesterol-free, beneficial for cardiovascular health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, aiding in blood pressure management.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 83,
+        measurementUnits: "mg",
+        description:
+          "– Contains potassium, essential for fluid balance and muscle function.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 12.2,
+        measurementUnits: "g",
+        description:
+          "– Provides carbohydrates, primarily from natural sugars and fiber.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 4.6,
+        measurementUnits: "g",
+        description: "– High in dietary fiber, promoting healthy digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 4.3,
+        measurementUnits: "g",
+        description: "– Contains natural sugars, adding a slight sweetness.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 0.4,
+        measurementUnits: "g",
+        description:
+          "– Provides a small amount of protein, beneficial for muscle repair.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 14.0,
+        measurementUnits: "mg",
+        description:
+          "– Good source of vitamin C, supporting the immune system.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 18,
+        measurementUnits: "mg",
+        description:
+          "– Contains a small amount of calcium, contributing to bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of iron, essential for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Does not contain vitamin D, which is typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description: "– Lacks vitamin B12, which is found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 6,
+        measurementUnits: "mg",
+        description:
+          "– Contains magnesium, important for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Contains vitamin E, an antioxidant that protects cells.",
+      },
+    ],
     cultivationHeading: `Figs are sweet, succulent fruits known for their unique flavor and nutritional benefits. They are primarily grown in warm, temperate regions and can be cultivated in both commercial orchards and home gardens. Here’s an overview of fig cultivation`,
     cultivation: [
       {
@@ -1827,25 +2811,132 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
                   Grapes are incredibly versatile in the kitchen. They can be eaten fresh, tossed into salads, or used in desserts and savory dishes. Dried grapes (raisins) are a popular ingredient in cereals, baked goods, and snacks.
                   In summary, grapes are a delicious and nutrient-rich fruit offering a wide range of health benefits. Their versatility and refreshing taste make them a staple in many diets worldwide.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 69 kcal – A moderate-calorie fruit, providing natural energy.
-- Fats: 0.2 g – Very low in fat, promoting heart health.
-- Saturated fatty acids: 0.1 g – Contains minimal saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, supporting cardiovascular health.
-- Sodium: 2 mg – Very low in sodium, beneficial for healthy blood pressure.
-- Potassium: 191 mg – A good source of potassium, important for heart and muscle function.
-- Carbohydrates: 18 g – Provides a good source of natural sugars and energy.
-- Fiber: 0.9 g – Contains dietary fiber, aiding digestion.
-- Sugar: 15.5 g – Contains natural sugars that provide sweetness and energy.
-- Proteins: 0.7 g – A small amount of protein, contributing to muscle repair.
-- Vitamin C: 4 mg – Supports immune function and skin health.
-- Calcium: 10 mg – Contributes to bone health.
-- Iron: 0.3 mg – Important for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.1 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, usually found in animal products.
-- Magnesium: 7 mg – Supports muscle function and energy production.`,
+    nutritionText: [
+      {
+        element: "Energy value:",
+        quantity: 69,
+        measurementUnits: "kcal",
+        description:
+          "– Low in calories, grapes are a sweet and refreshing snack.",
+      },
+      {
+        element: "Fats:",
+        quantity: 0.2,
+        measurementUnits: "g",
+        description: "– Very low in fat, making them a healthy choice.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.0,
+        measurementUnits: "g",
+        description: "– Contains negligible saturated fats.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Cholesterol-free, promoting heart health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description: "– Very low in sodium, supporting healthy blood pressure.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 191,
+        measurementUnits: "mg",
+        description:
+          "– A good source of potassium, essential for muscle and nerve function.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 18.1,
+        measurementUnits: "g",
+        description:
+          "– A rich source of carbohydrates primarily from natural sugars.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 0.9,
+        measurementUnits: "g",
+        description: "– Contains dietary fiber, promoting digestive health.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 15.5,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars that contribute to their sweetness.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 0.7,
+        measurementUnits: "g",
+        description: "– Contains small amounts of protein.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 10.8,
+        measurementUnits: "mg",
+        description:
+          "– A source of vitamin C, supporting immune function and skin health.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 18,
+        measurementUnits: "mg",
+        description: "– Provides a small amount of calcium for bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.5,
+        measurementUnits: "mg",
+        description:
+          "– Contains trace amounts of iron, important for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– No vitamin D present, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description:
+          "– Lacks vitamin B12, which is primarily found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 18,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of magnesium, essential for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Contains trace amounts of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description: "– Contains small amounts of vitamin E, an antioxidant.",
+      },
+    ],
     cultivationHeading: `Grapes are one of the most widely cultivated fruits in the world, prized for their sweet flavor and versatility in making wine, juice, and fresh consumption. Here’s an overview of grape cultivation`,
     cultivation: [
       {
@@ -2035,201 +3126,312 @@ The fruit also contains powerful plant compounds like lycopene (especially in th
 Culinary-wise, grapefruit can be enjoyed in a variety of ways. It can be eaten on its own, juiced, added to salads, or used in smoothies. Its tartness also pairs well with both sweet and savory dishes.
 In summary, grapefruit is a nutrient-rich citrus fruit that provides numerous health benefits, including boosting the immune system, supporting heart health, and aiding in weight management. Its refreshing taste and versatility make it a great addition to any diet.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 42 kcal – A low-calorie fruit, making it ideal for weight management.
-- Fats: 0.1 g – Very low in fat, promoting heart health.
-- Saturated fatty acids: 0 g – Contains no saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, supporting cardiovascular health.
-- Sodium: 0 mg – Sodium-free, beneficial for maintaining healthy blood pressure.
-- Potassium: 135 mg – Important for maintaining fluid balance and muscle function.
-- Carbohydrates: 11 g – Provides a moderate source of energy, with natural sugars.
-- Fiber: 1.6 g – A good source of dietary fiber, aiding digestion.
-- Sugar: 7 g – Contains natural sugars that provide sweetness and energy.
-- Proteins: 0.8 g – Contributes to muscle repair and growth.
-- Vitamin C: 31.2 mg – High in vitamin C, boosting immune function and skin health.
-- Calcium: 22 mg – Important for bone health.
-- Iron: 0.1 mg – Necessary for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0 mg – Contains trace amounts that support metabolism.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 9 mg – Supports muscle function and energy production.`,
-cultivationHeading: `Grapefruit is a citrus fruit known for its tangy flavor and juicy texture. It is often consumed fresh, juiced, or used in various culinary dishes. Grapefruit thrives in warm climates and can be grown commercially or in home gardens. Here’s an overview of grapefruit cultivation`,
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    nutritionText: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Grapefruit thrives in subtropical to tropical climates, requiring warm temperatures. Ideal growing temperatures range from 20°C to 30°C (68°F to 86°F), with sensitivity to frost.",
+        element: "Energy value:",
+        quantity: 42,
+        measurementUnits: "kcal",
+        description:
+          "– Low in calories, making it a refreshing and healthy fruit choice.",
       },
       {
-        id: 212,
-        topic: "Sunlight",
-        text: "Grapefruit trees require full sun for optimal growth and fruit production, needing at least 6 to 8 hours of direct sunlight daily.",
+        element: "Fats:",
+        quantity: 0.1,
+        measurementUnits: "g",
+        description: "– Very low in fat, contributing to its healthy profile.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.0,
+        measurementUnits: "g",
+        description:
+          "– Contains negligible amounts of saturated fats, supporting heart health.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description:
+          "– Cholesterol-free, beneficial for cardiovascular health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, aiding in blood pressure management.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 135,
+        measurementUnits: "mg",
+        description:
+          "– Good source of potassium, essential for fluid balance and muscle function.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 10.7,
+        measurementUnits: "g",
+        description: "– Provides carbohydrates, primarily from natural sugars.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 1.4,
+        measurementUnits: "g",
+        description: "– Contains dietary fiber, promoting healthy digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 7.0,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars, contributing to its sweet flavor.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 0.8,
+        measurementUnits: "g",
+        description:
+          "– Provides a small amount of protein, beneficial for muscle repair.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 31.2,
+        measurementUnits: "mg",
+        description:
+          "– Excellent source of vitamin C, supporting the immune system.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 22,
+        measurementUnits: "mg",
+        description:
+          "– Contains a small amount of calcium, contributing to bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of iron, essential for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Does not contain vitamin D, which is typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description: "– Lacks vitamin B12, which is found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 8,
+        measurementUnits: "mg",
+        description:
+          "– Contains magnesium, important for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Contains vitamin E, an antioxidant that protects cells.",
       },
     ],
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
+    cultivationHeading: `Grapefruit is a citrus fruit known for its tangy flavor and juicy texture. It is often consumed fresh, juiced, or used in various culinary dishes. Grapefruit thrives in warm climates and can be grown commercially or in home gardens. Here’s an overview of grapefruit cultivation`,
+    cultivation: [
       {
-        id: 221,
-        topic: "pH",
-        text: "Grapefruit prefers well-drained, sandy or loamy soils with a pH level between 5.5 and 6.5 for optimal growth.",
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Grapefruit thrives in subtropical to tropical climates, requiring warm temperatures. Ideal growing temperatures range from 20°C to 30°C (68°F to 86°F), with sensitivity to frost.",
+          },
+          {
+            id: 212,
+            topic: "Sunlight",
+            text: "Grapefruit trees require full sun for optimal growth and fruit production, needing at least 6 to 8 hours of direct sunlight daily.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Sandy soils are ideal as they provide good drainage and are less prone to waterlogging, which grapefruit trees cannot tolerate.",
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Grapefruit prefers well-drained, sandy or loamy soils with a pH level between 5.5 and 6.5 for optimal growth.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Sandy soils are ideal as they provide good drainage and are less prone to waterlogging, which grapefruit trees cannot tolerate.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Prior to planting, incorporate organic matter like compost to improve soil structure and fertility.",
+          },
+        ],
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Prior to planting, incorporate organic matter like compost to improve soil structure and fertility.",
-      },
-    ],
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: `Popular grapefruit varieties include:
+        id: 23,
+        topic: "Varieties",
+        text: `Popular grapefruit varieties include:
                             - Ruby Red (known for its sweet flavor and vibrant red color)
                             - Pink (offering a balance of sweetness and tartness)
                             - White (crisper with a more acidic flavor).`,
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant grapefruit trees is in the spring after the last frost, allowing the trees to establish before the hot summer.",
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Grapefruit trees should be spaced about 5 to 6 meters (16 to 20 feet) apart to allow for adequate air circulation and sunlight.",
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant grapefruit trees is in the spring after the last frost, allowing the trees to establish before the hot summer.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Grapefruit trees should be spaced about 5 to 6 meters (16 to 20 feet) apart to allow for adequate air circulation and sunlight.",
+          },
+          {
+            id: 243,
+            topic: "Pollination",
+            text: "Grapefruit trees are typically self-pollinating, but planting multiple varieties can enhance fruit set and quality.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Pollination",
-        text: "Grapefruit trees are typically self-pollinating, but planting multiple varieties can enhance fruit set and quality.",
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Newly planted grapefruit trees require regular watering to help establish their roots, keeping the soil consistently moist but not soggy.",
+          },
+          {
+            id: 252,
+            topic: "Mature Trees",
+            text: "Once established, grapefruit trees need about 600 to 800 mm (24 to 31 inches) of water annually. Deep watering is preferred to encourage deep root growth.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Excess moisture can lead to root rot; therefore, ensure good drainage in the planting area.",
+          },
+        ],
+      },
+      {
+        id: 26,
+        topic: "Pruning",
+        children: [
+          {
+            id: 261,
+            topic: "Shape",
+            text: "Pruning helps maintain a desirable shape and encourages air circulation within the canopy, reducing disease risk.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Pruning should be done in late winter or early spring before new growth begins to remove any dead, diseased, or overcrowded branches.",
+          },
+        ],
+      },
+      {
+        id: 27,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 271,
+            topic: "Nutrients",
+            text: "Grapefruit trees benefit from regular fertilization with a balanced fertilizer (e.g., 8-8-8 NPK) to support healthy growth and fruiting.",
+          },
+          {
+            id: 272,
+            topic: "Timing",
+            text: "Fertilizer should be applied in early spring and again in late summer to ensure adequate nutrient availability during the growing season.",
+          },
+        ],
+      },
+      {
+        id: 28,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 281,
+            topic: "Pests",
+            text: "Common pests include aphids, scale insects, and citrus leaf miners. Implementing integrated pest management (IPM) strategies can help control these pests effectively.",
+          },
+          {
+            id: 282,
+            topic: "Diseases",
+            text: "Grapefruit trees can be affected by diseases such as citrus greening, root rot, and sooty mold. Proper care and monitoring can help prevent these issues.",
+          },
+        ],
+      },
+      {
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Time",
+            text: "Grapefruit is typically ready for harvest in winter to early spring, depending on the variety and climate.",
+          },
+          {
+            id: 292,
+            topic: "Signs of Ripeness",
+            text: "Ripe grapefruit is firm to the touch, has a bright color, and emits a pleasant citrus aroma. They should be harvested when fully ripe for the best flavor.",
+          },
+          {
+            id: 293,
+            topic: "Handling",
+            text: "Grapefruit should be handled with care to avoid bruising, and should be stored in a cool, dry place after harvest.",
+          },
+        ],
+      },
+      {
+        id: 30.2,
+        topic: "Storage",
+        text: "Grapefruit can be stored at room temperature for a week or in the refrigerator for up to 2 weeks. Proper storage helps maintain freshness.",
+        children: [
+          {
+            id: 30.21,
+            topic: `Preservation`,
+            text: "Grapefruit can also be juiced or used in cooking to extend its use beyond fresh consumption.",
+          },
+        ],
+      },
+      {
+        id: 31.2,
+        topic: "Thinning",
+        text: "Thinning excess fruit during the growing season can improve fruit size and quality by reducing competition for nutrients.",
       },
     ],
-  },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Newly planted grapefruit trees require regular watering to help establish their roots, keeping the soil consistently moist but not soggy.",
-      },
-      {
-        id: 252,
-        topic: "Mature Trees",
-        text: "Once established, grapefruit trees need about 600 to 800 mm (24 to 31 inches) of water annually. Deep watering is preferred to encourage deep root growth.",
-      },
-      {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Excess moisture can lead to root rot; therefore, ensure good drainage in the planting area.",
-      },
-    ],
-  },
-  {
-    id: 26,
-    topic: "Pruning",
-    children: [
-      {
-        id: 261,
-        topic: "Shape",
-        text: "Pruning helps maintain a desirable shape and encourages air circulation within the canopy, reducing disease risk.",
-      },
-      {
-        id: 262,
-        topic: "Timing",
-        text: "Pruning should be done in late winter or early spring before new growth begins to remove any dead, diseased, or overcrowded branches.",
-      },
-    ],
-  },
-  {
-    id: 27,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 271,
-        topic: "Nutrients",
-        text: "Grapefruit trees benefit from regular fertilization with a balanced fertilizer (e.g., 8-8-8 NPK) to support healthy growth and fruiting.",
-      },
-      {
-        id: 272,
-        topic: "Timing",
-        text: "Fertilizer should be applied in early spring and again in late summer to ensure adequate nutrient availability during the growing season.",
-      },
-    ],
-  },
-  {
-    id: 28,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 281,
-        topic: "Pests",
-        text: "Common pests include aphids, scale insects, and citrus leaf miners. Implementing integrated pest management (IPM) strategies can help control these pests effectively.",
-      },
-      {
-        id: 282,
-        topic: "Diseases",
-        text: "Grapefruit trees can be affected by diseases such as citrus greening, root rot, and sooty mold. Proper care and monitoring can help prevent these issues.",
-      },
-    ],
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Time",
-        text: "Grapefruit is typically ready for harvest in winter to early spring, depending on the variety and climate.",
-      },
-      {
-        id: 292,
-        topic: "Signs of Ripeness",
-        text: "Ripe grapefruit is firm to the touch, has a bright color, and emits a pleasant citrus aroma. They should be harvested when fully ripe for the best flavor.",
-      },
-      {
-        id: 293,
-        topic: "Handling",
-        text: "Grapefruit should be handled with care to avoid bruising, and should be stored in a cool, dry place after harvest.",
-      },
-    ],
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Grapefruit can be stored at room temperature for a week or in the refrigerator for up to 2 weeks. Proper storage helps maintain freshness.",
-    children: [
-      {
-        id: 30.21,
-        topic: `Preservation`,
-        text: "Grapefruit can also be juiced or used in cooking to extend its use beyond fresh consumption.",
-      },
-    ],
-  },
-  {
-    id: 31.2,
-    topic: "Thinning",
-    text: "Thinning excess fruit during the growing season can improve fruit size and quality by reducing competition for nutrients.",
-  },
-]
   },
   {
     id: 12,
@@ -2242,202 +3444,308 @@ cultivation: [
                 Kiwi is a low-calorie fruit that can be easily incorporated into any diet. It can be eaten on its own, added to fruit salads, blended into smoothies, or used as a topping for yogurt and cereal. The tangy flavor of kiwi also complements both sweet and savory dishes.
                 In summary, kiwi is a nutrient-dense fruit that offers a range of health benefits, from boosting immunity to supporting heart and digestive health. Its unique taste and versatility make it a delicious addition to a healthy diet.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 61 kcal – A moderate-calorie fruit, providing a boost of energy.
-- Fats: 0.5 g – Very low in fat, contributing to heart health.
-- Saturated fatty acids: 0 g – Contains no saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, supporting cardiovascular health.
-- Sodium: 3 mg – Very low in sodium, aiding in healthy blood pressure levels.
-- Potassium: 312 mg – High in potassium, which helps in maintaining fluid balance and muscle function.
-- Carbohydrates: 15 g – Provides a source of natural sugars and energy.
-- Fiber: 3 g – Rich in dietary fiber, supporting digestive health.
-- Sugar: 9 g – Contains natural sugars, offering sweetness and energy.
-- Proteins: 1.1 g – A small amount of protein, supporting muscle repair.
-- Vitamin C: 92.7 mg – Extremely high in vitamin C, boosting immune function and skin health.
-- Calcium: 34 mg – Supports bone health.
-- Iron: 0.3 mg – Important for red blood cell formation.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.1 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 17 mg – Supports muscle function and energy production.`,
-cultivationHeading: `Kiwi, also known as kiwifruit, is a small, nutrient-rich fruit with a unique flavor and fuzzy skin. It is primarily grown in temperate regions and requires specific conditions for successful cultivation. Here’s an overview of kiwi cultivation`,
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    nutritionText: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Kiwi thrives in temperate climates and requires a balance of warm summers and cool winters. Ideal growing temperatures range from 15°C to 25°C (59°F to 77°F) during the growing season.",
+        element: "Energy value:",
+        quantity: 61,
+        measurementUnits: "kcal",
+        description: "– Low in calories, making it a nutritious snack option.",
       },
       {
-        id: 212,
-        topic: "Frost Sensitivity",
-        text: "Kiwi is sensitive to frost, especially during flowering and fruit development. A frost-free period of about 200 days is ideal for successful cultivation.",
+        element: "Fats:",
+        quantity: 0.5,
+        measurementUnits: "g",
+        description: "– Very low in fat, contributing to its health benefits.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.1,
+        measurementUnits: "g",
+        description: "– Contains minimal saturated fats.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Cholesterol-free, promoting heart health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 3,
+        measurementUnits: "mg",
+        description:
+          "– Extremely low in sodium, beneficial for blood pressure management.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 312,
+        measurementUnits: "mg",
+        description:
+          "– A good source of potassium, essential for heart and muscle function.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 14.7,
+        measurementUnits: "g",
+        description: "– Rich in carbohydrates, primarily from natural sugars.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 3,
+        measurementUnits: "g",
+        description: "– High in dietary fiber, promoting digestive health.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 8.99,
+        measurementUnits: "g",
+        description: "– Contains natural sugars that add to its sweetness.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 1.1,
+        measurementUnits: "g",
+        description: "– Provides a small amount of protein.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 92.7,
+        measurementUnits: "mg",
+        description:
+          "– An excellent source of vitamin C, supporting immune function and skin health.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 18,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of calcium, contributing to bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.3,
+        measurementUnits: "mg",
+        description:
+          "– Provides trace amounts of iron, essential for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– No vitamin D present, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description:
+          "– Lacks vitamin B12, which is primarily found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 17,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of magnesium, essential for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Provides trace amounts of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Contains small amounts of vitamin E, an antioxidant.",
       },
     ],
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
+    cultivationHeading: `Kiwi, also known as kiwifruit, is a small, nutrient-rich fruit with a unique flavor and fuzzy skin. It is primarily grown in temperate regions and requires specific conditions for successful cultivation. Here’s an overview of kiwi cultivation`,
+    cultivation: [
       {
-        id: 221,
-        topic: "pH",
-        text: "Kiwi prefers well-drained, fertile soil with a pH level between 6.0 and 7.0.",
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Kiwi thrives in temperate climates and requires a balance of warm summers and cool winters. Ideal growing temperatures range from 15°C to 25°C (59°F to 77°F) during the growing season.",
+          },
+          {
+            id: 212,
+            topic: "Frost Sensitivity",
+            text: "Kiwi is sensitive to frost, especially during flowering and fruit development. A frost-free period of about 200 days is ideal for successful cultivation.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Loamy or sandy soils are ideal, as they provide good drainage and aeration. Kiwi plants do not tolerate waterlogged conditions.",
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Kiwi prefers well-drained, fertile soil with a pH level between 6.0 and 7.0.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Loamy or sandy soils are ideal, as they provide good drainage and aeration. Kiwi plants do not tolerate waterlogged conditions.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Incorporating organic matter, such as compost or well-rotted manure, into the soil prior to planting enhances fertility and soil structure.",
+          },
+        ],
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Incorporating organic matter, such as compost or well-rotted manure, into the soil prior to planting enhances fertility and soil structure.",
-      },
-    ],
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: `Popular kiwi varieties include:
+        id: 23,
+        topic: "Varieties",
+        text: `Popular kiwi varieties include:
                             - Hayward (the most commonly grown, known for its sweet flavor and green flesh)
                             - Arctic Kiwi (a hardier variety that can tolerate colder climates)
                             - Hardy Kiwi (produces smaller, smooth-skinned fruit with a unique taste).`,
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant kiwi is in the spring after the last frost or in the fall before the first frost, allowing the roots to establish before the growing season.",
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Kiwi vines should be spaced about 3 to 4 meters (10 to 13 feet) apart to allow for adequate growth and airflow.",
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant kiwi is in the spring after the last frost or in the fall before the first frost, allowing the roots to establish before the growing season.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Kiwi vines should be spaced about 3 to 4 meters (10 to 13 feet) apart to allow for adequate growth and airflow.",
+          },
+          {
+            id: 243,
+            topic: "Pollination",
+            text: "Most kiwi varieties are dioecious, meaning male and female flowers are on separate plants. Planting both male and female varieties is necessary for fruit set.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Pollination",
-        text: "Most kiwi varieties are dioecious, meaning male and female flowers are on separate plants. Planting both male and female varieties is necessary for fruit set.",
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Newly planted kiwi vines require consistent watering to establish roots, keeping the soil consistently moist but not waterlogged.",
+          },
+          {
+            id: 252,
+            topic: "Mature Vines",
+            text: "Once established, kiwi vines require about 500 to 800 mm (20 to 31 inches) of water annually. Deep watering is preferred to promote deep root growth.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Kiwi vines are susceptible to root rot, so avoid overwatering and ensure proper drainage.",
+          },
+        ],
+      },
+      {
+        id: 26,
+        topic: "Pruning",
+        children: [
+          {
+            id: 261,
+            topic: "Shape",
+            text: "Pruning helps maintain the desired shape and size of kiwi vines while encouraging air circulation and light penetration.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Pruning should be done in late winter or early spring before new growth begins, removing any dead or damaged wood.",
+          },
+        ],
+      },
+      {
+        id: 27,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 271,
+            topic: "Nutrients",
+            text: "Kiwi vines benefit from regular fertilization with a balanced fertilizer (e.g., 10-10-10 NPK) to support healthy growth and fruiting.",
+          },
+          {
+            id: 272,
+            topic: "Timing",
+            text: "Fertilizer should be applied in early spring before new growth starts and again in mid-summer to promote fruit development.",
+          },
+        ],
+      },
+      {
+        id: 28,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 281,
+            topic: "Pests",
+            text: "Common pests affecting kiwi include aphids, spider mites, and scale insects. Implementing integrated pest management (IPM) strategies can help control these pests effectively.",
+          },
+          {
+            id: 282,
+            topic: "Diseases",
+            text: "Kiwi vines can be affected by diseases such as root rot, bacterial canker, and powdery mildew. Preventive measures include proper irrigation practices and monitoring for symptoms.",
+          },
+        ],
+      },
+      {
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Time",
+            text: "Kiwi is typically ready for harvest in late fall to early winter, depending on the variety and climate.",
+          },
+          {
+            id: 292,
+            topic: "Signs of Ripeness",
+            text: "Ripe kiwi is slightly soft to the touch and has a fragrant aroma. It should be harvested when fully ripe for the best flavor.",
+          },
+          {
+            id: 293,
+            topic: "Handling",
+            text: "Kiwi should be handled with care to avoid bruising, and should be stored in a cool, dry place after harvest.",
+          },
+        ],
+      },
+      {
+        id: 30.2,
+        topic: "Storage",
+        text: "Kiwi can be stored at room temperature for a few days to ripen further or in the refrigerator for up to 2 to 3 weeks. Proper storage helps maintain freshness.",
+        children: [
+          {
+            id: 30.21,
+            topic: "Preservation",
+            text: "Kiwi can also be used in smoothies, desserts, or salads to extend its use beyond fresh consumption.",
+          },
+        ],
+      },
+      {
+        id: 31.2,
+        topic: "Thinning",
+        text: "Thinning excess fruit during the growing season can improve fruit size and quality by reducing competition for nutrients.",
       },
     ],
   },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Newly planted kiwi vines require consistent watering to establish roots, keeping the soil consistently moist but not waterlogged.",
-      },
-      {
-        id: 252,
-        topic: "Mature Vines",
-        text: "Once established, kiwi vines require about 500 to 800 mm (20 to 31 inches) of water annually. Deep watering is preferred to promote deep root growth.",
-      },
-      {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Kiwi vines are susceptible to root rot, so avoid overwatering and ensure proper drainage.",
-      },
-    ],
-  },
-  {
-    id: 26,
-    topic: "Pruning",
-    children: [
-      {
-        id: 261,
-        topic: "Shape",
-        text: "Pruning helps maintain the desired shape and size of kiwi vines while encouraging air circulation and light penetration.",
-      },
-      {
-        id: 262,
-        topic: "Timing",
-        text: "Pruning should be done in late winter or early spring before new growth begins, removing any dead or damaged wood.",
-      },
-    ],
-  },
-  {
-    id: 27,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 271,
-        topic: "Nutrients",
-        text: "Kiwi vines benefit from regular fertilization with a balanced fertilizer (e.g., 10-10-10 NPK) to support healthy growth and fruiting.",
-      },
-      {
-        id: 272,
-        topic: "Timing",
-        text: "Fertilizer should be applied in early spring before new growth starts and again in mid-summer to promote fruit development.",
-      },
-    ],
-  },
-  {
-    id: 28,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 281,
-        topic: "Pests",
-        text: "Common pests affecting kiwi include aphids, spider mites, and scale insects. Implementing integrated pest management (IPM) strategies can help control these pests effectively.",
-      },
-      {
-        id: 282,
-        topic: "Diseases",
-        text: "Kiwi vines can be affected by diseases such as root rot, bacterial canker, and powdery mildew. Preventive measures include proper irrigation practices and monitoring for symptoms.",
-      },
-    ],
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Time",
-        text: "Kiwi is typically ready for harvest in late fall to early winter, depending on the variety and climate.",
-      },
-      {
-        id: 292,
-        topic: "Signs of Ripeness",
-        text: "Ripe kiwi is slightly soft to the touch and has a fragrant aroma. It should be harvested when fully ripe for the best flavor.",
-      },
-      {
-        id: 293,
-        topic: "Handling",
-        text: "Kiwi should be handled with care to avoid bruising, and should be stored in a cool, dry place after harvest.",
-      },
-    ],
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Kiwi can be stored at room temperature for a few days to ripen further or in the refrigerator for up to 2 to 3 weeks. Proper storage helps maintain freshness.",
-    children: [
-      {
-        id: 30.21,
-        topic: 'Preservation',
-        text: "Kiwi can also be used in smoothies, desserts, or salads to extend its use beyond fresh consumption.",
-      },
-    ],
-  },
-  {
-    id: 31.2,
-    topic: "Thinning",
-    text: "Thinning excess fruit during the growing season can improve fruit size and quality by reducing competition for nutrients.",
-  },
-]
-},
   {
     id: 13,
     name: "Lemon",
@@ -2449,201 +3757,306 @@ cultivation: [
                   Incorporating lemons into your diet is easy. Fresh lemon juice can enhance the flavor of water, salad dressings, marinades, and baked goods. Lemon zest adds a fragrant note to various dishes, and lemons can also be used in beverages like lemonade or cocktails.
                   In summary, lemons are a versatile fruit that offers numerous health benefits, including boosting immunity and supporting heart health. Their bright flavor and culinary versatility make them an essential ingredient in many dishes, enhancing both taste and nutrition.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 29 kcal – A low-calorie fruit, making it ideal for weight management.
-- Fats: 0.3 g – Very low in fat, promoting heart health.
-- Saturated fatty acids: 0 g – Contains no saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, supporting cardiovascular health.
-- Sodium: 2 mg – Very low in sodium, beneficial for maintaining healthy blood pressure.
-- Potassium: 138 mg – Important for maintaining fluid balance and muscle function.
-- Carbohydrates: 9.3 g – Provides a moderate source of energy, primarily from natural sugars.
-- Fiber: 2.8 g – A good source of dietary fiber, aiding digestion.
-- Sugar: 2.5 g – Contains natural sugars that provide sweetness and energy.
-- Proteins: 1.1 g – Contributes to muscle repair and growth.
-- Vitamin C: 53 mg – High in vitamin C, boosting immune function and skin health.
-- Calcium: 26 mg – Important for bone health.
-- Iron: 0.6 mg – Necessary for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.1 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 11 mg – Supports muscle function and energy production.`,
-cultivationHeading: `Lemons are highly valued for their tangy flavor and are widely used in culinary applications, beverages, and as a natural preservative. They thrive in warm climates and can be cultivated in both commercial orchards and home gardens. Here’s an overview of lemon cultivation`,
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    nutritionText: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Lemon trees thrive in warm, subtropical to tropical climates. The ideal temperature range for optimal growth is between 20°C and 30°C (68°F to 86°F).",
+        element: "Energy value:",
+        quantity: 29,
+        measurementUnits: "kcal",
+        description:
+          "– Low in calories, making it a refreshing addition to beverages and dishes.",
       },
       {
-        id: 212,
-        topic: "Frost Sensitivity",
-        text: "Lemon trees are sensitive to frost and can suffer damage when temperatures drop below -2°C (28°F). Protecting trees during cold snaps is essential in cooler climates.",
+        element: "Fats:",
+        quantity: 0.3,
+        measurementUnits: "g",
+        description: "– Very low in fat, contributing to its healthy profile.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.0,
+        measurementUnits: "g",
+        description: "– Contains negligible amounts of saturated fats.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Cholesterol-free, beneficial for heart health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, helpful for blood pressure management.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 138,
+        measurementUnits: "mg",
+        description:
+          "– Good source of potassium, essential for fluid balance and muscle function.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 9.3,
+        measurementUnits: "g",
+        description: "– Provides carbohydrates, primarily from natural sugars.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 2.8,
+        measurementUnits: "g",
+        description: "– Contains dietary fiber, promoting healthy digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 2.5,
+        measurementUnits: "g",
+        description: "– Contains small amounts of natural sugars.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 1.1,
+        measurementUnits: "g",
+        description: "– Provides a small amount of protein.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 53,
+        measurementUnits: "mg",
+        description:
+          "– Excellent source of vitamin C, supporting the immune system.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 26,
+        measurementUnits: "mg",
+        description: "– Contains a small amount of calcium for bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.6,
+        measurementUnits: "mg",
+        description:
+          "– Provides trace amounts of iron, important for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Does not contain vitamin D, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description: "– Lacks vitamin B12, primarily found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 8,
+        measurementUnits: "mg",
+        description:
+          "– Contains magnesium, important for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description: "– Contains small amounts of vitamin E, an antioxidant.",
       },
     ],
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
+    cultivationHeading: `Lemons are highly valued for their tangy flavor and are widely used in culinary applications, beverages, and as a natural preservative. They thrive in warm climates and can be cultivated in both commercial orchards and home gardens. Here’s an overview of lemon cultivation`,
+    cultivation: [
       {
-        id: 221,
-        topic: "pH",
-        text: "Lemon trees prefer well-drained, sandy or loamy soil with a pH level between 5.5 and 6.5.",
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Lemon trees thrive in warm, subtropical to tropical climates. The ideal temperature range for optimal growth is between 20°C and 30°C (68°F to 86°F).",
+          },
+          {
+            id: 212,
+            topic: "Frost Sensitivity",
+            text: "Lemon trees are sensitive to frost and can suffer damage when temperatures drop below -2°C (28°F). Protecting trees during cold snaps is essential in cooler climates.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Soils with good drainage are essential, as lemon trees do not tolerate waterlogged conditions. Raised beds or mounds can help improve drainage.",
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Lemon trees prefer well-drained, sandy or loamy soil with a pH level between 5.5 and 6.5.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Soils with good drainage are essential, as lemon trees do not tolerate waterlogged conditions. Raised beds or mounds can help improve drainage.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Incorporating organic matter, such as compost, into the soil before planting enhances fertility and drainage.",
+          },
+        ],
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Incorporating organic matter, such as compost, into the soil before planting enhances fertility and drainage.",
-      },
-    ],
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: `Popular lemon varieties include:
+        id: 23,
+        topic: "Varieties",
+        text: `Popular lemon varieties include:
                             - Eureka (common for commercial production, known for its juicy fruit).
                             - Lisbon (similar to Eureka but with fewer thorns).
                             - Meyer (a hybrid with a sweeter flavor and thinner skin).`,
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant lemon trees is in spring or early summer when the risk of frost has passed.",
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Lemon trees should be spaced about 4 to 6 meters (13 to 20 feet) apart to allow for adequate growth and airflow.",
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant lemon trees is in spring or early summer when the risk of frost has passed.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Lemon trees should be spaced about 4 to 6 meters (13 to 20 feet) apart to allow for adequate growth and airflow.",
+          },
+          {
+            id: 243,
+            topic: "Pollination",
+            text: "Most lemon varieties are self-pollinating, but planting multiple trees can increase fruit yield.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Pollination",
-        text: "Most lemon varieties are self-pollinating, but planting multiple trees can increase fruit yield.",
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Newly planted lemon trees require regular watering to establish roots, keeping the soil consistently moist but not soggy.",
+          },
+          {
+            id: 252,
+            topic: "Mature Trees",
+            text: "Once established, lemon trees need about 50 to 100 mm (2 to 4 inches) of water per month during the growing season. Deep watering is preferred to encourage deep root growth.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Overwatering can lead to root rot, so ensure good drainage and adjust watering frequency based on rainfall.",
+          },
+        ],
+      },
+      {
+        id: 26,
+        topic: "Pruning",
+        children: [
+          {
+            id: 261,
+            topic: "Shape",
+            text: "Pruning helps maintain a balanced shape, removing any dead or diseased branches and encouraging air circulation.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Prune lemon trees in late winter or early spring before new growth begins to promote healthy development.",
+          },
+        ],
+      },
+      {
+        id: 27,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 271,
+            topic: "Nutrients",
+            text: "Lemon trees benefit from regular feeding with a balanced fertilizer (e.g., 10-10-10 NPK) or one specifically formulated for citrus trees.",
+          },
+          {
+            id: 272,
+            topic: "Timing",
+            text: "Fertilizer should be applied in early spring, with a second application in late summer to support fruit development.",
+          },
+        ],
+      },
+      {
+        id: 28,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 281,
+            topic: "Pests",
+            text: "Common pests include aphids, spider mites, and citrus leaf miners. Implementing integrated pest management (IPM) practices can help control these pests effectively.",
+          },
+          {
+            id: 282,
+            topic: "Diseases",
+            text: "Lemon trees are susceptible to diseases such as root rot, lemon scab, and greening disease. Good cultural practices and monitoring for symptoms can help prevent these issues.",
+          },
+        ],
+      },
+      {
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Time",
+            text: "Lemons typically reach maturity 6 to 9 months after flowering, depending on the variety and growing conditions.",
+          },
+          {
+            id: 292,
+            topic: "Signs of Ripeness",
+            text: "Ripe lemons are bright yellow, firm, and slightly soft to the touch. They should be harvested when fully ripe for the best flavor.",
+          },
+          {
+            id: 293,
+            topic: "Handling",
+            text: "Lemons should be handled carefully to avoid bruising and stored in a cool, dry place after harvest.",
+          },
+        ],
+      },
+      {
+        id: 30.2,
+        topic: "Storage",
+        text: "Lemons can be stored at room temperature for about a week or in the refrigerator for 2 to 3 weeks. Proper storage helps maintain freshness.",
+        children: [
+          {
+            id: 30.21,
+            topic: "Preservation",
+            text: "Lemons can also be juiced, zested, or used in various culinary applications to extend their use beyond fresh consumption.",
+          },
+        ],
+      },
+      {
+        id: 31.2,
+        topic: "Thinning",
+        text: "Thinning excess fruit during the growing season can improve fruit size and quality by reducing competition for nutrients.",
       },
     ],
-  },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Newly planted lemon trees require regular watering to establish roots, keeping the soil consistently moist but not soggy.",
-      },
-      {
-        id: 252,
-        topic: "Mature Trees",
-        text: "Once established, lemon trees need about 50 to 100 mm (2 to 4 inches) of water per month during the growing season. Deep watering is preferred to encourage deep root growth.",
-      },
-      {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Overwatering can lead to root rot, so ensure good drainage and adjust watering frequency based on rainfall.",
-      },
-    ],
-  },
-  {
-    id: 26,
-    topic: "Pruning",
-    children: [
-      {
-        id: 261,
-        topic: "Shape",
-        text: "Pruning helps maintain a balanced shape, removing any dead or diseased branches and encouraging air circulation.",
-      },
-      {
-        id: 262,
-        topic: "Timing",
-        text: "Prune lemon trees in late winter or early spring before new growth begins to promote healthy development.",
-      },
-    ],
-  },
-  {
-    id: 27,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 271,
-        topic: "Nutrients",
-        text: "Lemon trees benefit from regular feeding with a balanced fertilizer (e.g., 10-10-10 NPK) or one specifically formulated for citrus trees.",
-      },
-      {
-        id: 272,
-        topic: "Timing",
-        text: "Fertilizer should be applied in early spring, with a second application in late summer to support fruit development.",
-      },
-    ],
-  },
-  {
-    id: 28,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 281,
-        topic: "Pests",
-        text: "Common pests include aphids, spider mites, and citrus leaf miners. Implementing integrated pest management (IPM) practices can help control these pests effectively.",
-      },
-      {
-        id: 282,
-        topic: "Diseases",
-        text: "Lemon trees are susceptible to diseases such as root rot, lemon scab, and greening disease. Good cultural practices and monitoring for symptoms can help prevent these issues.",
-      },
-    ],
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Time",
-        text: "Lemons typically reach maturity 6 to 9 months after flowering, depending on the variety and growing conditions.",
-      },
-      {
-        id: 292,
-        topic: "Signs of Ripeness",
-        text: "Ripe lemons are bright yellow, firm, and slightly soft to the touch. They should be harvested when fully ripe for the best flavor.",
-      },
-      {
-        id: 293,
-        topic: "Handling",
-        text: "Lemons should be handled carefully to avoid bruising and stored in a cool, dry place after harvest.",
-      },
-    ],
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Lemons can be stored at room temperature for about a week or in the refrigerator for 2 to 3 weeks. Proper storage helps maintain freshness.",
-    children: [
-      {
-        id: 30.21,
-        topic: "Preservation",
-        text: "Lemons can also be juiced, zested, or used in various culinary applications to extend their use beyond fresh consumption.",
-      },
-    ],
-  },
-  {
-    id: 31.2,
-    topic: "Thinning",
-    text: "Thinning excess fruit during the growing season can improve fruit size and quality by reducing competition for nutrients.",
-  },
-]
   },
   {
     id: 14,
@@ -2656,201 +4069,309 @@ cultivation: [
                   Culinary-wise, mangoes are incredibly versatile. They can be enjoyed fresh, blended into smoothies, added to salads, or used in desserts. Their sweet flavor also pairs well with spicy dishes, making them a popular ingredient in salsas and marinades.
                   In summary, mangoes are a nutrient-rich fruit that offers a delightful taste and numerous health benefits, making them a favorite among fruit lovers everywhere.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 60 kcal – A low-calorie fruit, providing a sweet source of energy.
-- Fats: 0.4 g – Very low in fat, supporting heart health.
-- Saturated fatty acids: 0.1 g – Contains minimal saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, contributing to cardiovascular health.
-- Sodium: 1 mg – Very low in sodium, beneficial for maintaining healthy blood pressure.
-- Potassium: 168 mg – Important for fluid balance and muscle function.
-- Carbohydrates: 15 g – Provides a good source of natural sugars and energy.
-- Fiber: 1.6 g – Contains dietary fiber, aiding digestion.
-- Sugar: 13.7 g – Contains natural sugars, offering sweetness and energy.
-- Proteins: 0.8 g – Contributes to muscle repair and growth.
-- Vitamin C: 36.4 mg – High in vitamin C, boosting immune function and skin health.
-- Calcium: 18 mg – Supports bone health.
-- Iron: 0.2 mg – Necessary for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.2 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 10 mg – Supports muscle function and energy production.`,
-cultivationHeading: `Mangoes are one of the most popular and widely consumed fruits in the world, known for their sweet, juicy flesh and vibrant flavor. They are primarily grown in tropical and subtropical regions. Here’s an overview of mango cultivation`,
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    nutritionText: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Mango trees thrive in warm tropical and subtropical climates. The ideal temperature for mango growth is between 24°C and 30°C (75°F to 86°F).",
+        element: "Energy value:",
+        quantity: 60,
+        measurementUnits: "kcal",
+        description:
+          "– Low in calories, making it a delicious and nutritious fruit option.",
       },
       {
-        id: 212,
-        topic: "Frost Sensitivity",
-        text: "Mango trees are sensitive to frost and can suffer damage when temperatures drop below 0°C (32°F). Protecting young trees from frost is essential in cooler regions.",
+        element: "Fats:",
+        quantity: 0.4,
+        measurementUnits: "g",
+        description: "– Very low in fat, contributing to its health benefits.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.1,
+        measurementUnits: "g",
+        description: "– Contains minimal saturated fats.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Cholesterol-free, promoting heart health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Extremely low in sodium, beneficial for blood pressure management.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 168,
+        measurementUnits: "mg",
+        description:
+          "– A good source of potassium, essential for heart and muscle function.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 15,
+        measurementUnits: "g",
+        description: "– Rich in carbohydrates, primarily from natural sugars.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 1.6,
+        measurementUnits: "g",
+        description: "– Contains dietary fiber, which aids in digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 13.7,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars that contribute to its sweetness.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 0.8,
+        measurementUnits: "g",
+        description: "– Provides a small amount of protein.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 36.4,
+        measurementUnits: "mg",
+        description:
+          "– A good source of vitamin C, supporting immune function and skin health.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 18,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of calcium, contributing to bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Provides trace amounts of iron, essential for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– No vitamin D present, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description:
+          "– Lacks vitamin B12, which is primarily found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 10,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of magnesium, essential for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Provides trace amounts of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description: "– Contains small amounts of vitamin E, an antioxidant.",
       },
     ],
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
+    cultivationHeading: `Mangoes are one of the most popular and widely consumed fruits in the world, known for their sweet, juicy flesh and vibrant flavor. They are primarily grown in tropical and subtropical regions. Here’s an overview of mango cultivation`,
+    cultivation: [
       {
-        id: 221,
-        topic: "pH",
-        text: "Mango trees prefer well-drained, sandy or loamy soil with a pH level between 5.5 and 7.5.",
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Mango trees thrive in warm tropical and subtropical climates. The ideal temperature for mango growth is between 24°C and 30°C (75°F to 86°F).",
+          },
+          {
+            id: 212,
+            topic: "Frost Sensitivity",
+            text: "Mango trees are sensitive to frost and can suffer damage when temperatures drop below 0°C (32°F). Protecting young trees from frost is essential in cooler regions.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Good drainage is crucial for mango trees, as they do not tolerate waterlogged conditions. Raised beds can help improve drainage.",
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Mango trees prefer well-drained, sandy or loamy soil with a pH level between 5.5 and 7.5.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Good drainage is crucial for mango trees, as they do not tolerate waterlogged conditions. Raised beds can help improve drainage.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Incorporating organic matter, such as compost, into the soil before planting enhances fertility and moisture retention.",
+          },
+        ],
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Incorporating organic matter, such as compost, into the soil before planting enhances fertility and moisture retention.",
-      },
-    ],
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: `Popular mango varieties include:
+        id: 23,
+        topic: "Varieties",
+        text: `Popular mango varieties include:
                             - Alphonso (known for its rich flavor and sweetness).
                             - Haden (tropical flavor, good for eating fresh).
                             - Tommy Atkins (common for commercial production, with good shelf life).`,
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant mango trees is in spring, after the last frost has passed.",
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Mango trees should be spaced about 8 to 10 meters (26 to 33 feet) apart to allow for their large canopy.",
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant mango trees is in spring, after the last frost has passed.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Mango trees should be spaced about 8 to 10 meters (26 to 33 feet) apart to allow for their large canopy.",
+          },
+          {
+            id: 243,
+            topic: "Pollination",
+            text: "Mango trees are mostly self-pollinating, but planting multiple varieties can improve fruit set and yield.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Pollination",
-        text: "Mango trees are mostly self-pollinating, but planting multiple varieties can improve fruit set and yield.",
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Young mango trees require regular watering to establish roots, keeping the soil consistently moist but not soggy.",
+          },
+          {
+            id: 252,
+            topic: "Mature Trees",
+            text: "Once established, mango trees require deep watering every 2 to 4 weeks, depending on rainfall, to encourage deep root growth.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Overwatering can lead to root rot and other diseases. Ensure good drainage and adjust watering based on weather conditions.",
+          },
+        ],
+      },
+      {
+        id: 26,
+        topic: "Pruning",
+        children: [
+          {
+            id: 261,
+            topic: "Shape",
+            text: "Pruning helps maintain a balanced shape, encourages healthy growth, and improves air circulation within the tree.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Prune mango trees after harvesting or in late winter before new growth begins to remove dead or diseased branches.",
+          },
+        ],
+      },
+      {
+        id: 27,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 271,
+            topic: "Nutrients",
+            text: "Mango trees benefit from regular feeding with a balanced fertilizer (e.g., 10-10-10 NPK) or one specifically formulated for fruit trees.",
+          },
+          {
+            id: 272,
+            topic: "Timing",
+            text: "Fertilizer should be applied in early spring and again in late summer to support growth and fruit development.",
+          },
+        ],
+      },
+      {
+        id: 28,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 281,
+            topic: "Pests",
+            text: "Common pests include mango weevils, fruit flies, and aphids. Implementing integrated pest management (IPM) practices can help control these pests effectively.",
+          },
+          {
+            id: 282,
+            topic: "Diseases",
+            text: "Mango trees are susceptible to diseases such as anthracnose, powdery mildew, and bacterial canker. Good cultural practices and monitoring for symptoms can help prevent these issues.",
+          },
+        ],
+      },
+      {
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Time",
+            text: "Mangoes typically take 3 to 6 months to mature after flowering, depending on the variety and growing conditions.",
+          },
+          {
+            id: 292,
+            topic: "Signs of Ripeness",
+            text: "Ripe mangoes are aromatic, have a slight give when gently squeezed, and exhibit a color change (yellow/orange, depending on the variety).",
+          },
+          {
+            id: 293,
+            topic: "Handling",
+            text: "Mangoes should be handled carefully to avoid bruising and stored in a cool, dry place after harvest.",
+          },
+        ],
+      },
+      {
+        id: 30.2,
+        topic: "Storage",
+        text: "Mangoes can be stored at room temperature until ripe, then refrigerated for up to a week. Proper storage helps maintain freshness.",
+        children: [
+          {
+            id: 30.21,
+            topic: "Preservation",
+            text: "Mangoes can also be dried, canned, or made into smoothies and desserts to extend their use beyond fresh consumption.",
+          },
+        ],
+      },
+      {
+        id: 31.2,
+        topic: "Thinning",
+        text: "Thinning excess fruit during the growing season can improve fruit size and quality by reducing competition for nutrients.",
       },
     ],
-  },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Young mango trees require regular watering to establish roots, keeping the soil consistently moist but not soggy.",
-      },
-      {
-        id: 252,
-        topic: "Mature Trees",
-        text: "Once established, mango trees require deep watering every 2 to 4 weeks, depending on rainfall, to encourage deep root growth.",
-      },
-      {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Overwatering can lead to root rot and other diseases. Ensure good drainage and adjust watering based on weather conditions.",
-      },
-    ],
-  },
-  {
-    id: 26,
-    topic: "Pruning",
-    children: [
-      {
-        id: 261,
-        topic: "Shape",
-        text: "Pruning helps maintain a balanced shape, encourages healthy growth, and improves air circulation within the tree.",
-      },
-      {
-        id: 262,
-        topic: "Timing",
-        text: "Prune mango trees after harvesting or in late winter before new growth begins to remove dead or diseased branches.",
-      },
-    ],
-  },
-  {
-    id: 27,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 271,
-        topic: "Nutrients",
-        text: "Mango trees benefit from regular feeding with a balanced fertilizer (e.g., 10-10-10 NPK) or one specifically formulated for fruit trees.",
-      },
-      {
-        id: 272,
-        topic: "Timing",
-        text: "Fertilizer should be applied in early spring and again in late summer to support growth and fruit development.",
-      },
-    ],
-  },
-  {
-    id: 28,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 281,
-        topic: "Pests",
-        text: "Common pests include mango weevils, fruit flies, and aphids. Implementing integrated pest management (IPM) practices can help control these pests effectively.",
-      },
-      {
-        id: 282,
-        topic: "Diseases",
-        text: "Mango trees are susceptible to diseases such as anthracnose, powdery mildew, and bacterial canker. Good cultural practices and monitoring for symptoms can help prevent these issues.",
-      },
-    ],
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Time",
-        text: "Mangoes typically take 3 to 6 months to mature after flowering, depending on the variety and growing conditions.",
-      },
-      {
-        id: 292,
-        topic: "Signs of Ripeness",
-        text: "Ripe mangoes are aromatic, have a slight give when gently squeezed, and exhibit a color change (yellow/orange, depending on the variety).",
-      },
-      {
-        id: 293,
-        topic: "Handling",
-        text: "Mangoes should be handled carefully to avoid bruising and stored in a cool, dry place after harvest.",
-      },
-    ],
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Mangoes can be stored at room temperature until ripe, then refrigerated for up to a week. Proper storage helps maintain freshness.",
-    children: [
-      {
-        id: 30.21,
-        topic: 'Preservation',
-        text: "Mangoes can also be dried, canned, or made into smoothies and desserts to extend their use beyond fresh consumption.",
-      },
-    ],
-  },
-  {
-    id: 31.2,
-    topic: "Thinning",
-    text: "Thinning excess fruit during the growing season can improve fruit size and quality by reducing competition for nutrients.",
-  },
-]
   },
   {
     id: 15,
@@ -2863,201 +4384,308 @@ cultivation: [
                 Melons are incredibly versatile in culinary applications. They can be enjoyed fresh, blended into smoothies, or incorporated into salads and salsas. Their natural sweetness also pairs well with savory dishes, enhancing flavors and adding a refreshing contrast.
                 In summary, melons are not just delicious; they are also packed with essential nutrients and health benefits. Their hydrating qualities and versatility make them an ideal choice for a healthy diet, especially during warmer months.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 34 kcal – A low-calorie fruit, making it a great option for snacking.
-- Fats: 0.2 g – Very low in fat, promoting heart health.
-- Saturated fatty acids: 0 g – Contains no saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, supporting cardiovascular health.
-- Sodium: 16 mg – Low in sodium, beneficial for maintaining healthy blood pressure.
-- Potassium: 267 mg – Important for fluid balance and muscle function.
-- Carbohydrates: 8 g – Provides a moderate source of energy.
-- Fiber: 0.9 g – A small amount of dietary fiber, aiding digestion.
-- Sugar: 7.9 g – Contains natural sugars that provide sweetness and energy.
-- Proteins: 0.8 g – Contributes to muscle repair and growth.
-- Vitamin C: 36.7 mg – Supports immune function and skin health.
-- Calcium: 18 mg – Contributes to bone health.
-- Iron: 0.2 mg – Necessary for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.1 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 10 mg – Supports muscle function and energy production.`,
-cultivationHeading: `Melons are sweet, juicy fruits that are popular during warm seasons and come in various types, including cantaloupe, honeydew, and watermelon. They are primarily grown in warm climates and can be cultivated in both commercial fields and home gardens. Here’s an overview of melon cultivation`,
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    nutritionText: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Melons thrive in warm climates, preferring temperatures between 21°C and 35°C (70°F to 95°F) during the growing season. They require full sun to produce sweet fruits.",
+        element: "Energy value:",
+        quantity: 34,
+        measurementUnits: "kcal",
+        description:
+          "– Low in calories, making it a hydrating and refreshing fruit.",
       },
       {
-        id: 212,
-        topic: "Frost Sensitivity",
-        text: "Melon plants are sensitive to frost and should be planted after the last frost date in spring. Protecting young plants from cold temperatures is essential for a successful harvest.",
+        element: "Fats:",
+        quantity: 0.2,
+        measurementUnits: "g",
+        description: "– Very low in fat, contributing to its healthy profile.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.0,
+        measurementUnits: "g",
+        description: "– Contains negligible amounts of saturated fats.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Cholesterol-free, promoting heart health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, helpful for blood pressure management.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 267,
+        measurementUnits: "mg",
+        description:
+          "– Good source of potassium, which helps regulate fluid balance.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 8.0,
+        measurementUnits: "g",
+        description: "– Provides carbohydrates primarily from natural sugars.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 0.9,
+        measurementUnits: "g",
+        description: "– Contains dietary fiber, supporting healthy digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 8.0,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars, contributing to its sweet flavor.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 0.5,
+        measurementUnits: "g",
+        description: "– Provides a small amount of protein.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 36.0,
+        measurementUnits: "mg",
+        description:
+          "– Good source of vitamin C, supporting the immune system.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 18,
+        measurementUnits: "mg",
+        description:
+          "– Contains a small amount of calcium, contributing to bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Provides trace amounts of iron, important for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Does not contain vitamin D, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description: "– Lacks vitamin B12, primarily found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 10,
+        measurementUnits: "mg",
+        description:
+          "– Contains magnesium, important for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Contains small amounts of vitamin E, an antioxidant.",
       },
     ],
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
+    cultivationHeading: `Melons are sweet, juicy fruits that are popular during warm seasons and come in various types, including cantaloupe, honeydew, and watermelon. They are primarily grown in warm climates and can be cultivated in both commercial fields and home gardens. Here’s an overview of melon cultivation`,
+    cultivation: [
       {
-        id: 221,
-        topic: "pH",
-        text: "Melons prefer well-drained, sandy loam soils with a pH level between 6.0 and 7.5.",
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Melons thrive in warm climates, preferring temperatures between 21°C and 35°C (70°F to 95°F) during the growing season. They require full sun to produce sweet fruits.",
+          },
+          {
+            id: 212,
+            topic: "Frost Sensitivity",
+            text: "Melon plants are sensitive to frost and should be planted after the last frost date in spring. Protecting young plants from cold temperatures is essential for a successful harvest.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Good drainage is crucial for melon plants, as they are susceptible to root rot in waterlogged conditions. Raised beds can enhance drainage.",
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Melons prefer well-drained, sandy loam soils with a pH level between 6.0 and 7.5.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Good drainage is crucial for melon plants, as they are susceptible to root rot in waterlogged conditions. Raised beds can enhance drainage.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Incorporating organic matter, such as compost or well-rotted manure, into the soil before planting improves fertility and moisture retention.",
+          },
+        ],
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Incorporating organic matter, such as compost or well-rotted manure, into the soil before planting improves fertility and moisture retention.",
-      },
-    ],
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: `Popular melon varieties include:
+        id: 23,
+        topic: "Varieties",
+        text: `Popular melon varieties include:
                             - Cantaloupe (sweet, orange flesh).
                             - Honeydew (green flesh with a sweet taste).
                             - Watermelon (large, refreshing, and hydrating).`,
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant melons is in late spring, after the soil has warmed to at least 18°C (65°F).",
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Melon plants should be spaced about 90 to 120 cm (3 to 4 feet) apart in rows, allowing for ample growth and airflow.",
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant melons is in late spring, after the soil has warmed to at least 18°C (65°F).",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Melon plants should be spaced about 90 to 120 cm (3 to 4 feet) apart in rows, allowing for ample growth and airflow.",
+          },
+          {
+            id: 243,
+            topic: "Pollination",
+            text: "Melons are mostly self-pollinating, but planting flowers nearby can attract pollinators, improving fruit set.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Pollination",
-        text: "Melons are mostly self-pollinating, but planting flowers nearby can attract pollinators, improving fruit set.",
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Young melon plants require consistent moisture to establish strong roots, especially during dry spells.",
+          },
+          {
+            id: 252,
+            topic: "Mature Plants",
+            text: "Once established, melons need deep watering about once a week, ensuring that the soil remains moist but not saturated.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Waterlogged soil can lead to root rot. Mulching can help retain soil moisture and regulate temperature.",
+          },
+        ],
+      },
+      {
+        id: 26,
+        topic: "Pruning",
+        children: [
+          {
+            id: 261,
+            topic: "Shape",
+            text: "Melons are typically grown as sprawling vines. Pruning excess growth can help improve airflow and fruit quality.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Pruning should be done early in the growing season to encourage healthy growth and fruit development.",
+          },
+        ],
+      },
+      {
+        id: 27,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 271,
+            topic: "Nutrients",
+            text: "Melons benefit from a balanced fertilizer, high in potassium and phosphorus to support fruit development.",
+          },
+          {
+            id: 272,
+            topic: "Timing",
+            text: "Fertilize at planting time and again when plants begin to flower, ensuring nutrients are available for fruiting.",
+          },
+        ],
+      },
+      {
+        id: 28,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 281,
+            topic: "Pests",
+            text: "Common pests include aphids, cucumber beetles, and spider mites. Implementing integrated pest management (IPM) strategies can effectively control these pests.",
+          },
+          {
+            id: 282,
+            topic: "Diseases",
+            text: "Melons can be affected by diseases such as powdery mildew, downy mildew, and fusarium wilt. Preventive measures include proper spacing, good air circulation, and using disease-resistant varieties.",
+          },
+        ],
+      },
+      {
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Time",
+            text: "Melons typically take 70 to 90 days to mature after planting, depending on the variety.",
+          },
+          {
+            id: 292,
+            topic: "Signs of Ripeness",
+            text: "Ripe melons will exhibit a sweet aroma, and the skin will change color or develop a slight give when gently squeezed.",
+          },
+          {
+            id: 293,
+            topic: "Handling",
+            text: "Handle melons gently to avoid bruising, and store them in a cool, dry place after harvest.",
+          },
+        ],
+      },
+      {
+        id: 30.2,
+        topic: "Storage",
+        text: "Melons can be stored at room temperature until ripe. Once ripe, they can be refrigerated for up to a week to maintain freshness.",
+        children: [
+          {
+            id: 30.21,
+            topic: `Preservation`,
+            text: "Melons can also be juiced, blended, or made into salads and desserts to extend their use beyond fresh consumption.",
+          },
+        ],
+      },
+      {
+        id: 31.2,
+        topic: "Thinning",
+        text: "Thinning excess fruit in the early stages can improve overall fruit size and quality by reducing competition for nutrients.",
       },
     ],
-  },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Young melon plants require consistent moisture to establish strong roots, especially during dry spells.",
-      },
-      {
-        id: 252,
-        topic: "Mature Plants",
-        text: "Once established, melons need deep watering about once a week, ensuring that the soil remains moist but not saturated.",
-      },
-      {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Waterlogged soil can lead to root rot. Mulching can help retain soil moisture and regulate temperature.",
-      },
-    ],
-  },
-  {
-    id: 26,
-    topic: "Pruning",
-    children: [
-      {
-        id: 261,
-        topic: "Shape",
-        text: "Melons are typically grown as sprawling vines. Pruning excess growth can help improve airflow and fruit quality.",
-      },
-      {
-        id: 262,
-        topic: "Timing",
-        text: "Pruning should be done early in the growing season to encourage healthy growth and fruit development.",
-      },
-    ],
-  },
-  {
-    id: 27,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 271,
-        topic: "Nutrients",
-        text: "Melons benefit from a balanced fertilizer, high in potassium and phosphorus to support fruit development.",
-      },
-      {
-        id: 272,
-        topic: "Timing",
-        text: "Fertilize at planting time and again when plants begin to flower, ensuring nutrients are available for fruiting.",
-      },
-    ],
-  },
-  {
-    id: 28,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 281,
-        topic: "Pests",
-        text: "Common pests include aphids, cucumber beetles, and spider mites. Implementing integrated pest management (IPM) strategies can effectively control these pests.",
-      },
-      {
-        id: 282,
-        topic: "Diseases",
-        text: "Melons can be affected by diseases such as powdery mildew, downy mildew, and fusarium wilt. Preventive measures include proper spacing, good air circulation, and using disease-resistant varieties.",
-      },
-    ],
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Time",
-        text: "Melons typically take 70 to 90 days to mature after planting, depending on the variety.",
-      },
-      {
-        id: 292,
-        topic: "Signs of Ripeness",
-        text: "Ripe melons will exhibit a sweet aroma, and the skin will change color or develop a slight give when gently squeezed.",
-      },
-      {
-        id: 293,
-        topic: "Handling",
-        text: "Handle melons gently to avoid bruising, and store them in a cool, dry place after harvest.",
-      },
-    ],
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Melons can be stored at room temperature until ripe. Once ripe, they can be refrigerated for up to a week to maintain freshness.",
-    children: [
-      {
-        id: 30.21,
-        topic: `Preservation`,
-        text: "Melons can also be juiced, blended, or made into salads and desserts to extend their use beyond fresh consumption.",
-      },
-    ],
-  },
-  {
-    id: 31.2,
-    topic: "Thinning",
-    text: "Thinning excess fruit in the early stages can improve overall fruit size and quality by reducing competition for nutrients.",
-  },
-]
   },
   {
     id: 16,
@@ -3071,202 +4699,309 @@ cultivation: [
                   Culinary-wise, nectarines are incredibly versatile. They can be eaten fresh, added to fruit salads, blended into smoothies, or used in desserts like pies and crumbles. Their sweet flavor also pairs well with savory dishes, making them a delightful addition to salads and salsas.
                   In summary, nectarines are a delicious and nutritious fruit that offers a range of health benefits and culinary possibilities, making them a beloved choice for many.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 44 kcal – A low-calorie fruit, making it a great choice for healthy snacking.
-- Fats: 0.3 g – Very low in fat, supporting heart health.
-- Saturated fatty acids: 0 g – Contains no saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, contributing to cardiovascular health.
-- Sodium: 0 mg – Sodium-free, beneficial for maintaining healthy blood pressure.
-- Potassium: 201 mg – Important for maintaining fluid balance and muscle function.
-- Carbohydrates: 10.6 g – Provides a moderate source of energy from natural sugars.
-- Fiber: 1.5 g – Contains dietary fiber, aiding digestion and promoting gut health.
-- Sugar: 7 g – Contains natural sugars that provide sweetness and energy.
-- Proteins: 0.9 g – A small amount of protein, supporting muscle repair.
-- Vitamin C: 7 mg – Contributes to immune function and skin health.
-- Calcium: 18 mg – Supports bone health.
-- Iron: 0.3 mg – Necessary for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.1 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 10 mg – Supports muscle function and energy production.`,
-cultivationHeading: `Nectarines are smooth-skinned fruits similar to peaches, known for their sweet flavor and juicy texture. They are cultivated in temperate regions and can be grown in both commercial orchards and home gardens. Here’s an overview of nectarine cultivation`,
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    nutritionText: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Nectarines thrive in warm climates with a temperate growing season. Ideal temperatures during the growing season range between 20°C and 30°C (68°F to 86°F).",
+        element: "Energy value:",
+        quantity: 44,
+        measurementUnits: "kcal",
+        description: "– Low in calories, making it a refreshing fruit choice.",
       },
       {
-        id: 212,
-        topic: "Frost Sensitivity",
-        text: "Nectarines are sensitive to frost, particularly during bloom. Protecting blossoms from late spring frosts is crucial for a successful harvest.",
+        element: "Fats:",
+        quantity: 0.3,
+        measurementUnits: "g",
+        description: "– Very low in fat, contributing to its health benefits.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.1,
+        measurementUnits: "g",
+        description: "– Contains minimal saturated fats.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Cholesterol-free, promoting heart health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description:
+          "– Extremely low in sodium, beneficial for blood pressure management.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 190,
+        measurementUnits: "mg",
+        description:
+          "– A good source of potassium, essential for heart and muscle function.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 10.6,
+        measurementUnits: "g",
+        description: "– Rich in carbohydrates, primarily from natural sugars.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 1.5,
+        measurementUnits: "g",
+        description: "– Contains dietary fiber, which aids in digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 8.4,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars that contribute to its sweetness.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 0.9,
+        measurementUnits: "g",
+        description: "– Provides a small amount of protein.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 5.4,
+        measurementUnits: "mg",
+        description:
+          "– A source of vitamin C, supporting immune function and skin health.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 4,
+        measurementUnits: "mg",
+        description:
+          "– Contains trace amounts of calcium, contributing to bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Provides trace amounts of iron, essential for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– No vitamin D present, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description:
+          "– Lacks vitamin B12, which is primarily found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 10,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of magnesium, essential for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Provides trace amounts of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description: "– Contains small amounts of vitamin E, an antioxidant.",
       },
     ],
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
+    cultivationHeading: `Nectarines are smooth-skinned fruits similar to peaches, known for their sweet flavor and juicy texture. They are cultivated in temperate regions and can be grown in both commercial orchards and home gardens. Here’s an overview of nectarine cultivation`,
+    cultivation: [
       {
-        id: 221,
-        topic: "pH",
-        text: "Nectarines prefer well-drained, loamy soils with a pH level between 6.0 and 7.0.",
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Nectarines thrive in warm climates with a temperate growing season. Ideal temperatures during the growing season range between 20°C and 30°C (68°F to 86°F).",
+          },
+          {
+            id: 212,
+            topic: "Frost Sensitivity",
+            text: "Nectarines are sensitive to frost, particularly during bloom. Protecting blossoms from late spring frosts is crucial for a successful harvest.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Loamy or sandy loam soils provide the best drainage and aeration, as nectarines are susceptible to root rot in heavy, clay soils.",
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Nectarines prefer well-drained, loamy soils with a pH level between 6.0 and 7.0.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Loamy or sandy loam soils provide the best drainage and aeration, as nectarines are susceptible to root rot in heavy, clay soils.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Prior to planting, amend the soil with organic matter such as compost to enhance fertility and structure.",
+          },
+        ],
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Prior to planting, amend the soil with organic matter such as compost to enhance fertility and structure.",
-      },
-    ],
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: `Popular nectarine varieties include:
+        id: 23,
+        topic: "Varieties",
+        text: `Popular nectarine varieties include:
                             - Fantasia (known for its sweet flavor and large size).
                             - Arctic Star (freestone variety with excellent flavor).
                             - Sunred (early season variety with bright red skin).`,
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant nectarines is during the dormant season, typically in late winter to early spring, before new growth begins.",
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Nectarine trees should be spaced about 4 to 5 meters (13 to 16 feet) apart to allow for sufficient growth and air circulation.",
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant nectarines is during the dormant season, typically in late winter to early spring, before new growth begins.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Nectarine trees should be spaced about 4 to 5 meters (13 to 16 feet) apart to allow for sufficient growth and air circulation.",
+          },
+          {
+            id: 243,
+            topic: "Pollination",
+            text: "Most nectarines are self-pollinating, but planting different varieties nearby can enhance fruit set and quality.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Pollination",
-        text: "Most nectarines are self-pollinating, but planting different varieties nearby can enhance fruit set and quality.",
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Nectarine trees need regular watering during the first few years after planting to establish a strong root system.",
+          },
+          {
+            id: 252,
+            topic: "Mature Trees",
+            text: "Once established, they require deep watering, about 25 to 50 mm (1 to 2 inches) per week during the growing season, depending on weather conditions.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Excess moisture can lead to root rot. Mulching helps retain soil moisture while preventing weed growth.",
+          },
+        ],
+      },
+      {
+        id: 26,
+        topic: "Pruning",
+        children: [
+          {
+            id: 261,
+            topic: "Shape",
+            text: "Nectarine trees are typically pruned to develop an open-center or vase shape, which improves sunlight penetration and air circulation.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Prune during the dormant season (late winter) to remove dead or diseased wood and to shape the tree for optimal growth.",
+          },
+        ],
+      },
+      {
+        id: 27,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 271,
+            topic: "Nutrients",
+            text: "Nectarines benefit from balanced fertilizers that are high in potassium and phosphorus to support fruit development.",
+          },
+          {
+            id: 272,
+            topic: "Timing",
+            text: "Fertilization should occur in early spring before new growth begins, with an additional feeding during the growing season if necessary.",
+          },
+        ],
+      },
+      {
+        id: 28,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 281,
+            topic: "Pests",
+            text: "Common pests include peach tree borers, aphids, and spider mites. Implementing integrated pest management (IPM) practices can help control these pests.",
+          },
+          {
+            id: 282,
+            topic: "Diseases",
+            text: "Nectarines are susceptible to diseases such as brown rot, bacterial canker, and powdery mildew. Proper spacing and good air circulation help prevent disease outbreaks.",
+          },
+        ],
+      },
+      {
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Time",
+            text: "Nectarines typically reach maturity and are ready for harvest in mid to late summer, depending on the variety.",
+          },
+          {
+            id: 292,
+            topic: "Signs of Ripeness",
+            text: "Ripe nectarines should be fragrant, slightly soft to the touch, and have a rich color, typically yellow or red, depending on the variety.",
+          },
+          {
+            id: 293,
+            topic: "Handling",
+            text: "Handle nectarines gently to avoid bruising, and store them in a cool, dry place after harvest.",
+          },
+        ],
+      },
+      {
+        id: 30.2,
+        topic: "Storage",
+        text: "Nectarines can be stored at room temperature until fully ripe. Once ripe, they should be refrigerated to prolong freshness for up to one week.",
+        children: [
+          {
+            id: 30.21,
+            topic: `Preservation`,
+            text: "Nectarines can also be used in desserts, salads, or preserved through canning or freezing to enjoy beyond the fresh season.",
+          },
+        ],
+      },
+      {
+        id: 31.2,
+        topic: "Thinning",
+        text: "Thinning excess fruit in early spring can improve fruit size and quality by reducing competition for nutrients among developing fruits.",
       },
     ],
   },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Nectarine trees need regular watering during the first few years after planting to establish a strong root system.",
-      },
-      {
-        id: 252,
-        topic: "Mature Trees",
-        text: "Once established, they require deep watering, about 25 to 50 mm (1 to 2 inches) per week during the growing season, depending on weather conditions.",
-      },
-      {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Excess moisture can lead to root rot. Mulching helps retain soil moisture while preventing weed growth.",
-      },
-    ],
-  },
-  {
-    id: 26,
-    topic: "Pruning",
-    children: [
-      {
-        id: 261,
-        topic: "Shape",
-        text: "Nectarine trees are typically pruned to develop an open-center or vase shape, which improves sunlight penetration and air circulation.",
-      },
-      {
-        id: 262,
-        topic: "Timing",
-        text: "Prune during the dormant season (late winter) to remove dead or diseased wood and to shape the tree for optimal growth.",
-      },
-    ],
-  },
-  {
-    id: 27,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 271,
-        topic: "Nutrients",
-        text: "Nectarines benefit from balanced fertilizers that are high in potassium and phosphorus to support fruit development.",
-      },
-      {
-        id: 272,
-        topic: "Timing",
-        text: "Fertilization should occur in early spring before new growth begins, with an additional feeding during the growing season if necessary.",
-      },
-    ],
-  },
-  {
-    id: 28,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 281,
-        topic: "Pests",
-        text: "Common pests include peach tree borers, aphids, and spider mites. Implementing integrated pest management (IPM) practices can help control these pests.",
-      },
-      {
-        id: 282,
-        topic: "Diseases",
-        text: "Nectarines are susceptible to diseases such as brown rot, bacterial canker, and powdery mildew. Proper spacing and good air circulation help prevent disease outbreaks.",
-      },
-    ],
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Time",
-        text: "Nectarines typically reach maturity and are ready for harvest in mid to late summer, depending on the variety.",
-      },
-      {
-        id: 292,
-        topic: "Signs of Ripeness",
-        text: "Ripe nectarines should be fragrant, slightly soft to the touch, and have a rich color, typically yellow or red, depending on the variety.",
-      },
-      {
-        id: 293,
-        topic: "Handling",
-        text: "Handle nectarines gently to avoid bruising, and store them in a cool, dry place after harvest.",
-      },
-    ],
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Nectarines can be stored at room temperature until fully ripe. Once ripe, they should be refrigerated to prolong freshness for up to one week.",
-    children: [
-      {
-        id: 30.21,
-        topic: `Preservation`,
-        text: "Nectarines can also be used in desserts, salads, or preserved through canning or freezing to enjoy beyond the fresh season.",
-      },
-    ],
-  },
-  {
-    id: 31.2,
-    topic: "Thinning",
-    text: "Thinning excess fruit in early spring can improve fruit size and quality by reducing competition for nutrients among developing fruits.",
-  },
-]
-},
   {
     id: 17,
     name: "Orange",
@@ -3279,202 +5014,310 @@ cultivation: [
                   Culinary-wise, oranges are incredibly versatile. They can be enjoyed fresh, juiced, or added to salads, desserts, and savory dishes. Orange zest can also enhance flavors in baked goods and marinades.
                   In summary, oranges are a nutrient-rich fruit that offers numerous health benefits. Their delicious taste and versatility make them a favorite choice for snacking and cooking, providing a refreshing burst of flavor and nutrition.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 47 kcal – A low-calorie fruit, ideal for snacking and hydration.
-- Fats: 0.1 g – Very low in fat, promoting heart health.
-- Saturated fatty acids: 0 g – Contains no saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, supporting cardiovascular health.
-- Sodium: 1 mg – Very low in sodium, beneficial for maintaining healthy blood pressure.
-- Potassium: 181 mg – Important for maintaining fluid balance and muscle function.
-- Carbohydrates: 11.8 g – Provides a moderate source of energy primarily from natural sugars.
-- Fiber: 2.4 g – A good source of dietary fiber, aiding digestion.
-- Sugar: 9.4 g – Contains natural sugars that provide sweetness and energy.
-- Proteins: 0.9 g – A small amount of protein, contributing to muscle repair.
-- Vitamin C: 53.2 mg – Extremely high in vitamin C, boosting immune function and skin health.
-- Calcium: 40 mg – Supports bone health.
-- Iron: 0.1 mg – Necessary for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.1 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 10 mg – Supports muscle function and energy production.`,
-cultivationHeading: `Oranges are one of the most popular and widely consumed fruits globally, known for their sweet, tangy flavor and high vitamin C content. They are primarily grown in warm, subtropical, and tropical climates. Here’s an overview of orange cultivation`,
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    nutritionText: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Oranges thrive in warm, subtropical to tropical climates. The ideal temperature range for optimal growth is between 20°C and 30°C (68°F to 86°F).",
+        element: "Energy value:",
+        quantity: 47,
+        measurementUnits: "kcal",
+        description:
+          "– Low in calories, making it a great snack for energy without guilt.",
       },
       {
-        id: 212,
-        topic: "Frost Sensitivity",
-        text: "Oranges are sensitive to frost, especially during flowering and fruit development. Protecting trees from late spring frosts is essential to prevent damage to blooms and fruit.",
+        element: "Fats:",
+        quantity: 0.1,
+        measurementUnits: "g",
+        description: "– Very low in fat, contributing to its health benefits.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.0,
+        measurementUnits: "g",
+        description: "– Contains negligible amounts of saturated fats.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Cholesterol-free, promoting heart health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, beneficial for blood pressure management.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 181,
+        measurementUnits: "mg",
+        description:
+          "– Good source of potassium, which helps regulate fluid balance.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 11.8,
+        measurementUnits: "g",
+        description:
+          "– Provides carbohydrates primarily from natural sugars and fiber.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 2.4,
+        measurementUnits: "g",
+        description: "– Contains dietary fiber, supporting healthy digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 9.4,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars, giving it a sweet and refreshing taste.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 0.9,
+        measurementUnits: "g",
+        description: "– Provides a small amount of protein.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 53.2,
+        measurementUnits: "mg",
+        description:
+          "– Excellent source of vitamin C, supporting the immune system and skin health.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 40,
+        measurementUnits: "mg",
+        description:
+          "– Contains a small amount of calcium, contributing to bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Provides trace amounts of iron, important for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Does not contain vitamin D, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description: "– Lacks vitamin B12, primarily found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 10,
+        measurementUnits: "mg",
+        description:
+          "– Contains magnesium, important for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description: "– Contains small amounts of vitamin E, an antioxidant.",
       },
     ],
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
+    cultivationHeading: `Oranges are one of the most popular and widely consumed fruits globally, known for their sweet, tangy flavor and high vitamin C content. They are primarily grown in warm, subtropical, and tropical climates. Here’s an overview of orange cultivation`,
+    cultivation: [
       {
-        id: 221,
-        topic: "pH",
-        text: "Oranges prefer well-drained soils with a pH level between 5.5 and 6.5, which supports healthy root development.",
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Oranges thrive in warm, subtropical to tropical climates. The ideal temperature range for optimal growth is between 20°C and 30°C (68°F to 86°F).",
+          },
+          {
+            id: 212,
+            topic: "Frost Sensitivity",
+            text: "Oranges are sensitive to frost, especially during flowering and fruit development. Protecting trees from late spring frosts is essential to prevent damage to blooms and fruit.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Sandy loam or loamy soils are ideal for orange trees, as they provide good drainage and aeration. Heavy clay soils should be avoided due to poor drainage.",
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Oranges prefer well-drained soils with a pH level between 5.5 and 6.5, which supports healthy root development.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Sandy loam or loamy soils are ideal for orange trees, as they provide good drainage and aeration. Heavy clay soils should be avoided due to poor drainage.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Before planting, incorporate organic matter such as compost to enhance soil fertility and structure.",
+          },
+        ],
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Before planting, incorporate organic matter such as compost to enhance soil fertility and structure.",
-      },
-    ],
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: `Popular orange varieties include:
+        id: 23,
+        topic: "Varieties",
+        text: `Popular orange varieties include:
                             - Valencia (known for its juiciness and sweetness, ideal for juicing).
                             - Navel (seedless and sweet, great for eating fresh).
                             - Blood orange (distinctive color and flavor, often used in salads and desserts).`,
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant orange trees is in the spring, after the danger of frost has passed.",
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Oranges should be planted about 5 to 7 meters (16 to 23 feet) apart to allow for sufficient growth and air circulation.",
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant orange trees is in the spring, after the danger of frost has passed.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Oranges should be planted about 5 to 7 meters (16 to 23 feet) apart to allow for sufficient growth and air circulation.",
+          },
+          {
+            id: 243,
+            topic: "Pollination",
+            text: "Most orange varieties are self-pollinating, but planting multiple trees can enhance fruit yield and quality.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Pollination",
-        text: "Most orange varieties are self-pollinating, but planting multiple trees can enhance fruit yield and quality.",
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Orange trees require regular watering during the first few years after planting to establish strong roots.",
+          },
+          {
+            id: 252,
+            topic: "Mature Trees",
+            text: "Once established, they should be watered deeply but infrequently, requiring about 25 to 50 mm (1 to 2 inches) of water per week during the growing season.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Waterlogging can lead to root rot. Mulching helps retain soil moisture while preventing weed growth.",
+          },
+        ],
+      },
+      {
+        id: 26,
+        topic: "Pruning",
+        children: [
+          {
+            id: 261,
+            topic: "Shape",
+            text: "Orange trees are typically pruned to maintain an open canopy, which allows light to penetrate and improves air circulation.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Pruning should be done during the dormant season (late winter) to remove dead or diseased wood and to shape the tree for optimal growth.",
+          },
+        ],
+      },
+      {
+        id: 27,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 271,
+            topic: "Nutrients",
+            text: "Oranges benefit from balanced fertilizers high in nitrogen, phosphorus, and potassium to support healthy growth and fruit production.",
+          },
+          {
+            id: 272,
+            topic: "Timing",
+            text: "Fertilization should occur in early spring before new growth begins, with additional feedings during the growing season as necessary.",
+          },
+        ],
+      },
+      {
+        id: 28,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 281,
+            topic: "Pests",
+            text: "Common pests affecting orange trees include aphids, citrus leaf miners, and scale insects. Integrated pest management (IPM) practices can help control these pests.",
+          },
+          {
+            id: 282,
+            topic: "Diseases",
+            text: "Oranges are susceptible to diseases such as citrus greening, powdery mildew, and root rot. Good cultural practices and timely fungicide applications help manage these issues.",
+          },
+        ],
+      },
+      {
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Time",
+            text: "Oranges are typically ready for harvest in winter to early spring, depending on the variety and climate.",
+          },
+          {
+            id: 292,
+            topic: "Signs of Ripeness",
+            text: "Ripe oranges should be bright in color, feel heavy for their size, and have a slightly soft texture when gently squeezed.",
+          },
+          {
+            id: 293,
+            topic: "Handling",
+            text: "Handle oranges carefully to avoid bruising, and store them in a cool, dry place after harvest.",
+          },
+        ],
+      },
+      {
+        id: 30.2,
+        topic: "Storage",
+        text: "Oranges can be stored at room temperature for a short period. For longer storage, refrigerate them to maintain freshness for up to two weeks.",
+        children: [
+          {
+            id: 30.21,
+            topic: `Preservation`,
+            text: "Oranges can also be juiced or used in various dishes, jams, and preserves to enjoy their flavor beyond the fresh season.",
+          },
+        ],
+      },
+      {
+        id: 31.2,
+        topic: "Thinning",
+        text: "Thinning excess fruit in early spring can improve fruit size and quality by reducing competition for nutrients among developing fruits.",
       },
     ],
   },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Orange trees require regular watering during the first few years after planting to establish strong roots.",
-      },
-      {
-        id: 252,
-        topic: "Mature Trees",
-        text: "Once established, they should be watered deeply but infrequently, requiring about 25 to 50 mm (1 to 2 inches) of water per week during the growing season.",
-      },
-      {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Waterlogging can lead to root rot. Mulching helps retain soil moisture while preventing weed growth.",
-      },
-    ],
-  },
-  {
-    id: 26,
-    topic: "Pruning",
-    children: [
-      {
-        id: 261,
-        topic: "Shape",
-        text: "Orange trees are typically pruned to maintain an open canopy, which allows light to penetrate and improves air circulation.",
-      },
-      {
-        id: 262,
-        topic: "Timing",
-        text: "Pruning should be done during the dormant season (late winter) to remove dead or diseased wood and to shape the tree for optimal growth.",
-      },
-    ],
-  },
-  {
-    id: 27,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 271,
-        topic: "Nutrients",
-        text: "Oranges benefit from balanced fertilizers high in nitrogen, phosphorus, and potassium to support healthy growth and fruit production.",
-      },
-      {
-        id: 272,
-        topic: "Timing",
-        text: "Fertilization should occur in early spring before new growth begins, with additional feedings during the growing season as necessary.",
-      },
-    ],
-  },
-  {
-    id: 28,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 281,
-        topic: "Pests",
-        text: "Common pests affecting orange trees include aphids, citrus leaf miners, and scale insects. Integrated pest management (IPM) practices can help control these pests.",
-      },
-      {
-        id: 282,
-        topic: "Diseases",
-        text: "Oranges are susceptible to diseases such as citrus greening, powdery mildew, and root rot. Good cultural practices and timely fungicide applications help manage these issues.",
-      },
-    ],
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Time",
-        text: "Oranges are typically ready for harvest in winter to early spring, depending on the variety and climate.",
-      },
-      {
-        id: 292,
-        topic: "Signs of Ripeness",
-        text: "Ripe oranges should be bright in color, feel heavy for their size, and have a slightly soft texture when gently squeezed.",
-      },
-      {
-        id: 293,
-        topic: "Handling",
-        text: "Handle oranges carefully to avoid bruising, and store them in a cool, dry place after harvest.",
-      },
-    ],
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Oranges can be stored at room temperature for a short period. For longer storage, refrigerate them to maintain freshness for up to two weeks.",
-    children: [
-      {
-        id: 30.21,
-        topic: `Preservation`,
-        text: "Oranges can also be juiced or used in various dishes, jams, and preserves to enjoy their flavor beyond the fresh season.",
-      },
-    ],
-  },
-  {
-    id: 31.2,
-    topic: "Thinning",
-    text: "Thinning excess fruit in early spring can improve fruit size and quality by reducing competition for nutrients among developing fruits.",
-  },
-]
-},
   {
     id: 18,
     name: "Peach",
@@ -3487,202 +5330,309 @@ cultivation: [
                   Culinary-wise, peaches are incredibly versatile. They can be enjoyed fresh, grilled, baked into desserts, or added to salads and smoothies. Their natural sweetness pairs well with both savory and sweet dishes.
                   In summary, peaches are a delicious and nutritious fruit that offers a variety of health benefits. Their juicy flavor and versatility make them a favorite choice for summer enjoyment and healthy snacking.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 39 kcal – A low-calorie fruit, making it a great option for healthy snacking.
-- Fats: 0.3 g – Very low in fat, supporting heart health.
-- Saturated fatty acids: 0 g – Contains no saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, contributing to cardiovascular health.
-- Sodium: 0 mg – Sodium-free, beneficial for maintaining healthy blood pressure.
-- Potassium: 190 mg – Important for fluid balance and muscle function.
-- Carbohydrates: 10 g – Provides a moderate source of energy primarily from natural sugars.
-- Fiber: 1.5 g – Contains dietary fiber, aiding digestion and promoting gut health.
-- Sugar: 8.4 g – Contains natural sugars that provide sweetness and energy.
-- Proteins: 0.9 g – A small amount of protein, supporting muscle repair.
-- Vitamin C: 6.6 mg – Contributes to immune function and skin health.
-- Calcium: 18 mg – Supports bone health.
-- Iron: 0.2 mg – Necessary for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.1 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 9 mg – Supports muscle function and energy production.`,
-cultivationHeading: `Peaches are a beloved stone fruit known for their sweet flavor and juicy texture. They are grown in many temperate regions worldwide and can be cultivated in both commercial orchards and home gardens. Here’s an overview of peach cultivation`,
-cultivation:[
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    nutritionText: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Peaches thrive in warm, temperate climates. They require a cold winter for dormancy, with the ideal temperature range during the growing season being between 20°C and 30°C (68°F to 86°F).",
+        element: "Energy value:",
+        quantity: 39,
+        measurementUnits: "kcal",
+        description: "– Low in calories, making it a refreshing fruit choice.",
       },
       {
-        id: 212,
-        topic: "Frost Sensitivity",
-        text: "Peach trees are susceptible to late spring frosts, especially during flowering and fruit set, which can damage blossoms and reduce fruit yield.",
+        element: "Fats:",
+        quantity: 0.3,
+        measurementUnits: "g",
+        description: "– Very low in fat, contributing to its health benefits.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.1,
+        measurementUnits: "g",
+        description: "– Contains minimal saturated fats.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Cholesterol-free, promoting heart health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description:
+          "– Extremely low in sodium, beneficial for blood pressure management.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 190,
+        measurementUnits: "mg",
+        description:
+          "– A good source of potassium, essential for heart and muscle function.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 9.5,
+        measurementUnits: "g",
+        description: "– Rich in carbohydrates, primarily from natural sugars.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 1.5,
+        measurementUnits: "g",
+        description: "– Contains dietary fiber, which aids in digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 8.4,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars that contribute to its sweetness.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 0.9,
+        measurementUnits: "g",
+        description: "– Provides a small amount of protein.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 6.6,
+        measurementUnits: "mg",
+        description:
+          "– A source of vitamin C, supporting immune function and skin health.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 4,
+        measurementUnits: "mg",
+        description:
+          "– Contains trace amounts of calcium, contributing to bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.3,
+        measurementUnits: "mg",
+        description:
+          "– Provides trace amounts of iron, essential for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– No vitamin D present, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description:
+          "– Lacks vitamin B12, which is primarily found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 10,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of magnesium, essential for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Provides trace amounts of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.8,
+        measurementUnits: "mg",
+        description: "– Contains small amounts of vitamin E, an antioxidant.",
       },
     ],
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
+    cultivationHeading: `Peaches are a beloved stone fruit known for their sweet flavor and juicy texture. They are grown in many temperate regions worldwide and can be cultivated in both commercial orchards and home gardens. Here’s an overview of peach cultivation`,
+    cultivation: [
       {
-        id: 221,
-        topic: "pH",
-        text: "Peaches prefer well-drained, sandy loam or loamy soils with a pH level between 6.0 and 7.0.",
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Peaches thrive in warm, temperate climates. They require a cold winter for dormancy, with the ideal temperature range during the growing season being between 20°C and 30°C (68°F to 86°F).",
+          },
+          {
+            id: 212,
+            topic: "Frost Sensitivity",
+            text: "Peach trees are susceptible to late spring frosts, especially during flowering and fruit set, which can damage blossoms and reduce fruit yield.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Well-drained soils are essential, as peach trees do not tolerate waterlogged conditions. Heavy clay soils should be avoided.",
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Peaches prefer well-drained, sandy loam or loamy soils with a pH level between 6.0 and 7.0.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Well-drained soils are essential, as peach trees do not tolerate waterlogged conditions. Heavy clay soils should be avoided.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Incorporating organic matter, such as compost or well-rotted manure, into the soil before planting can improve fertility and soil structure.",
+          },
+        ],
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Incorporating organic matter, such as compost or well-rotted manure, into the soil before planting can improve fertility and soil structure.",
-      },
-    ],
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: `Popular peach varieties include:
+        id: 23,
+        topic: "Varieties",
+        text: `Popular peach varieties include:
                             - Clingstone (ideal for canning and cooking).
                             - Freestone (great for fresh eating).
                             - Donut peaches (flat-shaped and sweet, often enjoyed fresh).`,
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant peach trees is during the dormant season, typically in late winter to early spring, before new growth begins.",
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Peach trees should be spaced about 4.5 to 5.5 meters (15 to 18 feet) apart to allow for adequate growth and airflow.",
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant peach trees is during the dormant season, typically in late winter to early spring, before new growth begins.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Peach trees should be spaced about 4.5 to 5.5 meters (15 to 18 feet) apart to allow for adequate growth and airflow.",
+          },
+          {
+            id: 243,
+            topic: "Pollination",
+            text: "Most peach varieties are self-pollinating, but planting multiple varieties can enhance fruit yield and quality.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Pollination",
-        text: "Most peach varieties are self-pollinating, but planting multiple varieties can enhance fruit yield and quality.",
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Regular watering is crucial during the first few years after planting to establish strong roots.",
+          },
+          {
+            id: 252,
+            topic: "Mature Trees",
+            text: "Once established, peach trees should be watered deeply but infrequently, requiring around 25 to 50 mm (1 to 2 inches) of water per week during the growing season.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Overwatering can lead to root rot and other diseases, so proper drainage is essential.",
+          },
+        ],
+      },
+      {
+        id: 26,
+        topic: "Pruning",
+        children: [
+          {
+            id: 261,
+            topic: "Shape",
+            text: "Peach trees are usually pruned to maintain an open center shape, allowing sunlight to penetrate and improve air circulation.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Pruning should be done during the dormant season (late winter) to remove dead or diseased wood and to shape the tree.",
+          },
+        ],
+      },
+      {
+        id: 27,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 271,
+            topic: "Nutrients",
+            text: "Peaches benefit from balanced fertilizers high in nitrogen, phosphorus, and potassium to support healthy growth and fruit production.",
+          },
+          {
+            id: 272,
+            topic: "Timing",
+            text: "Fertilization should occur in early spring, just before new growth begins, and can be supplemented throughout the growing season as needed.",
+          },
+        ],
+      },
+      {
+        id: 28,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 281,
+            topic: "Pests",
+            text: "Common pests affecting peach trees include aphids, spider mites, and peach twig borers. Integrated pest management (IPM) strategies can help control these pests.",
+          },
+          {
+            id: 282,
+            topic: "Diseases",
+            text: "Peaches are susceptible to diseases such as brown rot, peach leaf curl, and bacterial spot. Good cultural practices, such as pruning and fungicide applications, can help manage these issues.",
+          },
+        ],
+      },
+      {
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Time",
+            text: "Peaches are typically ready for harvest in mid to late summer, depending on the variety and climate.",
+          },
+          {
+            id: 292,
+            topic: "Signs of Ripeness",
+            text: "Ripe peaches should have a vibrant color, a slightly soft texture when gently squeezed, and a fragrant aroma.",
+          },
+          {
+            id: 293,
+            topic: "Handling",
+            text: "Handle peaches with care to avoid bruising, as they are delicate fruits. Store them in a cool place after harvest.",
+          },
+        ],
+      },
+      {
+        id: 30.2,
+        topic: "Storage",
+        text: "Peaches can be stored at room temperature for a few days to allow them to ripen. For longer storage, refrigerate them to maintain freshness for up to a week.",
+        children: [
+          {
+            id: 30.21,
+            topic: `Preservation`,
+            text: "Peaches can also be canned, frozen, or made into jams and preserves to extend their use beyond the fresh season.",
+          },
+        ],
+      },
+      {
+        id: 31.2,
+        topic: "Thinning",
+        text: "Thinning excess fruit in early spring can improve fruit size and quality by reducing competition for nutrients among developing fruits.",
       },
     ],
   },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Regular watering is crucial during the first few years after planting to establish strong roots.",
-      },
-      {
-        id: 252,
-        topic: "Mature Trees",
-        text: "Once established, peach trees should be watered deeply but infrequently, requiring around 25 to 50 mm (1 to 2 inches) of water per week during the growing season.",
-      },
-      {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Overwatering can lead to root rot and other diseases, so proper drainage is essential.",
-      },
-    ],
-  },
-  {
-    id: 26,
-    topic: "Pruning",
-    children: [
-      {
-        id: 261,
-        topic: "Shape",
-        text: "Peach trees are usually pruned to maintain an open center shape, allowing sunlight to penetrate and improve air circulation.",
-      },
-      {
-        id: 262,
-        topic: "Timing",
-        text: "Pruning should be done during the dormant season (late winter) to remove dead or diseased wood and to shape the tree.",
-      },
-    ],
-  },
-  {
-    id: 27,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 271,
-        topic: "Nutrients",
-        text: "Peaches benefit from balanced fertilizers high in nitrogen, phosphorus, and potassium to support healthy growth and fruit production.",
-      },
-      {
-        id: 272,
-        topic: "Timing",
-        text: "Fertilization should occur in early spring, just before new growth begins, and can be supplemented throughout the growing season as needed.",
-      },
-    ],
-  },
-  {
-    id: 28,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 281,
-        topic: "Pests",
-        text: "Common pests affecting peach trees include aphids, spider mites, and peach twig borers. Integrated pest management (IPM) strategies can help control these pests.",
-      },
-      {
-        id: 282,
-        topic: "Diseases",
-        text: "Peaches are susceptible to diseases such as brown rot, peach leaf curl, and bacterial spot. Good cultural practices, such as pruning and fungicide applications, can help manage these issues.",
-      },
-    ],
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Time",
-        text: "Peaches are typically ready for harvest in mid to late summer, depending on the variety and climate.",
-      },
-      {
-        id: 292,
-        topic: "Signs of Ripeness",
-        text: "Ripe peaches should have a vibrant color, a slightly soft texture when gently squeezed, and a fragrant aroma.",
-      },
-      {
-        id: 293,
-        topic: "Handling",
-        text: "Handle peaches with care to avoid bruising, as they are delicate fruits. Store them in a cool place after harvest.",
-      },
-    ],
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Peaches can be stored at room temperature for a few days to allow them to ripen. For longer storage, refrigerate them to maintain freshness for up to a week.",
-    children: [
-      {
-        id: 30.21,
-        topic: `Preservation`,
-        text: "Peaches can also be canned, frozen, or made into jams and preserves to extend their use beyond the fresh season.",
-      },
-    ],
-  },
-  {
-    id: 31.2,
-    topic: "Thinning",
-    text: "Thinning excess fruit in early spring can improve fruit size and quality by reducing competition for nutrients among developing fruits.",
-  },
-]
-},
   {
     id: 19,
     name: "Plum",
@@ -3695,201 +5645,309 @@ cultivation:[
                   Culinary-wise, plums are incredibly versatile. They can be enjoyed fresh, dried (as prunes), or used in jams, jellies, and desserts. Their sweet-tart flavor pairs well with savory dishes as well.
                   In summary, plums are a tasty and nutritious fruit that offers numerous health benefits. Their delightful flavor and versatility make them a popular choice for snacking and cooking, providing both enjoyment and nourishment.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 46 kcal – A low-calorie fruit, making it a great choice for healthy snacking.
-- Fats: 0.3 g – Very low in fat, supporting heart health.
-- Saturated fatty acids: 0 g – Contains no saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, contributing to cardiovascular health.
-- Sodium: 0 mg – Sodium-free, beneficial for maintaining healthy blood pressure.
-- Potassium: 113 mg – Important for maintaining fluid balance and muscle function.
-- Carbohydrates: 11.4 g – Provides a moderate source of energy primarily from natural sugars.
-- Fiber: 1.4 g – Contains dietary fiber, aiding digestion and promoting gut health.
-- Sugar: 9.9 g – Contains natural sugars that provide sweetness and energy.
-- Proteins: 0.7 g – A small amount of protein, supporting muscle repair.
-- Vitamin C: 9.9 mg – Contributes to immune function and skin health.
-- Calcium: 18 mg – Supports bone health.
-- Iron: 0.2 mg – Necessary for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.1 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 10 mg – Supports muscle function and energy production.`,
-cultivationHeading: `Plums are juicy, sweet fruits that belong to the Prunus genus, which also includes cherries and peaches. They are popular for their versatility in fresh consumption, cooking, and preserving. Plums are grown in various climates around the world. Here’s an overview of plum cultivation`,
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    nutritionText: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Plums thrive in temperate climates with distinct seasons. They require a cold winter for dormancy, and the ideal temperature during the growing season is between 20°C and 25°C (68°F to 77°F).",
+        element: "Energy value:",
+        quantity: 46,
+        measurementUnits: "kcal",
+        description:
+          "– Low in calories, making it a healthy and delicious snack.",
       },
       {
-        id: 212,
-        topic: "Frost Sensitivity",
-        text: "Plum trees are sensitive to late spring frosts, particularly during flowering and fruit set, which can harm blossoms and reduce fruit yield.",
+        element: "Fats:",
+        quantity: 0.3,
+        measurementUnits: "g",
+        description: "– Very low in fat, contributing to a healthy diet.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.0,
+        measurementUnits: "g",
+        description: "– Contains negligible amounts of saturated fats.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Cholesterol-free, supporting cardiovascular health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, beneficial for blood pressure management.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 157,
+        measurementUnits: "mg",
+        description:
+          "– Good source of potassium, which helps maintain proper fluid balance.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 11.4,
+        measurementUnits: "g",
+        description:
+          "– Provides carbohydrates, mainly from natural sugars and fiber.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 1.4,
+        measurementUnits: "g",
+        description: "– Contains dietary fiber, promoting digestive health.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 9.9,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars, contributing to its sweet taste.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 0.7,
+        measurementUnits: "g",
+        description: "– Provides a small amount of protein.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 9.5,
+        measurementUnits: "mg",
+        description:
+          "– Contains vitamin C, supporting the immune system and skin health.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 18,
+        measurementUnits: "mg",
+        description:
+          "– Provides trace amounts of calcium, contributing to bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of iron, important for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Does not contain vitamin D, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain function.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description: "– Lacks vitamin B12, primarily found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 10,
+        measurementUnits: "mg",
+        description:
+          "– Contains magnesium, essential for muscle and nerve function.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of zinc, supporting immune health.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description: "– Contains small amounts of vitamin E, an antioxidant.",
       },
     ],
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
+    cultivationHeading: `Plums are juicy, sweet fruits that belong to the Prunus genus, which also includes cherries and peaches. They are popular for their versatility in fresh consumption, cooking, and preserving. Plums are grown in various climates around the world. Here’s an overview of plum cultivation`,
+    cultivation: [
       {
-        id: 221,
-        topic: "pH",
-        text: "Plums prefer well-drained, fertile soils with a pH level between 6.0 and 7.0.",
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Plums thrive in temperate climates with distinct seasons. They require a cold winter for dormancy, and the ideal temperature during the growing season is between 20°C and 25°C (68°F to 77°F).",
+          },
+          {
+            id: 212,
+            topic: "Frost Sensitivity",
+            text: "Plum trees are sensitive to late spring frosts, particularly during flowering and fruit set, which can harm blossoms and reduce fruit yield.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Sandy loam or loamy soils are ideal, as they provide good drainage. Avoid heavy clay soils that can retain too much moisture.",
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Plums prefer well-drained, fertile soils with a pH level between 6.0 and 7.0.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Sandy loam or loamy soils are ideal, as they provide good drainage. Avoid heavy clay soils that can retain too much moisture.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Incorporating organic matter, such as compost or well-rotted manure, into the soil before planting helps improve fertility and soil structure.",
+          },
+        ],
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Incorporating organic matter, such as compost or well-rotted manure, into the soil before planting helps improve fertility and soil structure.",
-      },
-    ],
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: `Popular plum varieties include:
+        id: 23,
+        topic: "Varieties",
+        text: `Popular plum varieties include:
                             - European plums (such as Stanley and Damson) known for their sweetness and good for fresh eating.
                             - Japanese plums (such as Santa Rosa and Shiro) which are juicy and excellent for fresh consumption.`,
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant plum trees is during the dormant season (late winter to early spring) before new growth begins.",
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Plum trees should be spaced about 4 to 5 meters (13 to 16 feet) apart to allow adequate room for growth and air circulation.",
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant plum trees is during the dormant season (late winter to early spring) before new growth begins.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Plum trees should be spaced about 4 to 5 meters (13 to 16 feet) apart to allow adequate room for growth and air circulation.",
+          },
+          {
+            id: 243,
+            topic: "Pollination",
+            text: "While some plum varieties are self-pollinating, planting multiple varieties can improve fruit set and yield.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Pollination",
-        text: "While some plum varieties are self-pollinating, planting multiple varieties can improve fruit set and yield.",
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Regular watering is crucial during the first few years after planting to establish a strong root system.",
+          },
+          {
+            id: 252,
+            topic: "Mature Trees",
+            text: "Once established, plum trees should be watered deeply but infrequently, requiring approximately 25 to 50 mm (1 to 2 inches) of water per week during the growing season.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Overwatering can lead to root rot and other diseases, so ensure proper drainage.",
+          },
+        ],
+      },
+      {
+        id: 26,
+        topic: "Pruning",
+        children: [
+          {
+            id: 261,
+            topic: "Shape",
+            text: "Plum trees are often pruned to maintain an open center shape, which allows sunlight to penetrate and improves air circulation.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Pruning should be done during the dormant season (late winter) to remove dead or diseased wood and to shape the tree.",
+          },
+        ],
+      },
+      {
+        id: 27,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 271,
+            topic: "Nutrients",
+            text: "Plum trees benefit from balanced fertilizers high in nitrogen, phosphorus, and potassium to support healthy growth and fruit production.",
+          },
+          {
+            id: 272,
+            topic: "Timing",
+            text: "Fertilization should occur in early spring, just before new growth begins, and can be supplemented throughout the growing season as needed.",
+          },
+        ],
+      },
+      {
+        id: 28,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 281,
+            topic: "Pests",
+            text: "Common pests affecting plum trees include aphids, spider mites, and plum curculio. Integrated pest management (IPM) strategies can help control these pests.",
+          },
+          {
+            id: 282,
+            topic: "Diseases",
+            text: "Plum trees are susceptible to diseases such as black knot, brown rot, and bacterial canker. Good cultural practices, such as proper spacing and pruning, along with fungicide applications, can help manage these issues.",
+          },
+        ],
+      },
+      {
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Time",
+            text: "Plums are typically ready for harvest in mid to late summer, depending on the variety and climate.",
+          },
+          {
+            id: 292,
+            topic: "Signs of Ripeness",
+            text: "Ripe plums should have vibrant color, a slight softness when gently squeezed, and a fragrant aroma.",
+          },
+          {
+            id: 293,
+            topic: "Handling",
+            text: "Handle plums gently to avoid bruising, as they are delicate fruits. Store them in a cool place after harvest.",
+          },
+        ],
+      },
+      {
+        id: 30.2,
+        topic: "Storage",
+        text: "Plums can be stored at room temperature for a few days to allow them to ripen. For longer storage, refrigerate them to maintain freshness for up to a week.",
+        children: [
+          {
+            id: 30.21,
+            topic: `Preservation`,
+            text: "Plums can also be canned, frozen, or made into jams and preserves to extend their use beyond the fresh season.",
+          },
+        ],
+      },
+      {
+        id: 31.2,
+        topic: "Thinning",
+        text: "Thinning excess fruit in early spring can improve fruit size and quality by reducing competition for nutrients among developing fruits.",
       },
     ],
   },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Regular watering is crucial during the first few years after planting to establish a strong root system.",
-      },
-      {
-        id: 252,
-        topic: "Mature Trees",
-        text: "Once established, plum trees should be watered deeply but infrequently, requiring approximately 25 to 50 mm (1 to 2 inches) of water per week during the growing season.",
-      },
-      {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Overwatering can lead to root rot and other diseases, so ensure proper drainage.",
-      },
-    ],
-  },
-  {
-    id: 26,
-    topic: "Pruning",
-    children: [
-      {
-        id: 261,
-        topic: "Shape",
-        text: "Plum trees are often pruned to maintain an open center shape, which allows sunlight to penetrate and improves air circulation.",
-      },
-      {
-        id: 262,
-        topic: "Timing",
-        text: "Pruning should be done during the dormant season (late winter) to remove dead or diseased wood and to shape the tree.",
-      },
-    ],
-  },
-  {
-    id: 27,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 271,
-        topic: "Nutrients",
-        text: "Plum trees benefit from balanced fertilizers high in nitrogen, phosphorus, and potassium to support healthy growth and fruit production.",
-      },
-      {
-        id: 272,
-        topic: "Timing",
-        text: "Fertilization should occur in early spring, just before new growth begins, and can be supplemented throughout the growing season as needed.",
-      },
-    ],
-  },
-  {
-    id: 28,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 281,
-        topic: "Pests",
-        text: "Common pests affecting plum trees include aphids, spider mites, and plum curculio. Integrated pest management (IPM) strategies can help control these pests.",
-      },
-      {
-        id: 282,
-        topic: "Diseases",
-        text: "Plum trees are susceptible to diseases such as black knot, brown rot, and bacterial canker. Good cultural practices, such as proper spacing and pruning, along with fungicide applications, can help manage these issues.",
-      },
-    ],
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Time",
-        text: "Plums are typically ready for harvest in mid to late summer, depending on the variety and climate.",
-      },
-      {
-        id: 292,
-        topic: "Signs of Ripeness",
-        text: "Ripe plums should have vibrant color, a slight softness when gently squeezed, and a fragrant aroma.",
-      },
-      {
-        id: 293,
-        topic: "Handling",
-        text: "Handle plums gently to avoid bruising, as they are delicate fruits. Store them in a cool place after harvest.",
-      },
-    ],
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Plums can be stored at room temperature for a few days to allow them to ripen. For longer storage, refrigerate them to maintain freshness for up to a week.",
-    children: [
-      {
-        id: 30.21,
-        topic: `Preservation`,
-        text: "Plums can also be canned, frozen, or made into jams and preserves to extend their use beyond the fresh season.",
-      },
-    ],
-  },
-  {
-    id: 31.2,
-    topic: "Thinning",
-    text: "Thinning excess fruit in early spring can improve fruit size and quality by reducing competition for nutrients among developing fruits.",
-  },
-]
-},
   {
     id: 20,
     name: "Raspberries",
@@ -3902,201 +5960,310 @@ cultivation: [
                   Culinary-wise, raspberries are incredibly versatile. They can be enjoyed fresh, blended into smoothies, used in desserts, or incorporated into salads and sauces, adding a delightful burst of flavor.
                   In summary, raspberries are a nutritious superfruit that offers a multitude of health benefits. Their delicious taste and culinary flexibility make them a favorite choice among health-conscious eaters.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 52 kcal – A low-calorie fruit, making it a great option for healthy snacking.
-- Fats: 0.7 g – Very low in fat, supporting heart health.
-- Saturated fatty acids: 0.1 g – Contains minimal saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, contributing to cardiovascular health.
-- Sodium: 1 mg – Very low in sodium, beneficial for maintaining healthy blood pressure.
-- Potassium: 151 mg – Important for maintaining fluid balance and muscle function.
-- Carbohydrates: 11.9 g – Provides a moderate source of energy, primarily from natural sugars.
-- Fiber: 6.5 g – High in dietary fiber, aiding digestion and promoting gut health.
-- Sugar: 4.4 g – Contains natural sugars that provide sweetness and energy.
-- Proteins: 1.2 g – A small amount of protein, supporting muscle repair.
-- Vitamin C: 26.2 mg – High in vitamin C, boosting immune function and skin health.
-- Calcium: 33 mg – Supports bone health.
-- Iron: 0.7 mg – Necessary for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.1 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 22 mg – Supports muscle function and energy production.`,
-cultivationHeading: `Raspberries are delicious, juicy berries that are popular for their sweet-tart flavor and versatility in culinary applications. They can be cultivated in a variety of climates and are commonly grown in both commercial farms and home gardens. Here’s an overview of raspberry cultivation`,
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    nutritionText: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Raspberries thrive in temperate climates with well-defined seasons. The ideal temperature range for raspberry growth is between 15°C and 25°C (59°F to 77°F).",
+        element: "Energy value:",
+        quantity: 52,
+        measurementUnits: "kcal",
+        description: "– Low in calories, making them a healthy snack option.",
       },
       {
-        id: 212,
-        topic: "Frost Sensitivity",
-        text: "Raspberries are sensitive to frost, especially during flowering and fruit development. Protecting plants from late spring frosts is crucial for a successful harvest.",
+        element: "Fats:",
+        quantity: 0.7,
+        measurementUnits: "g",
+        description:
+          "– Very low in fat, contributing to their health benefits.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.0,
+        measurementUnits: "g",
+        description: "– Contains negligible amounts of saturated fats.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Cholesterol-free, promoting heart health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, beneficial for blood pressure management.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 151,
+        measurementUnits: "mg",
+        description:
+          "– A good source of potassium, essential for heart and muscle function.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 11.9,
+        measurementUnits: "g",
+        description:
+          "– Rich in carbohydrates, primarily from natural sugars and fiber.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 6.5,
+        measurementUnits: "g",
+        description: "– High in dietary fiber, promoting healthy digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 4.4,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars, contributing to their sweetness.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 1.2,
+        measurementUnits: "g",
+        description: "– Provides a small amount of protein.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 26.2,
+        measurementUnits: "mg",
+        description:
+          "– A good source of vitamin C, supporting immune function and skin health.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 33,
+        measurementUnits: "mg",
+        description:
+          "– Contains trace amounts of calcium, contributing to bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.7,
+        measurementUnits: "mg",
+        description:
+          "– Provides small amounts of iron, essential for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– No vitamin D present, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description:
+          "– Lacks vitamin B12, which is primarily found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 22,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of magnesium, essential for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.4,
+        measurementUnits: "mg",
+        description:
+          "– Provides trace amounts of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.87,
+        measurementUnits: "mg",
+        description: "– Contains small amounts of vitamin E, an antioxidant.",
       },
     ],
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
+    cultivationHeading: `Raspberries are delicious, juicy berries that are popular for their sweet-tart flavor and versatility in culinary applications. They can be cultivated in a variety of climates and are commonly grown in both commercial farms and home gardens. Here’s an overview of raspberry cultivation`,
+    cultivation: [
       {
-        id: 221,
-        topic: "pH",
-        text: "Raspberries prefer well-drained, fertile soils with a pH level between 5.5 and 6.5.",
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Raspberries thrive in temperate climates with well-defined seasons. The ideal temperature range for raspberry growth is between 15°C and 25°C (59°F to 77°F).",
+          },
+          {
+            id: 212,
+            topic: "Frost Sensitivity",
+            text: "Raspberries are sensitive to frost, especially during flowering and fruit development. Protecting plants from late spring frosts is crucial for a successful harvest.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Sandy loam or loamy soils are ideal as they provide good drainage and aeration. Heavy clay soils should be avoided.",
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Raspberries prefer well-drained, fertile soils with a pH level between 5.5 and 6.5.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Sandy loam or loamy soils are ideal as they provide good drainage and aeration. Heavy clay soils should be avoided.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Before planting, incorporate organic matter like compost or well-rotted manure into the soil to enhance fertility and structure.",
+          },
+        ],
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Before planting, incorporate organic matter like compost or well-rotted manure into the soil to enhance fertility and structure.",
-      },
-    ],
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: `Popular raspberry varieties include:
+        id: 23,
+        topic: "Varieties",
+        text: `Popular raspberry varieties include:
                             - Red raspberries (such as Heritage and Willamette) known for their sweet flavor.
                             - Black raspberries (like Black Hawk and Jewel) which have a unique taste and are great for preserves.`,
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant raspberries is in early spring or late fall when the plants are dormant.",
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Raspberry plants should be spaced about 0.6 to 1 meter (2 to 3 feet) apart within rows, and rows should be 1.5 to 2 meters (5 to 6 feet) apart.",
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant raspberries is in early spring or late fall when the plants are dormant.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Raspberry plants should be spaced about 0.6 to 1 meter (2 to 3 feet) apart within rows, and rows should be 1.5 to 2 meters (5 to 6 feet) apart.",
+          },
+          {
+            id: 243,
+            topic: "Pollination",
+            text: "Most raspberry varieties are self-pollinating, but planting multiple varieties can improve yields.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Pollination",
-        text: "Most raspberry varieties are self-pollinating, but planting multiple varieties can improve yields.",
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Raspberry plants require regular watering during their first growing season to establish strong roots.",
+          },
+          {
+            id: 252,
+            topic: "Mature Plants",
+            text: "Once established, raspberries need about 25 to 50 mm (1 to 2 inches) of water per week, especially during fruiting. Deep watering is preferred.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Overwatering can lead to root rot, so ensure the soil drains well and avoids waterlogging.",
+          },
+        ],
+      },
+      {
+        id: 26,
+        topic: "Pruning",
+        children: [
+          {
+            id: 261,
+            topic: "Type of Pruning",
+            text: "Raspberries benefit from summer and winter pruning. Summer pruning involves removing spent floricanes (two-year-old canes) after harvest, while winter pruning includes thinning out new primocanes (one-year-old canes) to encourage airflow and fruit production.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Pruning should be done in late winter or early spring before new growth starts to ensure healthy and productive canes.",
+          },
+        ],
+      },
+      {
+        id: 27,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 271,
+            topic: "Nutrients",
+            text: "Raspberries require balanced fertilizers that are high in potassium and phosphorus to promote fruiting and overall plant health.",
+          },
+          {
+            id: 272,
+            topic: "Timing",
+            text: "Fertilization should occur in early spring, just before new growth begins, and again after harvest for optimal results.",
+          },
+        ],
+      },
+      {
+        id: 28,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 281,
+            topic: "Pests",
+            text: "Common raspberry pests include aphids, spider mites, and raspberry cane borers. Implementing integrated pest management (IPM) practices, such as beneficial insects and insecticidal soaps, can help control these pests.",
+          },
+          {
+            id: 282,
+            topic: "Diseases",
+            text: "Raspberries are susceptible to diseases like anthracnose, powdery mildew, and root rot. Good cultural practices, including proper pruning and spacing, along with fungicide applications when necessary, can help manage these diseases.",
+          },
+        ],
+      },
+      {
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Time",
+            text: "Raspberries are usually ready for harvest from mid-summer to early fall, depending on the variety.",
+          },
+          {
+            id: 292,
+            topic: "Signs of Ripeness",
+            text: "Ripe raspberries are bright in color, easily pull off the stem, and should be plump and fragrant.",
+          },
+          {
+            id: 293,
+            topic: "Handling",
+            text: "Handle raspberries gently to avoid bruising, as they are delicate fruits. Store them in a cool place after harvest.",
+          },
+        ],
+      },
+      {
+        id: 30.2,
+        topic: "Storage",
+        text: "Raspberries have a short shelf life and are best consumed fresh. They can be stored in the refrigerator for up to two days.",
+        children: [
+          {
+            id: 30.21,
+            topic: `Preservation`,
+            text: "Raspberries can also be frozen for long-term storage, canned, or made into jams and preserves.",
+          },
+        ],
+      },
+      {
+        id: 31.2,
+        topic: "Thinning",
+        text: "Thinning can help maintain good air circulation and reduce competition among canes, improving fruit size and quality.",
       },
     ],
   },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Raspberry plants require regular watering during their first growing season to establish strong roots.",
-      },
-      {
-        id: 252,
-        topic: "Mature Plants",
-        text: "Once established, raspberries need about 25 to 50 mm (1 to 2 inches) of water per week, especially during fruiting. Deep watering is preferred.",
-      },
-      {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Overwatering can lead to root rot, so ensure the soil drains well and avoids waterlogging.",
-      },
-    ],
-  },
-  {
-    id: 26,
-    topic: "Pruning",
-    children: [
-      {
-        id: 261,
-        topic: "Type of Pruning",
-        text: "Raspberries benefit from summer and winter pruning. Summer pruning involves removing spent floricanes (two-year-old canes) after harvest, while winter pruning includes thinning out new primocanes (one-year-old canes) to encourage airflow and fruit production.",
-      },
-      {
-        id: 262,
-        topic: "Timing",
-        text: "Pruning should be done in late winter or early spring before new growth starts to ensure healthy and productive canes.",
-      },
-    ],
-  },
-  {
-    id: 27,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 271,
-        topic: "Nutrients",
-        text: "Raspberries require balanced fertilizers that are high in potassium and phosphorus to promote fruiting and overall plant health.",
-      },
-      {
-        id: 272,
-        topic: "Timing",
-        text: "Fertilization should occur in early spring, just before new growth begins, and again after harvest for optimal results.",
-      },
-    ],
-  },
-  {
-    id: 28,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 281,
-        topic: "Pests",
-        text: "Common raspberry pests include aphids, spider mites, and raspberry cane borers. Implementing integrated pest management (IPM) practices, such as beneficial insects and insecticidal soaps, can help control these pests.",
-      },
-      {
-        id: 282,
-        topic: "Diseases",
-        text: "Raspberries are susceptible to diseases like anthracnose, powdery mildew, and root rot. Good cultural practices, including proper pruning and spacing, along with fungicide applications when necessary, can help manage these diseases.",
-      },
-    ],
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Time",
-        text: "Raspberries are usually ready for harvest from mid-summer to early fall, depending on the variety.",
-      },
-      {
-        id: 292,
-        topic: "Signs of Ripeness",
-        text: "Ripe raspberries are bright in color, easily pull off the stem, and should be plump and fragrant.",
-      },
-      {
-        id: 293,
-        topic: "Handling",
-        text: "Handle raspberries gently to avoid bruising, as they are delicate fruits. Store them in a cool place after harvest.",
-      },
-    ],
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Raspberries have a short shelf life and are best consumed fresh. They can be stored in the refrigerator for up to two days.",
-    children: [
-      {
-        id: 30.21,
-        topic: `Preservation`,
-        text: "Raspberries can also be frozen for long-term storage, canned, or made into jams and preserves.",
-      },
-    ],
-  },
-  {
-    id: 31.2,
-    topic: "Thinning",
-    text: "Thinning can help maintain good air circulation and reduce competition among canes, improving fruit size and quality.",
-  },
-]
-},
   {
     id: 21,
     name: "Strawberry",
@@ -4109,200 +6276,309 @@ cultivation: [
                   Culinary-wise, strawberries are incredibly versatile. They can be enjoyed fresh, added to smoothies, used in desserts, or incorporated into salads and salsas, enhancing both flavor and nutrition.
                   In summary, strawberries are a delicious and nutritious fruit that offers a wide range of health benefits. Their sweet flavor and versatility make them a favorite choice for both snacking and cooking, providing enjoyment and nourishment in every bite.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 32 kcal – A low-calorie fruit, making it an excellent choice for healthy snacking.
-- Fats: 0.3 g – Very low in fat, supporting heart health.
-- Saturated fatty acids: 0 g – Contains no saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, contributing to cardiovascular health.
-- Sodium: 1 mg – Very low in sodium, beneficial for maintaining healthy blood pressure.
-- Potassium: 153 mg – Important for maintaining fluid balance and muscle function.
-- Carbohydrates: 7.7 g – Provides a moderate source of energy primarily from natural sugars.
-- Fiber: 2 g – Contains dietary fiber, aiding digestion and promoting gut health.
-- Sugar: 4.9 g – Contains natural sugars that provide sweetness and energy.
-- Proteins: 0.7 g – A small amount of protein, supporting muscle repair.
-- Vitamin C: 58.8 mg – Extremely high in vitamin C, boosting immune function and skin health.
-- Calcium: 16 mg – Supports bone health.
-- Iron: 0.4 mg – Necessary for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.1 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 12 mg – Supports muscle function and energy production.`,
-cultivationHeading: `Strawberries are one of the most popular and widely consumed berries globally, known for their sweet flavor and vibrant red color. They can be grown in various climates and are cultivated both commercially and in home gardens. Here’s an overview of strawberry cultivation`,
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    nutritionText: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Strawberries thrive in temperate climates with well-defined seasons. The ideal temperature for strawberry growth is between 15°C and 25°C (59°F to 77°F).",
+        element: "Energy value:",
+        quantity: 32,
+        measurementUnits: "kcal",
+        description:
+          "– Low in calories, making them a great choice for weight management.",
       },
       {
-        id: 212,
-        topic: "Frost Sensitivity",
-        text: "Strawberries are sensitive to frost, especially during flowering and fruit development. Protecting plants from late spring frosts is crucial for a successful harvest.",
+        element: "Fats:",
+        quantity: 0.3,
+        measurementUnits: "g",
+        description: "– Very low in fat, promoting heart health.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.0,
+        measurementUnits: "g",
+        description: "– Contains negligible amounts of saturated fats.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description:
+          "– Cholesterol-free, contributing to cardiovascular health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, beneficial for managing blood pressure.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 153,
+        measurementUnits: "mg",
+        description:
+          "– Good source of potassium, which helps regulate fluid balance and muscle contractions.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 7.7,
+        measurementUnits: "g",
+        description:
+          "– Provides carbohydrates, mainly from natural sugars and dietary fiber.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 2.0,
+        measurementUnits: "g",
+        description: "– High in dietary fiber, promoting healthy digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 4.9,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars, contributing to its sweet flavor.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 0.7,
+        measurementUnits: "g",
+        description: "– Provides a small amount of protein.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 58.8,
+        measurementUnits: "mg",
+        description:
+          "– Excellent source of vitamin C, supporting the immune system and skin health.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 18,
+        measurementUnits: "mg",
+        description:
+          "– Provides trace amounts of calcium, contributing to bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.4,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of iron, essential for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Does not contain vitamin D, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain function.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description: "– Lacks vitamin B12, primarily found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 12,
+        measurementUnits: "mg",
+        description:
+          "– Contains magnesium, essential for muscle and nerve function.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Provides a small amount of zinc, supporting immune health.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.3,
+        measurementUnits: "mg",
+        description: "– Contains small amounts of vitamin E, an antioxidant.",
       },
     ],
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
+    cultivationHeading: `Strawberries are one of the most popular and widely consumed berries globally, known for their sweet flavor and vibrant red color. They can be grown in various climates and are cultivated both commercially and in home gardens. Here’s an overview of strawberry cultivation`,
+    cultivation: [
       {
-        id: 221,
-        topic: "pH",
-        text: "Strawberries prefer well-drained, sandy loam soils with a pH level between 5.5 and 6.8.",
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Strawberries thrive in temperate climates with well-defined seasons. The ideal temperature for strawberry growth is between 15°C and 25°C (59°F to 77°F).",
+          },
+          {
+            id: 212,
+            topic: "Frost Sensitivity",
+            text: "Strawberries are sensitive to frost, especially during flowering and fruit development. Protecting plants from late spring frosts is crucial for a successful harvest.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Well-drained soils are essential as strawberries do not tolerate waterlogged conditions. Raised beds can enhance drainage.",
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Strawberries prefer well-drained, sandy loam soils with a pH level between 5.5 and 6.8.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Well-drained soils are essential as strawberries do not tolerate waterlogged conditions. Raised beds can enhance drainage.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Before planting, incorporate organic matter like compost or well-rotted manure to improve soil fertility and structure.",
+          },
+        ],
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Before planting, incorporate organic matter like compost or well-rotted manure to improve soil fertility and structure.",
-      },
-    ],
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: `Popular strawberry varieties include:
+        id: 23,
+        topic: "Varieties",
+        text: `Popular strawberry varieties include:
                             - June-bearing varieties (such as Earliglow and Jewel) that produce fruit in early summer.
                             - Ever-bearing varieties (like Quinault and Seascape) that provide multiple harvests throughout the growing season.`,
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant strawberries is in early spring or late fall when the plants are dormant.",
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Strawberries should be planted about 30 to 45 cm (12 to 18 inches) apart, with rows spaced 1 meter (3 feet) apart to allow for growth and air circulation.",
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant strawberries is in early spring or late fall when the plants are dormant.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Strawberries should be planted about 30 to 45 cm (12 to 18 inches) apart, with rows spaced 1 meter (3 feet) apart to allow for growth and air circulation.",
+          },
+          {
+            id: 243,
+            topic: "Pollination",
+            text: "Most strawberry varieties are self-pollinating, but planting multiple varieties can increase yields and improve fruit quality.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Pollination",
-        text: "Most strawberry varieties are self-pollinating, but planting multiple varieties can increase yields and improve fruit quality.",
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Strawberries require consistent moisture during the first growing season to establish a healthy root system.",
+          },
+          {
+            id: 252,
+            topic: "Mature Plants",
+            text: "Once established, strawberries need about 25 to 50 mm (1 to 2 inches) of water per week, especially during fruiting. Deep watering is recommended.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Waterlogging can lead to root rot, so ensure good drainage and avoid overwatering.",
+          },
+        ],
+      },
+      {
+        id: 26,
+        topic: "Pruning",
+        children: [
+          {
+            id: 261,
+            topic: "Runner Management",
+            text: "Strawberry plants produce runners (stolons) that can root and form new plants. Pruning excess runners can help the main plant focus energy on fruit production.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Prune any dead or diseased leaves in early spring before new growth begins to promote plant health.",
+          },
+        ],
+      },
+      {
+        id: 27,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 271,
+            topic: "Nutrients",
+            text: "Strawberries benefit from balanced fertilizers that are high in potassium and phosphorus to encourage flowering and fruiting.",
+          },
+          {
+            id: 272,
+            topic: "Timing",
+            text: "Fertilization should occur in early spring, just before new growth starts, and again after the harvest to support ongoing plant health.",
+          },
+        ],
+      },
+      {
+        id: 28,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 281,
+            topic: "Pests",
+            text: "Common pests affecting strawberries include aphids, spider mites, and slugs. Implementing integrated pest management (IPM) practices can help control these pests.",
+          },
+          {
+            id: 282,
+            topic: "Diseases",
+            text: "Strawberries are susceptible to diseases like powdery mildew, gray mold, and root rot. Good cultural practices, including proper spacing and watering, can help manage these diseases.",
+          },
+        ],
+      },
+      {
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Time",
+            text: "Strawberries are typically ready for harvest from late spring to early summer, depending on the variety.",
+          },
+          {
+            id: 292,
+            topic: "Signs of Ripeness",
+            text: "Ripe strawberries are bright red, firm, and fragrant. They should be harvested when fully ripe for the best flavor.",
+          },
+          {
+            id: 293,
+            topic: "Handling",
+            text: "Handle strawberries gently to avoid bruising. Store them in a cool place after harvest.",
+          },
+        ],
+      },
+      {
+        id: 30.2,
+        topic: "Storage",
+        text: "Strawberries have a short shelf life and are best consumed fresh. They can be stored in the refrigerator for up to three days.",
+        children: [
+          {
+            id: 30.21,
+            topic: `Preservation`,
+            text: "Strawberries can also be frozen for long-term storage, canned, or made into jams and preserves.",
+          },
+        ],
+      },
+      {
+        id: 31.2,
+        topic: "Thinning",
+        text: "Thinning can help improve air circulation and reduce competition among plants, resulting in better fruit quality and size.",
       },
     ],
-  },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Strawberries require consistent moisture during the first growing season to establish a healthy root system.",
-      },
-      {
-        id: 252,
-        topic: "Mature Plants",
-        text: "Once established, strawberries need about 25 to 50 mm (1 to 2 inches) of water per week, especially during fruiting. Deep watering is recommended.",
-      },
-      {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Waterlogging can lead to root rot, so ensure good drainage and avoid overwatering.",
-      },
-    ],
-  },
-  {
-    id: 26,
-    topic: "Pruning",
-    children: [
-      {
-        id: 261,
-        topic: "Runner Management",
-        text: "Strawberry plants produce runners (stolons) that can root and form new plants. Pruning excess runners can help the main plant focus energy on fruit production.",
-      },
-      {
-        id: 262,
-        topic: "Timing",
-        text: "Prune any dead or diseased leaves in early spring before new growth begins to promote plant health.",
-      },
-    ],
-  },
-  {
-    id: 27,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 271,
-        topic: "Nutrients",
-        text: "Strawberries benefit from balanced fertilizers that are high in potassium and phosphorus to encourage flowering and fruiting.",
-      },
-      {
-        id: 272,
-        topic: "Timing",
-        text: "Fertilization should occur in early spring, just before new growth starts, and again after the harvest to support ongoing plant health.",
-      },
-    ],
-  },
-  {
-    id: 28,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 281,
-        topic: "Pests",
-        text: "Common pests affecting strawberries include aphids, spider mites, and slugs. Implementing integrated pest management (IPM) practices can help control these pests.",
-      },
-      {
-        id: 282,
-        topic: "Diseases",
-        text: "Strawberries are susceptible to diseases like powdery mildew, gray mold, and root rot. Good cultural practices, including proper spacing and watering, can help manage these diseases.",
-      },
-    ],
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Time",
-        text: "Strawberries are typically ready for harvest from late spring to early summer, depending on the variety.",
-      },
-      {
-        id: 292,
-        topic: "Signs of Ripeness",
-        text: "Ripe strawberries are bright red, firm, and fragrant. They should be harvested when fully ripe for the best flavor.",
-      },
-      {
-        id: 293,
-        topic: "Handling",
-        text: "Handle strawberries gently to avoid bruising. Store them in a cool place after harvest.",
-      },
-    ],
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Strawberries have a short shelf life and are best consumed fresh. They can be stored in the refrigerator for up to three days.",
-    children: [
-      {
-        id: 30.21,
-        topic: `Preservation`,
-        text: "Strawberries can also be frozen for long-term storage, canned, or made into jams and preserves.",
-      },
-    ],
-  },
-  {
-    id: 31.2,
-    topic: "Thinning",
-    text: "Thinning can help improve air circulation and reduce competition among plants, resulting in better fruit quality and size.",
-  },
-]
   },
   {
     id: 22,
@@ -4316,199 +6592,311 @@ cultivation: [
                   Culinary-wise, watermelon is incredibly versatile. It can be enjoyed fresh, blended into smoothies, added to fruit salads, or even grilled for a unique flavor.
                   In summary, watermelon is a hydrating, nutritious fruit that offers a variety of health benefits. Its delicious taste and versatility make it a favorite choice for summer enjoyment.`,
     topic1: "Nutrition and Health",
-    text: `
-- At 100 g
-- Energy value: 30 kcal – A low-calorie fruit, making it an excellent option for hydration and snacking.
-- Fats: 0.2 g – Very low in fat, supporting heart health.
-- Saturated fatty acids: 0 g – Contains no saturated fats.
-- Cholesterol: 0 mg – Cholesterol-free, contributing to cardiovascular health.
-- Sodium: 1 mg – Very low in sodium, beneficial for maintaining healthy blood pressure.
-- Potassium: 112 mg – Important for maintaining fluid balance and muscle function.
-- Carbohydrates: 7.6 g – Provides a moderate source of energy, primarily from natural sugars.
-- Fiber: 0.4 g – Contains a small amount of dietary fiber, aiding digestion.
-- Sugar: 6.2 g – Contains natural sugars that provide sweetness and energy.
-- Proteins: 0.6 g – A small amount of protein, supporting muscle repair.
-- Vitamin C: 8.1 mg – Contributes to immune function and skin health.
-- Calcium: 18 mg – Supports bone health.
-- Iron: 0.2 mg – Necessary for red blood cell production.
-- Vitamin D: 0 IU – No vitamin D, typically sourced from sunlight or fortified foods.
-- Vitamin B6: 0.1 mg – Supports metabolism and brain health.
-- Vitamin B12: 0 µg – No vitamin B12, commonly found in animal products.
-- Magnesium: 10 mg – Supports muscle function and energy production.`,
-cultivationHeading: `Watermelons are refreshing, sweet fruits that are a favorite during warm seasons. They are primarily grown in warm climates and are popular for their high water content and nutritional benefits. Here’s an overview of watermelon cultivation`,
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    nutritionText: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Watermelons thrive in warm climates with full sun exposure. The ideal temperature for growth is between 24°C and 30°C (75°F to 86°F).",
+        element: "Energy value:",
+        quantity: 30,
+        measurementUnits: "kcal",
+        description:
+          "– Very low in calories, making it a refreshing and hydrating snack.",
       },
       {
-        id: 212,
-        topic: "Frost Sensitivity",
-        text: "Watermelons are sensitive to frost and should be planted only after the danger of frost has passed. Frost can damage young plants and reduce yield.",
+        element: "Fats:",
+        quantity: 0.2,
+        measurementUnits: "g",
+        description:
+          "– Extremely low in fat, contributing to its health benefits.",
+      },
+      {
+        element: "Saturated fatty acids:",
+        quantity: 0.0,
+        measurementUnits: "g",
+        description: "– Contains negligible amounts of saturated fats.",
+      },
+      {
+        element: "Cholesterol:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Cholesterol-free, promoting heart health.",
+      },
+      {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, beneficial for blood pressure management.",
+      },
+      {
+        element: "Potassium:",
+        quantity: 112,
+        measurementUnits: "mg",
+        description:
+          "– A good source of potassium, essential for heart and muscle function.",
+      },
+      {
+        element: "Carbohydrates:",
+        quantity: 7.6,
+        measurementUnits: "g",
+        description: "– Contains carbohydrates mainly from natural sugars.",
+      },
+      {
+        element: "Fiber:",
+        quantity: 0.4,
+        measurementUnits: "g",
+        description:
+          "– Provides a small amount of dietary fiber, promoting digestion.",
+      },
+      {
+        element: "Sugar:",
+        quantity: 6.2,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars, contributing to its sweet flavor.",
+      },
+      {
+        element: "Proteins:",
+        quantity: 0.6,
+        measurementUnits: "g",
+        description: "– Provides minimal protein content.",
+      },
+      {
+        element: "Vitamin C:",
+        quantity: 8.1,
+        measurementUnits: "mg",
+        description:
+          "– Contains vitamin C, supporting immune function and skin health.",
+      },
+      {
+        element: "Calcium:",
+        quantity: 18,
+        measurementUnits: "mg",
+        description:
+          "– Contains trace amounts of calcium, contributing to bone health.",
+      },
+      {
+        element: "Iron:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Provides small amounts of iron, essential for blood health.",
+      },
+      {
+        element: "Vitamin D:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– No vitamin D present, typically obtained from sunlight.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and brain health.",
+      },
+      {
+        element: "Vitamin B12:",
+        quantity: 0,
+        measurementUnits: "µg",
+        description:
+          "– Lacks vitamin B12, which is primarily found in animal products.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 10,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of magnesium, essential for various bodily functions.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Provides trace amounts of zinc, supporting immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Contains minimal amounts of vitamin E, an antioxidant.",
       },
     ],
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
+    cultivationHeading: `Watermelons are refreshing, sweet fruits that are a favorite during warm seasons. They are primarily grown in warm climates and are popular for their high water content and nutritional benefits. Here’s an overview of watermelon cultivation`,
+    cultivation: [
       {
-        id: 221,
-        topic: "pH",
-        text: "Watermelons prefer well-drained, sandy loam soils with a pH level between 6.0 and 7.5.",
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Watermelons thrive in warm climates with full sun exposure. The ideal temperature for growth is between 24°C and 30°C (75°F to 86°F).",
+          },
+          {
+            id: 212,
+            topic: "Frost Sensitivity",
+            text: "Watermelons are sensitive to frost and should be planted only after the danger of frost has passed. Frost can damage young plants and reduce yield.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Loamy soils that retain some moisture while allowing good drainage are ideal for watermelon cultivation. Avoid heavy clay soils that can hold excess water.",
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Watermelons prefer well-drained, sandy loam soils with a pH level between 6.0 and 7.5.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Loamy soils that retain some moisture while allowing good drainage are ideal for watermelon cultivation. Avoid heavy clay soils that can hold excess water.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Before planting, enrich the soil with organic matter like compost to improve fertility and drainage.",
+          },
+        ],
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Before planting, enrich the soil with organic matter like compost to improve fertility and drainage.",
-      },
-    ],
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: `Popular watermelon varieties include:
+        id: 23,
+        topic: "Varieties",
+        text: `Popular watermelon varieties include:
                             - Seedless varieties (such as Crimson Sweet and Seedless Sugar Baby) for easy consumption.
                             - Picnic varieties (like Charleston Gray) that are larger and perfect for summer gatherings.`,
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant watermelon is in late spring, once the soil temperature reaches at least 18°C (65°F).",
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Plant watermelon seeds or seedlings about 90 to 120 cm (3 to 4 feet) apart, with rows spaced at least 1.5 meters (5 feet) apart to allow for vine spread.",
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant watermelon is in late spring, once the soil temperature reaches at least 18°C (65°F).",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Plant watermelon seeds or seedlings about 90 to 120 cm (3 to 4 feet) apart, with rows spaced at least 1.5 meters (5 feet) apart to allow for vine spread.",
+          },
+          {
+            id: 243,
+            topic: "Pollination",
+            text: "Watermelons are typically pollinated by bees. Having a healthy pollinator population nearby can improve fruit set and quality.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Pollination",
-        text: "Watermelons are typically pollinated by bees. Having a healthy pollinator population nearby can improve fruit set and quality.",
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Watermelons require consistent moisture during the germination and establishment phases. Keep the soil consistently moist but not waterlogged.",
+          },
+          {
+            id: 252,
+            topic: "Mature Plants",
+            text: "Once established, watermelons need about 25 to 50 mm (1 to 2 inches) of water per week. Deep watering is essential during fruit development.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Overwatering can lead to root rot and other fungal diseases. Ensure good drainage to prevent standing water.",
+          },
+        ],
+      },
+      {
+        id: 26,
+        topic: "Pruning",
+        children: [
+          {
+            id: 261,
+            topic: "Vine Management",
+            text: "Watermelon vines can be pruned to control growth and improve air circulation. Remove excess vines and leaves to direct energy towards fruit development.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Pruning should be done carefully during the growing season, taking care not to remove too many leaves that are essential for photosynthesis.",
+          },
+        ],
+      },
+      {
+        id: 27,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 271,
+            topic: "Nutrients",
+            text: "Watermelons benefit from a balanced fertilizer high in potassium and phosphorus to support flowering and fruit development.",
+          },
+          {
+            id: 272,
+            topic: "Timing",
+            text: "Fertilize at planting time and again during the growing season as fruits begin to set, following package instructions for application rates.",
+          },
+        ],
+      },
+      {
+        id: 28,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 281,
+            topic: "Pests",
+            text: "Common pests include aphids, cucumber beetles, and spider mites. Integrated pest management (IPM) techniques can help manage these pests effectively.",
+          },
+          {
+            id: 282,
+            topic: "Diseases",
+            text: "Watermelons can be affected by diseases like powdery mildew, downy mildew, and fusarium wilt. Good cultural practices, such as crop rotation and proper spacing, can help prevent disease outbreaks.",
+          },
+        ],
+      },
+      {
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Time",
+            text: "Watermelons are typically ready for harvest 70 to 90 days after planting, depending on the variety.",
+          },
+          {
+            id: 292,
+            topic: "Signs of Ripeness",
+            text: "Signs that watermelons are ripe include a dull skin surface, a yellow spot on the bottom, and a hollow sound when tapped.",
+          },
+          {
+            id: 293,
+            topic: "Handling",
+            text: "Handle watermelons carefully to avoid bruising. Use sharp tools to cut the fruit from the vine.",
+          },
+        ],
+      },
+      {
+        id: 30.2,
+        topic: "Storage",
+        text: "Watermelons can be stored at room temperature for a few days or in the refrigerator for up to two weeks. Cut watermelon should be wrapped and stored in the fridge to prevent spoilage.",
+        children: [
+          {
+            id: 30.21,
+            topic: "Preservation",
+            text: "Watermelons can also be made into juice, pickled, or used in salads to extend their use beyond fresh consumption.",
+          },
+        ],
+      },
+      {
+        id: 31.2,
+        topic: "Thinning",
+        text: "Thinning seedlings may be necessary to ensure proper spacing and airflow, promoting healthier plants and better fruit size.",
       },
     ],
-  },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Watermelons require consistent moisture during the germination and establishment phases. Keep the soil consistently moist but not waterlogged.",
-      },
-      {
-        id: 252,
-        topic: "Mature Plants",
-        text: "Once established, watermelons need about 25 to 50 mm (1 to 2 inches) of water per week. Deep watering is essential during fruit development.",
-      },
-      {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Overwatering can lead to root rot and other fungal diseases. Ensure good drainage to prevent standing water.",
-      },
-    ],
-  },
-  {
-    id: 26,
-    topic: "Pruning",
-    children: [
-      {
-        id: 261,
-        topic: "Vine Management",
-        text: "Watermelon vines can be pruned to control growth and improve air circulation. Remove excess vines and leaves to direct energy towards fruit development.",
-      },
-      {
-        id: 262,
-        topic: "Timing",
-        text: "Pruning should be done carefully during the growing season, taking care not to remove too many leaves that are essential for photosynthesis.",
-      },
-    ],
-  },
-  {
-    id: 27,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 271,
-        topic: "Nutrients",
-        text: "Watermelons benefit from a balanced fertilizer high in potassium and phosphorus to support flowering and fruit development.",
-      },
-      {
-        id: 272,
-        topic: "Timing",
-        text: "Fertilize at planting time and again during the growing season as fruits begin to set, following package instructions for application rates.",
-      },
-    ],
-  },
-  {
-    id: 28,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 281,
-        topic: "Pests",
-        text: "Common pests include aphids, cucumber beetles, and spider mites. Integrated pest management (IPM) techniques can help manage these pests effectively.",
-      },
-      {
-        id: 282,
-        topic: "Diseases",
-        text: "Watermelons can be affected by diseases like powdery mildew, downy mildew, and fusarium wilt. Good cultural practices, such as crop rotation and proper spacing, can help prevent disease outbreaks.",
-      },
-    ],
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Time",
-        text: "Watermelons are typically ready for harvest 70 to 90 days after planting, depending on the variety.",
-      },
-      {
-        id: 292,
-        topic: "Signs of Ripeness",
-        text: "Signs that watermelons are ripe include a dull skin surface, a yellow spot on the bottom, and a hollow sound when tapped.",
-      },
-      {
-        id: 293,
-        topic: "Handling",
-        text: "Handle watermelons carefully to avoid bruising. Use sharp tools to cut the fruit from the vine.",
-      },
-    ],
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Watermelons can be stored at room temperature for a few days or in the refrigerator for up to two weeks. Cut watermelon should be wrapped and stored in the fridge to prevent spoilage.",
-    children: [
-      {
-        id: 30.21,
-        topic: 'Preservation',
-        text: "Watermelons can also be made into juice, pickled, or used in salads to extend their use beyond fresh consumption.",
-      },
-    ],
-  },
-  {
-    id: 31.2,
-    topic: "Thinning",
-    text: "Thinning seedlings may be necessary to ensure proper spacing and airflow, promoting healthier plants and better fruit size.",
-  },
-]
   },
 ];
+
+export default fruits;

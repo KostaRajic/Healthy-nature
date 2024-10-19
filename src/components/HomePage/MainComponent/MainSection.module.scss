@@ -1,15 +1,9 @@
-.mainSectionContainer {
-    background-color: rgb(44, 98, 146);
-    width: 100%;
-    height: 100vh;
-}
 
 .mainSectionBackground {
-    background-color: black;
-    margin: 0; 
+
     padding-left: 10%;
     padding-right: 10%;
-    height: 100vh;
+  padding-bottom: 20px;
     color: white;
 
     .firstThree { 
@@ -21,6 +15,7 @@
 
     .imageHoverEffect {
         position: relative;
+        transition: opacity 0.8s ease-in-out
       }
         .readMoreBtnClass {
           position: absolute;
@@ -33,6 +28,7 @@
           border: none;
           font-weight: 600;
           cursor: pointer;
+          transition: opacity 0.8s ease-in-out;
       }
       .readMoreBtnClass:active {
         transform: translate(-50%, -50%) scale(0.9);
@@ -45,6 +41,8 @@
         height: 200px;
         transition: all 1s ease-in-out;
         border-radius: 20px;
+        border: 2px solid white;
+      
 
     }
     .imageHoverEffect::before {
@@ -65,10 +63,11 @@
         transform: scale(1.2);
       }
     .secondThree {
-        padding-top: 50px;
+        margin-top: 50px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 50px;
     }
 
     p {
