@@ -20,131 +20,141 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
         quantity: 52,
         measurementUnits: "kcal",
         description:
-          "– Low in calories, making it a healthy, light snack option.",
-      },
-      {
+          "– A low-calorie fruit, providing a healthy energy source.",
+    },
+    {
         element: "Fats:",
         quantity: 0.2,
         measurementUnits: "g",
-        description: "– Very low in fat, mostly made up of unsaturated fats.",
-      },
-      {
+        description:
+          "– Very low in fat, with negligible amounts of saturated fats.",
+    },
+    {
         element: "Saturated fatty acids:",
         quantity: 0.03,
         measurementUnits: "g",
-        description:
-          "– Contains a negligible amount of saturated fats, promoting heart health.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
+        description: "– Extremely low in saturated fats, making it heart-healthy.",
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.091,
         measurementUnits: "mg",
-        description: "– Cholesterol-free, making it heart-healthy.",
-      },
-      {
+        description:
+          "– Supports metabolism and is important for maintaining healthy skin and nerves.",
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
         description:
-          "– Very low in sodium, helping to maintain normal blood pressure.",
-      },
-      {
+          "– Very low in sodium, contributing to heart health.",
+    },
+    {
         element: "Potassium:",
         quantity: 107,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of potassium, important for muscle function.",
-      },
-      {
+          "– A good source of potassium, essential for muscle function and fluid balance.",
+    },
+    {
         element: "Carbohydrates:",
-        quantity: 13.8,
+        quantity: 14,
         measurementUnits: "g",
         description:
-          "– Primarily composed of carbohydrates, mainly sugars and fiber.",
-      },
-      {
+          "– Rich in carbohydrates, primarily from natural sugars and fiber.",
+    },
+    {
         element: "Fiber:",
         quantity: 2.4,
         measurementUnits: "g",
         description:
-          "– A good source of dietary fiber, supporting healthy digestion.",
-      },
-      {
+          "– High in dietary fiber, promoting healthy digestion.",
+    },
+    {
         element: "Sugar:",
-        quantity: 10.4,
+        quantity: 10.39,
         measurementUnits: "g",
         description:
-          "– Contains natural sugars, providing sweetness without added sugar.",
-      },
-      {
+          "– Contains natural sugars, providing a sweet taste without added sugars.",
+    },
+    {
         element: "Proteins:",
         quantity: 0.3,
         measurementUnits: "g",
-        description: "– Low in protein, typical of most fruits.",
-      },
-      {
+        description:
+          "– Contains small amounts of protein, contributing to daily intake.",
+    },
+    {
         element: "Vitamin C:",
         quantity: 4.6,
         measurementUnits: "mg",
         description:
-          "– A decent source of vitamin C, important for immune health and skin.",
-      },
-      {
+          "– Provides vitamin C, important for immune function and skin health.",
+    },
+    {
         element: "Calcium:",
         quantity: 6,
         measurementUnits: "mg",
         description:
-          "– Contains a small amount of calcium, contributing to bone health.",
-      },
-      {
+          "– Contains small amounts of calcium, contributing to bone health.",
+    },
+    {
         element: "Iron:",
-        quantity: 0.1,
+        quantity: 0.12,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of iron, important for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
+          "– Contains minimal iron, important for oxygen transport in the blood.",
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.017,
+        measurementUnits: "mg",
         description:
-          "– No vitamin D present, which is obtained from sunlight or fortified foods.",
-      },
-      {
+          "– Supports energy metabolism by converting carbohydrates into energy.",
+    },
+    {
         element: "Vitamin B6:",
-        quantity: 0.04,
+        quantity: 0.041,
         measurementUnits: "mg",
         description:
-          "– Helps support metabolism and brain function, though in small amounts.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
+          "– Involved in metabolism and cognitive development.",
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.026,
+        measurementUnits: "mg",
         description:
-          "– Does not contain vitamin B12, typically found in animal products.",
-      },
-      {
+          "– Plays a role in energy production and maintaining healthy skin.",
+    },
+    {
         element: "Magnesium:",
         quantity: 5,
         measurementUnits: "mg",
         description:
-          "– A small source of magnesium, important for muscle and nerve health.",
-      },
-      {
+          "– Contains small amounts of magnesium, important for muscle and nerve function.",
+    },
+    {
         element: "Zinc:",
         quantity: 0.04,
         measurementUnits: "mg",
         description:
-          "– Contains a trace amount of zinc, supporting immune function.",
-      },
-      {
+          "– Provides minimal zinc, which supports immune function.",
+    },
+    {
         element: "Vitamin E:",
         quantity: 0.18,
         measurementUnits: "mg",
         description:
-          "– A small amount of vitamin E, which helps protect cells from oxidative damage.",
-      },
+          "– Contains very small amounts of vitamin E, which has antioxidant properties.",
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 54,
+        measurementUnits: "IU",
+        description:
+          "– Contains vitamin A, important for vision and immune function.",
+    }
+    
     ],
     cultivationHeading:
       "Apple cultivation involves growing apple trees, a process that requires specific conditions and care to produce high-quality fruit. Here's an overview of the key aspects of apple cultivation",
@@ -297,125 +307,123 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
         element: "Energy value:",
         quantity: 48,
         measurementUnits: "kcal",
-        description: "– Low in calories, making it a healthy snack option.",
-      },
-      {
+        description: "– Low in calories, making it a healthy choice for a snack or addition to meals."
+    },
+    {
         element: "Fats:",
         quantity: 0.1,
         measurementUnits: "g",
-        description: "– Very low in fat, contributing to a heart-healthy diet.",
-      },
-      {
+        description: "– Extremely low in fat, contributing to its healthful profile."
+    },
+    {
         element: "Saturated fatty acids:",
         quantity: 0,
         measurementUnits: "g",
-        description: "– Contains negligible saturated fats.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
+        description: "– Contains no saturated fats, promoting heart health."
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.6,
         measurementUnits: "mg",
-        description: "– Cholesterol-free, promoting cardiovascular health.",
-      },
-      {
+        description: "– Supports energy metabolism and skin health."
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
-        description:
-          "– Very low in sodium, beneficial for maintaining healthy blood pressure.",
-      },
-      {
+        description: "– Very low in sodium, beneficial for maintaining healthy blood pressure."
+    },
+    {
         element: "Potassium:",
         quantity: 259,
         measurementUnits: "mg",
-        description:
-          "– Good source of potassium, important for muscle function and heart health.",
-      },
-      {
+        description: "– A good source of potassium, essential for fluid balance and muscle contractions."
+    },
+    {
         element: "Carbohydrates:",
         quantity: 12,
         measurementUnits: "g",
-        description: "– Contains carbohydrates mainly from natural sugars.",
-      },
-      {
+        description: "– Contains natural sugars and dietary fiber for energy and digestion."
+    },
+    {
         element: "Fiber:",
         quantity: 2,
         measurementUnits: "g",
-        description: "– High in dietary fiber, promoting healthy digestion.",
-      },
-      {
+        description: "– Contains dietary fiber, which supports digestive health."
+    },
+    {
         element: "Sugar:",
         quantity: 9,
         measurementUnits: "g",
-        description: "– Contains natural sugars, providing a sweet flavor.",
-      },
-      {
+        description: "– Contains natural sugars, offering a sweet taste without added sugars."
+    },
+    {
         element: "Proteins:",
         quantity: 1.4,
         measurementUnits: "g",
-        description:
-          "– Contains small amounts of protein, contributing to overall intake.",
-      },
-      {
+        description: "– Provides a small amount of plant-based protein."
+    },
+    {
         element: "Vitamin C:",
-        quantity: 10,
+        quantity: 9.2,
         measurementUnits: "mg",
-        description: "– A source of vitamin C, important for immune function.",
-      },
-      {
+        description: "– A good source of vitamin C, important for immune function and skin health."
+    },
+    {
         element: "Calcium:",
-        quantity: 6,
+        quantity: 18,
         measurementUnits: "mg",
-        description:
-          "– Provides a small amount of calcium, supporting bone health.",
-      },
-      {
+        description: "– Contains a small amount of calcium, contributing to bone health."
+    },
+    {
         element: "Iron:",
-        quantity: 0.17,
+        quantity: 0.2,
         measurementUnits: "mg",
-        description:
-          "– Contains small amounts of iron, essential for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– No vitamin D present, typically obtained from sunlight.",
-      },
-      {
+        description: "– Contains iron, necessary for healthy red blood cell production."
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.02,
+        measurementUnits: "mg",
+        description: "– Supports energy metabolism."
+    },
+    {
         element: "Vitamin B6:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Supports metabolism and brain function.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description: "– Lacks vitamin B12, which is found in animal products.",
-      },
-      {
+        description: "– Important for protein metabolism and brain health."
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.02,
+        measurementUnits: "mg",
+        description: "– Contributes to energy production and skin health."
+    },
+    {
         element: "Magnesium:",
         quantity: 10,
         measurementUnits: "mg",
-        description:
-          "– Contains small amounts of magnesium, important for various bodily functions.",
-      },
-      {
+        description: "– Provides a small amount of magnesium, important for muscle and nerve function."
+    },
+    {
         element: "Zinc:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description:
-          "– Contains trace amounts of zinc, supporting immune function.",
-      },
-      {
+        description: "– Contains trace amounts of zinc, supporting immune function."
+    },
+    {
         element: "Vitamin E:",
-        quantity: 0.9,
+        quantity: 0.89,
         measurementUnits: "mg",
-        description:
-          "– Contains small amounts of vitamin E, an antioxidant that protects cells.",
-      },
+        description: "– Contains small amounts of vitamin E, an important antioxidant."
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 1926,
+        measurementUnits: "IU",
+        description: "– A good source of vitamin A, supporting vision and immune health."
+    }
+    
     ],
     cultivationHeading: `Apricot cultivation requires specific conditions for optimal growth and fruit production. Here is an overview of the key factors involved in growing apricots`,
     cultivation: [
@@ -607,128 +615,141 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
         quantity: 89,
         measurementUnits: "kcal",
         description:
-          "– Provides a moderate amount of calories, making it a good source of energy.",
-      },
-      {
+          "– A low-calorie fruit, providing a quick source of energy.",
+    },
+    {
         element: "Fats:",
         quantity: 0.3,
         measurementUnits: "g",
-        description: "– Very low in fat, contributing to a heart-healthy diet.",
-      },
-      {
+        description:
+          "– Very low in fat, with negligible amounts of saturated fats.",
+    },
+    {
         element: "Saturated fatty acids:",
         quantity: 0.1,
         measurementUnits: "g",
-        description:
-          "– Contains minimal saturated fats, supporting overall health.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
+        description: "– Extremely low in saturated fats, making it heart-healthy.",
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.665,
         measurementUnits: "mg",
-        description: "– Cholesterol-free, promoting cardiovascular health.",
-      },
-      {
+        description:
+          "– Supports metabolism and is important for maintaining healthy skin and nerves.",
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
         description:
-          "– Very low in sodium, beneficial for blood pressure management.",
-      },
-      {
+          "– Very low in sodium, contributing to heart health.",
+    },
+    {
         element: "Potassium:",
         quantity: 358,
         measurementUnits: "mg",
         description:
-          "– High in potassium, essential for muscle function and regulating blood pressure.",
-      },
-      {
+          "– A good source of potassium, essential for muscle function and fluid balance.",
+    },
+    {
         element: "Carbohydrates:",
         quantity: 22.8,
         measurementUnits: "g",
         description:
-          "– A rich source of carbohydrates, providing quick energy.",
-      },
-      {
+          "– Rich in carbohydrates, primarily from natural sugars and fiber.",
+    },
+    {
         element: "Fiber:",
         quantity: 2.6,
         measurementUnits: "g",
-        description: "– Contains dietary fiber, promoting digestive health.",
-      },
-      {
+        description:
+          "– High in dietary fiber, promoting healthy digestion.",
+    },
+    {
         element: "Sugar:",
         quantity: 12.2,
         measurementUnits: "g",
         description:
-          "– Contains natural sugars, contributing to its sweet taste.",
-      },
-      {
+          "– Contains natural sugars, providing a sweet taste without added sugars.",
+    },
+    {
         element: "Proteins:",
         quantity: 1.1,
         measurementUnits: "g",
         description:
-          "– Provides a small amount of protein, aiding in muscle repair.",
-      },
-      {
+          "– Contains small amounts of protein, contributing to daily intake.",
+    },
+    {
         element: "Vitamin C:",
         quantity: 8.7,
         measurementUnits: "mg",
         description:
-          "– A good source of vitamin C, supporting the immune system.",
-      },
-      {
+          "– Provides vitamin C, important for immune function and skin health.",
+    },
+    {
         element: "Calcium:",
         quantity: 5,
         measurementUnits: "mg",
         description:
-          "– Contains a small amount of calcium, contributing to bone health.",
-      },
-      {
+          "– Contains small amounts of calcium, contributing to bone health.",
+    },
+    {
         element: "Iron:",
-        quantity: 0.3,
+        quantity: 0.26,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of iron, essential for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
+          "– Contains minimal iron, important for oxygen transport in the blood.",
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.031,
+        measurementUnits: "mg",
         description:
-          "– Does not contain vitamin D, typically obtained from sunlight.",
-      },
-      {
+          "– Supports energy metabolism by converting carbohydrates into energy.",
+    },
+    {
         element: "Vitamin B6:",
-        quantity: 0.4,
+        quantity: 0.367,
         measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description: "– Lacks vitamin B12, which is found in animal products.",
-      },
-      {
+        description:
+          "– Involved in metabolism and cognitive development.",
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.073,
+        measurementUnits: "mg",
+        description:
+          "– Plays a role in energy production and maintaining healthy skin.",
+    },
+    {
         element: "Magnesium:",
         quantity: 27,
         measurementUnits: "mg",
         description:
-          "– Contains magnesium, important for many bodily functions.",
-      },
-      {
+          "– Contains small amounts of magnesium, important for muscle and nerve function.",
+    },
+    {
         element: "Zinc:",
         quantity: 0.15,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of zinc, supporting immune function.",
-      },
-      {
+          "– Provides minimal zinc, which supports immune function.",
+    },
+    {
         element: "Vitamin E:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Contains minimal vitamin E, an antioxidant.",
-      },
+        description:
+          "– Contains very small amounts of vitamin E, which has antioxidant properties.",
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 64,
+        measurementUnits: "IU",
+        description:
+          "– Contains vitamin A, important for vision and immune function.",
+    }
+    
     ],
     cultivationHeading: `Bananas are one of the most widely consumed fruits in the world and are primarily grown in tropical regions. They are typically grown in large-scale plantations, but they can also be cultivated in smaller home gardens. Here's an overview of banana cultivation`,
     cultivation: [
@@ -917,127 +938,123 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
         element: "Energy value:",
         quantity: 43,
         measurementUnits: "kcal",
-        description:
-          "– Low in calories, making it an excellent option for a healthy snack.",
-      },
-      {
+        description: "– Low in calories, making it a great choice for a healthy snack."
+    },
+    {
         element: "Fats:",
         quantity: 0.5,
         measurementUnits: "g",
-        description: "– Very low in fat, contributing to a heart-healthy diet.",
-      },
-      {
+        description: "– Very low in fat, contributing to its healthful profile."
+    },
+    {
         element: "Saturated fatty acids:",
-        quantity: 0.0,
-        measurementUnits: "g",
-        description: "– Contains negligible saturated fats.",
-      },
-      {
-        element: "Cholesterol:",
         quantity: 0,
+        measurementUnits: "g",
+        description: "– Contains no saturated fats, promoting heart health."
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 1.2,
         measurementUnits: "mg",
-        description: "– Cholesterol-free, promoting cardiovascular health.",
-      },
-      {
+        description: "– Supports energy metabolism and skin health."
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
-        description:
-          "– Very low in sodium, beneficial for maintaining healthy blood pressure.",
-      },
-      {
+        description: "– Very low in sodium, beneficial for maintaining healthy blood pressure."
+    },
+    {
         element: "Potassium:",
         quantity: 162,
         measurementUnits: "mg",
-        description:
-          "– Good source of potassium, important for muscle function and heart health.",
-      },
-      {
+        description: "– A good source of potassium, essential for fluid balance and muscle contractions."
+    },
+    {
         element: "Carbohydrates:",
         quantity: 9.6,
         measurementUnits: "g",
-        description: "– Contains carbohydrates primarily from natural sugars.",
-      },
-      {
+        description: "– Contains natural sugars and dietary fiber for energy and digestion."
+    },
+    {
         element: "Fiber:",
         quantity: 5.3,
         measurementUnits: "g",
-        description: "– High in dietary fiber, promoting healthy digestion.",
-      },
-      {
+        description: "– High in dietary fiber, promoting healthy digestion."
+    },
+    {
         element: "Sugar:",
         quantity: 4.9,
         measurementUnits: "g",
-        description: "– Contains natural sugars, providing a sweet flavor.",
-      },
-      {
+        description: "– Contains natural sugars, offering a sweet taste without added sugars."
+    },
+    {
         element: "Proteins:",
         quantity: 1.4,
         measurementUnits: "g",
-        description:
-          "– Contains small amounts of protein, contributing to overall intake.",
-      },
-      {
+        description: "– Provides a small amount of plant-based protein."
+    },
+    {
         element: "Vitamin C:",
         quantity: 21,
         measurementUnits: "mg",
-        description:
-          "– A good source of vitamin C, important for immune function.",
-      },
-      {
+        description: "– A good source of vitamin C, important for immune function and skin health."
+    },
+    {
         element: "Calcium:",
         quantity: 29,
         measurementUnits: "mg",
-        description:
-          "– Provides a small amount of calcium, supporting bone health.",
-      },
-      {
+        description: "– Provides a small amount of calcium, contributing to bone health."
+    },
+    {
         element: "Iron:",
         quantity: 0.6,
         measurementUnits: "mg",
-        description:
-          "– Contains small amounts of iron, essential for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– No vitamin D present, typically obtained from sunlight.",
-      },
-      {
+        description: "– Contains iron, necessary for healthy red blood cell production."
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.02,
+        measurementUnits: "mg",
+        description: "– Supports energy metabolism."
+    },
+    {
         element: "Vitamin B6:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Supports metabolism and brain function.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description: "– Lacks vitamin B12, which is found in animal products.",
-      },
-      {
+        description: "– Important for protein metabolism and brain health."
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.03,
+        measurementUnits: "mg",
+        description: "– Contributes to energy production and skin health."
+    },
+    {
         element: "Magnesium:",
         quantity: 20,
         measurementUnits: "mg",
-        description:
-          "– Contains small amounts of magnesium, important for various bodily functions.",
-      },
-      {
+        description: "– Provides a small amount of magnesium, important for muscle and nerve function."
+    },
+    {
         element: "Zinc:",
         quantity: 0.2,
         measurementUnits: "mg",
-        description:
-          "– Contains trace amounts of zinc, supporting immune function.",
-      },
-      {
+        description: "– Contains trace amounts of zinc, supporting immune function."
+    },
+    {
         element: "Vitamin E:",
-        quantity: 0.9,
+        quantity: 0.87,
         measurementUnits: "mg",
-        description:
-          "– Contains small amounts of vitamin E, an antioxidant that protects cells.",
-      },
+        description: "– Contains small amounts of vitamin E, an important antioxidant."
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 305,
+        measurementUnits: "IU",
+        description: "– Contains beta-carotene, supporting vision and immune health."
+    }
+    
     ],
     cultivationHeading: `Blackberries are popular fruits known for their sweet, tart flavor and are commonly grown in temperate regions. They can be cultivated on both commercial farms and in home gardens, and they are relatively easy to grow compared to other fruits. Here’s an overview of blackberry cultivation`,
     cultivation: [
@@ -1232,129 +1249,141 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
         quantity: 57,
         measurementUnits: "kcal",
         description:
-          "– Low in calories, making them a great snack for weight management.",
-      },
-      {
+          "– A low-calorie fruit, making it a great snack for energy without excessive calories.",
+    },
+    {
         element: "Fats:",
         quantity: 0.3,
         measurementUnits: "g",
-        description: "– Very low in fat, contributing to a healthy diet.",
-      },
-      {
-        element: "Saturated fatty acids:",
-        quantity: 0.1,
-        measurementUnits: "g",
         description:
-          "– Contains minimal saturated fats, supporting heart health.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
+          "– Very low in fat, with minimal saturated fats.",
+    },
+    {
+        element: "Saturated fatty acids:",
+        quantity: 0.0,
+        measurementUnits: "g",
+        description: "– Contains negligible amounts of saturated fats, promoting heart health.",
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.418,
         measurementUnits: "mg",
         description:
-          "– Cholesterol-free, beneficial for cardiovascular health.",
-      },
-      {
+          "– Important for energy metabolism and maintaining healthy skin and nerves.",
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
         description:
-          "– Very low in sodium, aiding in blood pressure management.",
-      },
-      {
+          "– Very low in sodium, contributing to heart health.",
+    },
+    {
         element: "Potassium:",
         quantity: 77,
         measurementUnits: "mg",
         description:
-          "– Contains potassium, essential for fluid balance and muscle function.",
-      },
-      {
+          "– A good source of potassium, essential for muscle function and fluid balance.",
+    },
+    {
         element: "Carbohydrates:",
         quantity: 14.5,
         measurementUnits: "g",
-        description: "– A good source of carbohydrates, providing energy.",
-      },
-      {
+        description:
+          "– Rich in carbohydrates, primarily from natural sugars and fiber.",
+    },
+    {
         element: "Fiber:",
         quantity: 2.4,
         measurementUnits: "g",
-        description: "– High in dietary fiber, promoting healthy digestion.",
-      },
-      {
+        description:
+          "– High in dietary fiber, promoting healthy digestion.",
+    },
+    {
         element: "Sugar:",
         quantity: 10,
         measurementUnits: "g",
         description:
-          "– Contains natural sugars, contributing to their sweetness.",
-      },
-      {
+          "– Contains natural sugars, providing sweetness without added sugars.",
+    },
+    {
         element: "Proteins:",
         quantity: 0.7,
         measurementUnits: "g",
         description:
-          "– Provides a small amount of protein, beneficial for muscle repair.",
-      },
-      {
+          "– Contains small amounts of protein, contributing to daily intake.",
+    },
+    {
         element: "Vitamin C:",
         quantity: 9.7,
         measurementUnits: "mg",
         description:
-          "– Good source of vitamin C, supporting the immune system.",
-      },
-      {
+          "– Provides vitamin C, important for immune function and skin health.",
+    },
+    {
         element: "Calcium:",
         quantity: 6,
         measurementUnits: "mg",
         description:
-          "– Contains a small amount of calcium, contributing to bone health.",
-      },
-      {
+          "– Contains small amounts of calcium, contributing to bone health.",
+    },
+    {
         element: "Iron:",
-        quantity: 0.2,
+        quantity: 0.28,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of iron, essential for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
+          "– Contains minimal iron, important for oxygen transport in the blood.",
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.020,
+        measurementUnits: "mg",
         description:
-          "– Does not contain vitamin D, which is typically obtained from sunlight.",
-      },
-      {
+          "– Supports energy metabolism by converting carbohydrates into energy.",
+    },
+    {
         element: "Vitamin B6:",
-        quantity: 0.1,
+        quantity: 0.093,
         measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description: "– Lacks vitamin B12, which is found in animal products.",
-      },
-      {
+        description:
+          "– Involved in metabolism and cognitive development.",
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.057,
+        measurementUnits: "mg",
+        description:
+          "– Plays a role in energy production and maintaining healthy skin.",
+    },
+    {
         element: "Magnesium:",
         quantity: 6,
         measurementUnits: "mg",
         description:
-          "– Contains magnesium, important for various bodily functions.",
-      },
-      {
+          "– Contains small amounts of magnesium, important for muscle and nerve function.",
+    },
+    {
         element: "Zinc:",
-        quantity: 0.2,
+        quantity: 0.24,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of zinc, supporting immune function.",
-      },
-      {
+          "– Provides minimal zinc, which supports immune function.",
+    },
+    {
         element: "Vitamin E:",
-        quantity: 0.6,
+        quantity: 0.57,
         measurementUnits: "mg",
         description:
-          "– Contains vitamin E, an antioxidant that protects cells.",
-      },
+          "– Contains small amounts of vitamin E, which has antioxidant properties.",
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 54,
+        measurementUnits: "IU",
+        description:
+          "– Contains vitamin A, important for vision and immune function.",
+    }
+    
     ],
     cultivationHeading: `Blueberries are popular berries known for their sweet-tart flavor and numerous health benefits. They are primarily grown in cooler regions and can be cultivated in both commercial farms and home gardens. Blueberry cultivation requires specific soil and environmental conditions for successful growth. Here’s an overview of blueberry cultivation`,
     cultivation: [
@@ -1549,127 +1578,123 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
         element: "Energy value:",
         quantity: 63,
         measurementUnits: "kcal",
-        description:
-          "– Low in calories, making cherries a delicious and guilt-free snack.",
-      },
-      {
+        description: "– Low in calories, making it a refreshing and healthy snack."
+    },
+    {
         element: "Fats:",
         quantity: 0.2,
         measurementUnits: "g",
-        description: "– Very low in fat, promoting heart health.",
-      },
-      {
+        description: "– Very low in fat, contributing to its healthful profile."
+    },
+    {
         element: "Saturated fatty acids:",
-        quantity: 0.0,
-        measurementUnits: "g",
-        description: "– Contains negligible saturated fats.",
-      },
-      {
-        element: "Cholesterol:",
         quantity: 0,
+        measurementUnits: "g",
+        description: "– Contains no saturated fats, promoting heart health."
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.2,
         measurementUnits: "mg",
-        description:
-          "– Cholesterol-free, beneficial for cardiovascular health.",
-      },
-      {
+        description: "– Supports metabolism and helps maintain healthy skin."
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
-        description:
-          "– Very low in sodium, helping maintain healthy blood pressure.",
-      },
-      {
+        description: "– Very low in sodium, beneficial for blood pressure management."
+    },
+    {
         element: "Potassium:",
         quantity: 222,
         measurementUnits: "mg",
-        description:
-          "– A good source of potassium, important for muscle function and heart health.",
-      },
-      {
+        description: "– A good source of potassium, essential for muscle function and fluid balance."
+    },
+    {
         element: "Carbohydrates:",
         quantity: 16,
         measurementUnits: "g",
-        description: "– Contains carbohydrates primarily from natural sugars.",
-      },
-      {
+        description: "– Contains natural sugars, providing a quick source of energy."
+    },
+    {
         element: "Fiber:",
         quantity: 1.6,
         measurementUnits: "g",
-        description: "– Provides dietary fiber, aiding in digestion.",
-      },
-      {
+        description: "– Contains dietary fiber, promoting healthy digestion."
+    },
+    {
         element: "Sugar:",
         quantity: 12.8,
         measurementUnits: "g",
-        description:
-          "– Contains natural sugars that contribute to its sweetness.",
-      },
-      {
+        description: "– Contains natural sugars, contributing to its sweet flavor."
+    },
+    {
         element: "Proteins:",
         quantity: 1.1,
         measurementUnits: "g",
-        description: "– Contains small amounts of protein.",
-      },
-      {
+        description: "– Provides a small amount of plant-based protein."
+    },
+    {
         element: "Vitamin C:",
         quantity: 7,
         measurementUnits: "mg",
-        description:
-          "– A good source of vitamin C, supporting immune function.",
-      },
-      {
+        description: "– A good source of vitamin C, important for immune function and skin health."
+    },
+    {
         element: "Calcium:",
         quantity: 18,
         measurementUnits: "mg",
-        description: "– Provides small amounts of calcium for bone health.",
-      },
-      {
+        description: "– Provides a small amount of calcium, contributing to bone health."
+    },
+    {
         element: "Iron:",
-        quantity: 0.4,
+        quantity: 0.2,
         measurementUnits: "mg",
-        description:
-          "– Contains trace amounts of iron, important for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– No vitamin D present, typically obtained from sunlight.",
-      },
-      {
+        description: "– Contains trace amounts of iron, necessary for healthy red blood cell production."
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.02,
+        measurementUnits: "mg",
+        description: "– Supports energy metabolism."
+    },
+    {
         element: "Vitamin B6:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description:
-          "– Lacks vitamin B12, which is primarily found in animal products.",
-      },
-      {
+        description: "– Important for protein metabolism and brain health."
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.03,
+        measurementUnits: "mg",
+        description: "– Contributes to energy production and skin health."
+    },
+    {
         element: "Magnesium:",
         quantity: 11,
         measurementUnits: "mg",
-        description:
-          "– Contains small amounts of magnesium, important for various bodily functions.",
-      },
-      {
+        description: "– Provides a small amount of magnesium, important for muscle and nerve function."
+    },
+    {
         element: "Zinc:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description:
-          "– Contains trace amounts of zinc, supporting immune function.",
-      },
-      {
+        description: "– Contains trace amounts of zinc, supporting immune function."
+    },
+    {
         element: "Vitamin E:",
-        quantity: 0.2,
+        quantity: 0.07,
         measurementUnits: "mg",
-        description: "– Contains small amounts of vitamin E, an antioxidant.",
-      },
+        description: "– Contains small amounts of vitamin E, an important antioxidant."
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 64,
+        measurementUnits: "IU",
+        description: "– Contains beta-carotene, supporting vision and immune health."
+    }
+    
     ],
     cultivationHeading: `Cherries are delicious fruits that are popular for their sweet flavor and are commonly used in desserts, jams, and beverages. They can be grown in both commercial orchards and home gardens. Here’s an overview of cherry cultivation`,
     cultivation: [
@@ -1863,131 +1888,123 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
         element: "Energy value:",
         quantity: 46,
         measurementUnits: "kcal",
-        description:
-          "– Low in calories, making them a healthy addition to various dishes.",
-      },
-      {
+        description: "– Low in calories, making it a nutritious addition to meals and snacks."
+    },
+    {
         element: "Fats:",
         quantity: 0.1,
         measurementUnits: "g",
-        description:
-          "– Very low in fat, contributing to their healthy profile.",
-      },
-      {
+        description: "– Very low in fat, contributing to a healthy diet."
+    },
+    {
         element: "Saturated fatty acids:",
-        quantity: 0.0,
-        measurementUnits: "g",
-        description:
-          "– Contains negligible amounts of saturated fats, supporting heart health.",
-      },
-      {
-        element: "Cholesterol:",
         quantity: 0,
-        measurementUnits: "mg",
-        description:
-          "– Cholesterol-free, beneficial for cardiovascular health.",
-      },
-      {
+        measurementUnits: "g",
+        description: "– Contains no saturated fats, promoting heart health."
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
-        description:
-          "– Very low in sodium, aiding in blood pressure management.",
-      },
-      {
+        description: "– Very low in sodium, beneficial for blood pressure management."
+    },
+    {
         element: "Potassium:",
-        quantity: 83,
+        quantity: 61,
         measurementUnits: "mg",
-        description:
-          "– Contains potassium, essential for fluid balance and muscle function.",
-      },
-      {
+        description: "– Contains potassium, essential for muscle function and fluid balance."
+    },
+    {
         element: "Carbohydrates:",
         quantity: 12.2,
         measurementUnits: "g",
-        description:
-          "– Provides carbohydrates, primarily from natural sugars and fiber.",
-      },
-      {
+        description: "– Contains natural sugars and fiber, providing a quick source of energy."
+    },
+    {
         element: "Fiber:",
         quantity: 4.6,
         measurementUnits: "g",
-        description: "– High in dietary fiber, promoting healthy digestion.",
-      },
-      {
+        description: "– High in dietary fiber, promoting healthy digestion."
+    },
+    {
         element: "Sugar:",
         quantity: 4.3,
         measurementUnits: "g",
-        description: "– Contains natural sugars, adding a slight sweetness.",
-      },
-      {
+        description: "– Contains natural sugars, contributing to its slightly sweet flavor."
+    },
+    {
         element: "Proteins:",
-        quantity: 0.4,
+        quantity: 0.1,
         measurementUnits: "g",
-        description:
-          "– Provides a small amount of protein, beneficial for muscle repair.",
-      },
-      {
+        description: "– Provides a small amount of plant-based protein."
+    },
+    {
         element: "Vitamin C:",
-        quantity: 14.0,
+        quantity: 14,
         measurementUnits: "mg",
-        description:
-          "– Good source of vitamin C, supporting the immune system.",
-      },
-      {
+        description: "– A good source of vitamin C, important for immune function and skin health."
+    },
+    {
         element: "Calcium:",
-        quantity: 18,
+        quantity: 3,
         measurementUnits: "mg",
-        description:
-          "– Contains a small amount of calcium, contributing to bone health.",
-      },
-      {
+        description: "– Provides trace amounts of calcium, contributing to bone health."
+    },
+    {
         element: "Iron:",
         quantity: 0.2,
         measurementUnits: "mg",
-        description:
-          "– Provides a small amount of iron, essential for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– Does not contain vitamin D, which is typically obtained from sunlight.",
-      },
-      {
-        element: "Vitamin B6:",
-        quantity: 0.1,
-        measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description: "– Lacks vitamin B12, which is found in animal products.",
-      },
-      {
+        description: "– Contains trace amounts of iron, necessary for healthy red blood cell production."
+    },
+    {
         element: "Magnesium:",
         quantity: 6,
         measurementUnits: "mg",
-        description:
-          "– Contains magnesium, important for various bodily functions.",
-      },
-      {
+        description: "– Provides small amounts of magnesium, important for muscle and nerve function."
+    },
+    {
         element: "Zinc:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description:
-          "– Provides a small amount of zinc, supporting immune function.",
-      },
-      {
+        description: "– Contains trace amounts of zinc, supporting immune function."
+    },
+    {
         element: "Vitamin E:",
         quantity: 0.2,
         measurementUnits: "mg",
-        description:
-          "– Contains vitamin E, an antioxidant that protects cells.",
-      },
+        description: "– Contains small amounts of vitamin E, an important antioxidant."
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 1,
+        measurementUnits: "IU",
+        description: "– Contains small amounts of vitamin A, supporting vision and immune health."
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.02,
+        measurementUnits: "mg",
+        description: "– Supports energy metabolism."
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.02,
+        measurementUnits: "mg",
+        description: "– Contributes to energy production and skin health."
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and helps maintain healthy skin."
+    },
+    {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Important for protein metabolism and brain health."
+    }
+    
     ],
     cultivationHeading: `Cranberries are tart, red berries that are well-known for their use in juices, sauces, and various culinary applications. They are primarily grown in specific regions of North America and require particular growing conditions. Here’s an overview of cranberry cultivation`,
     cultivation: [
@@ -2182,126 +2199,123 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
         element: "Energy value:",
         quantity: 70,
         measurementUnits: "kcal",
-        description:
-          "– Low in calories, currants are a sweet and nutritious snack.",
-      },
-      {
+        description: "– Low in calories, making them a healthy addition to snacks and meals."
+    },
+    {
         element: "Fats:",
-        quantity: 0.2,
+        quantity: 0.3,
         measurementUnits: "g",
-        description:
-          "– Very low in fat, making them a healthy addition to your diet.",
-      },
-      {
+        description: "– Very low in fat, contributing to their healthful profile."
+    },
+    {
         element: "Saturated fatty acids:",
-        quantity: 0.0,
-        measurementUnits: "g",
-        description: "– Contains negligible saturated fats.",
-      },
-      {
-        element: "Cholesterol:",
         quantity: 0,
-        measurementUnits: "mg",
-        description: "– Cholesterol-free, beneficial for heart health.",
-      },
-      {
+        measurementUnits: "g",
+        description: "– Contains no saturated fats, promoting heart health."
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
-        description: "– Very low in sodium, supporting healthy blood pressure.",
-      },
-      {
+        description: "– Very low in sodium, beneficial for blood pressure management."
+    },
+    {
         element: "Potassium:",
-        quantity: 332,
+        quantity: 322,
         measurementUnits: "mg",
-        description:
-          "– A good source of potassium, important for muscle function and overall health.",
-      },
-      {
+        description: "– A good source of potassium, essential for muscle function and fluid balance."
+    },
+    {
         element: "Carbohydrates:",
         quantity: 15.5,
         measurementUnits: "g",
-        description: "– Contains carbohydrates primarily from natural sugars.",
-      },
-      {
+        description: "– Rich in carbohydrates, providing a quick source of energy."
+    },
+    {
         element: "Fiber:",
         quantity: 4.3,
         measurementUnits: "g",
-        description: "– High in dietary fiber, promoting healthy digestion.",
-      },
-      {
+        description: "– High in dietary fiber, promoting healthy digestion."
+    },
+    {
         element: "Sugar:",
         quantity: 8.0,
         measurementUnits: "g",
-        description:
-          "– Contains natural sugars that contribute to their sweetness.",
-      },
-      {
+        description: "– Contains natural sugars, contributing to their sweet and tart flavor."
+    },
+    {
         element: "Proteins:",
-        quantity: 1.0,
+        quantity: 1.6,
         measurementUnits: "g",
-        description: "– Contains small amounts of protein.",
-      },
-      {
+        description: "– Provides a small amount of plant-based protein."
+    },
+    {
         element: "Vitamin C:",
         quantity: 41,
         measurementUnits: "mg",
-        description:
-          "– A rich source of vitamin C, supporting immune function and skin health.",
-      },
-      {
+        description: "– A good source of vitamin C, important for immune function and skin health."
+    },
+    {
         element: "Calcium:",
         quantity: 55,
         measurementUnits: "mg",
-        description: "– Provides a moderate amount of calcium for bone health.",
-      },
-      {
+        description: "– Provides some calcium, contributing to bone health."
+    },
+    {
         element: "Iron:",
         quantity: 1.0,
         measurementUnits: "mg",
-        description:
-          "– Contains iron, essential for blood health and preventing anemia.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– No vitamin D present, typically obtained from sunlight.",
-      },
-      {
-        element: "Vitamin B6:",
+        description: "– Contains iron, necessary for healthy red blood cell production."
+    },
+    {
+        element: "Magnesium:",
+        quantity: 13,
+        measurementUnits: "mg",
+        description: "– Provides small amounts of magnesium, important for muscle and nerve function."
+    },
+    {
+        element: "Zinc:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description:
-          "– Lacks vitamin B12, which is primarily found in animal products.",
-      },
-      {
-        element: "Magnesium:",
-        quantity: 17,
-        measurementUnits: "mg",
-        description:
-          "– Contains small amounts of magnesium, essential for various bodily functions.",
-      },
-      {
-        element: "Zinc:",
-        quantity: 0.2,
-        measurementUnits: "mg",
-        description:
-          "– Contains trace amounts of zinc, supporting immune function.",
-      },
-      {
+        description: "– Contains trace amounts of zinc, supporting immune function."
+    },
+    {
         element: "Vitamin E:",
         quantity: 0.2,
         measurementUnits: "mg",
-        description: "– Contains small amounts of vitamin E, an antioxidant.",
-      },
+        description: "– Contains small amounts of vitamin E, an important antioxidant."
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 45,
+        measurementUnits: "IU",
+        description: "– Contains beta-carotene, supporting vision and immune health."
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.03,
+        measurementUnits: "mg",
+        description: "– Supports energy metabolism."
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.02,
+        measurementUnits: "mg",
+        description: "– Contributes to energy production and skin health."
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.3,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and helps maintain healthy skin."
+    },
+    {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Important for protein metabolism and brain health."
+    }
+    
     ],
     cultivationHeading: `Currants are small, tart berries that come in various colors, including red, black, and white. They are widely used in jams, jellies, desserts, and beverages. Currants are hardy plants that can thrive in various conditions, making them suitable for both commercial production and home gardens. Here’s an overview of currant cultivation`,
     cultivation: [
@@ -2494,133 +2508,144 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
     nutritionText: [
       {
         element: "Energy value:",
-        quantity: 46,
+        quantity: 74,
         measurementUnits: "kcal",
         description:
-          "– Low in calories, making them a healthy addition to various dishes.",
-      },
-      {
+          "– Low in calories, making figs a nutritious option for snacking.",
+    },
+    {
         element: "Fats:",
-        quantity: 0.1,
+        quantity: 0.3,
         measurementUnits: "g",
         description:
-          "– Very low in fat, contributing to their healthy profile.",
-      },
-      {
+          "– Very low in fat, contributing to a heart-healthy diet.",
+    },
+    {
         element: "Saturated fatty acids:",
         quantity: 0.0,
         measurementUnits: "g",
-        description:
-          "– Contains negligible amounts of saturated fats, supporting heart health.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
+        description: "– Contains negligible amounts of saturated fats, promoting overall health.",
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.4,
         measurementUnits: "mg",
         description:
-          "– Cholesterol-free, beneficial for cardiovascular health.",
-      },
-      {
+          "– Supports metabolism and is important for maintaining healthy skin and nerves.",
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
         description:
-          "– Very low in sodium, aiding in blood pressure management.",
-      },
-      {
+          "– Very low in sodium, making it a heart-healthy choice.",
+    },
+    {
         element: "Potassium:",
-        quantity: 83,
+        quantity: 232,
         measurementUnits: "mg",
         description:
-          "– Contains potassium, essential for fluid balance and muscle function.",
-      },
-      {
+          "– A good source of potassium, essential for muscle function and fluid balance.",
+    },
+    {
         element: "Carbohydrates:",
-        quantity: 12.2,
+        quantity: 19.2,
         measurementUnits: "g",
         description:
-          "– Provides carbohydrates, primarily from natural sugars and fiber.",
-      },
-      {
+          "– Rich in carbohydrates, primarily from natural sugars and dietary fiber.",
+    },
+    {
         element: "Fiber:",
-        quantity: 4.6,
+        quantity: 3.0,
         measurementUnits: "g",
-        description: "– High in dietary fiber, promoting healthy digestion.",
-      },
-      {
+        description:
+          "– High in dietary fiber, promoting healthy digestion and regularity.",
+    },
+    {
         element: "Sugar:",
-        quantity: 4.3,
+        quantity: 16.3,
         measurementUnits: "g",
-        description: "– Contains natural sugars, adding a slight sweetness.",
-      },
-      {
+        description:
+          "– Contains natural sugars, providing sweetness and energy.",
+    },
+    {
         element: "Proteins:",
-        quantity: 0.4,
+        quantity: 0.8,
         measurementUnits: "g",
         description:
-          "– Provides a small amount of protein, beneficial for muscle repair.",
-      },
-      {
+          "– Contains minimal protein, contributing to overall nutrient intake.",
+    },
+    {
         element: "Vitamin C:",
-        quantity: 14.0,
+        quantity: 2.0,
         measurementUnits: "mg",
         description:
-          "– Good source of vitamin C, supporting the immune system.",
-      },
-      {
+          "– Provides small amounts of vitamin C, supporting immune function and skin health.",
+    },
+    {
         element: "Calcium:",
-        quantity: 18,
+        quantity: 35,
         measurementUnits: "mg",
         description:
-          "– Contains a small amount of calcium, contributing to bone health.",
-      },
-      {
+          "– Contains calcium, contributing to bone health.",
+    },
+    {
         element: "Iron:",
-        quantity: 0.2,
+        quantity: 0.17,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of iron, essential for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
+          "– Contains minimal iron, important for oxygen transport in the blood.",
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.06,
+        measurementUnits: "mg",
         description:
-          "– Does not contain vitamin D, which is typically obtained from sunlight.",
-      },
-      {
+          "– Supports energy metabolism by converting carbohydrates into energy.",
+    },
+    {
         element: "Vitamin B6:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description: "– Lacks vitamin B12, which is found in animal products.",
-      },
-      {
+        description:
+          "– Involved in metabolism and cognitive function.",
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.04,
+        measurementUnits: "mg",
+        description:
+          "– Plays a role in energy production and maintaining healthy skin.",
+    },
+    {
         element: "Magnesium:",
-        quantity: 6,
+        quantity: 17,
         measurementUnits: "mg",
         description:
-          "– Contains magnesium, important for various bodily functions.",
-      },
-      {
+          "– Contains small amounts of magnesium, important for muscle and nerve function.",
+    },
+    {
         element: "Zinc:",
-        quantity: 0.1,
+        quantity: 0.17,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of zinc, supporting immune function.",
-      },
-      {
+          "– Provides minimal zinc, which supports immune function.",
+    },
+    {
         element: "Vitamin E:",
         quantity: 0.2,
         measurementUnits: "mg",
         description:
-          "– Contains vitamin E, an antioxidant that protects cells.",
-      },
+          "– Contains small amounts of vitamin E, which has antioxidant properties.",
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Figs are not a significant source of vitamin A.",
+    }
+    
     ],
     cultivationHeading: `Figs are sweet, succulent fruits known for their unique flavor and nutritional benefits. They are primarily grown in warm, temperate regions and can be cultivated in both commercial orchards and home gardens. Here’s an overview of fig cultivation`,
     cultivation: [
@@ -2816,126 +2841,123 @@ In 2013, global apple production reached 90.8 million tonnes, with China account
         element: "Energy value:",
         quantity: 69,
         measurementUnits: "kcal",
-        description:
-          "– Low in calories, grapes are a sweet and refreshing snack.",
-      },
-      {
+        description: "– Low in calories, making them a refreshing and healthy snack."
+    },
+    {
         element: "Fats:",
         quantity: 0.2,
         measurementUnits: "g",
-        description: "– Very low in fat, making them a healthy choice.",
-      },
-      {
+        description: "– Very low in fat, contributing to their healthful profile."
+    },
+    {
         element: "Saturated fatty acids:",
-        quantity: 0.0,
-        measurementUnits: "g",
-        description: "– Contains negligible saturated fats.",
-      },
-      {
-        element: "Cholesterol:",
         quantity: 0,
-        measurementUnits: "mg",
-        description: "– Cholesterol-free, promoting heart health.",
-      },
-      {
+        measurementUnits: "g",
+        description: "– Contains no saturated fats, promoting heart health."
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
-        description: "– Very low in sodium, supporting healthy blood pressure.",
-      },
-      {
+        description: "– Very low in sodium, beneficial for blood pressure management."
+    },
+    {
         element: "Potassium:",
         quantity: 191,
         measurementUnits: "mg",
-        description:
-          "– A good source of potassium, essential for muscle and nerve function.",
-      },
-      {
+        description: "– A good source of potassium, essential for muscle function and fluid balance."
+    },
+    {
         element: "Carbohydrates:",
         quantity: 18.1,
         measurementUnits: "g",
-        description:
-          "– A rich source of carbohydrates primarily from natural sugars.",
-      },
-      {
+        description: "– Rich in carbohydrates, providing a quick source of energy."
+    },
+    {
         element: "Fiber:",
         quantity: 0.9,
         measurementUnits: "g",
-        description: "– Contains dietary fiber, promoting digestive health.",
-      },
-      {
+        description: "– Contains dietary fiber, promoting healthy digestion."
+    },
+    {
         element: "Sugar:",
         quantity: 15.5,
         measurementUnits: "g",
-        description:
-          "– Contains natural sugars that contribute to their sweetness.",
-      },
-      {
+        description: "– Contains natural sugars, contributing to their sweet flavor."
+    },
+    {
         element: "Proteins:",
         quantity: 0.7,
         measurementUnits: "g",
-        description: "– Contains small amounts of protein.",
-      },
-      {
+        description: "– Provides a small amount of plant-based protein."
+    },
+    {
         element: "Vitamin C:",
         quantity: 10.8,
         measurementUnits: "mg",
-        description:
-          "– A source of vitamin C, supporting immune function and skin health.",
-      },
-      {
+        description: "– A good source of vitamin C, important for immune function and skin health."
+    },
+    {
         element: "Calcium:",
         quantity: 18,
         measurementUnits: "mg",
-        description: "– Provides a small amount of calcium for bone health.",
-      },
-      {
+        description: "– Provides a small amount of calcium, contributing to bone health."
+    },
+    {
         element: "Iron:",
         quantity: 0.5,
         measurementUnits: "mg",
-        description:
-          "– Contains trace amounts of iron, important for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– No vitamin D present, typically obtained from sunlight.",
-      },
-      {
-        element: "Vitamin B6:",
-        quantity: 0.1,
-        measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description:
-          "– Lacks vitamin B12, which is primarily found in animal products.",
-      },
-      {
+        description: "– Contains trace amounts of iron, necessary for healthy red blood cell production."
+    },
+    {
         element: "Magnesium:",
         quantity: 18,
         measurementUnits: "mg",
-        description:
-          "– Contains small amounts of magnesium, essential for various bodily functions.",
-      },
-      {
+        description: "– Provides a small amount of magnesium, important for muscle and nerve function."
+    },
+    {
         element: "Zinc:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description:
-          "– Contains trace amounts of zinc, supporting immune function.",
-      },
-      {
+        description: "– Contains trace amounts of zinc, supporting immune function."
+    },
+    {
         element: "Vitamin E:",
         quantity: 0.2,
         measurementUnits: "mg",
-        description: "– Contains small amounts of vitamin E, an antioxidant.",
-      },
+        description: "– Contains small amounts of vitamin E, an important antioxidant."
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 66,
+        measurementUnits: "IU",
+        description: "– Contains beta-carotene, supporting vision and immune health."
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.07,
+        measurementUnits: "mg",
+        description: "– Supports energy metabolism."
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.06,
+        measurementUnits: "mg",
+        description: "– Contributes to energy production and skin health."
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.3,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and helps maintain healthy skin."
+    },
+    {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Important for protein metabolism and brain health."
+    }
+    
     ],
     cultivationHeading: `Grapes are one of the most widely cultivated fruits in the world, prized for their sweet flavor and versatility in making wine, juice, and fresh consumption. Here’s an overview of grape cultivation`,
     cultivation: [
@@ -3132,129 +3154,141 @@ In summary, grapefruit is a nutrient-rich citrus fruit that provides numerous he
         quantity: 42,
         measurementUnits: "kcal",
         description:
-          "– Low in calories, making it a refreshing and healthy fruit choice.",
-      },
-      {
+          "– Low in calories, making it a great option for a healthy snack.",
+    },
+    {
         element: "Fats:",
         quantity: 0.1,
         measurementUnits: "g",
-        description: "– Very low in fat, contributing to its healthy profile.",
-      },
-      {
+        description:
+          "– Very low in fat, contributing to a heart-healthy diet.",
+    },
+    {
         element: "Saturated fatty acids:",
         quantity: 0.0,
         measurementUnits: "g",
-        description:
-          "– Contains negligible amounts of saturated fats, supporting heart health.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
+        description: "– Contains negligible amounts of saturated fats.",
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.4,
         measurementUnits: "mg",
         description:
-          "– Cholesterol-free, beneficial for cardiovascular health.",
-      },
-      {
+          "– Supports metabolism and helps maintain healthy skin and nerves.",
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
         description:
-          "– Very low in sodium, aiding in blood pressure management.",
-      },
-      {
+          "– Extremely low in sodium, beneficial for heart health.",
+    },
+    {
         element: "Potassium:",
         quantity: 135,
         measurementUnits: "mg",
         description:
-          "– Good source of potassium, essential for fluid balance and muscle function.",
-      },
-      {
+          "– A good source of potassium, essential for fluid balance and muscle function.",
+    },
+    {
         element: "Carbohydrates:",
         quantity: 10.7,
         measurementUnits: "g",
-        description: "– Provides carbohydrates, primarily from natural sugars.",
-      },
-      {
+        description:
+          "– A source of carbohydrates, primarily from natural sugars and dietary fiber.",
+    },
+    {
         element: "Fiber:",
         quantity: 1.4,
         measurementUnits: "g",
-        description: "– Contains dietary fiber, promoting healthy digestion.",
-      },
-      {
+        description:
+          "– Contains dietary fiber, promoting healthy digestion.",
+    },
+    {
         element: "Sugar:",
-        quantity: 7.0,
+        quantity: 7.3,
         measurementUnits: "g",
         description:
-          "– Contains natural sugars, contributing to its sweet flavor.",
-      },
-      {
+          "– Contains natural sugars, providing sweetness.",
+    },
+    {
         element: "Proteins:",
         quantity: 0.8,
         measurementUnits: "g",
         description:
-          "– Provides a small amount of protein, beneficial for muscle repair.",
-      },
-      {
+          "– Contains minimal protein, contributing to overall nutrient intake.",
+    },
+    {
         element: "Vitamin C:",
         quantity: 31.2,
         measurementUnits: "mg",
         description:
-          "– Excellent source of vitamin C, supporting the immune system.",
-      },
-      {
+          "– A great source of vitamin C, which supports immune function and skin health.",
+    },
+    {
         element: "Calcium:",
-        quantity: 22,
+        quantity: 18,
         measurementUnits: "mg",
         description:
-          "– Contains a small amount of calcium, contributing to bone health.",
-      },
-      {
+          "– Provides a small amount of calcium, contributing to bone health.",
+    },
+    {
         element: "Iron:",
         quantity: 0.1,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of iron, essential for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
+          "– Contains minimal iron, important for oxygen transport in the blood.",
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.1,
+        measurementUnits: "mg",
         description:
-          "– Does not contain vitamin D, which is typically obtained from sunlight.",
-      },
-      {
+          "– Supports energy metabolism by converting carbohydrates into energy.",
+    },
+    {
         element: "Vitamin B6:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description: "– Lacks vitamin B12, which is found in animal products.",
-      },
-      {
-        element: "Magnesium:",
-        quantity: 8,
+        description:
+          "– Involved in metabolism and cognitive function.",
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.03,
         measurementUnits: "mg",
         description:
-          "– Contains magnesium, important for various bodily functions.",
-      },
-      {
+          "– Plays a role in energy production and maintaining healthy skin.",
+    },
+    {
+        element: "Magnesium:",
+        quantity: 10,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of magnesium, important for muscle and nerve function.",
+    },
+    {
         element: "Zinc:",
         quantity: 0.1,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of zinc, supporting immune function.",
-      },
-      {
+          "– Provides minimal zinc, which supports immune function.",
+    },
+    {
         element: "Vitamin E:",
         quantity: 0.2,
         measurementUnits: "mg",
         description:
-          "– Contains vitamin E, an antioxidant that protects cells.",
-      },
+          "– Contains small amounts of vitamin E, which has antioxidant properties.",
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Grapefruit is not a significant source of vitamin A.",
+    }
+    
     ],
     cultivationHeading: `Grapefruit is a citrus fruit known for its tangy flavor and juicy texture. It is often consumed fresh, juiced, or used in various culinary dishes. Grapefruit thrives in warm climates and can be grown commercially or in home gardens. Here’s an overview of grapefruit cultivation`,
     cultivation: [
@@ -3449,125 +3483,123 @@ In summary, grapefruit is a nutrient-rich citrus fruit that provides numerous he
         element: "Energy value:",
         quantity: 61,
         measurementUnits: "kcal",
-        description: "– Low in calories, making it a nutritious snack option.",
-      },
-      {
+        description: "– Low in calories, making it a nutritious and refreshing snack."
+    },
+    {
         element: "Fats:",
         quantity: 0.5,
         measurementUnits: "g",
-        description: "– Very low in fat, contributing to its health benefits.",
-      },
-      {
+        description: "– Very low in fat, contributing to its healthful profile."
+    },
+    {
         element: "Saturated fatty acids:",
         quantity: 0.1,
         measurementUnits: "g",
-        description: "– Contains minimal saturated fats.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
-        measurementUnits: "mg",
-        description: "– Cholesterol-free, promoting heart health.",
-      },
-      {
+        description: "– Contains minimal saturated fats, promoting heart health."
+    },
+    {
         element: "Sodium:",
         quantity: 3,
         measurementUnits: "mg",
-        description:
-          "– Extremely low in sodium, beneficial for blood pressure management.",
-      },
-      {
+        description: "– Very low in sodium, beneficial for blood pressure management."
+    },
+    {
         element: "Potassium:",
         quantity: 312,
         measurementUnits: "mg",
-        description:
-          "– A good source of potassium, essential for heart and muscle function.",
-      },
-      {
+        description: "– A good source of potassium, essential for muscle function and fluid balance."
+    },
+    {
         element: "Carbohydrates:",
         quantity: 14.7,
         measurementUnits: "g",
-        description: "– Rich in carbohydrates, primarily from natural sugars.",
-      },
-      {
+        description: "– Rich in carbohydrates, providing a quick source of energy."
+    },
+    {
         element: "Fiber:",
         quantity: 3,
         measurementUnits: "g",
-        description: "– High in dietary fiber, promoting digestive health.",
-      },
-      {
+        description: "– High in dietary fiber, promoting healthy digestion."
+    },
+    {
         element: "Sugar:",
         quantity: 8.99,
         measurementUnits: "g",
-        description: "– Contains natural sugars that add to its sweetness.",
-      },
-      {
+        description: "– Contains natural sugars, contributing to its sweet flavor."
+    },
+    {
         element: "Proteins:",
         quantity: 1.1,
         measurementUnits: "g",
-        description: "– Provides a small amount of protein.",
-      },
-      {
+        description: "– Provides a small amount of plant-based protein."
+    },
+    {
         element: "Vitamin C:",
         quantity: 92.7,
         measurementUnits: "mg",
-        description:
-          "– An excellent source of vitamin C, supporting immune function and skin health.",
-      },
-      {
+        description: "– Excellent source of vitamin C, important for immune function and skin health."
+    },
+    {
         element: "Calcium:",
         quantity: 18,
         measurementUnits: "mg",
-        description:
-          "– Contains small amounts of calcium, contributing to bone health.",
-      },
-      {
+        description: "– Provides a small amount of calcium, contributing to bone health."
+    },
+    {
         element: "Iron:",
-        quantity: 0.3,
+        quantity: 0.31,
         measurementUnits: "mg",
-        description:
-          "– Provides trace amounts of iron, essential for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– No vitamin D present, typically obtained from sunlight.",
-      },
-      {
-        element: "Vitamin B6:",
-        quantity: 0.1,
-        measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description:
-          "– Lacks vitamin B12, which is primarily found in animal products.",
-      },
-      {
+        description: "– Contains trace amounts of iron, necessary for healthy red blood cell production."
+    },
+    {
         element: "Magnesium:",
         quantity: 17,
         measurementUnits: "mg",
-        description:
-          "– Contains small amounts of magnesium, essential for various bodily functions.",
-      },
-      {
+        description: "– Provides a small amount of magnesium, important for muscle and nerve function."
+    },
+    {
         element: "Zinc:",
-        quantity: 0.1,
+        quantity: 0.14,
         measurementUnits: "mg",
-        description:
-          "– Provides trace amounts of zinc, supporting immune function.",
-      },
-      {
+        description: "– Contains trace amounts of zinc, supporting immune function."
+    },
+    {
         element: "Vitamin E:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Contains small amounts of vitamin E, an antioxidant.",
-      },
+        description: "– Contains small amounts of vitamin E, an important antioxidant."
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 87,
+        measurementUnits: "IU",
+        description: "– Contains beta-carotene, supporting vision and immune health."
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.02,
+        measurementUnits: "mg",
+        description: "– Supports energy metabolism."
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.04,
+        measurementUnits: "mg",
+        description: "– Contributes to energy production and skin health."
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.3,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and helps maintain healthy skin."
+    },
+    {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Important for protein metabolism and brain health."
+    }
+    
     ],
     cultivationHeading: `Kiwi, also known as kiwifruit, is a small, nutrient-rich fruit with a unique flavor and fuzzy skin. It is primarily grown in temperate regions and requires specific conditions for successful cultivation. Here’s an overview of kiwi cultivation`,
     cultivation: [
@@ -3763,123 +3795,141 @@ In summary, grapefruit is a nutrient-rich citrus fruit that provides numerous he
         quantity: 29,
         measurementUnits: "kcal",
         description:
-          "– Low in calories, making it a refreshing addition to beverages and dishes.",
-      },
-      {
+          "– Low in calories, making it a refreshing addition to various dishes and beverages.",
+    },
+    {
         element: "Fats:",
         quantity: 0.3,
         measurementUnits: "g",
-        description: "– Very low in fat, contributing to its healthy profile.",
-      },
-      {
+        description:
+          "– Very low in fat, which supports a healthy diet.",
+    },
+    {
         element: "Saturated fatty acids:",
-        quantity: 0.0,
+        quantity: 0.1,
         measurementUnits: "g",
         description: "– Contains negligible amounts of saturated fats.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Cholesterol-free, beneficial for heart health.",
-      },
-      {
+        description:
+          "– Supports metabolism and plays a role in maintaining healthy skin and nerves.",
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
         description:
-          "– Very low in sodium, helpful for blood pressure management.",
-      },
-      {
+          "– Very low in sodium, beneficial for heart health.",
+    },
+    {
         element: "Potassium:",
         quantity: 138,
         measurementUnits: "mg",
         description:
-          "– Good source of potassium, essential for fluid balance and muscle function.",
-      },
-      {
+          "– A good source of potassium, essential for fluid balance and muscle function.",
+    },
+    {
         element: "Carbohydrates:",
         quantity: 9.3,
         measurementUnits: "g",
-        description: "– Provides carbohydrates, primarily from natural sugars.",
-      },
-      {
+        description:
+          "– Contains carbohydrates primarily from natural sugars and fiber.",
+    },
+    {
         element: "Fiber:",
         quantity: 2.8,
         measurementUnits: "g",
-        description: "– Contains dietary fiber, promoting healthy digestion.",
-      },
-      {
+        description:
+          "– High in dietary fiber, promoting healthy digestion.",
+    },
+    {
         element: "Sugar:",
         quantity: 2.5,
         measurementUnits: "g",
-        description: "– Contains small amounts of natural sugars.",
-      },
-      {
+        description:
+          "– Contains natural sugars, providing a slight sweetness.",
+    },
+    {
         element: "Proteins:",
         quantity: 1.1,
         measurementUnits: "g",
-        description: "– Provides a small amount of protein.",
-      },
-      {
+        description:
+          "– Contains minimal protein, contributing to overall nutrient intake.",
+    },
+    {
         element: "Vitamin C:",
         quantity: 53,
         measurementUnits: "mg",
         description:
-          "– Excellent source of vitamin C, supporting the immune system.",
-      },
-      {
+          "– Excellent source of vitamin C, supporting immune function and skin health.",
+    },
+    {
         element: "Calcium:",
         quantity: 26,
         measurementUnits: "mg",
-        description: "– Contains a small amount of calcium for bone health.",
-      },
-      {
+        description:
+          "– Provides some calcium, contributing to bone health.",
+    },
+    {
         element: "Iron:",
         quantity: 0.6,
         measurementUnits: "mg",
         description:
-          "– Provides trace amounts of iron, important for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– Does not contain vitamin D, typically obtained from sunlight.",
-      },
-      {
-        element: "Vitamin B6:",
-        quantity: 0.1,
+          "– Contains minimal iron, important for oxygen transport in the blood.",
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.08,
         measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description: "– Lacks vitamin B12, primarily found in animal products.",
-      },
-      {
+        description:
+          "– Supports energy metabolism by converting carbohydrates into energy.",
+    },
+    {
+        element: "Vitamin B6:",
+        quantity: 0.08,
+        measurementUnits: "mg",
+        description:
+          "– Involved in metabolism and cognitive function.",
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.02,
+        measurementUnits: "mg",
+        description:
+          "– Plays a role in energy production and maintaining healthy skin.",
+    },
+    {
         element: "Magnesium:",
         quantity: 8,
         measurementUnits: "mg",
         description:
-          "– Contains magnesium, important for various bodily functions.",
-      },
-      {
+          "– Contains small amounts of magnesium, which is important for muscle and nerve function.",
+    },
+    {
         element: "Zinc:",
         quantity: 0.1,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of zinc, supporting immune function.",
-      },
-      {
+          "– Provides minimal zinc, which supports immune function.",
+    },
+    {
         element: "Vitamin E:",
         quantity: 0.2,
         measurementUnits: "mg",
-        description: "– Contains small amounts of vitamin E, an antioxidant.",
-      },
+        description:
+          "– Contains small amounts of vitamin E, which has antioxidant properties.",
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Lemons are not a significant source of vitamin A.",
+    }
+    
     ],
     cultivationHeading: `Lemons are highly valued for their tangy flavor and are widely used in culinary applications, beverages, and as a natural preservative. They thrive in warm climates and can be cultivated in both commercial orchards and home gardens. Here’s an overview of lemon cultivation`,
     cultivation: [
@@ -4074,127 +4124,123 @@ In summary, grapefruit is a nutrient-rich citrus fruit that provides numerous he
         element: "Energy value:",
         quantity: 60,
         measurementUnits: "kcal",
-        description:
-          "– Low in calories, making it a delicious and nutritious fruit option.",
-      },
-      {
+        description: "– Low in calories, making it a sweet and nutritious snack."
+    },
+    {
         element: "Fats:",
         quantity: 0.4,
         measurementUnits: "g",
-        description: "– Very low in fat, contributing to its health benefits.",
-      },
-      {
+        description: "– Very low in fat, contributing to its healthful profile."
+    },
+    {
         element: "Saturated fatty acids:",
         quantity: 0.1,
         measurementUnits: "g",
-        description: "– Contains minimal saturated fats.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
-        measurementUnits: "mg",
-        description: "– Cholesterol-free, promoting heart health.",
-      },
-      {
+        description: "– Contains minimal saturated fats, promoting heart health."
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
-        description:
-          "– Extremely low in sodium, beneficial for blood pressure management.",
-      },
-      {
+        description: "– Very low in sodium, beneficial for blood pressure management."
+    },
+    {
         element: "Potassium:",
         quantity: 168,
         measurementUnits: "mg",
-        description:
-          "– A good source of potassium, essential for heart and muscle function.",
-      },
-      {
+        description: "– A good source of potassium, essential for muscle function and fluid balance."
+    },
+    {
         element: "Carbohydrates:",
         quantity: 15,
         measurementUnits: "g",
-        description: "– Rich in carbohydrates, primarily from natural sugars.",
-      },
-      {
+        description: "– Rich in carbohydrates, providing a quick source of energy."
+    },
+    {
         element: "Fiber:",
         quantity: 1.6,
         measurementUnits: "g",
-        description: "– Contains dietary fiber, which aids in digestion.",
-      },
-      {
+        description: "– Contains dietary fiber, promoting healthy digestion."
+    },
+    {
         element: "Sugar:",
         quantity: 13.7,
         measurementUnits: "g",
-        description:
-          "– Contains natural sugars that contribute to its sweetness.",
-      },
-      {
+        description: "– Contains natural sugars, contributing to its sweet flavor."
+    },
+    {
         element: "Proteins:",
         quantity: 0.8,
         measurementUnits: "g",
-        description: "– Provides a small amount of protein.",
-      },
-      {
+        description: "– Provides a small amount of plant-based protein."
+    },
+    {
         element: "Vitamin C:",
         quantity: 36.4,
         measurementUnits: "mg",
-        description:
-          "– A good source of vitamin C, supporting immune function and skin health.",
-      },
-      {
+        description: "– Excellent source of vitamin C, important for immune function and skin health."
+    },
+    {
         element: "Calcium:",
         quantity: 18,
         measurementUnits: "mg",
-        description:
-          "– Contains small amounts of calcium, contributing to bone health.",
-      },
-      {
+        description: "– Provides a small amount of calcium, contributing to bone health."
+    },
+    {
         element: "Iron:",
-        quantity: 0.2,
+        quantity: 0.16,
         measurementUnits: "mg",
-        description:
-          "– Provides trace amounts of iron, essential for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– No vitamin D present, typically obtained from sunlight.",
-      },
-      {
-        element: "Vitamin B6:",
-        quantity: 0.2,
-        measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description:
-          "– Lacks vitamin B12, which is primarily found in animal products.",
-      },
-      {
+        description: "– Contains trace amounts of iron, necessary for healthy red blood cell production."
+    },
+    {
         element: "Magnesium:",
         quantity: 10,
         measurementUnits: "mg",
-        description:
-          "– Contains small amounts of magnesium, essential for various bodily functions.",
-      },
-      {
+        description: "– Provides a small amount of magnesium, important for muscle and nerve function."
+    },
+    {
         element: "Zinc:",
-        quantity: 0.1,
+        quantity: 0.16,
         measurementUnits: "mg",
-        description:
-          "– Provides trace amounts of zinc, supporting immune function.",
-      },
-      {
+        description: "– Contains trace amounts of zinc, supporting immune function."
+    },
+    {
         element: "Vitamin E:",
+        quantity: 0.16,
+        measurementUnits: "mg",
+        description: "– Contains small amounts of vitamin E, an important antioxidant."
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 1086,
+        measurementUnits: "IU",
+        description: "– High in vitamin A, supporting vision and immune health."
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.05,
+        measurementUnits: "mg",
+        description: "– Supports energy metabolism."
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.06,
+        measurementUnits: "mg",
+        description: "– Contributes to energy production and skin health."
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.6,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and helps maintain healthy skin."
+    },
+    {
+        element: "Vitamin B6:",
         quantity: 0.2,
         measurementUnits: "mg",
-        description: "– Contains small amounts of vitamin E, an antioxidant.",
-      },
+        description: "– Important for protein metabolism and brain health."
+    }
+    
     ],
     cultivationHeading: `Mangoes are one of the most popular and widely consumed fruits in the world, known for their sweet, juicy flesh and vibrant flavor. They are primarily grown in tropical and subtropical regions. Here’s an overview of mango cultivation`,
     cultivation: [
@@ -4390,125 +4436,141 @@ In summary, grapefruit is a nutrient-rich citrus fruit that provides numerous he
         quantity: 34,
         measurementUnits: "kcal",
         description:
-          "– Low in calories, making it a hydrating and refreshing fruit.",
-      },
-      {
+          "– Low in calories, making it a refreshing and hydrating fruit.",
+    },
+    {
         element: "Fats:",
         quantity: 0.2,
         measurementUnits: "g",
-        description: "– Very low in fat, contributing to its healthy profile.",
-      },
-      {
+        description:
+          "– Very low in fat, contributing to its health benefits.",
+    },
+    {
         element: "Saturated fatty acids:",
-        quantity: 0.0,
+        quantity: 0.1,
         measurementUnits: "g",
         description: "– Contains negligible amounts of saturated fats.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.5,
         measurementUnits: "mg",
-        description: "– Cholesterol-free, promoting heart health.",
-      },
-      {
+        description:
+          "– Supports metabolism and helps maintain healthy skin and nerves.",
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
         description:
-          "– Very low in sodium, helpful for blood pressure management.",
-      },
-      {
+          "– Very low in sodium, beneficial for heart health.",
+    },
+    {
         element: "Potassium:",
         quantity: 267,
         measurementUnits: "mg",
         description:
-          "– Good source of potassium, which helps regulate fluid balance.",
-      },
-      {
+          "– A good source of potassium, which is essential for fluid balance and muscle function.",
+    },
+    {
         element: "Carbohydrates:",
-        quantity: 8.0,
+        quantity: 8.1,
         measurementUnits: "g",
-        description: "– Provides carbohydrates primarily from natural sugars.",
-      },
-      {
+        description:
+          "– Contains carbohydrates primarily from natural sugars.",
+    },
+    {
         element: "Fiber:",
         quantity: 0.9,
         measurementUnits: "g",
-        description: "– Contains dietary fiber, supporting healthy digestion.",
-      },
-      {
+        description:
+          "– Provides dietary fiber, promoting healthy digestion.",
+    },
+    {
         element: "Sugar:",
         quantity: 8.0,
         measurementUnits: "g",
         description:
           "– Contains natural sugars, contributing to its sweet flavor.",
-      },
-      {
+    },
+    {
         element: "Proteins:",
-        quantity: 0.5,
+        quantity: 0.8,
         measurementUnits: "g",
-        description: "– Provides a small amount of protein.",
-      },
-      {
+        description:
+          "– Contains minimal protein, but contributes to overall nutrient intake.",
+    },
+    {
         element: "Vitamin C:",
-        quantity: 36.0,
+        quantity: 36.7,
         measurementUnits: "mg",
         description:
-          "– Good source of vitamin C, supporting the immune system.",
-      },
-      {
+          "– A good source of vitamin C, supporting immune function and skin health.",
+    },
+    {
         element: "Calcium:",
         quantity: 18,
         measurementUnits: "mg",
         description:
-          "– Contains a small amount of calcium, contributing to bone health.",
-      },
-      {
+          "– Provides a small amount of calcium, contributing to bone health.",
+    },
+    {
         element: "Iron:",
         quantity: 0.2,
         measurementUnits: "mg",
         description:
-          "– Provides trace amounts of iron, important for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
+          "– Contains minimal iron, important for oxygen transport in the blood.",
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.03,
+        measurementUnits: "mg",
         description:
-          "– Does not contain vitamin D, typically obtained from sunlight.",
-      },
-      {
+          "– Supports energy metabolism by converting carbohydrates into energy.",
+    },
+    {
         element: "Vitamin B6:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description: "– Lacks vitamin B12, primarily found in animal products.",
-      },
-      {
+        description:
+          "– Involved in metabolism and cognitive function.",
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.01,
+        measurementUnits: "mg",
+        description:
+          "– Plays a role in energy production and maintaining healthy skin.",
+    },
+    {
         element: "Magnesium:",
         quantity: 10,
         measurementUnits: "mg",
         description:
-          "– Contains magnesium, important for various bodily functions.",
-      },
-      {
+          "– Contains small amounts of magnesium, which is important for muscle and nerve function.",
+    },
+    {
         element: "Zinc:",
         quantity: 0.2,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of zinc, supporting immune function.",
-      },
-      {
+          "– Provides minimal zinc, supporting immune function.",
+    },
+    {
         element: "Vitamin E:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Contains small amounts of vitamin E, an antioxidant.",
-      },
+        description:
+          "– Contains small amounts of vitamin E, which has antioxidant properties.",
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 338,
+        measurementUnits: "IU",
+        description:
+          "– A good source of vitamin A, important for vision and immune function.",
+    }
+    
     ],
     cultivationHeading: `Melons are sweet, juicy fruits that are popular during warm seasons and come in various types, including cantaloupe, honeydew, and watermelon. They are primarily grown in warm climates and can be cultivated in both commercial fields and home gardens. Here’s an overview of melon cultivation`,
     cultivation: [
@@ -4704,126 +4766,117 @@ In summary, grapefruit is a nutrient-rich citrus fruit that provides numerous he
         element: "Energy value:",
         quantity: 44,
         measurementUnits: "kcal",
-        description: "– Low in calories, making it a refreshing fruit choice.",
-      },
-      {
+        description: "– Low in calories, making it a refreshing and healthy snack."
+    },
+    {
         element: "Fats:",
         quantity: 0.3,
         measurementUnits: "g",
-        description: "– Very low in fat, contributing to its health benefits.",
-      },
-      {
+        description: "– Very low in fat, contributing to its healthful profile."
+    },
+    {
         element: "Saturated fatty acids:",
         quantity: 0.1,
         measurementUnits: "g",
-        description: "– Contains minimal saturated fats.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
-        measurementUnits: "mg",
-        description: "– Cholesterol-free, promoting heart health.",
-      },
-      {
+        description: "– Contains minimal saturated fats, promoting heart health."
+    },
+    {
         element: "Sodium:",
         quantity: 0,
         measurementUnits: "mg",
-        description:
-          "– Extremely low in sodium, beneficial for blood pressure management.",
-      },
-      {
+        description: "– Contains no sodium, beneficial for blood pressure management."
+    },
+    {
         element: "Potassium:",
-        quantity: 190,
+        quantity: 201,
         measurementUnits: "mg",
-        description:
-          "– A good source of potassium, essential for heart and muscle function.",
-      },
-      {
+        description: "– A good source of potassium, essential for muscle function and fluid balance."
+    },
+    {
         element: "Carbohydrates:",
         quantity: 10.6,
         measurementUnits: "g",
-        description: "– Rich in carbohydrates, primarily from natural sugars.",
-      },
-      {
+        description: "– Contains natural sugars, providing a quick source of energy."
+    },
+    {
         element: "Fiber:",
         quantity: 1.5,
         measurementUnits: "g",
-        description: "– Contains dietary fiber, which aids in digestion.",
-      },
-      {
+        description: "– Contains dietary fiber, promoting healthy digestion."
+    },
+    {
         element: "Sugar:",
         quantity: 8.4,
         measurementUnits: "g",
-        description:
-          "– Contains natural sugars that contribute to its sweetness.",
-      },
-      {
+        description: "– Contains natural sugars, contributing to its sweet flavor."
+    },
+    {
         element: "Proteins:",
         quantity: 0.9,
         measurementUnits: "g",
-        description: "– Provides a small amount of protein.",
-      },
-      {
+        description: "– Provides a small amount of plant-based protein."
+    },
+    {
         element: "Vitamin C:",
-        quantity: 5.4,
+        quantity: 7,
         measurementUnits: "mg",
-        description:
-          "– A source of vitamin C, supporting immune function and skin health.",
-      },
-      {
+        description: "– A good source of vitamin C, important for immune function and skin health."
+    },
+    {
         element: "Calcium:",
-        quantity: 4,
+        quantity: 18,
         measurementUnits: "mg",
-        description:
-          "– Contains trace amounts of calcium, contributing to bone health.",
-      },
-      {
+        description: "– Provides a small amount of calcium, contributing to bone health."
+    },
+    {
         element: "Iron:",
         quantity: 0.2,
         measurementUnits: "mg",
-        description:
-          "– Provides trace amounts of iron, essential for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– No vitamin D present, typically obtained from sunlight.",
-      },
-      {
-        element: "Vitamin B6:",
-        quantity: 0.1,
-        measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description:
-          "– Lacks vitamin B12, which is primarily found in animal products.",
-      },
-      {
+        description: "– Contains trace amounts of iron, necessary for healthy red blood cell production."
+    },
+    {
         element: "Magnesium:",
         quantity: 10,
         measurementUnits: "mg",
-        description:
-          "– Contains small amounts of magnesium, essential for various bodily functions.",
-      },
-      {
+        description: "– Provides a small amount of magnesium, important for muscle and nerve function."
+    },
+    {
         element: "Zinc:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description:
-          "– Provides trace amounts of zinc, supporting immune function.",
-      },
-      {
-        element: "Vitamin E:",
-        quantity: 0.2,
+        description: "– Contains trace amounts of zinc, supporting immune function."
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 489,
+        measurementUnits: "IU",
+        description: "– Contains beta-carotene, supporting vision and immune health."
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.02,
         measurementUnits: "mg",
-        description: "– Contains small amounts of vitamin E, an antioxidant.",
-      },
+        description: "– Supports energy metabolism."
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.02,
+        measurementUnits: "mg",
+        description: "– Contributes to energy production and skin health."
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.6,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and helps maintain healthy skin."
+    },
+    {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Important for protein metabolism and brain health."
+    }
+    
     ],
     cultivationHeading: `Nectarines are smooth-skinned fruits similar to peaches, known for their sweet flavor and juicy texture. They are cultivated in temperate regions and can be grown in both commercial orchards and home gardens. Here’s an overview of nectarine cultivation`,
     cultivation: [
@@ -5020,126 +5073,141 @@ In summary, grapefruit is a nutrient-rich citrus fruit that provides numerous he
         quantity: 47,
         measurementUnits: "kcal",
         description:
-          "– Low in calories, making it a great snack for energy without guilt.",
-      },
-      {
+          "– Low in calories, providing a refreshing and nutritious snack.",
+    },
+    {
         element: "Fats:",
         quantity: 0.1,
         measurementUnits: "g",
-        description: "– Very low in fat, contributing to its health benefits.",
-      },
-      {
+        description:
+          "– Very low in fat, making it a heart-healthy choice.",
+    },
+    {
         element: "Saturated fatty acids:",
-        quantity: 0.0,
+        quantity: 0.02,
         measurementUnits: "g",
         description: "– Contains negligible amounts of saturated fats.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.4,
         measurementUnits: "mg",
-        description: "– Cholesterol-free, promoting heart health.",
-      },
-      {
+        description:
+          "– Supports metabolism and promotes healthy skin and nerves.",
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
         description:
-          "– Very low in sodium, beneficial for blood pressure management.",
-      },
-      {
+          "– Very low in sodium, which is beneficial for heart health.",
+    },
+    {
         element: "Potassium:",
         quantity: 181,
         measurementUnits: "mg",
         description:
-          "– Good source of potassium, which helps regulate fluid balance.",
-      },
-      {
+          "– A good source of potassium, essential for fluid balance and muscle function.",
+    },
+    {
         element: "Carbohydrates:",
         quantity: 11.8,
         measurementUnits: "g",
         description:
-          "– Provides carbohydrates primarily from natural sugars and fiber.",
-      },
-      {
+          "– Contains carbohydrates primarily from natural sugars.",
+    },
+    {
         element: "Fiber:",
         quantity: 2.4,
         measurementUnits: "g",
-        description: "– Contains dietary fiber, supporting healthy digestion.",
-      },
-      {
+        description:
+          "– Provides dietary fiber, promoting healthy digestion.",
+    },
+    {
         element: "Sugar:",
         quantity: 9.4,
         measurementUnits: "g",
         description:
-          "– Contains natural sugars, giving it a sweet and refreshing taste.",
-      },
-      {
+          "– Contains natural sugars, contributing to its sweet flavor.",
+    },
+    {
         element: "Proteins:",
         quantity: 0.9,
         measurementUnits: "g",
-        description: "– Provides a small amount of protein.",
-      },
-      {
+        description:
+          "– Contains minimal protein, but contributes to overall nutrient intake.",
+    },
+    {
         element: "Vitamin C:",
         quantity: 53.2,
         measurementUnits: "mg",
         description:
-          "– Excellent source of vitamin C, supporting the immune system and skin health.",
-      },
-      {
+          "– A rich source of vitamin C, supporting immune function and skin health.",
+    },
+    {
         element: "Calcium:",
         quantity: 40,
         measurementUnits: "mg",
         description:
-          "– Contains a small amount of calcium, contributing to bone health.",
-      },
-      {
+          "– Provides a small amount of calcium, contributing to bone health.",
+    },
+    {
         element: "Iron:",
         quantity: 0.1,
         measurementUnits: "mg",
         description:
-          "– Provides trace amounts of iron, important for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
+          "– Contains minimal iron, important for oxygen transport in the blood.",
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.1,
+        measurementUnits: "mg",
         description:
-          "– Does not contain vitamin D, typically obtained from sunlight.",
-      },
-      {
+          "– Supports energy metabolism by converting carbohydrates into energy.",
+    },
+    {
         element: "Vitamin B6:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description: "– Lacks vitamin B12, primarily found in animal products.",
-      },
-      {
+        description:
+          "– Involved in metabolism and cognitive function.",
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.04,
+        measurementUnits: "mg",
+        description:
+          "– Plays a role in energy production and maintaining healthy skin.",
+    },
+    {
         element: "Magnesium:",
         quantity: 10,
         measurementUnits: "mg",
         description:
-          "– Contains magnesium, important for various bodily functions.",
-      },
-      {
+          "– Contains small amounts of magnesium, important for muscle and nerve function.",
+    },
+    {
         element: "Zinc:",
         quantity: 0.1,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of zinc, supporting immune function.",
-      },
-      {
+          "– Provides minimal zinc, supporting immune function.",
+    },
+    {
         element: "Vitamin E:",
         quantity: 0.2,
         measurementUnits: "mg",
-        description: "– Contains small amounts of vitamin E, an antioxidant.",
-      },
+        description:
+          "– Contains small amounts of vitamin E, which has antioxidant properties.",
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 225,
+        measurementUnits: "IU",
+        description:
+          "– Contains small amounts of vitamin A, important for vision and immune function.",
+    }
+    
     ],
     cultivationHeading: `Oranges are one of the most popular and widely consumed fruits globally, known for their sweet, tangy flavor and high vitamin C content. They are primarily grown in warm, subtropical, and tropical climates. Here’s an overview of orange cultivation`,
     cultivation: [
@@ -5335,126 +5403,117 @@ In summary, grapefruit is a nutrient-rich citrus fruit that provides numerous he
         element: "Energy value:",
         quantity: 39,
         measurementUnits: "kcal",
-        description: "– Low in calories, making it a refreshing fruit choice.",
-      },
-      {
+        description: "– Low in calories, making it a refreshing and healthy snack."
+    },
+    {
         element: "Fats:",
         quantity: 0.3,
         measurementUnits: "g",
-        description: "– Very low in fat, contributing to its health benefits.",
-      },
-      {
+        description: "– Very low in fat, contributing to its healthful profile."
+    },
+    {
         element: "Saturated fatty acids:",
         quantity: 0.1,
         measurementUnits: "g",
-        description: "– Contains minimal saturated fats.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
-        measurementUnits: "mg",
-        description: "– Cholesterol-free, promoting heart health.",
-      },
-      {
+        description: "– Contains minimal saturated fats, promoting heart health."
+    },
+    {
         element: "Sodium:",
         quantity: 0,
         measurementUnits: "mg",
-        description:
-          "– Extremely low in sodium, beneficial for blood pressure management.",
-      },
-      {
+        description: "– Contains no sodium, beneficial for blood pressure management."
+    },
+    {
         element: "Potassium:",
         quantity: 190,
         measurementUnits: "mg",
-        description:
-          "– A good source of potassium, essential for heart and muscle function.",
-      },
-      {
+        description: "– A good source of potassium, essential for muscle function and fluid balance."
+    },
+    {
         element: "Carbohydrates:",
         quantity: 9.5,
         measurementUnits: "g",
-        description: "– Rich in carbohydrates, primarily from natural sugars.",
-      },
-      {
+        description: "– Contains natural sugars, providing a quick source of energy."
+    },
+    {
         element: "Fiber:",
         quantity: 1.5,
         measurementUnits: "g",
-        description: "– Contains dietary fiber, which aids in digestion.",
-      },
-      {
+        description: "– Contains dietary fiber, promoting healthy digestion."
+    },
+    {
         element: "Sugar:",
         quantity: 8.4,
         measurementUnits: "g",
-        description:
-          "– Contains natural sugars that contribute to its sweetness.",
-      },
-      {
+        description: "– Contains natural sugars, contributing to its sweet flavor."
+    },
+    {
         element: "Proteins:",
         quantity: 0.9,
         measurementUnits: "g",
-        description: "– Provides a small amount of protein.",
-      },
-      {
+        description: "– Provides a small amount of plant-based protein."
+    },
+    {
         element: "Vitamin C:",
         quantity: 6.6,
         measurementUnits: "mg",
-        description:
-          "– A source of vitamin C, supporting immune function and skin health.",
-      },
-      {
+        description: "– A good source of vitamin C, important for immune function and skin health."
+    },
+    {
         element: "Calcium:",
-        quantity: 4,
+        quantity: 18,
         measurementUnits: "mg",
-        description:
-          "– Contains trace amounts of calcium, contributing to bone health.",
-      },
-      {
+        description: "– Provides a small amount of calcium, contributing to bone health."
+    },
+    {
         element: "Iron:",
-        quantity: 0.3,
+        quantity: 0.2,
         measurementUnits: "mg",
-        description:
-          "– Provides trace amounts of iron, essential for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– No vitamin D present, typically obtained from sunlight.",
-      },
-      {
-        element: "Vitamin B6:",
-        quantity: 0.1,
-        measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description:
-          "– Lacks vitamin B12, which is primarily found in animal products.",
-      },
-      {
+        description: "– Contains trace amounts of iron, necessary for healthy red blood cell production."
+    },
+    {
         element: "Magnesium:",
         quantity: 10,
         measurementUnits: "mg",
-        description:
-          "– Contains small amounts of magnesium, essential for various bodily functions.",
-      },
-      {
+        description: "– Provides a small amount of magnesium, important for muscle and nerve function."
+    },
+    {
         element: "Zinc:",
-        quantity: 0.2,
+        quantity: 0.1,
         measurementUnits: "mg",
-        description:
-          "– Provides trace amounts of zinc, supporting immune function.",
-      },
-      {
-        element: "Vitamin E:",
-        quantity: 0.8,
+        description: "– Contains trace amounts of zinc, supporting immune function."
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 489,
+        measurementUnits: "IU",
+        description: "– Contains beta-carotene, supporting vision and immune health."
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.02,
         measurementUnits: "mg",
-        description: "– Contains small amounts of vitamin E, an antioxidant.",
-      },
+        description: "– Supports energy metabolism."
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.02,
+        measurementUnits: "mg",
+        description: "– Contributes to energy production and skin health."
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.6,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and helps maintain healthy skin."
+    },
+    {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Important for protein metabolism and brain health."
+    }
+    
     ],
     cultivationHeading: `Peaches are a beloved stone fruit known for their sweet flavor and juicy texture. They are grown in many temperate regions worldwide and can be cultivated in both commercial orchards and home gardens. Here’s an overview of peach cultivation`,
     cultivation: [
@@ -5651,126 +5710,141 @@ In summary, grapefruit is a nutrient-rich citrus fruit that provides numerous he
         quantity: 46,
         measurementUnits: "kcal",
         description:
-          "– Low in calories, making it a healthy and delicious snack.",
-      },
-      {
+          "– Low in calories, making it a healthy and refreshing snack.",
+    },
+    {
         element: "Fats:",
         quantity: 0.3,
         measurementUnits: "g",
-        description: "– Very low in fat, contributing to a healthy diet.",
-      },
-      {
+        description:
+          "– Very low in fat, contributing to its light and juicy nature.",
+    },
+    {
         element: "Saturated fatty acids:",
         quantity: 0.0,
         measurementUnits: "g",
         description: "– Contains negligible amounts of saturated fats.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
-        measurementUnits: "mg",
-        description: "– Cholesterol-free, supporting cardiovascular health.",
-      },
-      {
-        element: "Sodium:",
-        quantity: 0,
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.3,
         measurementUnits: "mg",
         description:
-          "– Very low in sodium, beneficial for blood pressure management.",
-      },
-      {
+          "– Supports metabolism and contributes to skin health.",
+    },
+    {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, which is beneficial for heart health.",
+    },
+    {
         element: "Potassium:",
         quantity: 157,
         measurementUnits: "mg",
         description:
-          "– Good source of potassium, which helps maintain proper fluid balance.",
-      },
-      {
+          "– Good source of potassium, essential for maintaining fluid balance and muscle function.",
+    },
+    {
         element: "Carbohydrates:",
         quantity: 11.4,
         measurementUnits: "g",
         description:
-          "– Provides carbohydrates, mainly from natural sugars and fiber.",
-      },
-      {
+          "– Provides carbohydrates primarily from natural sugars.",
+    },
+    {
         element: "Fiber:",
         quantity: 1.4,
         measurementUnits: "g",
-        description: "– Contains dietary fiber, promoting digestive health.",
-      },
-      {
+        description:
+          "– Contains dietary fiber, promoting healthy digestion.",
+    },
+    {
         element: "Sugar:",
         quantity: 9.9,
         measurementUnits: "g",
         description:
-          "– Contains natural sugars, contributing to its sweet taste.",
-      },
-      {
+          "– Contains natural sugars, contributing to its sweet flavor.",
+    },
+    {
         element: "Proteins:",
         quantity: 0.7,
         measurementUnits: "g",
-        description: "– Provides a small amount of protein.",
-      },
-      {
+        description:
+          "– Contains minimal protein, but contributes to overall nutrient intake.",
+    },
+    {
         element: "Vitamin C:",
         quantity: 9.5,
         measurementUnits: "mg",
         description:
-          "– Contains vitamin C, supporting the immune system and skin health.",
-      },
-      {
+          "– Provides a modest amount of vitamin C, supporting immune health.",
+    },
+    {
         element: "Calcium:",
         quantity: 18,
         measurementUnits: "mg",
         description:
-          "– Provides trace amounts of calcium, contributing to bone health.",
-      },
-      {
+          "– Contains small amounts of calcium, contributing to bone health.",
+    },
+    {
         element: "Iron:",
         quantity: 0.2,
         measurementUnits: "mg",
         description:
-          "– Contains small amounts of iron, important for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
+          "– Contains minimal iron, important for oxygen transport in the blood.",
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.02,
+        measurementUnits: "mg",
         description:
-          "– Does not contain vitamin D, typically obtained from sunlight.",
-      },
-      {
+          "– Supports energy metabolism by converting carbohydrates into energy.",
+    },
+    {
         element: "Vitamin B6:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Supports metabolism and brain function.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description: "– Lacks vitamin B12, primarily found in animal products.",
-      },
-      {
-        element: "Magnesium:",
-        quantity: 10,
+        description:
+          "– Involved in metabolism and cognitive function.",
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.03,
         measurementUnits: "mg",
         description:
-          "– Contains magnesium, essential for muscle and nerve function.",
-      },
-      {
+          "– Plays a role in energy production and maintaining healthy skin.",
+    },
+    {
+        element: "Magnesium:",
+        quantity: 9,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of magnesium, important for muscle and nerve function.",
+    },
+    {
         element: "Zinc:",
         quantity: 0.1,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of zinc, supporting immune health.",
-      },
-      {
+          "– Provides minimal zinc, supporting immune function.",
+    },
+    {
         element: "Vitamin E:",
-        quantity: 0.2,
+        quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Contains small amounts of vitamin E, an antioxidant.",
-      },
+        description:
+          "– Contains small amounts of vitamin E, which has antioxidant properties.",
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 127,
+        measurementUnits: "IU",
+        description:
+          "– Contains small amounts of vitamin A, important for vision and immune function.",
+    }
+    
     ],
     cultivationHeading: `Plums are juicy, sweet fruits that belong to the Prunus genus, which also includes cherries and peaches. They are popular for their versatility in fresh consumption, cooking, and preserving. Plums are grown in various climates around the world. Here’s an overview of plum cultivation`,
     cultivation: [
@@ -5965,128 +6039,123 @@ In summary, grapefruit is a nutrient-rich citrus fruit that provides numerous he
         element: "Energy value:",
         quantity: 52,
         measurementUnits: "kcal",
-        description: "– Low in calories, making them a healthy snack option.",
-      },
-      {
+        description: "– Low in calories, making it a great choice for a healthy snack."
+    },
+    {
         element: "Fats:",
         quantity: 0.7,
         measurementUnits: "g",
-        description:
-          "– Very low in fat, contributing to their health benefits.",
-      },
-      {
+        description: "– Very low in fat, contributing to their healthful profile."
+    },
+    {
         element: "Saturated fatty acids:",
         quantity: 0.0,
         measurementUnits: "g",
-        description: "– Contains negligible amounts of saturated fats.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
-        measurementUnits: "mg",
-        description: "– Cholesterol-free, promoting heart health.",
-      },
-      {
+        description: "– Contains no saturated fats, promoting heart health."
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
-        description:
-          "– Very low in sodium, beneficial for blood pressure management.",
-      },
-      {
+        description: "– Extremely low in sodium, beneficial for blood pressure management."
+    },
+    {
         element: "Potassium:",
         quantity: 151,
         measurementUnits: "mg",
-        description:
-          "– A good source of potassium, essential for heart and muscle function.",
-      },
-      {
+        description: "– A good source of potassium, essential for muscle function and fluid balance."
+    },
+    {
         element: "Carbohydrates:",
         quantity: 11.9,
         measurementUnits: "g",
-        description:
-          "– Rich in carbohydrates, primarily from natural sugars and fiber.",
-      },
-      {
+        description: "– Contains natural sugars and carbohydrates, providing a quick source of energy."
+    },
+    {
         element: "Fiber:",
         quantity: 6.5,
         measurementUnits: "g",
-        description: "– High in dietary fiber, promoting healthy digestion.",
-      },
-      {
+        description: "– High in dietary fiber, promoting healthy digestion and regularity."
+    },
+    {
         element: "Sugar:",
         quantity: 4.4,
         measurementUnits: "g",
-        description:
-          "– Contains natural sugars, contributing to their sweetness.",
-      },
-      {
+        description: "– Contains natural sugars, contributing to its sweet and tart flavor."
+    },
+    {
         element: "Proteins:",
         quantity: 1.2,
         measurementUnits: "g",
-        description: "– Provides a small amount of protein.",
-      },
-      {
+        description: "– Provides a small amount of plant-based protein."
+    },
+    {
         element: "Vitamin C:",
         quantity: 26.2,
         measurementUnits: "mg",
-        description:
-          "– A good source of vitamin C, supporting immune function and skin health.",
-      },
-      {
+        description: "– A great source of vitamin C, important for immune function and skin health."
+    },
+    {
         element: "Calcium:",
         quantity: 33,
         measurementUnits: "mg",
-        description:
-          "– Contains trace amounts of calcium, contributing to bone health.",
-      },
-      {
+        description: "– Contains a small amount of calcium, contributing to bone health."
+    },
+    {
         element: "Iron:",
         quantity: 0.7,
         measurementUnits: "mg",
-        description:
-          "– Provides small amounts of iron, essential for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– No vitamin D present, typically obtained from sunlight.",
-      },
-      {
-        element: "Vitamin B6:",
-        quantity: 0.1,
-        measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description:
-          "– Lacks vitamin B12, which is primarily found in animal products.",
-      },
-      {
+        description: "– Contains trace amounts of iron, necessary for healthy red blood cell production."
+    },
+    {
         element: "Magnesium:",
         quantity: 22,
         measurementUnits: "mg",
-        description:
-          "– Contains small amounts of magnesium, essential for various bodily functions.",
-      },
-      {
+        description: "– Provides a small amount of magnesium, important for muscle and nerve function."
+    },
+    {
         element: "Zinc:",
         quantity: 0.4,
         measurementUnits: "mg",
-        description:
-          "– Provides trace amounts of zinc, supporting immune function.",
-      },
-      {
+        description: "– Contains trace amounts of zinc, supporting immune function."
+    },
+    {
         element: "Vitamin E:",
         quantity: 0.87,
         measurementUnits: "mg",
-        description: "– Contains small amounts of vitamin E, an antioxidant.",
-      },
+        description: "– Contains small amounts of vitamin E, an important antioxidant."
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description: "– Raspberries are not a significant source of vitamin A."
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.02,
+        measurementUnits: "mg",
+        description: "– Supports energy metabolism."
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.02,
+        measurementUnits: "mg",
+        description: "– Contributes to energy production and skin health."
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.6,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and helps maintain healthy skin."
+    },
+    {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Important for protein metabolism and brain health."
+    }
+    
     ],
     cultivationHeading: `Raspberries are delicious, juicy berries that are popular for their sweet-tart flavor and versatility in culinary applications. They can be cultivated in a variety of climates and are commonly grown in both commercial farms and home gardens. Here’s an overview of raspberry cultivation`,
     cultivation: [
@@ -6282,127 +6351,141 @@ In summary, grapefruit is a nutrient-rich citrus fruit that provides numerous he
         quantity: 32,
         measurementUnits: "kcal",
         description:
-          "– Low in calories, making them a great choice for weight management.",
-      },
-      {
+          "– Low in calories, making it an excellent choice for a healthy snack.",
+    },
+    {
         element: "Fats:",
         quantity: 0.3,
         measurementUnits: "g",
-        description: "– Very low in fat, promoting heart health.",
-      },
-      {
+        description:
+          "– Very low in fat, contributing to its overall lightness.",
+    },
+    {
         element: "Saturated fatty acids:",
         quantity: 0.0,
         measurementUnits: "g",
         description: "– Contains negligible amounts of saturated fats.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.5,
         measurementUnits: "mg",
         description:
-          "– Cholesterol-free, contributing to cardiovascular health.",
-      },
-      {
+          "– Supports metabolism and skin health.",
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
         description:
-          "– Very low in sodium, beneficial for managing blood pressure.",
-      },
-      {
+          "– Very low in sodium, which is beneficial for heart health.",
+    },
+    {
         element: "Potassium:",
         quantity: 153,
         measurementUnits: "mg",
         description:
-          "– Good source of potassium, which helps regulate fluid balance and muscle contractions.",
-      },
-      {
+          "– Good source of potassium, essential for fluid balance and muscle function.",
+    },
+    {
         element: "Carbohydrates:",
         quantity: 7.7,
         measurementUnits: "g",
         description:
-          "– Provides carbohydrates, mainly from natural sugars and dietary fiber.",
-      },
-      {
+          "– Provides carbohydrates primarily from natural sugars.",
+    },
+    {
         element: "Fiber:",
         quantity: 2.0,
         measurementUnits: "g",
-        description: "– High in dietary fiber, promoting healthy digestion.",
-      },
-      {
+        description:
+          "– Contains dietary fiber, promoting healthy digestion.",
+    },
+    {
         element: "Sugar:",
         quantity: 4.9,
         measurementUnits: "g",
         description:
           "– Contains natural sugars, contributing to its sweet flavor.",
-      },
-      {
+    },
+    {
         element: "Proteins:",
         quantity: 0.7,
         measurementUnits: "g",
-        description: "– Provides a small amount of protein.",
-      },
-      {
+        description:
+          "– Contains minimal protein, but contributes to overall nutrient intake.",
+    },
+    {
         element: "Vitamin C:",
         quantity: 58.8,
         measurementUnits: "mg",
         description:
-          "– Excellent source of vitamin C, supporting the immune system and skin health.",
-      },
-      {
+          "– Excellent source of vitamin C, supporting immune health and skin integrity.",
+    },
+    {
         element: "Calcium:",
         quantity: 18,
         measurementUnits: "mg",
         description:
-          "– Provides trace amounts of calcium, contributing to bone health.",
-      },
-      {
+          "– Provides small amounts of calcium, contributing to bone health.",
+    },
+    {
         element: "Iron:",
         quantity: 0.4,
         measurementUnits: "mg",
         description:
-          "– Contains small amounts of iron, essential for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
+          "– Contains small amounts of iron, important for oxygen transport in the blood.",
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.02,
+        measurementUnits: "mg",
         description:
-          "– Does not contain vitamin D, typically obtained from sunlight.",
-      },
-      {
+          "– Supports energy metabolism by converting carbohydrates into energy.",
+    },
+    {
         element: "Vitamin B6:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Supports metabolism and brain function.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description: "– Lacks vitamin B12, primarily found in animal products.",
-      },
-      {
+        description:
+          "– Involved in metabolism and cognitive function.",
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.02,
+        measurementUnits: "mg",
+        description:
+          "– Plays a role in energy production and maintaining healthy skin.",
+    },
+    {
         element: "Magnesium:",
         quantity: 12,
         measurementUnits: "mg",
         description:
-          "– Contains magnesium, essential for muscle and nerve function.",
-      },
-      {
+          "– Contains small amounts of magnesium, important for muscle and nerve function.",
+    },
+    {
         element: "Zinc:",
-        quantity: 0.1,
+        quantity: 0.2,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of zinc, supporting immune health.",
-      },
-      {
+          "– Provides minimal zinc, supporting immune function.",
+    },
+    {
         element: "Vitamin E:",
-        quantity: 0.3,
+        quantity: 0.2,
         measurementUnits: "mg",
-        description: "– Contains small amounts of vitamin E, an antioxidant.",
-      },
+        description:
+          "– Contains small amounts of vitamin E, which has antioxidant properties.",
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 12,
+        measurementUnits: "IU",
+        description:
+          "– Contains small amounts of vitamin A, important for vision and immune function.",
+    }
+    
     ],
     cultivationHeading: `Strawberries are one of the most popular and widely consumed berries globally, known for their sweet flavor and vibrant red color. They can be grown in various climates and are cultivated both commercially and in home gardens. Here’s an overview of strawberry cultivation`,
     cultivation: [
@@ -6597,129 +6680,123 @@ In summary, grapefruit is a nutrient-rich citrus fruit that provides numerous he
         element: "Energy value:",
         quantity: 30,
         measurementUnits: "kcal",
-        description:
-          "– Very low in calories, making it a refreshing and hydrating snack.",
-      },
-      {
+        description: "– Low in calories, making it a refreshing and hydrating snack."
+    },
+    {
         element: "Fats:",
         quantity: 0.2,
         measurementUnits: "g",
-        description:
-          "– Extremely low in fat, contributing to its health benefits.",
-      },
-      {
+        description: "– Extremely low in fat, contributing to its healthful profile."
+    },
+    {
         element: "Saturated fatty acids:",
         quantity: 0.0,
         measurementUnits: "g",
-        description: "– Contains negligible amounts of saturated fats.",
-      },
-      {
-        element: "Cholesterol:",
-        quantity: 0,
-        measurementUnits: "mg",
-        description: "– Cholesterol-free, promoting heart health.",
-      },
-      {
+        description: "– Contains no saturated fats, promoting heart health."
+    },
+    {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
-        description:
-          "– Very low in sodium, beneficial for blood pressure management.",
-      },
-      {
+        description: "– Very low in sodium, beneficial for blood pressure management."
+    },
+    {
         element: "Potassium:",
         quantity: 112,
         measurementUnits: "mg",
-        description:
-          "– A good source of potassium, essential for heart and muscle function.",
-      },
-      {
+        description: "– A good source of potassium, essential for muscle function and fluid balance."
+    },
+    {
         element: "Carbohydrates:",
         quantity: 7.6,
         measurementUnits: "g",
-        description: "– Contains carbohydrates mainly from natural sugars.",
-      },
-      {
+        description: "– Contains natural sugars and carbohydrates, providing quick energy."
+    },
+    {
         element: "Fiber:",
         quantity: 0.4,
         measurementUnits: "g",
-        description:
-          "– Provides a small amount of dietary fiber, promoting digestion.",
-      },
-      {
+        description: "– Contains a small amount of dietary fiber, promoting healthy digestion."
+    },
+    {
         element: "Sugar:",
         quantity: 6.2,
         measurementUnits: "g",
-        description:
-          "– Contains natural sugars, contributing to its sweet flavor.",
-      },
-      {
+        description: "– Contains natural sugars, contributing to its sweet flavor."
+    },
+    {
         element: "Proteins:",
         quantity: 0.6,
         measurementUnits: "g",
-        description: "– Provides minimal protein content.",
-      },
-      {
+        description: "– Provides a small amount of plant-based protein."
+    },
+    {
         element: "Vitamin C:",
         quantity: 8.1,
         measurementUnits: "mg",
-        description:
-          "– Contains vitamin C, supporting immune function and skin health.",
-      },
-      {
+        description: "– A good source of vitamin C, important for immune function and skin health."
+    },
+    {
         element: "Calcium:",
         quantity: 18,
         measurementUnits: "mg",
-        description:
-          "– Contains trace amounts of calcium, contributing to bone health.",
-      },
-      {
+        description: "– Contains trace amounts of calcium, contributing to bone health."
+    },
+    {
         element: "Iron:",
         quantity: 0.2,
         measurementUnits: "mg",
-        description:
-          "– Provides small amounts of iron, essential for blood health.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– No vitamin D present, typically obtained from sunlight.",
-      },
-      {
-        element: "Vitamin B6:",
-        quantity: 0.1,
-        measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description:
-          "– Lacks vitamin B12, which is primarily found in animal products.",
-      },
-      {
+        description: "– Contains trace amounts of iron, necessary for healthy red blood cell production."
+    },
+    {
         element: "Magnesium:",
         quantity: 10,
         measurementUnits: "mg",
-        description:
-          "– Contains small amounts of magnesium, essential for various bodily functions.",
-      },
-      {
+        description: "– Provides a small amount of magnesium, important for muscle and nerve function."
+    },
+    {
         element: "Zinc:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description:
-          "– Provides trace amounts of zinc, supporting immune function.",
-      },
-      {
+        description: "– Contains trace amounts of zinc, supporting immune function."
+    },
+    {
         element: "Vitamin E:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Contains minimal amounts of vitamin E, an antioxidant.",
-      },
+        description: "– Contains small amounts of vitamin E, an important antioxidant."
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 569,
+        measurementUnits: "IU",
+        description: "– Contains beta-carotene, supporting vision and immune health."
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.03,
+        measurementUnits: "mg",
+        description: "– Supports energy metabolism."
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.02,
+        measurementUnits: "mg",
+        description: "– Contributes to energy production and skin health."
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and helps maintain healthy skin."
+    },
+    {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Important for protein metabolism and brain health."
+    }
+    
     ],
     cultivationHeading: `Watermelons are refreshing, sweet fruits that are a favorite during warm seasons. They are primarily grown in warm climates and are popular for their high water content and nutritional benefits. Here’s an overview of watermelon cultivation`,
     cultivation: [

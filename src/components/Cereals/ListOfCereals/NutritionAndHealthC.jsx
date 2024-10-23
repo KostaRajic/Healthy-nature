@@ -32,6 +32,7 @@ export const NutritionAndHealthC = ({ cereals, goBack }) => {
         <h3 className={classes.nutritionHeading}>
           List of <span>{cereals.name}</span> nutrition
         </h3>
+        <h5 className={classes.per100Grams}>(per 100 grams)</h5>
         <div className={classes.nutritionClass}>
           {cereals?.nutritionText?.map((item, index) => (
             <div key={index} className={classes.nutritionDiv}>
@@ -60,8 +61,15 @@ export const NutritionAndHealthC = ({ cereals, goBack }) => {
           </button>
         </div>
       </section>
-      {compare && <CompareCereals cereals={cereals} />}
-      {nutritionOnList && <OnNutritionList cereals={cereals} />}
+      {compare && (
+        <CompareCereals cereals={cereals} goBack={() => setCompare()} />
+      )}
+      {nutritionOnList && (
+        <OnNutritionList
+          cereals={cereals}
+          goBack={() => setNutritionOnList()}
+        />
+      )}
     </div>
   );
 };

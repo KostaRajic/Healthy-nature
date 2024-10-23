@@ -15,119 +15,114 @@ const nuts = [
     topic1: "Nutrition and Health",
     nutritionText: [
       {
-          element: "Energy value:",
-          quantity: 576,
-          measurementUnits: "kcal",
-          description: "– High in calories, providing substantial energy."
-      },
-      {
-          element: "Fats:",
-          quantity: 49.9,
-          measurementUnits: "g",
-          description: "– Rich in healthy fats, predominantly monounsaturated fats beneficial for heart health."
-      },
-      {
-          element: "Saturated fatty acids:",
-          quantity: 3.7,
-          measurementUnits: "g",
-          description: "– Contains a small amount of saturated fats."
-      },
-      {
-          element: "Cholesterol:",
-          quantity: 0,
-          measurementUnits: "mg",
-          description: "– Cholesterol-free, promoting cardiovascular health."
-      },
-      {
-          element: "Sodium:",
-          quantity: 1,
-          measurementUnits: "mg",
-          description: "– Very low in sodium, helpful for maintaining healthy blood pressure."
-      },
-      {
-          element: "Potassium:",
-          quantity: 705,
-          measurementUnits: "g",
-          description: "– A good source of potassium, vital for muscle and nerve function."
-      },
-      {
-          element: "Carbohydrates:",
-          quantity: 21.6,
-          measurementUnits: "g",
-          description: "– Provides carbohydrates, primarily from fiber and healthy sugars."
-      },
-      {
-          element: "Fiber:",
-          quantity: 12.5,
-          measurementUnits: "g",
-          description: "– High in dietary fiber, supporting digestion and gut health."
-      },
-      {
-          element: "Sugar:",
-          quantity: 4.4,
-          measurementUnits: "g",
-          description: "– Contains natural sugars in small amounts."
-      },
-      {
-          element: "Proteins:",
-          quantity: 21.2,
-          measurementUnits: "g",
-          description: "– A significant source of plant-based protein, aiding muscle growth and repair."
-      },
-      {
-          element: "Vitamin C:",
-          quantity: 0,
-          measurementUnits: "mg",
-          description: "– Does not contain vitamin C."
-      },
-      {
-          element: "Calcium:",
-          quantity: 264,
-          measurementUnits: "mg",
-          description: "– A rich source of calcium, contributing to bone health."
-      },
-      {
-          element: "Iron:",
-          quantity: 3.7,
-          measurementUnits: "mg",
-          description: "– Important for hemoglobin production and preventing anemia."
-      },
-      {
-          element: "Vitamin D:",
-          quantity: 0,
-          measurementUnits: "IU",
-          description: "– No vitamin D present, typically obtained from sunlight."
-      },
-      {
-          element: "Vitamin B6:",
-          quantity: 0.1,
-          measurementUnits: "mg",
-          description: "– Supports metabolism and brain function."
-      },
-      {
-          element: "Vitamin B12:",
-          quantity: 0,
-          measurementUnits: "µg",
-          description: "– Lacks vitamin B12, which is found in animal products."
-      },
-      {
-          element: "Magnesium:",
-          quantity: 268,
-          measurementUnits: "mg",
-          description: "– High in magnesium, essential for many bodily functions including energy production."
-      },
-      {
-          element: "Zinc:",
-          quantity: 3.1,
-          measurementUnits: "mg",
-          description: "– Contains zinc, which supports immune function and healing."
-      },
-      {
-          element: "Vitamin E:",
-          quantity: 25.6,
-          measurementUnits: "mg",
-          description: "– Excellent source of vitamin E, an antioxidant that protects cells from oxidative damage."
-      },
+        "element": "Energy value:",
+        "quantity": 579,
+        "measurementUnits": "kcal",
+        "description": "– High in calories, providing a concentrated source of energy."
+    },
+    {
+        "element": "Fats:",
+        "quantity": 49.9,
+        "measurementUnits": "g",
+        "description": "– Rich in healthy fats, primarily monounsaturated fats, beneficial for heart health."
+    },
+    {
+        "element": "Saturated fatty acids:",
+        "quantity": 3.7,
+        "measurementUnits": "g",
+        "description": "– Low in saturated fats, promoting cardiovascular health."
+    },
+    {
+        "element": "Vitamin E:",
+        "quantity": 25.6,
+        "measurementUnits": "mg",
+        "description": "– A good source of vitamin E, an antioxidant that supports skin health and immune function."
+    },
+    {
+        "element": "Sodium:",
+        "quantity": 1,
+        "measurementUnits": "mg",
+        "description": "– Very low in sodium, making it a heart-healthy snack."
+    },
+    {
+        "element": "Potassium:",
+        "quantity": 705,
+        "measurementUnits": "mg",
+        "description": "– A good source of potassium, essential for muscle function and blood pressure regulation."
+    },
+    {
+        "element": "Carbohydrates:",
+        "quantity": 21.6,
+        "measurementUnits": "g",
+        "description": "– Contains carbohydrates, providing energy with a low glycemic index."
+    },
+    {
+        "element": "Fiber:",
+        "quantity": 12.5,
+        "measurementUnits": "g",
+        "description": "– High in dietary fiber, promoting digestive health and satiety."
+    },
+    {
+        "element": "Sugar:",
+        "quantity": 4.4,
+        "measurementUnits": "g",
+        "description": "– Contains natural sugars, contributing to its slight sweetness."
+    },
+    {
+        "element": "Proteins:",
+        "quantity": 21.2,
+        "measurementUnits": "g",
+        "description": "– A great source of plant-based protein, important for muscle repair and growth."
+    },
+    {
+        "element": "Calcium:",
+        "quantity": 264,
+        "measurementUnits": "mg",
+        "description": "– A significant source of calcium, supporting bone health."
+    },
+    {
+        "element": "Iron:",
+        "quantity": 3.7,
+        "measurementUnits": "mg",
+        "description": "– Contains iron, essential for healthy red blood cell production."
+    },
+    {
+        "element": "Magnesium:",
+        "quantity": 268,
+        "measurementUnits": "mg",
+        "description": "– High in magnesium, crucial for muscle function and energy production."
+    },
+    {
+        "element": "Zinc:",
+        "quantity": 3.1,
+        "measurementUnits": "mg",
+        "description": "– Contains zinc, which supports immune function and wound healing."
+    },
+    {
+        "element": "Vitamin B1 (Thiamine):",
+        "quantity": 0.2,
+        "measurementUnits": "mg",
+        "description": "– Supports energy metabolism and nerve function."
+    },
+    {
+        "element": "Vitamin B2 (Riboflavin):",
+        "quantity": 1.0,
+        "measurementUnits": "mg",
+        "description": "– Important for energy production and overall metabolic health."
+    },
+    {
+        "element": "Vitamin B3 (Niacin):",
+        "quantity": 3.4,
+        "measurementUnits": "mg",
+        "description": "– Supports metabolism and is beneficial for skin health."
+    },
+    {
+        "element": "Vitamin B6:",
+        "quantity": 0.1,
+        "measurementUnits": "mg",
+        "description": "– Important for protein metabolism and brain health."
+    }
+    
   ],
     cultivationHeading:
       "Almond cultivation requires specific conditions for optimal growth and fruit production. Here is an overview of the key factors involved in growing almonds:",
@@ -317,125 +312,153 @@ const nuts = [
     topic1: "Nutrition and Health",
     nutritionText: [
       {
-        element: `Energy value:`,
+        element: "Energy value:",
         quantity: 659,
-        measurementUnits: `kcal`,
-        description: `– High in calories, providing substantial energy`,
-      },
-      {
-        element: `Fats:`,
-        quantity: 67.1,
-        measurementUnits: `g`,
-        description: `– Rich in healthy fats, providing a concentrated source of energy`,
-      },
-      {
-        element: `Saturated fatty acids:`,
-        quantity: 16.1,
-        measurementUnits: `g`,
-        description: `– Contains saturated fats`,
-      },
-      {
-        element: `Cholesterol:`,
-        quantity: 0,
-        measurementUnits: `mg`,
-        description: `– Cholesterol-free`,
-      },
-      {
-        element: `Sodium:`,
-        quantity: 3,
-        measurementUnits: `mg`,
-        description: `– Very low sodium content`,
-      },
-      {
-        element: `Potassium:`,
+        measurementUnits: "kcal",
+        description:
+          "– High in calories, providing a concentrated source of energy.",
+    },
+    {
+        element: "Fats:",
+        quantity: 66.4,
+        measurementUnits: "g",
+        description:
+          "– High in healthy fats, primarily unsaturated fats beneficial for heart health.",
+    },
+    {
+        element: "Saturated fatty acids:",
+        quantity: 15.1,
+        measurementUnits: "g",
+        description:
+          "– Contains moderate levels of saturated fats; moderation is key for a balanced diet.",
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.3,
+        measurementUnits: "mg",
+        description:
+          "– Supports metabolism and is important for maintaining healthy skin and nerves.",
+    },
+    {
+        element: "Sodium:",
+        quantity: 1,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, making it a heart-healthy choice.",
+    },
+    {
+        element: "Potassium:",
         quantity: 659,
-        measurementUnits: `mg`,
-        description: `– High in potassium, supports muscle function`,
-      },
-      {
-        element: `Carbohydrates:`,
+        measurementUnits: "mg",
+        description:
+          "– Good source of potassium, essential for muscle function and fluid balance.",
+    },
+    {
+        element: "Carbohydrates:",
         quantity: 12.3,
-        measurementUnits: `g`,
-        description: `– Provides a moderate amount of carbohydrates`,
-      },
-      {
-        element: `Fiber:`,
+        measurementUnits: "g",
+        description:
+          "– Contains a moderate amount of carbohydrates, primarily from fiber.",
+    },
+    {
+        element: "Fiber:",
         quantity: 7.5,
-        measurementUnits: `g`,
-        description: `– Good source of dietary fiber, aids digestion`,
-      },
-      {
-        element: `Sugar:`,
+        measurementUnits: "g",
+        description:
+          "– High in dietary fiber, promoting digestive health.",
+    },
+    {
+        element: "Sugar:",
         quantity: 2.3,
-        measurementUnits: `g`,
-        description: `– Contains a small amount of natural sugars`,
-      },
-      {
-        element: `Proteins:`,
+        measurementUnits: "g",
+        description:
+          "– Contains minimal natural sugars, contributing to its overall low glycemic index.",
+    },
+    {
+        element: "Proteins:",
         quantity: 14.3,
-        measurementUnits: `g`,
-        description: `– Good source of plant-based protein`,
-      },
-      {
-        element: `Vitamin C:`,
+        measurementUnits: "g",
+        description:
+          "– A good source of plant-based protein, beneficial for muscle repair and growth.",
+    },
+    {
+        element: "Vitamin C:",
         quantity: 0.7,
-        measurementUnits: `mg`,
-        description: `– Contains a small amount of vitamin C`,
-      },
-      {
-        element: `Calcium:`,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of vitamin C, which supports immune health.",
+    },
+    {
+        element: "Calcium:",
         quantity: 160,
-        measurementUnits: `mg`,
-        description: `– Source of calcium, important for bone health`,
-      },
-      {
-        element: `Iron:`,
+        measurementUnits: "mg",
+        description:
+          "– Provides a good source of calcium, important for bone health.",
+    },
+    {
+        element: "Iron:",
         quantity: 2.4,
-        measurementUnits: `mg`,
-        description: `– Contributes to iron intake, supporting red blood cell production`,
-      },
-      {
-        element: `Vitamin D:`,
-        quantity: 0,
-        measurementUnits: `IU`,
-        description: `– Vitamin D not present`,
-      },
-      {
-        element: `Vitamin B6:`,
+        measurementUnits: "mg",
+        description:
+          "– Contains iron, essential for oxygen transport in the blood.",
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.6,
+        measurementUnits: "mg",
+        description:
+          "– Supports energy metabolism by converting carbohydrates into energy.",
+    },
+    {
+        element: "Vitamin B6:",
         quantity: 0.1,
-        measurementUnits: `mg`,
-        description: `– Contains a small amount of vitamin B6`,
-      },
-      {
-        element: `Vitamin B12:`,
-        quantity: 0,
-        measurementUnits: `µg`,
-        description: `– No vitamin B12 content`,
-      },
-      {
-        element: `Magnesium:`,
+        measurementUnits: "mg",
+        description:
+          "– Involved in metabolism and cognitive function.",
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Plays a role in energy production and maintaining healthy skin.",
+    },
+    {
+        element: "Magnesium:",
         quantity: 376,
-        measurementUnits: `mg`,
-        description: `– High in magnesium, supports muscle and nerve function`,
-      },
-      {
-        element: `Zinc:`,
-        quantity: 4.0,
-        measurementUnits: `mg`,
-        description: `– Provides a good amount of zinc, supports immune function`,
-      },
-      {
-        element: `Vitamin E:`,
+        measurementUnits: "mg",
+        description:
+          "– High in magnesium, essential for muscle function and nerve health.",
+    },
+    {
+        element: "Zinc:",
+        quantity: 4.1,
+        measurementUnits: "mg",
+        description:
+          "– Contains zinc, supporting immune function and cell growth.",
+    },
+    {
+        element: "Vitamin E:",
         quantity: 5.7,
-        measurementUnits: `mg`,
-        description: `– Rich in vitamin E, an antioxidant`,
-      },
-      {
-        element: `Selenium:`,
+        measurementUnits: "mg",
+        description:
+          "– Rich in vitamin E, which has antioxidant properties.",
+    },
+    {
+        element: "Selenium:",
         quantity: 1917,
-        measurementUnits: `µg`,
-        description: `– Exceptionally high in selenium, supports thyroid health`,
-      },
+        measurementUnits: "mcg",
+        description:
+          "– Exceptionally high in selenium, which is important for thyroid function and antioxidant defense.",
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Brazil nuts are not a significant source of vitamin A.",
+    }
+    
     ],
     cultivationHeading:
       "Brazil nut cultivation requires specific conditions for optimal growth and nut production. Here is an overview of the key factors involved in growing Brazil nuts:",
@@ -627,125 +650,114 @@ const nuts = [
 
     nutritionText: [
       {
-        element: `Energy value:`,
-        quantity: 559,
-        measurementUnits: `kcal`,
-        description: `– High in calories, providing substantial energy`,
-      },
-      {
-        element: `Fats:`,
-        quantity: 49.1,
-        measurementUnits: `g`,
-        description: `– Rich in healthy fats, providing energy`,
-      },
-      {
-        element: `Saturated fatty acids:`,
-        quantity: 8.7,
-        measurementUnits: `g`,
-        description: `– Contains a moderate amount of saturated fats`,
-      },
-      {
-        element: `Cholesterol:`,
-        quantity: 0,
-        measurementUnits: `mg`,
-        description: `– Cholesterol-free`,
-      },
-      {
-        element: `Sodium:`,
-        quantity: 7,
-        measurementUnits: `mg`,
-        description: `– Very low in sodium`,
-      },
-      {
-        element: `Potassium:`,
-        quantity: 809,
-        measurementUnits: `mg`,
-        description: `– High in potassium, important for muscle function`,
-      },
-      {
-        element: `Carbohydrates:`,
-        quantity: 10.7,
-        measurementUnits: `g`,
-        description: `– Contains a moderate amount of carbohydrates`,
-      },
-      {
-        element: `Fiber:`,
-        quantity: 6.5,
-        measurementUnits: `g`,
-        description: `– Good source of dietary fiber, aids digestion`,
-      },
-      {
-        element: `Sugar:`,
-        quantity: 1.4,
-        measurementUnits: `g`,
-        description: `– Contains a small amount of natural sugars`,
-      },
-      {
-        element: `Proteins:`,
-        quantity: 30.2,
-        measurementUnits: `g`,
-        description: `– Excellent source of plant-based protein`,
-      },
-      {
-        element: `Vitamin C:`,
-        quantity: 1.9,
-        measurementUnits: `mg`,
-        description: `– Contains a small amount of vitamin C`,
-      },
-      {
-        element: `Calcium:`,
-        quantity: 46,
-        measurementUnits: `mg`,
-        description: `– Source of calcium, supports bone health`,
-      },
-      {
-        element: `Iron:`,
-        quantity: 8.8,
-        measurementUnits: `mg`,
-        description: `– High in iron, supports red blood cell production`,
-      },
-      {
-        element: `Vitamin D:`,
-        quantity: 0,
-        measurementUnits: `IU`,
-        description: `– No vitamin D content`,
-      },
-      {
-        element: `Vitamin B6:`,
-        quantity: 0.1,
-        measurementUnits: `mg`,
-        description: `– Contains a small amount of vitamin B6`,
-      },
-      {
-        element: `Vitamin B12:`,
-        quantity: 0,
-        measurementUnits: `µg`,
-        description: `– No vitamin B12 content`,
-      },
-      {
-        element: `Magnesium:`,
-        quantity: 592,
-        measurementUnits: `mg`,
-        description: `– Very high in magnesium, supports muscle and nerve function`,
-      },
-      {
-        element: `Zinc:`,
-        quantity: 7.6,
-        measurementUnits: `mg`,
-        description: `– Rich in zinc, supports immune function`,
-      },
-      {
-        element: `Vitamin E:`,
-        quantity: 2.2,
-        measurementUnits: `mg`,
-        description: `– Contains a moderate amount of vitamin E, an antioxidant`,
-      },
-      {
-        element: `Selenium:`,
-        quantity: 5.6,
-        measurementUnits: `µg`,
-        description: `– Contains a small amount of selenium, supports thyroid health`,
-      },
+        "element": "Energy value:",
+        "quantity": 559,
+        "measurementUnits": "kcal",
+        "description": "– High in calories, providing a concentrated source of energy."
+    },
+    {
+        "element": "Fats:",
+        "quantity": 49.1,
+        "measurementUnits": "g",
+        "description": "– Rich in healthy fats, particularly polyunsaturated and monounsaturated fats."
+    },
+    {
+        "element": "Saturated fatty acids:",
+        "quantity": 8.1,
+        "measurementUnits": "g",
+        "description": "– Contains a moderate amount of saturated fats."
+    },
+    {
+        "element": "Vitamin E:",
+        "quantity": 0.3,
+        "measurementUnits": "mg",
+        "description": "– Contains small amounts of vitamin E, which is an antioxidant."
+    },
+    {
+        "element": "Sodium:",
+        "quantity": 7,
+        "measurementUnits": "mg",
+        "description": "– Very low in sodium, making it a heart-healthy snack."
+    },
+    {
+        "element": "Potassium:",
+        "quantity": 919,
+        "measurementUnits": "mg",
+        "description": "– A good source of potassium, important for heart and muscle function."
+    },
+    {
+        "element": "Carbohydrates:",
+        "quantity": 10.7,
+        "measurementUnits": "g",
+        "description": "– Contains carbohydrates, providing a source of energy."
+    },
+    {
+        "element": "Fiber:",
+        "quantity": 6.0,
+        "measurementUnits": "g",
+        "description": "– High in dietary fiber, promoting digestive health."
+    },
+    {
+        "element": "Sugar:",
+        "quantity": 1.4,
+        "measurementUnits": "g",
+        "description": "– Contains minimal natural sugars."
+    },
+    {
+        "element": "Proteins:",
+        "quantity": 30.2,
+        "measurementUnits": "g",
+        "description": "– An excellent source of plant-based protein, beneficial for muscle repair."
+    },
+    {
+        "element": "Calcium:",
+        "quantity": 46,
+        "measurementUnits": "mg",
+        "description": "– Contains some calcium, contributing to bone health."
+    },
+    {
+        "element": "Iron:",
+        "quantity": 8.8,
+        "measurementUnits": "mg",
+        "description": "– A rich source of iron, important for oxygen transport in the body."
+    },
+    {
+        "element": "Magnesium:",
+        "quantity": 592,
+        "measurementUnits": "mg",
+        "description": "– High in magnesium, essential for muscle function and energy production."
+    },
+    {
+        "element": "Zinc:",
+        "quantity": 7.6,
+        "measurementUnits": "mg",
+        "description": "– Good source of zinc, which supports immune function."
+    },
+    {
+        "element": "Vitamin B1 (Thiamine):",
+        "quantity": 0.2,
+        "measurementUnits": "mg",
+        "description": "– Supports energy metabolism."
+    },
+    {
+        "element": "Vitamin B2 (Riboflavin):",
+        "quantity": 0.2,
+        "measurementUnits": "mg",
+        "description": "– Important for energy production and overall metabolic health."
+    },
+    {
+        "element": "Vitamin B3 (Niacin):",
+        "quantity": 1.7,
+        "measurementUnits": "mg",
+        "description": "– Supports metabolism and is beneficial for skin health."
+    },
+    {
+        "element": "Vitamin B6:",
+        "quantity": 0.1,
+        "measurementUnits": "mg",
+        "description": "– Important for protein metabolism and brain health."
+    }
+    
     ],
     cultivationHeading:
       "Pumpkin seed cultivation requires specific conditions for optimal growth and seed production. Here is an overview of the key factors involved in growing pumpkin seeds:",
@@ -919,120 +931,146 @@ const nuts = [
     topic1: "Nutrition and Health",
     nutritionText: [
       {
-        element: `Energy value:`,
+        element: "Energy value:",
         quantity: 628,
-        measurementUnits: `kcal`,
-        description: `– High in calories, providing substantial energy`,
-      },
-      {
-        element: `Fats:`,
+        measurementUnits: "kcal",
+        description:
+          "– High in calories, providing a concentrated source of energy.",
+    },
+    {
+        element: "Fats:",
         quantity: 60.8,
-        measurementUnits: `g`,
-        description: `– Rich in healthy fats, providing energy`,
-      },
-      {
-        element: `Saturated fatty acids:`,
+        measurementUnits: "g",
+        description:
+          "– High in healthy fats, primarily monounsaturated fats that support heart health.",
+    },
+    {
+        element: "Saturated fatty acids:",
         quantity: 4.5,
-        measurementUnits: `g`,
-        description: `– Contains some saturated fats`,
-      },
-      {
-        element: `Cholesterol:`,
+        measurementUnits: "g",
+        description:
+          "– Contains low levels of saturated fats, promoting overall heart health.",
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 1.3,
+        measurementUnits: "mg",
+        description:
+          "– Supports metabolism and is important for maintaining healthy skin and nerves.",
+    },
+    {
+        element: "Sodium:",
         quantity: 0,
-        measurementUnits: `mg`,
-        description: `– Cholesterol-free`,
-      },
-      { element: `Sodium:`, quantity: 0,  measurementUnits: `mg`,description: `– Sodium-free` },
-      {
-        element: `Potassium:`,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, making it a heart-healthy choice.",
+    },
+    {
+        element: "Potassium:",
         quantity: 680,
-        measurementUnits: `mg`,
-        description: `– High in potassium, supports muscle and nerve function`,
-      },
-      {
-        element: `Carbohydrates:`,
+        measurementUnits: "mg",
+        description:
+          "– Good source of potassium, essential for muscle function and fluid balance.",
+    },
+    {
+        element: "Carbohydrates:",
         quantity: 16.7,
-        measurementUnits: `g`,
-        description: `– Contains a moderate amount of carbohydrates`,
-      },
-      {
-        element: `Fiber:`,
+        measurementUnits: "g",
+        description:
+          "– Contains a moderate amount of carbohydrates, primarily from fiber.",
+    },
+    {
+        element: "Fiber:",
         quantity: 9.7,
-        measurementUnits: `g`,
-        description: `– Excellent source of dietary fiber, promotes digestion`,
-      },
-      {
-        element: `Sugar:`,
-        quantity: 4.3,
-        measurementUnits: `g`,
-        description: `– Contains a small amount of natural sugars`,
-      },
-      {
-        element: `Proteins:`,
-        quantity: 14.9,
-        measurementUnits: `g`,
-        description: `– Good source of plant-based protein`,
-      },
-      {
-        element: `Vitamin C:`,
-        quantity: 6.3,
-        measurementUnits: `mg`,
-        description: `– Contains vitamin C, supports immune function`,
-      },
-      {
-        element: `Calcium:`,
+        measurementUnits: "g",
+        description:
+          "– High in dietary fiber, promoting digestive health.",
+    },
+    {
+        element: "Sugar:",
+        quantity: 4.4,
+        measurementUnits: "g",
+        description:
+          "– Contains minimal natural sugars, contributing to its overall low glycemic index.",
+    },
+    {
+        element: "Proteins:",
+        quantity: 14.1,
+        measurementUnits: "g",
+        description:
+          "– A good source of plant-based protein, beneficial for muscle repair and growth.",
+    },
+    {
+        element: "Vitamin C:",
+        quantity: 1.2,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of vitamin C, which supports immune health.",
+    },
+    {
+        element: "Calcium:",
         quantity: 114,
-        measurementUnits: `mg`,
-        description: `– Source of calcium, important for bone health`,
-      },
-      {
-        element: `Iron:`,
+        measurementUnits: "mg",
+        description:
+          "– Provides a good source of calcium, important for bone health.",
+    },
+    {
+        element: "Iron:",
         quantity: 4.7,
-        measurementUnits: `mg`,
-        description: `– Good source of iron, supports red blood cell production`,
-      },
-      {
-        element: `Vitamin D:`,
-        quantity: 0,
-        measurementUnits: `IU`,
-        description: `– Vitamin D not present`,
-      },
-      {
-        element: `Vitamin B6:`,
+        measurementUnits: "mg",
+        description:
+          "– Contains iron, essential for oxygen transport in the blood.",
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
         quantity: 0.6,
-        measurementUnits: `mg`,
-        description: `– Contains vitamin B6, supports brain health`,
-      },
-      {
-        element: `Vitamin B12:`,
-        quantity: 0,
-        measurementUnits: `µg`,
-        description: `– No vitamin B12 content`,
-      },
-      {
-        element: `Magnesium:`,
+        measurementUnits: "mg",
+        description:
+          "– Supports energy metabolism by converting carbohydrates into energy.",
+    },
+    {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Involved in metabolism and cognitive function.",
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Plays a role in energy production and maintaining healthy skin.",
+    },
+    {
+        element: "Magnesium:",
         quantity: 163,
-        measurementUnits: `mg`,
-        description: `– Good source of magnesium, supports muscle and nerve function`,
-      },
-      {
-        element: `Zinc:`,
-        quantity: 2.5,
-        measurementUnits: `mg`,
-        description: `– Provides zinc, supports immune function`,
-      },
-      {
-        element: `Vitamin E:`,
-        quantity: 15.0,
-        measurementUnits: `mg`,
-        description: `– Rich in vitamin E, an antioxidant`,
-      },
-      {
-        element: `Selenium:`,
+        measurementUnits: "mg",
+        description:
+          "– Good source of magnesium, essential for muscle function and nerve health.",
+    },
+    {
+        element: "Zinc:",
         quantity: 2.4,
-        measurementUnits: `µg`,
-        description: `– Contains a small amount of selenium, supports thyroid health`,
-      },
+        measurementUnits: "mg",
+        description:
+          "– Contains zinc, supporting immune function and cell growth.",
+    },
+    {
+        element: "Vitamin E:",
+        quantity: 15.03,
+        measurementUnits: "mg",
+        description:
+          "– Rich in vitamin E, which has antioxidant properties.",
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Hazelnuts are not a significant source of vitamin A.",
+    }
+    
     ],
     cultivationHeading:
       "Hazelnut cultivation requires specific conditions for optimal growth and nut production. Here is an overview of the key factors involved in growing hazelnuts:",
@@ -1207,125 +1245,114 @@ const nuts = [
     topic1: "Nutrition and Health",
     nutritionText: [
       {
-        element: `Energy value:`,
-        quantity: 573,
-        measurementUnits: `kcal`,
-        description: `– High in calories, providing substantial energy`,
-      },
-      {
-        element: `Fats:`,
-        quantity: 49.7,
-        measurementUnits: `g`,
-        description: `– Rich in healthy fats, providing a concentrated source of energy`,
-      },
-      {
-        element: `Saturated fatty acids:`,
-        quantity: 7,
-        measurementUnits: `g`,
-        description: `– Contains saturated fats`,
-      },
-      {
-        element: `Cholesterol:`,
-        quantity: 0,
-        measurementUnits: `mg`,
-        description: `– Cholesterol-free`,
-      },
-      {
-        element: `Sodium:`,
-        quantity: 11,
-        measurementUnits: `mg`,
-        description: `– Very low in sodium`,
-      },
-      {
-        element: `Potassium:`,
-        quantity: 475,
-        measurementUnits: `mg`,
-        description: `– Good source of potassium, supports muscle function`,
-      },
-      {
-        element: `Carbohydrates:`,
-        quantity: 23.4,
-        measurementUnits: `g`,
-        description: `– Contains a moderate amount of carbohydrates`,
-      },
-      {
-        element: `Fiber:`,
-        quantity: 11.8,
-        measurementUnits: `g`,
-        description: `– Excellent source of dietary fiber, aids digestion`,
-      },
-      {
-        element: `Sugar:`,
-        quantity: 0.3,
-        measurementUnits: `g`,
-        description: `– Very low sugar content`,
-      },
-      {
-        element: `Proteins:`,
-        quantity: 17.7,
-        measurementUnits: `g`,
-        description: `– Good source of plant-based protein`,
-      },
-      {
-        element: `Vitamin C:`,
-        quantity: 0,
-        measurementUnits: `mg`,
-        description: `– No vitamin C content`,
-      },
-      {
-        element: `Calcium:`,
-        quantity: 975,
-        measurementUnits: `mg`,
-        description: `– Extremely high in calcium, supports bone health`,
-      },
-      {
-        element: `Iron:`,
-        quantity: 14.6,
-        measurementUnits: `mg`,
-        description: `– High in iron, supports red blood cell production`,
-      },
-      {
-        element: `Vitamin D:`,
-        quantity: 0,
-        measurementUnits: `IU`,
-        description: `– No vitamin D content`,
-      },
-      {
-        element: `Vitamin B6:`,
-        quantity: 0.8,
-        measurementUnits: `mg`,
-        description: `– Contains a moderate amount of vitamin B6`,
-      },
-      {
-        element: `Vitamin B12:`,
-        quantity: 0,
-        measurementUnits: `µg`,
-        description: `– No vitamin B12 content`,
-      },
-      {
-        element: `Magnesium:`,
-        quantity: 351,
-        measurementUnits: `mg`,
-        description: `– High in magnesium, supports muscle and nerve function`,
-      },
-      {
-        element: `Zinc:`,
-        quantity: 7.8,
-        measurementUnits: `mg`,
-        description: `– Rich in zinc, supports immune function`,
-      },
-      {
-        element: `Vitamin E:`,
-        quantity: 0.3,
-        measurementUnits: `mg`,
-        description: `– Contains a small amount of vitamin E, an antioxidant`,
-      },
-      {
-        element: `Selenium:`,
-        quantity: 34.4,
-        measurementUnits: `µg`,
-        description: `– Contains selenium, supports thyroid health`,
-      },
+        "element": "Energy value:",
+        "quantity": 573,
+        "measurementUnits": "kcal",
+        "description": "– High in calories, providing a concentrated source of energy."
+    },
+    {
+        "element": "Fats:",
+        "quantity": 49.7,
+        "measurementUnits": "g",
+        "description": "– Rich in healthy fats, primarily polyunsaturated and monounsaturated fats."
+    },
+    {
+        "element": "Saturated fatty acids:",
+        "quantity": 6.9,
+        "measurementUnits": "g",
+        "description": "– Contains a moderate amount of saturated fats."
+    },
+    {
+        "element": "Vitamin E:",
+        "quantity": 0.2,
+        "measurementUnits": "mg",
+        "description": "– Contains small amounts of vitamin E, which acts as an antioxidant."
+    },
+    {
+        "element": "Sodium:",
+        "quantity": 11,
+        "measurementUnits": "mg",
+        "description": "– Very low in sodium, making it a heart-healthy option."
+    },
+    {
+        "element": "Potassium:",
+        "quantity": 468,
+        "measurementUnits": "mg",
+        "description": "– Good source of potassium, essential for muscle function and fluid balance."
+    },
+    {
+        "element": "Carbohydrates:",
+        "quantity": 23.4,
+        "measurementUnits": "g",
+        "description": "– Contains carbohydrates, providing a source of energy."
+    },
+    {
+        "element": "Fiber:",
+        "quantity": 14.6,
+        "measurementUnits": "g",
+        "description": "– High in dietary fiber, promoting digestive health."
+    },
+    {
+        "element": "Sugar:",
+        "quantity": 0.3,
+        "measurementUnits": "g",
+        "description": "– Contains minimal natural sugars."
+    },
+    {
+        "element": "Proteins:",
+        "quantity": 17.0,
+        "measurementUnits": "g",
+        "description": "– A good source of plant-based protein, beneficial for muscle repair."
+    },
+    {
+        "element": "Calcium:",
+        "quantity": 975,
+        "measurementUnits": "mg",
+        "description": "– Very high in calcium, supporting bone health."
+    },
+    {
+        "element": "Iron:",
+        "quantity": 14.6,
+        "measurementUnits": "mg",
+        "description": "– Rich in iron, important for oxygen transport in the body."
+    },
+    {
+        "element": "Magnesium:",
+        "quantity": 351,
+        "measurementUnits": "mg",
+        "description": "– High in magnesium, essential for muscle function and energy production."
+    },
+    {
+        "element": "Zinc:",
+        "quantity": 7.8,
+        "measurementUnits": "mg",
+        "description": "– Good source of zinc, which supports immune function."
+    },
+    {
+        "element": "Vitamin B1 (Thiamine):",
+        "quantity": 0.8,
+        "measurementUnits": "mg",
+        "description": "– Supports energy metabolism."
+    },
+    {
+        "element": "Vitamin B2 (Riboflavin):",
+        "quantity": 0.2,
+        "measurementUnits": "mg",
+        "description": "– Important for energy production and overall metabolic health."
+    },
+    {
+        "element": "Vitamin B3 (Niacin):",
+        "quantity": 4.5,
+        "measurementUnits": "mg",
+        "description": "– Supports metabolism and skin health."
+    },
+    {
+        "element": "Vitamin B6:",
+        "quantity": 0.8,
+        "measurementUnits": "mg",
+        "description": "– Important for protein metabolism and brain health."
+    }
+    
     ],
     cultivationHeading:
       "Sesame seed cultivation requires specific conditions for optimal growth and seed production. Here is an overview of the key factors involved in growing sesame seeds:",
@@ -1499,125 +1526,146 @@ const nuts = [
     topic1: "Nutrition and Health",
     nutritionText: [
       {
-        element: `Energy value:`,
+        element: "Energy value:",
         quantity: 562,
-        measurementUnits: `kcal`,
-        description: `– High in calories, providing substantial energy`,
-      },
-      {
-        element: `Fats:`,
+        measurementUnits: "kcal",
+        description:
+          "– A high-calorie nut, providing a concentrated source of energy.",
+    },
+    {
+        element: "Fats:",
         quantity: 45.3,
-        measurementUnits: `g`,
-        description: `– Rich in healthy fats, providing energy`,
-      },
-      {
-        element: `Saturated fatty acids:`,
+        measurementUnits: "g",
+        description:
+          "– Contains healthy fats, primarily monounsaturated and polyunsaturated fats, beneficial for heart health.",
+    },
+    {
+        element: "Saturated fatty acids:",
         quantity: 5.6,
-        measurementUnits: `g`,
-        description: `– Contains a moderate amount of saturated fats`,
-      },
-      {
-        element: `Cholesterol:`,
-        quantity: 0,
-        measurementUnits: `g`,
-        description: `– Cholesterol-free`,
-      },
-      {
-        element: `Sodium:`,
+        measurementUnits: "g",
+        description:
+          "– Contains moderate levels of saturated fats, which should be consumed in moderation.",
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 1.3,
+        measurementUnits: "mg",
+        description:
+          "– Important for energy metabolism and maintaining healthy skin and nerves.",
+    },
+    {
+        element: "Sodium:",
         quantity: 1,
-        measurementUnits: `mg`,
-        description: `– Very low in sodium`,
-      },
-      {
-        element: `Potassium:`,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, making it a heart-healthy snack option.",
+    },
+    {
+        element: "Potassium:",
         quantity: 1025,
-        measurementUnits: `mg`,
-        description: `– Very high in potassium, supports muscle function`,
-      },
-      {
-        element: `Carbohydrates:`,
-        quantity: 27.2,
-        measurementUnits: `g`,
-        description: `– Contains a moderate amount of carbohydrates`,
-      },
-      {
-        element: `Fiber:`,
-        quantity: 10.3,
-        measurementUnits: `g`,
-        description: `– Good source of dietary fiber, aids digestion`,
-      },
-      {
-        element: `Sugar:`,
+        measurementUnits: "mg",
+        description:
+          "– Excellent source of potassium, essential for muscle function and regulating fluid balance.",
+    },
+    {
+        element: "Carbohydrates:",
+        quantity: 28,
+        measurementUnits: "g",
+        description:
+          "– Contains a moderate amount of carbohydrates, mostly from fiber.",
+    },
+    {
+        element: "Fiber:",
+        quantity: 10.6,
+        measurementUnits: "g",
+        description:
+          "– High in dietary fiber, which promotes digestive health and helps maintain satiety.",
+    },
+    {
+        element: "Sugar:",
         quantity: 7.7,
-        measurementUnits: `g`,
-        description: `– Contains a moderate amount of natural sugars`,
-      },
-      {
-        element: `Proteins:`,
-        quantity: 20.2,
-        measurementUnits: `g`,
-        description: `– Excellent source of plant-based protein`,
-      },
-      {
-        element: `Vitamin C:`,
+        measurementUnits: "g",
+        description:
+          "– Contains natural sugars, providing a hint of sweetness.",
+    },
+    {
+        element: "Proteins:",
+        quantity: 20.6,
+        measurementUnits: "g",
+        description:
+          "– A good source of plant-based protein, important for muscle repair and maintenance.",
+    },
+    {
+        element: "Vitamin C:",
         quantity: 5.6,
-        measurementUnits: `mg`,
-        description: `– Contains a small amount of vitamin C`,
-      },
-      {
-        element: `Calcium:`,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of vitamin C, supporting immune health.",
+    },
+    {
+        element: "Calcium:",
         quantity: 105,
-        measurementUnits: `mg`,
-        description: `– Source of calcium, supports bone health`,
-      },
-      {
-        element: `Iron:`,
-        quantity: 3.9,
-        measurementUnits: `mg`,
-        description: `– Contributes to iron intake, supporting red blood cell production`,
-      },
-      {
-        element: `Vitamin D:`,
-        quantity: 0,
-        measurementUnits: `IU`,
-        description: `– No vitamin D content`,
-      },
-      {
-        element: `Vitamin B6:`,
+        measurementUnits: "mg",
+        description:
+          "– Provides some calcium, contributing to bone health.",
+    },
+    {
+        element: "Iron:",
+        quantity: 4.0,
+        measurementUnits: "mg",
+        description:
+          "– Contains iron, essential for oxygen transport in the blood.",
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.9,
+        measurementUnits: "mg",
+        description:
+          "– Supports energy metabolism and the nervous system.",
+    },
+    {
+        element: "Vitamin B6:",
         quantity: 1.7,
-        measurementUnits: `mg`,
-        description: `– High in vitamin B6, supports brain health`,
-      },
-      {
-        element: `Vitamin B12:`,
-        quantity: 0,
-        measurementUnits: `µg`,
-        description: `– No vitamin B12 content`,
-      },
-      {
-        element: `Magnesium:`,
+        measurementUnits: "mg",
+        description:
+          "– Involved in amino acid metabolism and cognitive function.",
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Plays a role in energy production and skin health.",
+    },
+    {
+        element: "Magnesium:",
         quantity: 121,
-        measurementUnits: `mg`,
-        description: `– Source of magnesium, supports muscle and nerve function`,
-      },
-      {
-        element: `Zinc:`,
-        quantity: 2.2,
-        measurementUnits: `mg`,
-        description: `– Provides zinc, supports immune function`,
-      },
-      {
-        element: `Vitamin E:`,
-        quantity: 2.9,
-        measurementUnits: `mg`,
-        description: `– Contains vitamin E, an antioxidant`,
-      },
-      {
-        element: `Selenium:`,
-        quantity: 7.0,
-        measurementUnits: `µg`,
-        description: `– Contains a small amount of selenium, supports thyroid health`,
-      },
+        measurementUnits: "mg",
+        description:
+          "– A good source of magnesium, essential for muscle and nerve function.",
+    },
+    {
+        element: "Zinc:",
+        quantity: 2.3,
+        measurementUnits: "mg",
+        description:
+          "– Contains zinc, which supports immune function and wound healing.",
+    },
+    {
+        element: "Vitamin E:",
+        quantity: 2.3,
+        measurementUnits: "mg",
+        description:
+          "– Contains vitamin E, an antioxidant that helps protect cells from damage.",
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Pistachios are not a significant source of vitamin A.",
+    }
+    
     ],
     cultivationHeading:
       "Pistachio cultivation requires specific conditions for optimal growth and nut production. Here is an overview of the key factors involved in growing pistachios:",
@@ -1796,125 +1844,114 @@ const nuts = [
     topic1: "Nutrition and Health",
     nutritionText: [
       {
-        element: `Energy value:`,
-        quantity: 584,
-        measurementUnits: `kcal`,
-        description: `– High in calories, providing substantial energy`,
-      },
-      {
-        element: `Fats:`,
-        quantity: 51.5,
-        measurementUnits: `g`,
-        description: `– Rich in healthy fats, providing energy`,
-      },
-      {
-        element: `Saturated fatty acids:`,
-        quantity: 4.5,
-        measurementUnits: `g`,
-        description: `– Contains a moderate amount of saturated fats`,
-      },
-      {
-        element: `Cholesterol:`,
-        quantity: 0,
-        measurementUnits: `mg`,
-        description: `– Cholesterol-free`,
-      },
-      {
-        element: `Sodium:`,
-        quantity: 3,
-        measurementUnits: `mg`,
-        description: `– Very low sodium content`,
-      },
-      {
-        element: `Potassium:`,
-        quantity: 645,
-        measurementUnits: `mg`,
-        description: `– Good source of potassium, important for muscle function`,
-      },
-      {
-        element: `Carbohydrates:`,
-        quantity: 20,
-        measurementUnits: `g`,
-        description: `– Contains a moderate amount of carbohydrates`,
-      },
-      {
-        element: `Fiber:`,
-        quantity: 8.6,
-        measurementUnits: `g`,
-        description: `– Excellent source of dietary fiber, supports digestion`,
-      },
-      {
-        element: `Sugar:`,
-        quantity: 2.6,
-        measurementUnits: `g`,
-        description: `– Contains a small amount of natural sugars`,
-      },
-      {
-        element: `Proteins:`,
-        quantity: 20.8,
-        measurementUnits: `g`,
-        description: `– Good source of plant-based protein`,
-      },
-      {
-        element: `Vitamin C:`,
-        quantity: 1.4,
-        measurementUnits: `mg`,
-        description: `– Contains a small amount of vitamin C`,
-      },
-      {
-        element: `Calcium:`,
-        quantity: 78,
-        measurementUnits: `mg`,
-        description: `– Source of calcium, supports bone health`,
-      },
-      {
-        element: `Iron:`,
-        quantity: 5.3,
-        measurementUnits: `mg`,
-        description: `– Good source of iron, supports red blood cell production`,
-      },
-      {
-        element: `Vitamin D:`,
-        quantity: 0,
-        measurementUnits: `IU`,
-        description: `– No vitamin D content`,
-      },
-      {
-        element: `Vitamin B6:`,
-        quantity: 1.3,
-        measurementUnits: `mg`,
-        description: `– Rich in vitamin B6, supports brain function`,
-      },
-      {
-        element: `Vitamin B12:`,
-        quantity: 0,
-        measurementUnits: `µg`,
-        description: `– No vitamin B12 content`,
-      },
-      {
-        element: `Magnesium:`,
-        quantity: 325,
-        measurementUnits: `mg`,
-        description: `– High in magnesium, supports muscle and nerve function`,
-      },
-      {
-        element: `Zinc:`,
-        quantity: 5.0,
-        measurementUnits: `mg`,
-        description: `– Good source of zinc, supports immune function`,
-      },
-      {
-        element: `Vitamin E:`,
-        quantity: 35.2,
-        measurementUnits: `mg`,
-        description: `– Exceptionally high in vitamin E, an antioxidant`,
-      },
-      {
-        element: `Selenium:`,
-        quantity: 53.0,
-        measurementUnits: `µg`,
-        description: `– Rich in selenium, supports thyroid health`,
-      },
+        "element": "Energy value:",
+        "quantity": 584,
+        "measurementUnits": "kcal",
+        "description": "– High in calories, providing a concentrated source of energy."
+    },
+    {
+        "element": "Fats:",
+        "quantity": 51.5,
+        "measurementUnits": "g",
+        "description": "– Rich in healthy fats, particularly polyunsaturated fats."
+    },
+    {
+        "element": "Saturated fatty acids:",
+        "quantity": 4.5,
+        "measurementUnits": "g",
+        "description": "– Contains a moderate amount of saturated fats."
+    },
+    {
+        "element": "Vitamin E:",
+        "quantity": 35.17,
+        "measurementUnits": "mg",
+        "description": "– Excellent source of vitamin E, which acts as an antioxidant."
+    },
+    {
+        "element": "Sodium:",
+        "quantity": 2,
+        "measurementUnits": "mg",
+        "description": "– Very low in sodium, beneficial for heart health."
+    },
+    {
+        "element": "Potassium:",
+        "quantity": 645,
+        "measurementUnits": "mg",
+        "description": "– A good source of potassium, essential for muscle function and fluid balance."
+    },
+    {
+        "element": "Carbohydrates:",
+        "quantity": 20,
+        "measurementUnits": "g",
+        "description": "– Contains carbohydrates, providing a source of energy."
+    },
+    {
+        "element": "Fiber:",
+        "quantity": 8.6,
+        "measurementUnits": "g",
+        "description": "– High in dietary fiber, promoting healthy digestion."
+    },
+    {
+        "element": "Sugar:",
+        "quantity": 2.6,
+        "measurementUnits": "g",
+        "description": "– Contains minimal natural sugars."
+    },
+    {
+        "element": "Proteins:",
+        "quantity": 20.8,
+        "measurementUnits": "g",
+        "description": "– A good source of plant-based protein, beneficial for muscle repair."
+    },
+    {
+        "element": "Calcium:",
+        "quantity": 78,
+        "measurementUnits": "mg",
+        "description": "– Provides a small amount of calcium, contributing to bone health."
+    },
+    {
+        "element": "Iron:",
+        "quantity": 5.0,
+        "measurementUnits": "mg",
+        "description": "– Contains iron, essential for healthy red blood cell production."
+    },
+    {
+        "element": "Magnesium:",
+        "quantity": 325,
+        "measurementUnits": "mg",
+        "description": "– High in magnesium, important for muscle function and energy production."
+    },
+    {
+        "element": "Zinc:",
+        "quantity": 5.0,
+        "measurementUnits": "mg",
+        "description": "– Good source of zinc, which supports immune function."
+    },
+    {
+        "element": "Vitamin B1 (Thiamine):",
+        "quantity": 1.48,
+        "measurementUnits": "mg",
+        "description": "– Supports energy metabolism."
+    },
+    {
+        "element": "Vitamin B2 (Riboflavin):",
+        "quantity": 0.35,
+        "measurementUnits": "mg",
+        "description": "– Important for energy production and overall metabolic health."
+    },
+    {
+        "element": "Vitamin B3 (Niacin):",
+        "quantity": 8.3,
+        "measurementUnits": "mg",
+        "description": "– Supports metabolism and skin health."
+    },
+    {
+        "element": "Vitamin B6:",
+        "quantity": 1.35,
+        "measurementUnits": "mg",
+        "description": "– Important for protein metabolism and brain health."
+    }
+    
     ],
     cultivationHeading:
       "Sunflower seed cultivation requires specific conditions for optimal growth and seed production. Here is an overview of the key factors involved in growing sunflowers:",
@@ -2089,125 +2126,146 @@ const nuts = [
     topic1: "Nutrition and Health",
     nutritionText: [
       {
-        element: `Energy value:`,
+        element: "Energy value:",
         quantity: 486,
-        measurementUnits: `kcal`,
-        description: `– High in calories, providing substantial energy`,
-      },
-      {
-        element: `Fats:`,
+        measurementUnits: "kcal",
+        description:
+          "– A high-calorie food, providing substantial energy from healthy fats, protein, and carbohydrates.",
+    },
+    {
+        element: "Fats:",
         quantity: 30.7,
-        measurementUnits: `g`,
-        description: `– Rich in healthy fats, providing a concentrated source of energy`,
-      },
-      {
-        element: `Saturated fatty acids:`,
+        measurementUnits: "g",
+        description:
+          "– Contains healthy fats, primarily omega-3 fatty acids, which are beneficial for heart health.",
+    },
+    {
+        element: "Saturated fatty acids:",
         quantity: 3.3,
-        measurementUnits: `g`,
-        description: `– Contains a small amount of saturated fats`,
-      },
-      {
-        element: `Cholesterol:`,
-        quantity: 0,
-        measurementUnits: `mg`,
-        description: `– Cholesterol-free`,
-      },
-      {
-        element: `Sodium:`,
+        measurementUnits: "g",
+        description:
+          "– Contains low levels of saturated fats, supporting overall heart health.",
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 8.8,
+        measurementUnits: "mg",
+        description:
+          "– Important for energy metabolism and maintaining healthy skin and nerves.",
+    },
+    {
+        element: "Sodium:",
         quantity: 16,
-        measurementUnits: `mg`,
-        description: `– Very low in sodium`,
-      },
-      {
-        element: `Potassium:`,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, making it a heart-healthy choice.",
+    },
+    {
+        element: "Potassium:",
         quantity: 407,
-        measurementUnits: `mg`,
-        description: `– Source of potassium, supports muscle function`,
-      },
-      {
-        element: `Carbohydrates:`,
+        measurementUnits: "mg",
+        description:
+          "– Good source of potassium, essential for muscle function and fluid balance.",
+    },
+    {
+        element: "Carbohydrates:",
         quantity: 42.1,
-        measurementUnits: `g`,
-        description: `– Contains a moderate amount of carbohydrates`,
-      },
-      {
-        element: `Fiber:`,
+        measurementUnits: "g",
+        description:
+          "– Contains a moderate amount of carbohydrates, primarily from dietary fiber.",
+    },
+    {
+        element: "Fiber:",
         quantity: 34.4,
-        measurementUnits: `g`,
-        description: `– Excellent source of dietary fiber, aids digestion`,
-      },
-      {
-        element: `Sugar:`,
-        quantity: 0,
-        measurementUnits: `g`,
-        description: `– Sugar-free`,
-      },
-      {
-        element: `Proteins:`,
-        quantity: 16.5,
-        measurementUnits: `g`,
-        description: `– Good source of plant-based protein`,
-      },
-      {
-        element: `Vitamin C:`,
-        quantity: 1.6,
-        measurementUnits: `mg`,
-        description: `– Contains a small amount of vitamin C`,
-      },
-      {
-        element: `Calcium:`,
-        quantity: 631,
-        measurementUnits: `mg`,
-        description: `– Very high in calcium, supports bone health`,
-      },
-      {
-        element: `Iron:`,
-        quantity: 7.7,
-        measurementUnits: `mg`,
-        description: `– High in iron, supports red blood cell production`,
-      },
-      {
-        element: `Vitamin D:`,
-        quantity: 0,
-        measurementUnits: `IU`,
-        description: `– No vitamin D content`,
-      },
-      {
-        element: `Vitamin B6:`,
-        quantity: 0.1,
-        measurementUnits: `mg`,
-        description: `– Contains a small amount of vitamin B6`,
-      },
-      {
-        element: `Vitamin B12:`,
-        quantity: 0,
-        measurementUnits: `µg`,
-        description: `– No vitamin B12 content`,
-      },
-      {
-        element: `Magnesium:`,
-        quantity: 335,
-        measurementUnits: `mg`,
-        description: `– High in magnesium, supports muscle and nerve function`,
-      },
-      {
-        element: `Zinc:`,
-        quantity: 4.6,
-        measurementUnits: `mg`,
-        description: `– Good source of zinc, supports immune function`,
-      },
-      {
-        element: `Vitamin E:`,
+        measurementUnits: "g",
+        description:
+          "– Extremely high in dietary fiber, which supports digestive health and promotes satiety.",
+    },
+    {
+        element: "Sugar:",
         quantity: 0.5,
-        measurementUnits: `mg`,
-        description: `– Contains a small amount of vitamin E, an antioxidant`,
-      },
-      {
-        element: `Selenium:`,
-        quantity: 37.5,
-        measurementUnits: `mg`,
-        description: `– Contains selenium, supports thyroid health`,
-      },
+        measurementUnits: "g",
+        description:
+          "– Contains minimal natural sugars, making it a low-sugar food.",
+    },
+    {
+        element: "Proteins:",
+        quantity: 16.5,
+        measurementUnits: "g",
+        description:
+          "– A good source of plant-based protein, important for muscle repair and maintenance.",
+    },
+    {
+        element: "Vitamin C:",
+        quantity: 1.6,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of vitamin C, supporting immune health.",
+    },
+    {
+        element: "Calcium:",
+        quantity: 631,
+        measurementUnits: "mg",
+        description:
+          "– An excellent source of calcium, crucial for bone health.",
+    },
+    {
+        element: "Iron:",
+        quantity: 7.7,
+        measurementUnits: "mg",
+        description:
+          "– Contains iron, necessary for healthy red blood cell production.",
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.6,
+        measurementUnits: "mg",
+        description:
+          "– Supports energy metabolism by converting carbohydrates into energy.",
+    },
+    {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description:
+          "– Involved in amino acid metabolism and cognitive function.",
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Plays a role in energy production and skin health.",
+    },
+    {
+        element: "Magnesium:",
+        quantity: 335,
+        measurementUnits: "mg",
+        description:
+          "– A great source of magnesium, essential for muscle and nerve function.",
+    },
+    {
+        element: "Zinc:",
+        quantity: 4.6,
+        measurementUnits: "mg",
+        description:
+          "– Contains zinc, which supports immune function and wound healing.",
+    },
+    {
+        element: "Vitamin E:",
+        quantity: 0.5,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of vitamin E, an antioxidant that helps protect cells from damage.",
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Chia seeds are not a significant source of vitamin A.",
+    }
+    
     ],
     cultivationHeading:
       "Chia seed cultivation requires specific conditions for optimal growth and seed production. Here is an overview of the key factors involved in growing chia:",
@@ -2382,125 +2440,114 @@ const nuts = [
     topic1: "Nutrition and Health",
     nutritionText: [
       {
-        element: `Energy value:`,
-        quantity: 654,
-        measurementUnits: `kcal`,
-        description: `– High in calories, providing substantial energy`,
-      },
-      {
-        element: `Fats:`,
-        quantity: 65.2,
-        measurementUnits: `g`,
-        description: `– Rich in healthy fats, providing a concentrated source of energy`,
-      },
-      {
-        element: `Saturated fatty acids:`,
-        quantity: 6.1,
-        measurementUnits: `g`,
-        description: `– Contains some saturated fats`,
-      },
-      {
-        element: `Cholesterol:`,
-        quantity: 0,
-        measurementUnits: `mg`,
-        description: `– Cholesterol-free`,
-      },
-      {
-        element: `Sodium:`,
-        quantity: 2,
-        measurementUnits: `mg`,
-        description: `– Very low sodium content`,
-      },
-      {
-        element: `Potassium:`,
-        quantity: 441,
-        measurementUnits: `mg`,
-        description: `– Good source of potassium, supports muscle and nerve function`,
-      },
-      {
-        element: `Carbohydrates:`,
-        quantity: 13.7,
-        measurementUnits: `g`,
-        description: `– Contains a moderate amount of carbohydrates`,
-      },
-      {
-        element: `Fiber:`,
-        quantity: 6.7,
-        measurementUnits: `g`,
-        description: `– Good source of dietary fiber, promotes digestion`,
-      },
-      {
-        element: `Sugar:`,
-        quantity: 2.6,
-        measurementUnits: `g`,
-        description: `– Contains a small amount of natural sugars`,
-      },
-      {
-        element: `Proteins:`,
-        quantity: 15.2,
-        measurementUnits: `g`,
-        description: `– Good source of plant-based protein`,
-      },
-      {
-        element: `Vitamin C:`,
-        quantity: 1.3,
-        measurementUnits: `mg`,
-        description: `– Contains a small amount of vitamin C`,
-      },
-      {
-        element: `Calcium:`,
-        quantity: 98,
-        measurementUnits: `mg`,
-        description: `– Source of calcium, supports bone health`,
-      },
-      {
-        element: `Iron:`,
-        quantity: 2.9,
-        measurementUnits: `mg`,
-        description: `– Good source of iron, supports red blood cell production`,
-      },
-      {
-        element: `Vitamin D:`,
-        quantity: 0,
-        measurementUnits: `IU`,
-        description: `– No vitamin D content`,
-      },
-      {
-        element: `Vitamin B6:`,
-        quantity: 0.5,
-        measurementUnits: `mg`,
-        description: `– Contains vitamin B6, supports brain health`,
-      },
-      {
-        element: `Vitamin B12:`,
-        quantity: 0,
-        measurementUnits: `µg`,
-        description: `– No vitamin B12 content`,
-      },
-      {
-        element: `Magnesium:`,
-        quantity: 158,
-        measurementUnits: `mg`,
-        description: `– Good source of magnesium, supports muscle and nerve function`,
-      },
-      {
-        element: `Zinc:`,
-        quantity: 3.1,
-        measurementUnits: `mg`,
-        description: `– Contains a good amount of zinc, supports immune function`,
-      },
-      {
-        element: `Vitamin E:`,
-        quantity: 0.7,
-        measurementUnits: `mg`,
-        description: `– Contains a small amount of vitamin E, an antioxidant`,
-      },
-      {
-        element: `Selenium:`,
-        quantity: 4.9,
-        measurementUnits: `µg`,
-        description: `– Contains a small amount of selenium, supports thyroid health`,
-      },
+        "element": "Energy value:",
+        "quantity": 654,
+        "measurementUnits": "kcal",
+        "description": "– High in calories, providing a dense source of energy."
+    },
+    {
+        "element": "Fats:",
+        "quantity": 65.2,
+        "measurementUnits": "g",
+        "description": "– Rich in healthy fats, primarily polyunsaturated fats, including omega-3 fatty acids."
+    },
+    {
+        "element": "Saturated fatty acids:",
+        "quantity": 6.1,
+        "measurementUnits": "g",
+        "description": "– Contains a moderate amount of saturated fats."
+    },
+    {
+        "element": "Vitamin E:",
+        "quantity": 0.7,
+        "measurementUnits": "mg",
+        "description": "– Contains small amounts of vitamin E, which acts as an antioxidant."
+    },
+    {
+        "element": "Sodium:",
+        "quantity": 2,
+        "measurementUnits": "mg",
+        "description": "– Very low in sodium, beneficial for heart health."
+    },
+    {
+        "element": "Potassium:",
+        "quantity": 441,
+        "measurementUnits": "mg",
+        "description": "– A good source of potassium, essential for muscle function and fluid balance."
+    },
+    {
+        "element": "Carbohydrates:",
+        "quantity": 13.7,
+        "measurementUnits": "g",
+        "description": "– Contains carbohydrates, providing energy."
+    },
+    {
+        "element": "Fiber:",
+        "quantity": 6.7,
+        "measurementUnits": "g",
+        "description": "– High in dietary fiber, promoting healthy digestion."
+    },
+    {
+        "element": "Sugar:",
+        "quantity": 2.6,
+        "measurementUnits": "g",
+        "description": "– Contains minimal natural sugars."
+    },
+    {
+        "element": "Proteins:",
+        "quantity": 15.2,
+        "measurementUnits": "g",
+        "description": "– A good source of plant-based protein, beneficial for muscle repair."
+    },
+    {
+        "element": "Calcium:",
+        "quantity": 98,
+        "measurementUnits": "mg",
+        "description": "– Provides a small amount of calcium, contributing to bone health."
+    },
+    {
+        "element": "Iron:",
+        "quantity": 2.9,
+        "measurementUnits": "mg",
+        "description": "– Contains iron, essential for healthy red blood cell production."
+    },
+    {
+        "element": "Magnesium:",
+        "quantity": 158,
+        "measurementUnits": "mg",
+        "description": "– High in magnesium, important for muscle function and energy production."
+    },
+    {
+        "element": "Zinc:",
+        "quantity": 3.1,
+        "measurementUnits": "mg",
+        "description": "– Good source of zinc, which supports immune function."
+    },
+    {
+        "element": "Vitamin B1 (Thiamine):",
+        "quantity": 0.3,
+        "measurementUnits": "mg",
+        "description": "– Supports energy metabolism."
+    },
+    {
+        "element": "Vitamin B2 (Riboflavin):",
+        "quantity": 0.15,
+        "measurementUnits": "mg",
+        "description": "– Important for energy production and overall metabolic health."
+    },
+    {
+        "element": "Vitamin B3 (Niacin):",
+        "quantity": 1.1,
+        "measurementUnits": "mg",
+        "description": "– Supports metabolism and skin health."
+    },
+    {
+        "element": "Vitamin B6:",
+        "quantity": 0.5,
+        "measurementUnits": "mg",
+        "description": "– Important for protein metabolism and brain health."
+    }
+    
     ],
     cultivationHeading:
       "Walnut cultivation requires specific conditions for optimal growth and nut production. Here is an overview of the key factors involved in growing walnuts:",
@@ -2675,125 +2722,146 @@ const nuts = [
     topic1: "Nutrition and Health",
     nutritionText: [
       {
-        element: `Energy value:`,
+        element: "Energy value:",
         quantity: 567,
-        measurementUnits: `kcal`,
-        description: `– High in calories, providing substantial energy`,
-      },
-      {
-        element: `Fats:`,
+        measurementUnits: "kcal",
+        description:
+          "– A high-calorie food, providing significant energy from healthy fats and protein.",
+    },
+    {
+        element: "Fats:",
         quantity: 49.2,
-        measurementUnits: `g`,
-        description: `– Rich in healthy fats, providing energy`,
-      },
-      {
-        element: `Saturated fatty acids:`,
-        quantity: 6.8,
-        measurementUnits: `g`,
-        description: `– Contains a moderate amount of saturated fats`,
-      },
-      {
-        element: `Cholesterol:`,
-        quantity: 0,
-        measurementUnits: `mg`,
-        description: `– Cholesterol-free`,
-      },
-      {
-        element: `Sodium:`,
+        measurementUnits: "g",
+        description:
+          "– High in healthy fats, primarily monounsaturated and polyunsaturated fats, which are beneficial for heart health.",
+    },
+    {
+        element: "Saturated fatty acids:",
+        quantity: 6.28,
+        measurementUnits: "g",
+        description:
+          "– Contains moderate levels of saturated fats, which should be consumed in moderation.",
+    },
+    {
+        element: "Vitamin B3 (Niacin):",
+        quantity: 12.07,
+        measurementUnits: "mg",
+        description:
+          "– Important for energy metabolism and maintaining healthy skin and nerves.",
+    },
+    {
+        element: "Sodium:",
         quantity: 18,
-        measurementUnits: `mg`,
-        description: `– Very low in sodium`,
-      },
-      {
-        element: `Potassium:`,
+        measurementUnits: "mg",
+        description:
+          "– Very low in sodium, making it a heart-healthy option.",
+    },
+    {
+        element: "Potassium:",
         quantity: 705,
-        measurementUnits: `mg`,
-        description: `– Good source of potassium, supports muscle function`,
-      },
-      {
-        element: `Carbohydrates:`,
-        quantity: 16.1,
-        measurementUnits: `g`,
-        description: `– Contains a moderate amount of carbohydrates`,
-      },
-      {
-        element: `Fiber:`,
+        measurementUnits: "mg",
+        description:
+          "– A good source of potassium, essential for muscle function and fluid balance.",
+    },
+    {
+        element: "Carbohydrates:",
+        quantity: 16.13,
+        measurementUnits: "g",
+        description:
+          "– Contains a moderate amount of carbohydrates, primarily from dietary fiber.",
+    },
+    {
+        element: "Fiber:",
         quantity: 8.5,
-        measurementUnits: `g`,
-        description: `– Good source of dietary fiber, aids digestion`,
-      },
-      {
-        element: `Sugar:`,
-        quantity: 4.7,
-        measurementUnits: `g`,
-        description: `– Contains a small amount of natural sugars`,
-      },
-      {
-        element: `Proteins:`,
+        measurementUnits: "g",
+        description:
+          "– High in dietary fiber, promoting healthy digestion and satiety.",
+    },
+    {
+        element: "Sugar:",
+        quantity: 4.72,
+        measurementUnits: "g",
+        description:
+          "– Contains minimal natural sugars, contributing to a low sugar profile.",
+    },
+    {
+        element: "Proteins:",
         quantity: 25.8,
-        measurementUnits: `g`,
-        description: `– Excellent source of plant-based protein`,
-      },
-      {
-        element: `Vitamin C:`,
+        measurementUnits: "g",
+        description:
+          "– A great source of plant-based protein, beneficial for muscle repair and growth.",
+    },
+    {
+        element: "Vitamin C:",
         quantity: 0,
-        measurementUnits: `mg`,
-        description: `– No vitamin C content`,
-      },
-      {
-        element: `Calcium:`,
+        measurementUnits: "mg",
+        description:
+          "– Peanuts are not a significant source of vitamin C.",
+    },
+    {
+        element: "Calcium:",
         quantity: 92,
-        measurementUnits: `mg`,
-        description: `– Contains calcium, supports bone health`,
-      },
-      {
-        element: `Iron:`,
-        quantity: 4.6,
-        measurementUnits: `mg`,
-        description: `– Good source of iron, supports red blood cell production`,
-      },
-      {
-        element: `Vitamin D:`,
-        quantity: 0,
-        measurementUnits: `IU`,
-        description: `– No vitamin D content`,
-      },
-      {
-        element: `Vitamin B6:`,
-        quantity: 0.5,
-        measurementUnits: `mg`,
-        description: `– Contains a small amount of vitamin B6`,
-      },
-      {
-        element: `Vitamin B12:`,
-        quantity: 0,
-        measurementUnits: `µg`,
-        description: `– No vitamin B12 content`,
-      },
-      {
-        element: `Magnesium:`,
+        measurementUnits: "mg",
+        description:
+          "– Contains some calcium, contributing to bone health.",
+    },
+    {
+        element: "Iron:",
+        quantity: 4.58,
+        measurementUnits: "mg",
+        description:
+          "– Provides iron, which is essential for healthy red blood cell production.",
+    },
+    {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.64,
+        measurementUnits: "mg",
+        description:
+          "– Supports energy metabolism by helping convert carbohydrates into energy.",
+    },
+    {
+        element: "Vitamin B6:",
+        quantity: 0.35,
+        measurementUnits: "mg",
+        description:
+          "– Involved in metabolism and the synthesis of neurotransmitters.",
+    },
+    {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.15,
+        measurementUnits: "mg",
+        description:
+          "– Plays a role in energy production and maintaining healthy skin.",
+    },
+    {
+        element: "Magnesium:",
         quantity: 168,
-        measurementUnits: `mg`,
-        description: `– Source of magnesium, supports muscle and nerve function`,
-      },
-      {
-        element: `Zinc:`,
-        quantity: 3.3,
-        measurementUnits: `mg`,
-        description: `– Provides zinc, supports immune function`,
-      },
-      {
-        element: `Vitamin E:`,
-        quantity: 8.3,
-        measurementUnits: `mg`,
-        description: `– Contains vitamin E, an antioxidant`,
-      },
-      {
-        element: `Selenium:`,
-        quantity: 7.2,
-        measurementUnits: `µg`,
-        description: `– Contains selenium, supports thyroid health`,
-      },
+        measurementUnits: "mg",
+        description:
+          "– A good source of magnesium, essential for muscle function and nerve health.",
+    },
+    {
+        element: "Zinc:",
+        quantity: 3.27,
+        measurementUnits: "mg",
+        description:
+          "– Contains zinc, which supports immune function and wound healing.",
+    },
+    {
+        element: "Vitamin E:",
+        quantity: 4.93,
+        measurementUnits: "mg",
+        description:
+          "– A good source of vitamin E, an antioxidant that helps protect cells from damage.",
+    },
+    {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "IU",
+        description:
+          "– Peanuts are not a significant source of vitamin A.",
+    }
+    
     ],
     cultivationHeading:
       "Peanut cultivation requires specific conditions for optimal growth and nut production. Here is an overview of the key factors involved in growing peanuts:",

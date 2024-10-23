@@ -18,26 +18,27 @@ const cereals = [
         quantity: 343,
         measurementUnits: "kcal",
         description:
-          "– Moderate in calories, making it a good source of energy without being too high in calories.",
+          "– A moderate source of calories, providing energy with balanced nutrients.",
       },
       {
         element: "Fats:",
         quantity: 3.4,
         measurementUnits: "g",
         description:
-          "– Low in fat, with healthy fats including polyunsaturated and monounsaturated fats.",
+          "– Low in fat, with beneficial fats including polyunsaturated and monounsaturated fats.",
       },
       {
         element: "Saturated fatty acids:",
         quantity: 0.7,
         measurementUnits: "g",
-        description: "– Very low in saturated fats, supporting heart health.",
+        description: "– Very low in saturated fats, promoting heart health.",
       },
       {
-        element: "Cholesterol:",
-        quantity: 0,
+        element: "Vitamin B3 (Niacin):",
+        quantity: 7.02,
         measurementUnits: "mg",
-        description: "– Cholesterol-free, promoting cardiovascular health.",
+        description:
+          "– Important for DNA repair and supports digestive system health.",
       },
       {
         element: "Sodium:",
@@ -51,7 +52,7 @@ const cereals = [
         quantity: 460,
         measurementUnits: "mg",
         description:
-          "– Good source of potassium, which helps regulate fluid balance and muscle contractions.",
+          "– A good source of potassium, which helps regulate fluid balance and muscle contractions.",
       },
       {
         element: "Carbohydrates:",
@@ -84,8 +85,7 @@ const cereals = [
         element: "Vitamin C:",
         quantity: 0,
         measurementUnits: "mg",
-        description:
-          "– Lacks vitamin C, which is typically obtained from fruits and vegetables.",
+        description: "– Buckwheat is not a significant source of Vitamin C.",
       },
       {
         element: "Calcium:",
@@ -102,11 +102,11 @@ const cereals = [
           "– Contains iron, essential for blood health and preventing anemia.",
       },
       {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.1,
+        measurementUnits: "mg",
         description:
-          "– No vitamin D present, typically obtained from sunlight or fortified foods.",
+          "– Supports energy metabolism by helping the body convert carbohydrates into energy.",
       },
       {
         element: "Vitamin B6:",
@@ -115,11 +115,11 @@ const cereals = [
         description: "– Supports metabolism and brain health.",
       },
       {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.13,
+        measurementUnits: "mg",
         description:
-          "– Lacks vitamin B12, which is primarily found in animal products.",
+          "– Plays a vital role in maintaining healthy skin and energy production.",
       },
       {
         element: "Magnesium:",
@@ -140,6 +140,12 @@ const cereals = [
         quantity: 0.8,
         measurementUnits: "mg",
         description: "– Low in vitamin E, though present in small amounts.",
+      },
+      {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Buckwheat is not a significant source of Vitamin A.",
       },
     ],
     cultivationHeading:
@@ -266,130 +272,138 @@ const cereals = [
         quantity: 354,
         measurementUnits: "kcal",
         description:
-          "– Moderate in calories, providing a good amount of energy.",
+          "– A moderate source of calories, providing energy with balanced nutrients.",
       },
       {
         element: "Fats:",
         quantity: 2.3,
         measurementUnits: "g",
         description:
-          "– Low in fat, primarily consisting of healthy unsaturated fats.",
+          "– Low in fat, with beneficial fats including polyunsaturated fats.",
       },
       {
         element: "Saturated fatty acids:",
         quantity: 0.5,
         measurementUnits: "g",
-        description:
-          "– Very low in saturated fats, which is beneficial for heart health.",
+        description: "– Very low in saturated fats, promoting heart health.",
       },
       {
-        element: "Cholesterol:",
-        quantity: 0,
+        element: "Vitamin B3 (Niacin):",
+        quantity: 4.6,
         measurementUnits: "mg",
         description:
-          "– Completely cholesterol-free, supporting cardiovascular health.",
+          "– Supports metabolism and is important for maintaining healthy skin and nerves.",
       },
       {
         element: "Sodium:",
         quantity: 12,
         measurementUnits: "mg",
-        description:
-          "– Contains a small amount of sodium, contributing to blood pressure management.",
+        description: "– Low in sodium, making it a heart-healthy choice.",
       },
       {
         element: "Potassium:",
         quantity: 452,
         measurementUnits: "mg",
         description:
-          "– A good source of potassium, important for muscle function and fluid balance.",
+          "– A good source of potassium, essential for muscle function and fluid balance.",
       },
       {
         element: "Carbohydrates:",
         quantity: 73.5,
         measurementUnits: "g",
-        description: "– Rich in carbohydrates, providing long-lasting energy.",
+        description:
+          "– Rich in complex carbohydrates, providing long-lasting energy.",
       },
       {
         element: "Fiber:",
         quantity: 17.3,
         measurementUnits: "g",
         description:
-          "– High in dietary fiber, aiding in digestion and promoting gut health.",
+          "– High in dietary fiber, particularly beta-glucan, which supports heart health and digestion.",
       },
       {
         element: "Sugar:",
         quantity: 0.8,
         measurementUnits: "g",
-        description: "– Contains very small amounts of natural sugars.",
+        description:
+          "– Contains minimal natural sugars, making it a low-sugar grain.",
       },
       {
         element: "Proteins:",
         quantity: 12.5,
         measurementUnits: "g",
         description:
-          "– A good source of plant-based protein, supporting muscle repair and growth.",
+          "– A good source of plant-based protein, aiding in muscle repair and maintenance.",
       },
       {
         element: "Vitamin C:",
         quantity: 0,
         measurementUnits: "mg",
-        description:
-          "– Lacks vitamin C, which is often found in fruits and vegetables.",
+        description: "– Barley is not a significant source of Vitamin C.",
       },
       {
         element: "Calcium:",
         quantity: 29,
         measurementUnits: "mg",
-        description:
-          "– Provides a small amount of calcium, contributing to bone strength.",
+        description: "– Provides some calcium, contributing to bone health.",
       },
       {
         element: "Iron:",
-        quantity: 3.6,
+        quantity: 2.5,
         measurementUnits: "mg",
         description:
-          "– A good source of iron, important for maintaining healthy blood.",
+          "– Contains iron, necessary for healthy red blood cell production.",
       },
       {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.3,
+        measurementUnits: "mg",
         description:
-          "– No vitamin D, which is typically obtained from sunlight exposure.",
+          "– Supports energy metabolism by converting carbohydrates into energy.",
       },
       {
         element: "Vitamin B6:",
         quantity: 0.3,
         measurementUnits: "mg",
-        description: "– Supports metabolism and helps brain function.",
+        description: "– Involved in brain health and supports metabolism.",
       },
       {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description:
-          "– Does not contain vitamin B12, commonly found in animal products.",
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.12,
+        measurementUnits: "mg",
+        description: "– Plays a role in energy production and skin health.",
       },
       {
         element: "Magnesium:",
         quantity: 133,
         measurementUnits: "mg",
         description:
-          "– A good source of magnesium, important for muscle and nerve function.",
+          "– A good source of magnesium, essential for muscle function and nerve health.",
       },
       {
         element: "Zinc:",
         quantity: 2.1,
         measurementUnits: "mg",
         description:
-          "– Contains zinc, beneficial for the immune system and cell repair.",
+          "– Contains zinc, supporting immune function and cell growth.",
       },
       {
         element: "Vitamin E:",
-        quantity: 0.5,
+        quantity: 0.02,
         measurementUnits: "mg",
-        description:
-          "– Contains a small amount of vitamin E, an antioxidant that supports cell protection.",
+        description: "– Very low in vitamin E, with minimal amounts.",
+      },
+      {
+        element: "Vitamin B6 (Pyridoxine):",
+        quantity: 0.26,
+        measurementUnits: "mg",
+        description: "– Supports brain function and immune health.",
+      },
+      {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Barley is not a significant source of Vitamin A.",
       },
     ],
     cultivationHeading:
@@ -556,130 +570,134 @@ const cereals = [
         quantity: 365,
         measurementUnits: "kcal",
         description:
-          "– Moderate in calories, providing a good source of energy.",
+          "– A good source of calories, providing energy primarily from carbohydrates.",
       },
       {
         element: "Fats:",
         quantity: 4.7,
         measurementUnits: "g",
         description:
-          "– Low in fat, with a mix of healthy fats including unsaturated fats.",
+          "– Low in fat, with small amounts of polyunsaturated fats.",
       },
       {
         element: "Saturated fatty acids:",
-        quantity: 0.7,
+        quantity: 0.6,
         measurementUnits: "g",
-        description:
-          "– Contains a small amount of saturated fats, supporting heart health.",
+        description: "– Very low in saturated fats, supporting heart health.",
       },
       {
-        element: "Cholesterol:",
-        quantity: 0,
+        element: "Vitamin B3 (Niacin):",
+        quantity: 1.7,
         measurementUnits: "mg",
-        description: "– Cholesterol-free, which is good for heart health.",
+        description:
+          "– Supports metabolism and helps maintain healthy skin and nerves.",
       },
       {
         element: "Sodium:",
-        quantity: 35,
+        quantity: 15,
         measurementUnits: "mg",
-        description:
-          "– Low in sodium, which helps maintain healthy blood pressure.",
+        description: "– Low in sodium, making it a heart-healthy option.",
       },
       {
         element: "Potassium:",
-        quantity: 287,
+        quantity: 270,
         measurementUnits: "mg",
         description:
-          "– Provides potassium, important for fluid balance and muscle function.",
+          "– A moderate source of potassium, essential for fluid balance and muscle function.",
       },
       {
         element: "Carbohydrates:",
-        quantity: 74,
+        quantity: 74.3,
         measurementUnits: "g",
         description:
-          "– High in carbohydrates, making it a good source of sustained energy.",
+          "– High in carbohydrates, providing a quick source of energy.",
       },
       {
         element: "Fiber:",
         quantity: 7.3,
         measurementUnits: "g",
         description:
-          "– A decent source of dietary fiber, aiding digestion and gut health.",
+          "– Good source of dietary fiber, promoting healthy digestion.",
       },
       {
         element: "Sugar:",
-        quantity: 0.6,
+        quantity: 6.3,
         measurementUnits: "g",
-        description: "– Contains a small amount of natural sugars.",
+        description:
+          "– Contains natural sugars, contributing to its sweet flavor.",
       },
       {
         element: "Proteins:",
         quantity: 9.4,
         measurementUnits: "g",
         description:
-          "– A good plant-based source of protein, essential for muscle growth and repair.",
+          "– Provides a moderate amount of plant-based protein, beneficial for muscle repair.",
       },
       {
         element: "Vitamin C:",
         quantity: 6.8,
         measurementUnits: "mg",
         description:
-          "– Contains vitamin C, which supports the immune system and skin health.",
+          "– Contains vitamin C, which is important for immune function and skin health.",
       },
       {
         element: "Calcium:",
-        quantity: 7,
+        quantity: 2,
         measurementUnits: "mg",
         description:
           "– Contains a small amount of calcium, contributing to bone health.",
       },
       {
         element: "Iron:",
-        quantity: 2.7,
-        measurementUnits: "mg",
-        description:
-          "– A good source of iron, essential for blood health and preventing anemia.",
-      },
-      {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– Does not contain vitamin D, which is typically obtained from sunlight or fortified foods.",
-      },
-      {
-        element: "Vitamin B6:",
-        quantity: 0.6,
-        measurementUnits: "mg",
-        description: "– Supports brain function and metabolism.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description:
-          "– Lacks vitamin B12, which is generally found in animal products.",
-      },
-      {
-        element: "Magnesium:",
-        quantity: 127,
-        measurementUnits: "mg",
-        description:
-          "– Contains magnesium, important for muscle and nerve function.",
-      },
-      {
-        element: "Zinc:",
-        quantity: 2.2,
-        measurementUnits: "mg",
-        description:
-          "– Provides zinc, supporting the immune system and wound healing.",
-      },
-      {
-        element: "Vitamin E:",
         quantity: 0.5,
         measurementUnits: "mg",
         description:
-          "– Contains a small amount of vitamin E, an antioxidant that protects cells.",
+          "– Contains small amounts of iron, necessary for healthy blood.",
+      },
+      {
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.15,
+        measurementUnits: "mg",
+        description:
+          "– Supports energy metabolism by helping the body convert carbohydrates into energy.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Supports metabolism and is important for brain health.",
+      },
+      {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.06,
+        measurementUnits: "mg",
+        description: "– Plays a role in energy production and skin health.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 37,
+        measurementUnits: "mg",
+        description:
+          "– Contains magnesium, which is essential for muscle and nerve function.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 0.5,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of zinc, which supports immune function.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Low in vitamin E, though present in small amounts.",
+      },
+      {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Corn is not a significant source of Vitamin A.",
       },
     ],
     cultivationHeading:
@@ -847,131 +865,131 @@ const cereals = [
         quantity: 378,
         measurementUnits: "kcal",
         description:
-          "– Relatively high in calories, providing substantial energy for the body.",
+          "– A good source of calories, providing energy along with various nutrients.",
       },
       {
         element: "Fats:",
         quantity: 4.2,
         measurementUnits: "g",
-        description:
-          "– Contains healthy fats, including polyunsaturated fats beneficial for heart health.",
+        description: "– Low in total fat, containing healthy unsaturated fats.",
       },
       {
         element: "Saturated fatty acids:",
-        quantity: 0.7,
+        quantity: 0.4,
         measurementUnits: "g",
-        description:
-          "– Low in saturated fats, supporting cardiovascular health.",
+        description: "– Very low in saturated fats, promoting heart health.",
       },
       {
-        element: "Cholesterol:",
-        quantity: 0,
+        element: "Vitamin B3 (Niacin):",
+        quantity: 1.0,
         measurementUnits: "mg",
         description:
-          "– Cholesterol-free, which is good for maintaining heart health.",
+          "– Supports metabolic processes and contributes to skin health.",
       },
       {
         element: "Sodium:",
         quantity: 5,
         measurementUnits: "mg",
-        description: "– Very low in sodium, making it a heart-healthy option.",
+        description:
+          "– Very low in sodium, making it suitable for heart health.",
       },
       {
         element: "Potassium:",
         quantity: 195,
         measurementUnits: "mg",
         description:
-          "– Provides potassium, essential for fluid balance and muscle function.",
+          "– Provides potassium, which is important for heart and muscle function.",
       },
       {
         element: "Carbohydrates:",
-        quantity: 72.8,
+        quantity: 73.0,
         measurementUnits: "g",
-        description: "– High in carbohydrates, providing long-lasting energy.",
+        description: "– Rich in carbohydrates, providing sustained energy.",
       },
       {
         element: "Fiber:",
-        quantity: 8.5,
+        quantity: 9.0,
         measurementUnits: "g",
-        description:
-          "– A good source of dietary fiber, promoting digestion and gut health.",
+        description: "– High in dietary fiber, promoting digestive health.",
       },
       {
         element: "Sugar:",
-        quantity: 0.2,
+        quantity: 1.0,
         measurementUnits: "g",
         description:
-          "– Very low in sugar, a good option for maintaining balanced blood sugar levels.",
+          "– Contains minimal natural sugars, making it a low-sugar grain.",
       },
       {
         element: "Proteins:",
         quantity: 11.0,
         measurementUnits: "g",
         description:
-          "– A decent source of plant-based protein, useful for muscle growth and repair.",
+          "– A good source of plant-based protein, aiding in muscle repair.",
       },
       {
         element: "Vitamin C:",
         quantity: 0,
         measurementUnits: "mg",
-        description:
-          "– Lacks vitamin C, which must be obtained from other sources like fruits and vegetables.",
+        description: "– Millet is not a significant source of Vitamin C.",
       },
       {
         element: "Calcium:",
         quantity: 8,
         measurementUnits: "mg",
-        description:
-          "– Contains a small amount of calcium, which helps in bone maintenance.",
+        description: "– Provides some calcium, contributing to bone health.",
       },
       {
         element: "Iron:",
         quantity: 3.0,
         measurementUnits: "mg",
         description:
-          "– A good source of iron, supporting blood health and oxygen transport.",
+          "– Contains iron, essential for red blood cell production.",
       },
       {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– No vitamin D present, commonly obtained from sunlight or fortified foods.",
-      },
-      {
-        element: "Vitamin B6:",
-        quantity: 0.4,
-        measurementUnits: "mg",
-        description:
-          "– Supports metabolism, brain health, and immune function.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description:
-          "– Does not contain vitamin B12, which is found in animal products.",
-      },
-      {
-        element: "Magnesium:",
-        quantity: 114,
-        measurementUnits: "mg",
-        description:
-          "– Contains magnesium, essential for muscle and nerve function.",
-      },
-      {
-        element: "Zinc:",
-        quantity: 1.7,
-        measurementUnits: "mg",
-        description:
-          "– Contains zinc, which is important for immune function and cell repair.",
-      },
-      {
-        element: "Vitamin E:",
+        element: "Vitamin B1 (Thiamine):",
         quantity: 0.1,
         measurementUnits: "mg",
         description:
-          "– Low in vitamin E, an antioxidant that protects cells from damage.",
+          "– Supports energy metabolism by converting carbohydrates into energy.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Important for brain health and metabolism.",
+      },
+      {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.07,
+        measurementUnits: "mg",
+        description: "– Plays a role in energy production and skin health.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 85,
+        measurementUnits: "mg",
+        description:
+          "– A good source of magnesium, essential for muscle and nerve function.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 1.0,
+        measurementUnits: "mg",
+        description:
+          "– Contains zinc, supporting immune function and wound healing.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of vitamin E, which acts as an antioxidant.",
+      },
+      {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Millet is not a significant source of Vitamin A.",
       },
     ],
     cultivationHeading:
@@ -1135,132 +1153,136 @@ const cereals = [
     nutritionText: [
       {
         element: "Energy value:",
-        quantity: 340,
+        quantity: 339,
         measurementUnits: "kcal",
         description:
-          "– Provides a moderate amount of calories, making it a good source of energy.",
+          "– A good source of calories, providing energy mainly from carbohydrates.",
       },
       {
         element: "Fats:",
         quantity: 2.5,
         measurementUnits: "g",
         description:
-          "– Low in fat, with healthy fats including polyunsaturated fats.",
+          "– Low in fat, with small amounts of polyunsaturated and monounsaturated fats.",
       },
       {
         element: "Saturated fatty acids:",
         quantity: 0.4,
         measurementUnits: "g",
-        description:
-          "– Very low in saturated fats, beneficial for heart health.",
+        description: "– Very low in saturated fats, promoting heart health.",
       },
       {
-        element: "Cholesterol:",
-        quantity: 0,
+        element: "Vitamin B3 (Niacin):",
+        quantity: 4.6,
         measurementUnits: "mg",
-        description: "– Cholesterol-free, supporting cardiovascular health.",
+        description:
+          "– Supports metabolism and is essential for maintaining healthy skin and nerves.",
       },
       {
         element: "Sodium:",
         quantity: 2,
         measurementUnits: "mg",
-        description:
-          "– Extremely low in sodium, aiding in blood pressure regulation.",
+        description: "– Very low in sodium, making it a heart-healthy choice.",
       },
       {
         element: "Potassium:",
-        quantity: 405,
+        quantity: 363,
         measurementUnits: "mg",
         description:
-          "– Contains a good amount of potassium, important for maintaining fluid balance and proper muscle function.",
+          "– Good source of potassium, essential for muscle function and fluid balance.",
       },
       {
         element: "Carbohydrates:",
-        quantity: 72,
+        quantity: 71.2,
         measurementUnits: "g",
-        description: "– High in carbohydrates, providing long-lasting energy.",
+        description: "– High in carbohydrates, providing sustained energy.",
       },
       {
         element: "Fiber:",
         quantity: 12.2,
         measurementUnits: "g",
         description:
-          "– Rich in dietary fiber, promoting healthy digestion and aiding in weight management.",
+          "– High in dietary fiber, promoting healthy digestion and gut health.",
       },
       {
         element: "Sugar:",
         quantity: 0.4,
         measurementUnits: "g",
-        description: "– Contains only small amounts of natural sugars.",
+        description: "– Contains minimal amounts of natural sugars.",
       },
       {
         element: "Proteins:",
         quantity: 13.2,
         measurementUnits: "g",
         description:
-          "– A great source of plant-based protein, essential for muscle repair and growth.",
+          "– A good source of plant-based protein, beneficial for muscle repair and growth.",
       },
       {
         element: "Vitamin C:",
         quantity: 0,
         measurementUnits: "mg",
-        description:
-          "– Lacks vitamin C, which is usually obtained from fruits and vegetables.",
+        description: "– Wheat is not a significant source of Vitamin C.",
       },
       {
         element: "Calcium:",
-        quantity: 34,
+        quantity: 18,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of calcium, contributing to bone strength.",
+          "– Provides a small amount of calcium, contributing to bone health.",
       },
       {
         element: "Iron:",
         quantity: 3.6,
         measurementUnits: "mg",
         description:
-          "– A good source of iron, essential for the production of red blood cells and preventing anemia.",
+          "– Contains iron, essential for blood health and preventing anemia.",
       },
       {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.4,
+        measurementUnits: "mg",
         description:
-          "– Does not contain vitamin D, which is typically obtained from sunlight or fortified foods.",
+          "– Supports energy metabolism by helping the body convert carbohydrates into energy.",
       },
       {
         element: "Vitamin B6:",
-        quantity: 0.3,
+        quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Helps support metabolism and brain health.",
+        description:
+          "– Important for protein metabolism and cognitive development.",
       },
       {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.2,
+        measurementUnits: "mg",
         description:
-          "– Lacks vitamin B12, which is typically found in animal products.",
+          "– Plays a vital role in energy production and maintaining healthy skin.",
       },
       {
         element: "Magnesium:",
-        quantity: 144,
+        quantity: 126,
         measurementUnits: "mg",
         description:
-          "– High in magnesium, necessary for muscle function and energy production.",
+          "– A good source of magnesium, essential for muscle and nerve function.",
       },
       {
         element: "Zinc:",
-        quantity: 2.5,
+        quantity: 3.2,
         measurementUnits: "mg",
         description:
-          "– Contains zinc, beneficial for immune health and wound healing.",
+          "– Contains zinc, which supports immune function and wound healing.",
       },
       {
         element: "Vitamin E:",
-        quantity: 0.6,
+        quantity: 0.1,
         measurementUnits: "mg",
-        description:
-          "– A small source of vitamin E, which acts as an antioxidant and protects cells from damage.",
+        description: "– Low in vitamin E, though present in small amounts.",
+      },
+      {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Wheat is not a significant source of Vitamin A.",
       },
     ],
     cultivationHeading:
@@ -1432,128 +1454,134 @@ const cereals = [
         quantity: 335,
         measurementUnits: "kcal",
         description:
-          "– Provides a moderate amount of calories, offering sustained energy.",
+          "– A moderate source of calories, providing energy along with essential nutrients.",
       },
       {
         element: "Fats:",
-        quantity: 2.2,
+        quantity: 1.6,
         measurementUnits: "g",
-        description: "– Low in fat, containing healthy unsaturated fats.",
+        description:
+          "– Low in fat, with healthy fats predominantly from polyunsaturated sources.",
       },
       {
         element: "Saturated fatty acids:",
         quantity: 0.3,
         measurementUnits: "g",
         description:
-          "– Very low in saturated fats, beneficial for heart health.",
+          "– Very low in saturated fats, which is beneficial for heart health.",
       },
       {
-        element: "Cholesterol:",
-        quantity: 0,
+        element: "Vitamin B3 (Niacin):",
+        quantity: 3.9,
         measurementUnits: "mg",
-        description: "– Cholesterol-free, supporting cardiovascular health.",
+        description: "– Supports metabolism and is important for skin health.",
       },
       {
         element: "Sodium:",
-        quantity: 1,
+        quantity: 2,
         measurementUnits: "mg",
-        description:
-          "– Very low in sodium, helping maintain healthy blood pressure.",
+        description: "– Very low in sodium, making it a heart-healthy option.",
       },
       {
         element: "Potassium:",
-        quantity: 510,
+        quantity: 364,
         measurementUnits: "mg",
         description:
-          "– Rich in potassium, important for muscle contractions and nerve function.",
+          "– A good source of potassium, essential for muscle and nerve function.",
       },
       {
         element: "Carbohydrates:",
-        quantity: 74.5,
+        quantity: 76.0,
         measurementUnits: "g",
-        description: "– High in carbohydrates, providing long-lasting energy.",
+        description:
+          "– Rich in complex carbohydrates, providing sustained energy.",
       },
       {
         element: "Fiber:",
-        quantity: 15.1,
+        quantity: 15.0,
         measurementUnits: "g",
         description:
-          "– An excellent source of dietary fiber, supporting digestive health.",
+          "– High in dietary fiber, promoting healthy digestion and gut health.",
       },
       {
         element: "Sugar:",
-        quantity: 0.9,
+        quantity: 1.0,
         measurementUnits: "g",
-        description: "– Contains small amounts of natural sugars.",
+        description:
+          "– Contains minimal natural sugars, making it a low-sugar grain.",
       },
       {
         element: "Proteins:",
-        quantity: 10.6,
+        quantity: 9.5,
         measurementUnits: "g",
         description:
-          "– A good source of plant-based protein, promoting muscle growth and repair.",
+          "– A good source of plant-based protein, aiding in muscle maintenance and repair.",
       },
       {
         element: "Vitamin C:",
         quantity: 0,
         measurementUnits: "mg",
-        description:
-          "– Lacks vitamin C, typically obtained from fruits and vegetables.",
+        description: "– Rye is not a significant source of Vitamin C.",
       },
       {
         element: "Calcium:",
-        quantity: 24,
+        quantity: 18,
         measurementUnits: "mg",
-        description:
-          "– Provides a small amount of calcium, contributing to bone health.",
+        description: "– Provides some calcium, contributing to bone health.",
       },
       {
         element: "Iron:",
-        quantity: 2.7,
+        quantity: 3.5,
         measurementUnits: "mg",
         description:
-          "– Contains iron, essential for blood health and oxygen transport.",
+          "– Contains iron, necessary for red blood cell production.",
       },
       {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– No vitamin D present, typically obtained from sunlight or fortified foods.",
-      },
-      {
-        element: "Vitamin B6:",
-        quantity: 0.3,
-        measurementUnits: "mg",
-        description: "– Supports metabolism and brain health.",
-      },
-      {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description:
-          "– Lacks vitamin B12, which is found in animal-based products.",
-      },
-      {
-        element: "Magnesium:",
-        quantity: 121,
-        measurementUnits: "mg",
-        description:
-          "– Contains magnesium, important for muscle function and energy production.",
-      },
-      {
-        element: "Zinc:",
-        quantity: 2.6,
-        measurementUnits: "mg",
-        description:
-          "– A source of zinc, which helps with immune function and cell repair.",
-      },
-      {
-        element: "Vitamin E:",
+        element: "Vitamin B1 (Thiamine):",
         quantity: 0.4,
         measurementUnits: "mg",
         description:
-          "– A small source of vitamin E, acting as an antioxidant to protect cells from damage.",
+          "– Supports energy metabolism and nervous system function.",
+      },
+      {
+        element: "Vitamin B6:",
+        quantity: 0.1,
+        measurementUnits: "mg",
+        description: "– Involved in brain health and metabolism.",
+      },
+      {
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.11,
+        measurementUnits: "mg",
+        description:
+          "– Plays a role in energy production and maintaining healthy skin.",
+      },
+      {
+        element: "Magnesium:",
+        quantity: 94,
+        measurementUnits: "mg",
+        description:
+          "– A good source of magnesium, important for muscle function and nerve health.",
+      },
+      {
+        element: "Zinc:",
+        quantity: 2.3,
+        measurementUnits: "mg",
+        description:
+          "– Contains zinc, which supports immune function and wound healing.",
+      },
+      {
+        element: "Vitamin E:",
+        quantity: 0.2,
+        measurementUnits: "mg",
+        description:
+          "– Contains small amounts of vitamin E, an important antioxidant.",
+      },
+      {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Rye is not a significant source of Vitamin A.",
       },
     ],
     cultivationHeading:
@@ -1720,127 +1748,131 @@ const cereals = [
         quantity: 130,
         measurementUnits: "kcal",
         description:
-          "– Provides a moderate amount of calories, serving as a good energy source.",
+          "– A moderate source of calories, providing energy primarily from carbohydrates.",
       },
       {
         element: "Fats:",
         quantity: 0.3,
         measurementUnits: "g",
-        description: "– Very low in fats, making it a lean energy option.",
+        description:
+          "– Very low in fat, with negligible amounts of saturated fats.",
       },
       {
         element: "Saturated fatty acids:",
         quantity: 0.1,
         measurementUnits: "g",
-        description: "– Contains a negligible amount of saturated fats.",
+        description:
+          "– Extremely low in saturated fats, making it heart-friendly.",
       },
       {
-        element: "Cholesterol:",
-        quantity: 0,
+        element: "Vitamin B3 (Niacin):",
+        quantity: 1.5,
         measurementUnits: "mg",
-        description: "– Cholesterol-free, which supports heart health.",
+        description:
+          "– Supports energy metabolism and is important for skin and nerve health.",
       },
       {
         element: "Sodium:",
         quantity: 1,
         measurementUnits: "mg",
-        description:
-          "– Almost sodium-free, good for maintaining low blood pressure.",
+        description: "– Very low in sodium, contributing to heart health.",
       },
       {
         element: "Potassium:",
-        quantity: 35,
+        quantity: 26,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of potassium, necessary for fluid balance.",
+          "– Contains small amounts of potassium, essential for muscle function and fluid balance.",
       },
       {
         element: "Carbohydrates:",
-        quantity: 28.2,
+        quantity: 28.6,
         measurementUnits: "g",
-        description:
-          "– High in carbohydrates, providing quick and sustained energy.",
+        description: "– Rich in carbohydrates, providing quick energy.",
       },
       {
         element: "Fiber:",
         quantity: 0.4,
         measurementUnits: "g",
         description:
-          "– Low in dietary fiber, with most fiber found in whole-grain varieties.",
+          "– Low in dietary fiber, typically less than other whole grains.",
       },
       {
         element: "Sugar:",
-        quantity: 0,
+        quantity: 0.1,
         measurementUnits: "g",
-        description:
-          "– Contains no sugar, which helps maintain stable blood sugar levels.",
+        description: "– Contains minimal natural sugars.",
       },
       {
         element: "Proteins:",
         quantity: 2.7,
         measurementUnits: "g",
-        description: "– A small source of plant-based protein.",
+        description: "– Provides a moderate source of plant-based protein.",
       },
       {
         element: "Vitamin C:",
         quantity: 0,
         measurementUnits: "mg",
-        description:
-          "– Lacks vitamin C, which must be sourced from fruits and vegetables.",
+        description: "– Rice is not a significant source of Vitamin C.",
       },
       {
         element: "Calcium:",
         quantity: 10,
         measurementUnits: "mg",
         description:
-          "– Contains a small amount of calcium, beneficial for bone health.",
+          "– Provides small amounts of calcium, contributing to bone health.",
       },
       {
         element: "Iron:",
         quantity: 0.2,
         measurementUnits: "mg",
-        description:
-          "– Contains a small amount of iron, necessary for blood health.",
+        description: "– Contains minimal iron, less than some other grains.",
       },
       {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description: "– Does not contain vitamin D.",
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.07,
+        measurementUnits: "mg",
+        description:
+          "– Supports energy metabolism by converting carbohydrates into energy.",
       },
       {
         element: "Vitamin B6:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Supports metabolic function and brain health.",
+        description: "– Involved in metabolism and cognitive development.",
       },
       {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.02,
+        measurementUnits: "mg",
         description:
-          "– Does not contain vitamin B12, found in animal-based foods.",
+          "– Plays a role in energy production and maintaining healthy skin.",
       },
       {
         element: "Magnesium:",
         quantity: 12,
         measurementUnits: "mg",
         description:
-          "– Provides a small amount of magnesium, vital for muscle and nerve function.",
+          "– Contains small amounts of magnesium, important for muscle and nerve function.",
       },
       {
         element: "Zinc:",
         quantity: 0.4,
         measurementUnits: "mg",
-        description:
-          "– Contains a small amount of zinc, supporting immune function.",
+        description: "– Provides minimal zinc, which supports immune function.",
       },
       {
         element: "Vitamin E:",
-        quantity: 0,
+        quantity: 0.1,
         measurementUnits: "mg",
         description:
-          "– Does not contain vitamin E, an antioxidant found in other foods.",
+          "– Very low in vitamin E, though present in small amounts.",
+      },
+      {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Rice is not a significant source of Vitamin A.",
       },
     ],
     cultivationHeading:
@@ -2007,128 +2039,134 @@ const cereals = [
         quantity: 389,
         measurementUnits: "kcal",
         description:
-          "– A good source of energy, providing a higher calorie content.",
+          "– A good source of calories, providing sustained energy along with essential nutrients.",
       },
       {
         element: "Fats:",
         quantity: 6.9,
         measurementUnits: "g",
         description:
-          "– Contains a moderate amount of fats, mainly healthy unsaturated fats.",
+          "– Contains healthy fats, including polyunsaturated and monounsaturated fats.",
       },
       {
         element: "Saturated fatty acids:",
         quantity: 1.2,
         measurementUnits: "g",
-        description:
-          "– Low in saturated fats, which is beneficial for heart health.",
+        description: "– Low in saturated fats, contributing to heart health.",
       },
       {
-        element: "Cholesterol:",
-        quantity: 0,
+        element: "Vitamin B3 (Niacin):",
+        quantity: 0.96,
         measurementUnits: "mg",
-        description: "– Cholesterol-free, making it heart-friendly.",
+        description:
+          "– Important for energy metabolism and supports skin health.",
       },
       {
         element: "Sodium:",
         quantity: 2,
         measurementUnits: "mg",
-        description:
-          "– Very low in sodium, aiding in healthy blood pressure regulation.",
+        description: "– Very low in sodium, making it heart-friendly.",
       },
       {
         element: "Potassium:",
-        quantity: 429,
+        quantity: 358,
         measurementUnits: "mg",
         description:
-          "– A good source of potassium, important for muscle and nerve function.",
+          "– A good source of potassium, essential for muscle function and regulating blood pressure.",
       },
       {
         element: "Carbohydrates:",
         quantity: 66.3,
         measurementUnits: "g",
-        description: "– High in carbohydrates, providing sustained energy.",
+        description:
+          "– High in complex carbohydrates, providing lasting energy.",
       },
       {
         element: "Fiber:",
         quantity: 10.6,
         measurementUnits: "g",
         description:
-          "– Rich in dietary fiber, supporting digestion and gut health.",
+          "– Rich in dietary fiber, especially beta-glucan, which supports digestive health and helps lower cholesterol.",
       },
       {
         element: "Sugar:",
         quantity: 0.9,
         measurementUnits: "g",
-        description: "– Contains very little natural sugar.",
+        description:
+          "– Contains minimal natural sugars, making it a low-sugar food.",
       },
       {
         element: "Proteins:",
         quantity: 16.9,
         measurementUnits: "g",
         description:
-          "– High in plant-based protein, promoting muscle repair and growth.",
+          "– A good source of plant-based protein, supporting muscle repair and growth.",
       },
       {
         element: "Vitamin C:",
         quantity: 0,
         measurementUnits: "mg",
-        description:
-          "– Lacks vitamin C, which is typically found in fruits and vegetables.",
+        description: "– Oats are not a significant source of Vitamin C.",
       },
       {
         element: "Calcium:",
-        quantity: 54,
+        quantity: 52,
         measurementUnits: "mg",
-        description:
-          "– Contains a small amount of calcium, contributing to bone health.",
+        description: "– Provides some calcium, contributing to bone health.",
       },
       {
         element: "Iron:",
         quantity: 4.7,
         measurementUnits: "mg",
         description:
-          "– A good source of iron, important for blood health and preventing anemia.",
+          "– Contains iron, important for red blood cell production.",
       },
       {
-        element: "Vitamin D:",
-        quantity: 0,
-        measurementUnits: "IU",
-        description:
-          "– No vitamin D present, usually obtained from sunlight or fortified foods.",
+        element: "Vitamin B1 (Thiamine):",
+        quantity: 0.76,
+        measurementUnits: "mg",
+        description: "– Supports energy metabolism and nerve function.",
       },
       {
         element: "Vitamin B6:",
         quantity: 0.1,
         measurementUnits: "mg",
-        description: "– Supports metabolism and brain function.",
+        description:
+          "– Involved in brain health and the metabolism of proteins.",
       },
       {
-        element: "Vitamin B12:",
-        quantity: 0,
-        measurementUnits: "µg",
-        description: "– Lacks vitamin B12, typically found in animal products.",
+        element: "Vitamin B2 (Riboflavin):",
+        quantity: 0.11,
+        measurementUnits: "mg",
+        description:
+          "– Plays a role in energy production and maintaining healthy skin.",
       },
       {
         element: "Magnesium:",
-        quantity: 177,
+        quantity: 138,
         measurementUnits: "mg",
         description:
-          "– High in magnesium, essential for muscle function and energy production.",
+          "– A good source of magnesium, crucial for muscle function and energy production.",
       },
       {
         element: "Zinc:",
-        quantity: 3.9,
+        quantity: 3.1,
         measurementUnits: "mg",
         description:
-          "– A good source of zinc, supporting immune health and wound healing.",
+          "– Contains zinc, which supports immune function and cell repair.",
       },
       {
         element: "Vitamin E:",
         quantity: 0.4,
         measurementUnits: "mg",
         description:
-          "– Contains small amounts of vitamin E, an antioxidant that protects cells.",
+          "– Contains small amounts of vitamin E, an important antioxidant.",
+      },
+      {
+        element: "Vitamin A:",
+        quantity: 0,
+        measurementUnits: "mg",
+        description: "– Oats are not a significant source of Vitamin A.",
       },
     ],
     cultivationHeading:

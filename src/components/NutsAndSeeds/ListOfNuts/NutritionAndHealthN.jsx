@@ -2,12 +2,22 @@
 import classes from "../../../style/universalClass.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
+import { CompareNutsAndSeeds } from "./CompareNutsAndSeeds";
+import { OnNutritionList } from "../../SearchComponent/OnNutritionList";
+import { useState } from "react";
 
 export const NutritionAndHealthN = ({ nuts, goBack }) => {
+  const [compare, setCompare] = useState(false);
+  const [nutritionOnList, setNutritionOnList] = useState(false);
 
   return (
     <div className={classes.background}>
-      <section className={classes.info}>
+      <section className={classes.info} style={
+          compare
+            ? { display: "none" }
+            : { display: "block" } && nutritionOnList
+            ? { display: "none" }
+            : { display: "block" }}>
         <FontAwesomeIcon
           icon={faCircleXmark}
           size="2x"
@@ -18,6 +28,7 @@ export const NutritionAndHealthN = ({ nuts, goBack }) => {
         <h3 className={classes.nutritionHeading}>
           List of <span>{nuts.name}</span> nutrition
         </h3>
+        <h5 className={classes.per100Grams}>(per 100 grams)</h5>
         <div className={classes.nutritionClass}>
           {nuts?.nutritionText?.map((item, index) => (
             <div key={index} className={classes.nutritionDiv}>
@@ -32,10 +43,22 @@ export const NutritionAndHealthN = ({ nuts, goBack }) => {
         </div>
 
         <div className={classes.btnClassDiv}>
-          <button className={classes.btnClass1}>Compare</button>
-          <button className={classes.btnClass2}>Show on list</button>
+          <button
+            className={classes.btnClass1}
+            onClick={() => setCompare(true)}
+          >
+            Compare
+          </button>
+          <button
+            className={classes.btnClass2}
+            onClick={() => setNutritionOnList(true)}
+          >
+            Show on list
+          </button>
         </div>
       </section>
+      {compare && <CompareNutsAndSeeds nuts={nuts}  goBack={() => setCompare()}/>}
+      {nutritionOnList && <OnNutritionList nuts={nuts} goBack={() => setNutritionOnList()}/>}
     </div>
   );
 };

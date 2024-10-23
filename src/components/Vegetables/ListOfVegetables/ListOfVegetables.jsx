@@ -9,6 +9,7 @@ export const ListOfVegetables = ({ goBack }) => {
   const [showNutritionAndHealth, setShowNutritionAndHealth] = useState(false);
   const [selectedVegetable, setSelectedVegetable] = useState(null);
   const [showCultivation, setShowCultivation] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
 
   const handleVegetables = (vegetable) => {
     setSelectedVegetable(vegetable);
@@ -21,38 +22,74 @@ export const ListOfVegetables = ({ goBack }) => {
     setShowCultivation(true);
   };
 
+  const handleInput = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const filteredItem = vegetables?.filter((item, index) =>
+    item?.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <div className={classes.background}>
       <div
         className={classes.info}
         style={showCultivation ? { display: "none" } : { display: "block" } && showNutritionAndHealth ? { display: "none" } : { display: "block" }}
       >
-        {vegetables?.map((vegetable) => (
-          <div key={vegetable.id} className={classes.flexClass}>
-            <div>
-              <h2>{vegetable.name}</h2>
-              <img
-                className={classes.singleProduct}
-                src={vegetable.img}
-                alt={vegetable.name}
-              />
-            </div>
-            <div className={classes.centralContent}>
-              <h3>{vegetable.inGeneralHeading}</h3>
-              <div className={classes.inGeneralClass}>
-                {vegetable.inGeneral}
+        <input type="text" onChange={handleInput} placeholder="Search..." />
+        {filteredItem
+          ? filteredItem?.map((vegetable) => (
+              <div key={vegetable.id} className={classes.flexClass}>
+                <div>
+                  <h2>{vegetable.name}</h2>
+                  <img
+                    className={classes.singleProduct}
+                    src={vegetable.img}
+                    alt={vegetable.name}
+                  />
+                </div>
+                <div className={classes.centralContent}>
+                  <h3>{vegetable.inGeneralHeading}</h3>
+                  <div className={classes.inGeneralClass}>
+                    {vegetable.inGeneral}
+                  </div>
+                </div>
+                <aside className={classes.asideButtonsClass}>
+                  <button onClick={() => handleVegetables(vegetable)}>
+                    Nutrition and Health
+                  </button>
+                  <button onClick={() => handleCultivation(vegetable)}>
+                    Cultivation
+                  </button>
+                </aside>
               </div>
-            </div>
-            <aside className={classes.asideButtonsClass}>
-              <button onClick={() => handleVegetables(vegetable)}>
-                Nutrition and Health
-              </button>
-              <button onClick={() => handleCultivation(vegetable)}>
-                Cultivation
-              </button>
-            </aside>
-          </div>
-        ))}
+            ))
+          : vegetables?.map((vegetable) => (
+              <div key={vegetable.id} className={classes.flexClass}>
+                <div>
+                  <h2>{vegetable.name}</h2>
+                  <img
+                    className={classes.singleProduct}
+                    src={vegetable.img}
+                    alt={vegetable.name}
+                  />
+                </div>
+                <div className={classes.centralContent}>
+                  <h3>{vegetable.inGeneralHeading}</h3>
+                  <div className={classes.inGeneralClass}>
+                    {vegetable.inGeneral}
+                  </div>
+                </div>
+                <aside className={classes.asideButtonsClass}>
+                  <button onClick={() => handleVegetables(vegetable)}>
+                    Nutrition and Health
+                  </button>
+                  <button onClick={() => handleCultivation(vegetable)}>
+                    Cultivation
+                  </button>
+                </aside>
+              </div>
+            ))}
         <button
           className={classes.goBackFromList}
           onClick={() => goBack(false)}

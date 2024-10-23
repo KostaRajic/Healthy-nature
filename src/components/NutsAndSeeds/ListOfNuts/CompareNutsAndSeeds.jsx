@@ -1,27 +1,27 @@
 /* eslint-disable react/prop-types */
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import classes from "../../../style/universalClass.module.scss";
 import { ChooseVariety } from "../../SearchComponent/ChooseAVariety";
 import { useContextAuth } from "../../context/Context";
 import { nutritionBenefits } from "../../nutritionBenefits";
 
-export const CompareCereals = ({ cereals, goBack }) => {
+export const CompareNutsAndSeeds = ({ nuts, goBack }) => {
   const [selectedNutrient, setSelectedNutrient] = useState("");
   const [showVariety, setShowVariety] = useState(false);
   const { selectedItems, setSelectedItems } = useContextAuth();
-  const [cerealQuantity, setCerealQuantity] = useState(0);
-  const [selectedItemQuantity, setSelectedItemQuantity] = useState(0);
+  const [nutsQuantity, setNutsQuantity] = useState(null);
+  const [selectedItemQuantity, setSelectedItemQuantity] = useState(null);
 
   const handleChange = (event) => {
     const nutrient = event.target.value;
     setSelectedNutrient(nutrient);
 
-    const selectedCerealNutrient = cereals?.nutritionText?.find(
+    const selectedNutsNutrient = nuts?.nutritionText?.find(
       (nutrientObj) => nutrientObj.element === nutrient
     );
-    if (selectedCerealNutrient) {
-      setCerealQuantity(selectedCerealNutrient?.quantity || 0);
+    if (selectedNutsNutrient) {
+      setNutsQuantity(selectedNutsNutrient?.quantity || 0);
     }
 
     if (selectedItems) {
@@ -39,7 +39,7 @@ export const CompareCereals = ({ cereals, goBack }) => {
     goBack(false);
   };
 
-  const quantityDifference = cerealQuantity - selectedItemQuantity;
+  const quantityDifference = nutsQuantity - selectedItemQuantity;
 
   return (
     <div className={classes.background}>
@@ -50,7 +50,7 @@ export const CompareCereals = ({ cereals, goBack }) => {
         <div style={{ display: "flex" }}>
           <div>
             <h2 className={classes.compareHeading}>
-              <span style={{ color: "red" }}>{cereals.name}</span> nutrition:
+              <span style={{ color: "red" }}>{nuts.name}</span> nutrition:
             </h2>
             <select
               className={classes.selectClassNutrition}
@@ -60,7 +60,7 @@ export const CompareCereals = ({ cereals, goBack }) => {
               <option value="" disabled>
                 Select a nutrient
               </option>
-              {cereals?.nutritionText?.map((nutrient, index) => (
+              {nuts?.nutritionText?.map((nutrient, index) => (
                 <option key={index} value={nutrient.element}>
                   {nutrient.element} {nutrient.quantity}{" "}
                   {nutrient.measurementUnits}
@@ -92,9 +92,10 @@ export const CompareCereals = ({ cereals, goBack }) => {
             </div>
           )}
         </div>
-
         {nutritionBenefits
-          ?.filter((item) => item.element == selectedNutrient.slice(0, -1))
+          ?.filter(
+            (item, index) => item.element == selectedNutrient.slice(0, -1)
+          )
           .map((item, index) => (
             <p
               key={index}
@@ -115,11 +116,11 @@ export const CompareCereals = ({ cereals, goBack }) => {
         ) : (
           selectedNutrient && (
             <p style={{ color: "black", fontSize: "32px" }}>
-              {cereals.name} has{" "}
+              {nuts.name} has{" "}
               {quantityDifference !== 0 && (
                 <span style={{ color: "red" }}>
                   {Math.abs(quantityDifference)}{" "}
-                  {cereals.measurementUnits ? cereals.measurementUnits : ""}
+                  {nuts.measurementUnits ? nuts.measurementUnits : ""}
                 </span>
               )}
               {quantityDifference > 0
@@ -131,7 +132,6 @@ export const CompareCereals = ({ cereals, goBack }) => {
             </p>
           )
         )}
-
         <div className={classes.btnClassDiv}>
           <button
             className={classes.btnClass1}
@@ -145,10 +145,7 @@ export const CompareCereals = ({ cereals, goBack }) => {
         </div>
       </div>
       {showVariety && (
-        <ChooseVariety
-          goBack={() => setShowVariety()}
-          dontShow={cereals.name}
-        />
+        <ChooseVariety goBack={() => setShowVariety()} dontShow={nuts.name} />
       )}
     </div>
   );
