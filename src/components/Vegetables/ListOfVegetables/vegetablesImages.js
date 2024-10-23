@@ -2,7 +2,7 @@ import aubergine from "../../../assets/images/Vegetables/IndividualyVegetables/a
 import beet from "../../../assets/images/Vegetables/IndividualyVegetables/beet.jpg";
 import cabbage from "../../../assets/images/Vegetables/IndividualyVegetables/cabbage.jpg";
 import carrots from "../../../assets/images/Vegetables/IndividualyVegetables/carrots.jpg";
-import cucumbers from "../../../assets/images/Vegetables/IndividualyVegetables/cucumbers.webp";
+import cucumbers from "../../../assets/images/Vegetables/IndividualyVegetables/cucumbers.jpg";
 import chard from "../../../assets/images/Vegetables/IndividualyVegetables/chard.webp";
 import garlic from "../../../assets/images/Vegetables/IndividualyVegetables/garlic.jpg";
 import greenBeans from "../../../assets/images/Vegetables/IndividualyVegetables/greenBeans.png";
