@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import classes from "../../../style/universalClass.module.scss";
 import { ChooseVariety } from "../../SearchComponent/ChooseAVariety";
 import { useContextAuth } from "../../context/Context";
