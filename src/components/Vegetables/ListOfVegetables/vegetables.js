@@ -1,4 +1,4 @@
-import { vegetablesImages } from "./velegetablesImages";
+import { vegetablesImages } from "./vegetablesImages";
 
 export const vegetables = [
   {
