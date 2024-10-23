@@ -11,7 +11,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import fruitsInfo from "./fruitsText";
 import { useState } from "react";
-
 import { fruitsImages } from "./fruitsImages";
 import { ListOfFruits } from "../ListOfFruits/ListOfFruits";
 
