@@ -3,8 +3,9 @@ import classes from "../../../style/universalClass.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
-import { CompareCereals } from "./compareCereals";
+
 import { OnNutritionList } from "../../SearchComponent/OnNutritionList";
+import { CompareCereals } from "./CompareCereals";
 
 export const NutritionAndHealthC = ({ cereals, goBack }) => {
   const [compare, setCompare] = useState(false);
