@@ -1,82 +1,76 @@
-
 .mainSectionBackground {
-
-    padding-left: 10%;
-    padding-right: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-bottom: 20px;
-    color: white;
+  color: white;
 
-    .firstThree { 
-        padding-top: 90px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .imageHoverEffect {
-        position: relative;
-        transition: opacity 0.8s ease-in-out
-      }
-        .readMoreBtnClass {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          width: 120px;
-          height: 30px;
-          border-radius: 20px;
-          border: none;
-          font-weight: 600;
-          cursor: pointer;
-          transition: opacity 0.8s ease-in-out;
-      }
-      .readMoreBtnClass:active {
-        transform: translate(-50%, -50%) scale(0.9);
-        top: 50%;
-        left: 50%;
-      }
-        
-    img {
-        width: 350px;
-        height: 200px;
-        transition: all 1s ease-in-out;
-        border-radius: 20px;
-        border: 2px solid white;
-      
-
-    }
-    .imageHoverEffect::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        opacity: 0;
-
-      }
-      .imageHoverEffect:hover::before {
-        opacity: 0.7;
-      }
-      .imageHoverEffect:hover {
-        transform: scale(1.2);
-      }
-    .secondThree {
-        margin-top: 50px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 50px;
-    }
-
-    p {
-        transition: all 1s ease-in-out;
-        text-align: center;
-        margin-top: 25px;
-        font-size: 25px;
-        font-weight: 600;
-        color: white;
-    }
+  .firstThree {
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
+  .imageHoverEffect {
+    position: relative;
+    transition: opacity 0.8s ease-in-out;
+  }
+  .readMoreBtnClass {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.8s ease-in-out;
+  }
+  .readMoreBtnClass:active {
+    transform: translate(-50%, -50%) scale(0.9);
+    top: 50%;
+    left: 50%;
+  }
+
+  img {
+    width: 350px;
+    height: 200px;
+    transition: all 1s ease-in-out;
+    border-radius: 20px;
+    border: 2px solid white;
+  }
+  .imageHoverEffect::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+  }
+  .imageHoverEffect:hover::before {
+    opacity: 0.7;
+  }
+  .imageHoverEffect:hover {
+    transform: scale(1.2);
+  }
+  .secondThree {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  p {
+    transition: all 1s ease-in-out;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+  }
+}

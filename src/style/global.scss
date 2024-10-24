@@ -7,16 +7,19 @@
 
 }
 
-
 body {
-    width: 100vw;
     overflow: scroll;
     background-image: url(../assets/images/heroBG.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+    position: relative;
 }
 
 body::-webkit-scrollbar {
     display: none;
 }
+
