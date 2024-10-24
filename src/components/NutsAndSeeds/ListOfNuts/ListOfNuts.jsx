@@ -4,6 +4,8 @@ import classes from "../../../style/universalClass.module.scss";
 import { NutritionAndHealthN } from "./NutritionAndHealthN";
 import nuts from "./nuts";
 import { NutsAndSeedsCultivation } from "./NuttsAndSeedsCultivation";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 
 export const ListOfNuts = ({ goBack }) => {
   const [showNutritionAndHealth, setShowNutritionAndHealth] = useState(false);
@@ -43,6 +45,12 @@ export const ListOfNuts = ({ goBack }) => {
         }
       >
         <input type="text" onChange={handleInput} placeholder="Search..." />
+        <FontAwesomeIcon
+              icon={faCircleXmark}
+              size="2x"
+              className={classes.closeListBtn}
+              onClick={() => goBack(false)}
+            />
         {filteredItem
           ? filteredItem?.map((nuts) => (
               <div key={nuts.id} className={classes.flexClass}>

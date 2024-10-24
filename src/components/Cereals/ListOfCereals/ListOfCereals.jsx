@@ -4,6 +4,8 @@ import classes from "../../../style/universalClass.module.scss";
 import { NutritionAndHealthC } from "./NutritionAndHealthC";
 import cereals from "./cereals";
 import { CerealsCultivation } from "./CerealsCultivation";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 
 export const ListOfCereals = ({ goBack }) => {
   const [showNutritionAndHealth, setShowNutritionAndHealth] = useState(false);
@@ -43,6 +45,12 @@ export const ListOfCereals = ({ goBack }) => {
         }
       >
         <input type="text" onChange={handleInput} placeholder="Search..." />
+        <FontAwesomeIcon
+              icon={faCircleXmark}
+              size="2x"
+              className={classes.closeListBtn}
+              onClick={() => goBack(false)}
+            />
         {filteredItem
           ? filteredItem?.map((cereals) => (
               <div key={cereals.id} className={classes.flexClass}>

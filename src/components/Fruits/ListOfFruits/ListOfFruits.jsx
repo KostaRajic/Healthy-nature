@@ -4,12 +4,15 @@ import classes from "../../../style/universalClass.module.scss";
 import { fruits } from "./fruits";
 import { NutritionAndHealthFr } from "./NutritionAndHealthFr";
 import { FruitsCultivation } from "./FruitsCultivation";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 
 export const ListOfFruits = ({ goBack }) => {
   const [showNutritionAndHealth, setShowNutritionAndHealth] = useState(false);
   const [showCultivation, setShowCultivation] = useState(false);
   const [selectedFruit, setSelectedFruit] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
+  
 
   const handleFruit = (fruit) => {
     setSelectedFruit(fruit);
@@ -44,6 +47,12 @@ export const ListOfFruits = ({ goBack }) => {
         }
       >
         <input type="text" onChange={handleInput} placeholder="Search..." />
+        <FontAwesomeIcon
+              icon={faCircleXmark}
+              size="2x"
+              className={classes.closeListBtn}
+              onClick={() => goBack(false)}
+            />
         {filteredItem
           ? filteredItem?.map((fruit) => (
               <div key={fruit.id} className={classes.flexClass}>

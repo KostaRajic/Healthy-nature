@@ -5,12 +5,13 @@
 }
 
 .info {
-  margin: 50px auto;
+  width: 1150px;
   background-color: wheat;
   border-radius: 20px;
+  margin: 50px auto;
 
   .imagesSection {
-    padding-left: 18px;
+    padding-left: 25px;
     padding-bottom: 20px;
   }
   h1 {
@@ -565,6 +566,12 @@
   }
 }
 
+.closeListBtn {
+  right: 43px;
+  position: absolute;
+  top: 98px;
+}
+
 .closeVarietyBtn {
   margin: 50px auto;
   width: 170px;
@@ -595,7 +602,6 @@
 // RESPONSIVE DESIGN
 
 @media (max-width: 370px) {
-
   .background {
     position: fixed;
     inset: 0;
@@ -603,7 +609,7 @@
   }
 
   .info {
-
+    width: 300px;
     margin: 20px auto;
     border-radius: 15px;
 
@@ -612,21 +618,29 @@
     }
 
     h1 {
-      font-size: 24px;
+      font-size: 35px;
       padding-top: 20px;
       padding-bottom: 15px;
-      margin-top: -50px;
+      margin-top: -30px;
     }
 
     img {
-      width: 100%;
-      height: auto;
+      width: 100px;
+      height: 150px;
       border-radius: 20px;
     }
 
+    .closeListBtn {
+      right: 43px;
+      position: absolute;
+      top: 80px;
+      width: 25px;
+      height: 25px;
+    }
+
     .closeBtn {
-      margin-left: 90%;
-      margin-top: 15px;
+      margin-left: 85%;
+      margin-top: 10px;
     }
 
     .btnClass {
@@ -641,35 +655,40 @@
       margin: 0 15px;
 
       .singleProduct {
-        width: 100%;
-        margin-bottom: 15px;
+        width: 85%;
+        margin: 20px;
       }
 
       .inGeneralClass {
-        width: 100%;
-        margin: 10px 0;
+        width: 85%;
+        height: 300px;
+        margin: 20px;
         padding: 15px;
         font-size: 14px;
       }
 
       h2 {
-        font-size: 22px;
+        font-size: 26px;
         padding: 10px 0;
+        margin-top: 15px;
       }
 
       .asideButtonsClass {
         flex-direction: column;
         align-items: center;
 
-        :first-child, :last-child {
+        :first-child,
+        :last-child {
           width: 100px;
           height: 40px;
-          font-size: 14px;
+          font-size: 11px;
+          margin: 10px;
         }
       }
     }
 
-    .accordionTopic, .accordionBackground {
+    .accordionTopic,
+    .accordionBackground {
       font-size: 14px;
       padding: 8px;
     }
@@ -687,7 +706,10 @@
       flex-direction: column;
       margin-bottom: 10px;
 
-      .nutritionElements, .nutritionQuantity, .measurementUnits, .description {
+      .nutritionElements,
+      .nutritionQuantity,
+      .measurementUnits,
+      .description {
         font-size: 16px;
       }
     }
@@ -712,7 +734,8 @@
     flex-direction: column;
     padding: 20px 0;
 
-    .btnClass1, .btnClass2 {
+    .btnClass1,
+    .btnClass2 {
       width: 140px;
       margin: 10px 0;
     }

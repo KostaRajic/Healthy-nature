@@ -4,6 +4,8 @@ import classes from "../../../style/universalClass.module.scss";
 import { NutritionAndHealthV } from "./NutritionAndHealthV";
 import { vegetables } from "./vegetables";
 import { VegetablesCultivation } from "./VegetablesCultivation";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 
 export const ListOfVegetables = ({ goBack }) => {
   const [showNutritionAndHealth, setShowNutritionAndHealth] = useState(false);
@@ -37,6 +39,12 @@ export const ListOfVegetables = ({ goBack }) => {
         style={showCultivation ? { display: "none" } : { display: "block" } && showNutritionAndHealth ? { display: "none" } : { display: "block" }}
       >
         <input type="text" onChange={handleInput} placeholder="Search..." />
+        <FontAwesomeIcon
+              icon={faCircleXmark}
+              size="2x"
+              className={classes.closeListBtn}
+              onClick={() => goBack(false)}
+            />
         {filteredItem
           ? filteredItem?.map((vegetable) => (
               <div key={vegetable.id} className={classes.flexClass}>

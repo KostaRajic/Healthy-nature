@@ -102,18 +102,8 @@ export const ImageSlider = () => {
   };
 
 
-
-  // useEffect(() => {
-  //   intervalRef.current = setInterval(nextSlide, 5000);
-
-  //   return () => {
-  //     if (intervalRef.current) clearInterval(intervalRef.current);
-  //     if (timeoutRef.current) clearTimeout(timeoutRef.current);
-  //   };
-  // }, [isHovered]);
-
   return (
-    <div>
+    <div className={classes.responsiveStyle}>
       <div className={classes.firstThree}>
         {imageSources?.slice(0, 3).map((src, index) => (
           <div key={index}>
