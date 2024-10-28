@@ -9,23 +9,22 @@ import { OnNutritionList } from "../../SearchComponent/OnNutritionList";
 export const NutritionAndHealthFr = ({ fruit, goBack }) => {
   const [compare, setCompare] = useState(false);
   const [nutritionOnList, setNutritionOnList] = useState(false);
-
+  console.log(compare)
   return (
     <div className={classes.background}>
-      <section className={classes.info} style={
-          compare
-            ? { display: "none" }
-            : { display: "block" } && nutritionOnList
-            ? { display: "none" }
-            : { display: "block" }
-        }>
+      <section
+        className={classes.info}
+        style={{
+          display: compare || nutritionOnList ? "none" : "block",
+        }}
+      >
         <FontAwesomeIcon
           icon={faCircleXmark}
           size="2x"
           className={classes.closeBtn}
           onClick={() => goBack(false)}
         />
-        <h1 style={{ fontSize: "45px"}}>{fruit.topic1}</h1>
+        <h1 className={classes.nutritionH1}>{fruit.topic1}</h1>
         <h3 className={classes.nutritionHeading}>
           List of <span>{fruit.name}</span> nutrition
         </h3>
@@ -33,13 +32,17 @@ export const NutritionAndHealthFr = ({ fruit, goBack }) => {
         <div className={classes.nutritionClass}>
           {fruit?.nutritionText?.map((item, index) => (
             <div key={index} className={classes.nutritionDiv}>
-              <p className={classes.nutritionElements}>- {item.element}</p>
-              <p className={classes.nutritionQuantity}>{item.quantity}</p>
-              <p className={classes.measurementUnits}>
-                {item.measurementUnits}
-              </p>
+
+                <p className={classes.nutritionElements}>- {item.element}</p>
+                <p className={classes.nutritionQuantity}>{item.quantity}</p>
+                <p className={classes.measurementUnits}>
+                  {item.measurementUnits}
+                </p>
+
+
               <p className={classes.description}>{item.description}</p>
             </div>
+
           ))}
         </div>
 
@@ -58,8 +61,10 @@ export const NutritionAndHealthFr = ({ fruit, goBack }) => {
           </button>
         </div>
       </section>
-      {compare && <CompareFruits fruit={fruit}  goBack={() => setCompare()}/>}
-      {nutritionOnList && <OnNutritionList fruit={fruit} goBack={() => setNutritionOnList()}/>}
+      {compare && <CompareFruits fruit={fruit} goBack={() => setCompare()} />}
+      {nutritionOnList && (
+        <OnNutritionList fruit={fruit} goBack={() => setNutritionOnList()} />
+      )}
     </div>
   );
 };

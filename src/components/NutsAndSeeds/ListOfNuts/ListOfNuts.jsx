@@ -44,13 +44,16 @@ export const ListOfNuts = ({ goBack }) => {
             : { display: "block" }
         }
       >
-        <input type="text" onChange={handleInput} placeholder="Search..." />
-        <FontAwesomeIcon
-              icon={faCircleXmark}
-              size="2x"
-              className={classes.closeListBtn}
-              onClick={() => goBack(false)}
-            />
+        <div className={classes.headerOfList}>
+          <h2 className={classes.headingOfList}>Nuts</h2>
+          <input type="text" onChange={handleInput} placeholder="Search..." />
+          <FontAwesomeIcon
+            icon={faCircleXmark}
+            size="2x"
+            className={classes.closeBtn2}
+            onClick={() => goBack(false)}
+          />
+        </div>
         {filteredItem
           ? filteredItem?.map((nuts) => (
               <div key={nuts.id} className={classes.flexClass}>
@@ -64,9 +67,7 @@ export const ListOfNuts = ({ goBack }) => {
                 </div>
                 <div className={classes.centralContent}>
                   <h3>{nuts.inGeneralHeading}</h3>
-                  <div className={classes.inGeneralClass}>
-                    {nuts.inGeneral}
-                  </div>
+                  <div className={classes.inGeneralClass}>{nuts.inGeneral}</div>
                 </div>
                 <aside className={classes.asideButtonsClass}>
                   <button onClick={() => handleNuts(nuts)}>
@@ -90,9 +91,7 @@ export const ListOfNuts = ({ goBack }) => {
                 </div>
                 <div className={classes.centralContent}>
                   <h3>{nuts.inGeneralHeading}</h3>
-                  <div className={classes.inGeneralClass}>
-                    {nuts.inGeneral}
-                  </div>
+                  <div className={classes.inGeneralClass}>{nuts.inGeneral}</div>
                 </div>
                 <aside className={classes.asideButtonsClass}>
                   <button onClick={() => handleNuts(nuts)}>

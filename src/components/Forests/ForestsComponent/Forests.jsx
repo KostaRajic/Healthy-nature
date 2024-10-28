@@ -32,7 +32,7 @@ export const Forests = ({ turnOff }) => {
 
     return (
         <div className={forestsClass.forestsBackground}>
-          <div className={classes.info} style={forests ? {display: 'none'} : {display: 'block'}}>
+          <div className={classes.info}   style={{ display: forests ? 'none' : 'block' }}>
             <FontAwesomeIcon icon={faCircleXmark} size="2x" className={classes.closeBtn} onClick={() => turnOff(false)}/>  
             <h1>Forests</h1>
             <section className={classes.imagesSection}>

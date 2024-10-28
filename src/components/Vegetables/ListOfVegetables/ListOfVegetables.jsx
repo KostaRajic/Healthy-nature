@@ -36,15 +36,24 @@ export const ListOfVegetables = ({ goBack }) => {
     <div className={classes.background}>
       <div
         className={classes.info}
-        style={showCultivation ? { display: "none" } : { display: "block" } && showNutritionAndHealth ? { display: "none" } : { display: "block" }}
+        style={
+          showCultivation
+            ? { display: "none" }
+            : { display: "block" } && showNutritionAndHealth
+            ? { display: "none" }
+            : { display: "block" }
+        }
       >
-        <input type="text" onChange={handleInput} placeholder="Search..." />
-        <FontAwesomeIcon
-              icon={faCircleXmark}
-              size="2x"
-              className={classes.closeListBtn}
-              onClick={() => goBack(false)}
-            />
+        <div className={classes.headerOfList}>
+          <h2 className={classes.headingOfList}>Vegetables</h2>
+          <input type="text" onChange={handleInput} placeholder="Search..." />
+          <FontAwesomeIcon
+            icon={faCircleXmark}
+            size="2x"
+            className={classes.closeBtn2}
+            onClick={() => goBack(false)}
+          />
+        </div>
         {filteredItem
           ? filteredItem?.map((vegetable) => (
               <div key={vegetable.id} className={classes.flexClass}>
@@ -106,7 +115,10 @@ export const ListOfVegetables = ({ goBack }) => {
         </button>
       </div>
       {showNutritionAndHealth && selectedVegetable && (
-        <NutritionAndHealthV vegetable={selectedVegetable} goBack={() => setShowNutritionAndHealth()}/>
+        <NutritionAndHealthV
+          vegetable={selectedVegetable}
+          goBack={() => setShowNutritionAndHealth()}
+        />
       )}
       {showCultivation && (
         <VegetablesCultivation

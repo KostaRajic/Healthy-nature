@@ -6,18 +6,35 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 
 import NutrientSortedList from "./NutrientSortedList";
+import { nutritionBenefits } from "../nutritionBenefits";
 
-export const OnNutritionList = ({ cereals, fruit, nuts, vegetable, goBack }) => {
+export const OnNutritionList = ({
+  cereals,
+  fruit,
+  nuts,
+  vegetable,
+  goBack,
+}) => {
   const [selectedNutrient, setSelectedNutrient] = useState(null);
-  console.log(cereals)
+
+  console.log(nutritionBenefits);
+  console.log(selectedNutrient);
 
   const handleChange = (event) => {
     const selectedElement = event.target.value;
-    const selectedNutrientObj = 
-      cereals?.nutritionText?.find((nutrient) => nutrient.element === selectedElement) ||
-      fruit?.nutritionText?.find((nutrient) => nutrient.element === selectedElement) ||
-      nuts?.nutritionText?.find((nutrient) => nutrient.element === selectedElement) ||
-      vegetable?.nutritionText?.find((nutrient) => nutrient.element === selectedElement);
+    const selectedNutrientObj =
+      cereals?.nutritionText?.find(
+        (nutrient) => nutrient.element === selectedElement
+      ) ||
+      fruit?.nutritionText?.find(
+        (nutrient) => nutrient.element === selectedElement
+      ) ||
+      nuts?.nutritionText?.find(
+        (nutrient) => nutrient.element === selectedElement
+      ) ||
+      vegetable?.nutritionText?.find(
+        (nutrient) => nutrient.element === selectedElement
+      );
 
     setSelectedNutrient(selectedNutrientObj);
   };
@@ -32,7 +49,9 @@ export const OnNutritionList = ({ cereals, fruit, nuts, vegetable, goBack }) => 
           onClick={() => goBack(false)}
         />
         <div>
-          <h3>{fruit?.name || cereals?.name || nuts?.name || vegetable?.name}</h3>
+          <h3>
+            {fruit?.name || cereals?.name || nuts?.name || vegetable?.name}
+          </h3>
           <label htmlFor="nutrient-select"></label>
           <select
             id="nutrient-select"
@@ -43,12 +62,31 @@ export const OnNutritionList = ({ cereals, fruit, nuts, vegetable, goBack }) => 
             <option value="" disabled>
               Select a nutrient
             </option>
-            {(fruit?.nutritionText || cereals?.nutritionText || nuts?.nutritionText || vegetable?.nutritionText)?.map((nutrient, index) => (
+
+            {(
+              fruit?.nutritionText ||
+              cereals?.nutritionText ||
+              nuts?.nutritionText ||
+              vegetable?.nutritionText
+            )?.map((nutrient, index) => (
               <option key={index} value={nutrient.element}>
                 {nutrient?.element?.slice(0, -1)}
               </option>
             ))}
           </select>
+          {nutritionBenefits
+            ?.filter(
+              (item) => item.element == selectedNutrient?.element.slice(0, -1)
+            )
+            .map((item, index) => (
+              <p
+                key={index}
+                className={classes.nutritionBenefitClassText}
+                style={{ color: "black", fontSize: '20px' }}
+              >
+                {item.text}
+              </p>
+            ))}
         </div>
         <NutrientSortedList
           item={selectedNutrient?.element}

@@ -37,20 +37,21 @@ export const ListOfCereals = ({ goBack }) => {
       <div
         className={classes.info}
         style={
-          showCultivation
-            ? { display: "none" }
-            : { display: "block" } && showNutritionAndHealth
+          showCultivation || showNutritionAndHealth
             ? { display: "none" }
             : { display: "block" }
         }
       >
-        <input type="text" onChange={handleInput} placeholder="Search..." />
-        <FontAwesomeIcon
-              icon={faCircleXmark}
-              size="2x"
-              className={classes.closeListBtn}
-              onClick={() => goBack(false)}
-            />
+        <div className={classes.headerOfList}>
+          <h2 className={classes.headingOfList}>Cereals</h2>
+          <input type="text" onChange={handleInput} placeholder="Search..." />
+          <FontAwesomeIcon
+            icon={faCircleXmark}
+            size="2x"
+            className={classes.closeBtn2}
+            onClick={() => goBack(false)}
+          />
+        </div>
         {filteredItem
           ? filteredItem?.map((cereals) => (
               <div key={cereals.id} className={classes.flexClass}>

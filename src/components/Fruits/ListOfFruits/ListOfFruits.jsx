@@ -12,7 +12,6 @@ export const ListOfFruits = ({ goBack }) => {
   const [showCultivation, setShowCultivation] = useState(false);
   const [selectedFruit, setSelectedFruit] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
-  
 
   const handleFruit = (fruit) => {
     setSelectedFruit(fruit);
@@ -46,13 +45,16 @@ export const ListOfFruits = ({ goBack }) => {
             : { display: "block" }
         }
       >
-        <input type="text" onChange={handleInput} placeholder="Search..." />
-        <FontAwesomeIcon
-              icon={faCircleXmark}
-              size="2x"
-              className={classes.closeListBtn}
-              onClick={() => goBack(false)}
-            />
+        <div className={classes.headerOfList}>
+          <h2 className={classes.headingOfList}>Fruits</h2>
+          <input type="text" onChange={handleInput} placeholder="Search..." />
+          <FontAwesomeIcon
+            icon={faCircleXmark}
+            size="2x"
+            className={classes.closeBtn2}
+            onClick={() => goBack(false)}
+          />
+        </div>
         {filteredItem
           ? filteredItem?.map((fruit) => (
               <div key={fruit.id} className={classes.flexClass}>

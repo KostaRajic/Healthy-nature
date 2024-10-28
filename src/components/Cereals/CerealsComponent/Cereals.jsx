@@ -33,7 +33,7 @@ export const Cereals = ({ turnOff }) => {
     <div className={cerealsClass.cerealsBackground}>
       <div
         className={classes.info}
-        style={cereals ? { display: "none" } : { display: "block" }}
+        style={cereals ? { display: "none"} : { display: "block" }}
       >
         <FontAwesomeIcon
           icon={faCircleXmark}

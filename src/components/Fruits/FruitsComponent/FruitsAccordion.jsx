@@ -25,6 +25,7 @@ export const FruitsAccordion = ({ data }) => {
                 padding: "10px",
                 backgroundColor: "#fff",
                 borderRadius: "20px",
+                marginTop: '20px',
               }}
             >
               {item.text && (
