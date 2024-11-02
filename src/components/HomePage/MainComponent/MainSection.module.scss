@@ -28,6 +28,11 @@
     cursor: pointer;
     transition: opacity 0.8s ease-in-out;
   }
+  .readMoreBtnClass:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+    top: 50%;
+    left: 50%;
+  }
   .readMoreBtnClass:active {
     transform: translate(-50%, -50%) scale(0.9);
     top: 50%;
@@ -51,6 +56,7 @@
     background-color: black;
     opacity: 0;
     pointer-events: none;
+    border-radius: 20px;
   }
   .imageHoverEffect:hover::before {
     opacity: 0.7;

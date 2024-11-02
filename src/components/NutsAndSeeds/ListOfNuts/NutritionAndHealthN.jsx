@@ -12,19 +12,19 @@ export const NutritionAndHealthN = ({ nuts, goBack }) => {
 
   return (
     <div className={classes.background}>
-      <section className={classes.info} style={
-          compare
-            ? { display: "none" }
-            : { display: "block" } && nutritionOnList
-            ? { display: "none" }
-            : { display: "block" }}>
+      <section
+        className={classes.info}
+        style={{
+          display: compare ? "none" : "block",
+        }}
+      >
         <FontAwesomeIcon
           icon={faCircleXmark}
           size="2x"
           className={classes.closeBtn}
           onClick={() => goBack(false)}
         />
-        <h1 style={{ fontSize: "45px"}}>{nuts.topic1}</h1>
+        <h1 style={{ fontSize: "45px" }}>{nuts.topic1}</h1>
         <h3 className={classes.nutritionHeading}>
           List of <span>{nuts.name}</span> nutrition
         </h3>
@@ -57,8 +57,12 @@ export const NutritionAndHealthN = ({ nuts, goBack }) => {
           </button>
         </div>
       </section>
-      {compare && <CompareNutsAndSeeds nuts={nuts}  goBack={() => setCompare()}/>}
-      {nutritionOnList && <OnNutritionList nuts={nuts} goBack={() => setNutritionOnList()}/>}
+      {compare && (
+        <CompareNutsAndSeeds nuts={nuts} goBack={() => setCompare()} />
+      )}
+      {nutritionOnList && (
+        <OnNutritionList nuts={nuts} goBack={() => setNutritionOnList()} />
+      )}
     </div>
   );
 };

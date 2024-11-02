@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
-import PropTypes from "prop-types"; // Import PropTypes
 import classes from "../../style/universalClass.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
@@ -16,9 +15,6 @@ export const OnNutritionList = ({
   goBack,
 }) => {
   const [selectedNutrient, setSelectedNutrient] = useState(null);
-
-  console.log(nutritionBenefits);
-  console.log(selectedNutrient);
 
   const handleChange = (event) => {
     const selectedElement = event.target.value;
@@ -54,7 +50,6 @@ export const OnNutritionList = ({
           </h3>
           <label htmlFor="nutrient-select"></label>
           <select
-            id="nutrient-select"
             className={classes.selectClassNutrition}
             onChange={handleChange}
             value={selectedNutrient?.element || ""}

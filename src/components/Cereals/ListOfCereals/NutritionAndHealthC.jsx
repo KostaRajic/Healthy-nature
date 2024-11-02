@@ -15,13 +15,9 @@ export const NutritionAndHealthC = ({ cereals, goBack }) => {
     <div className={classes.background}>
       <section
         className={classes.info}
-        style={
-          compare
-            ? { display: "none" }
-            : { display: "block" } && nutritionOnList
-            ? { display: "none" }
-            : { display: "block" }
-        }
+        style={{
+          display: compare ? "none" : "block",
+        }}
       >
         <FontAwesomeIcon
           icon={faCircleXmark}

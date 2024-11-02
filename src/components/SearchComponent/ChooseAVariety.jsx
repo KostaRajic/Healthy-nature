@@ -8,6 +8,8 @@ import fruits from "../Fruits/ListOfFruits/fruits";
 import nuts from "../NutsAndSeeds/ListOfNuts/nuts";
 import { useState } from "react";
 import { useContextAuth } from "../context/Context";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 
 const listOfVariety = [cereals, vegetables, fruits, nuts];
 
@@ -33,7 +35,13 @@ export const ChooseVariety = ({ dontShow, goBack }) => {
   return (
     <div className={classes.chooseVarietyBackground}>
       <div   className={classes.chooseVarietyInfo}>
-        <div style={{display: 'flex'}}>
+      <FontAwesomeIcon
+          icon={faCircleXmark}
+          size="2x"
+          className={classes.closeVarietyList}
+          onClick={() => goBack(false)}
+        />
+        <div>
         <div>
           <input
             type="text"

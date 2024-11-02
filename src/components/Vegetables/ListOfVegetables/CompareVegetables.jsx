@@ -12,7 +12,7 @@ export const CompareVegetables = ({ vegetable, goBack }) => {
   const { selectedItems, setSelectedItems } = useContextAuth();
   const [vegetableQuantity, setVegetableQuantity] = useState(0);
   const [selectedItemQuantity, setSelectedItemQuantity] = useState(0);
-  console.log(selectedItems)
+  const [measurementUnit, setMeasurementUnit] = useState(0);
 
   const handleChange = (event) => {
     const nutrient = event.target.value;
@@ -23,6 +23,7 @@ export const CompareVegetables = ({ vegetable, goBack }) => {
     );
     if (selectedVegetableNutrient) {
       setVegetableQuantity(selectedVegetableNutrient?.quantity || 0);
+      setMeasurementUnit(selectedVegetableNutrient.measurementUnits || "");
     }
 
     if (selectedItems) {
@@ -106,8 +107,7 @@ export const CompareVegetables = ({ vegetable, goBack }) => {
               {item.text}
             </p>
           ))}
-
-{!selectedItems ? (
+        {!selectedItems ? (
           <p
             className={classes.nutritionBenefitClassText}
             style={{ color: "grey" }}
@@ -119,16 +119,18 @@ export const CompareVegetables = ({ vegetable, goBack }) => {
             <p style={{ color: "black", fontSize: "32px" }}>
               {vegetable.name} has{" "}
               {quantityDifference !== 0 && (
-                <span style={{ color: "red" }}>
-                  {Math.abs(quantityDifference)}{" "}
-                  {vegetable.measurementUnits ? vegetable.measurementUnits : ""}
-                </span>
+                <>
+                  <span style={{ color: "red" }}>
+                    {Math.abs(quantityDifference)}{" "}
+                  </span>
+                  {measurementUnit}
+                </>
               )}
               {quantityDifference > 0
-                ? "more than"
+                ? " more than"
                 : quantityDifference < 0
-                ? "less than"
-                : "equal to"}{" "}
+                ? " less than"
+                : " equal to"}{" "}
               {selectedItems?.name}.
             </p>
           )

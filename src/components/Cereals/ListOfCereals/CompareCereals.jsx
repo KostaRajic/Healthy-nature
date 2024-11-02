@@ -12,7 +12,7 @@ export const CompareCereals = ({ cereals, goBack }) => {
   const { selectedItems, setSelectedItems } = useContextAuth();
   const [cerealQuantity, setCerealQuantity] = useState(0);
   const [selectedItemQuantity, setSelectedItemQuantity] = useState(0);
-  const [measurementUnit, setMeasurementUnit] = useState(0)
+  const [measurementUnit, setMeasurementUnit] = useState(0);
 
   const handleChange = (event) => {
     const nutrient = event.target.value;
@@ -23,7 +23,7 @@ export const CompareCereals = ({ cereals, goBack }) => {
     );
     if (selectedCerealNutrient) {
       setCerealQuantity(selectedCerealNutrient?.quantity || 0);
-      setMeasurementUnit(selectedCerealNutrient.measurementUnits || "")
+      setMeasurementUnit(selectedCerealNutrient.measurementUnits || "");
     }
 
     if (selectedItems) {
@@ -120,11 +120,10 @@ export const CompareCereals = ({ cereals, goBack }) => {
               {cereals.name} has{" "}
               {quantityDifference !== 0 && (
                 <>
-                <span style={{ color: "red" }}>
-                  {Math.abs(quantityDifference)}{" "} {measurementUnit}
-                  
-                </span>
-
+                  <span style={{ color: "red" }}>
+                    {Math.abs(quantityDifference)}{" "}
+                  </span>
+                  {measurementUnit}
                 </>
               )}
               {quantityDifference > 0

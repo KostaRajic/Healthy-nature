@@ -12,6 +12,7 @@ export const CompareNutsAndSeeds = ({ nuts, goBack }) => {
   const { selectedItems, setSelectedItems } = useContextAuth();
   const [nutsQuantity, setNutsQuantity] = useState(null);
   const [selectedItemQuantity, setSelectedItemQuantity] = useState(null);
+  const [measurementUnit, setMeasurementUnit] = useState(0)
 
   const handleChange = (event) => {
     const nutrient = event.target.value;
@@ -22,6 +23,7 @@ export const CompareNutsAndSeeds = ({ nuts, goBack }) => {
     );
     if (selectedNutsNutrient) {
       setNutsQuantity(selectedNutsNutrient?.quantity || 0);
+      setMeasurementUnit(selectedNutsNutrient.measurementUnits || "")
     }
 
     if (selectedItems) {
@@ -118,16 +120,18 @@ export const CompareNutsAndSeeds = ({ nuts, goBack }) => {
             <p style={{ color: "black", fontSize: "32px" }}>
               {nuts.name} has{" "}
               {quantityDifference !== 0 && (
+                <>
                 <span style={{ color: "red" }}>
                   {Math.abs(quantityDifference)}{" "}
-                  {nuts.measurementUnits ? nuts.measurementUnits : ""}
                 </span>
+                {measurementUnit}
+                </>
               )}
               {quantityDifference > 0
-                ? "more than"
+                ? " more than"
                 : quantityDifference < 0
-                ? "less than"
-                : "equal to"}{" "}
+                ? " less than"
+                : " equal to"}{" "}
               {selectedItems?.name}.
             </p>
           )

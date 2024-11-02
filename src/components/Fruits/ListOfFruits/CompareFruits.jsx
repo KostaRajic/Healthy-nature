@@ -12,6 +12,7 @@ export const CompareFruits = ({ fruit, goBack }) => {
   const { selectedItems, setSelectedItems } = useContextAuth();
   const [fruitsQuantity, setFruitsQuantity] = useState(0);
   const [selectedItemQuantity, setSelectedItemQuantity] = useState(0);
+  const [measurementUnit, setMeasurementUnit] = useState(0)
 
   const handleChange = (event) => {
     const nutrient = event.target.value;
@@ -22,6 +23,7 @@ export const CompareFruits = ({ fruit, goBack }) => {
     );
     if (selectedFruitsNutrient) {
       setFruitsQuantity(selectedFruitsNutrient?.quantity || 0);
+      setMeasurementUnit(selectedFruitsNutrient.measurementUnits || "")
     }
 
     if (selectedItems) {
@@ -47,7 +49,7 @@ export const CompareFruits = ({ fruit, goBack }) => {
         className={classes.info}
         style={showVariety ? { display: "none" } : { display: "block" }}
       >
-        <div style={{ display: "flex" }}>
+        <div style={{margin: '30px auto'}}>
           <div>
             <h2 className={classes.compareHeading}>
               <span style={{ color: "red" }}>{fruit.name}</span> nutrition:
@@ -118,16 +120,18 @@ export const CompareFruits = ({ fruit, goBack }) => {
             <p style={{ color: "black", fontSize: "32px" }}>
               {fruit.name} has{" "}
               {quantityDifference !== 0 && (
+                <>
                 <span style={{ color: "red" }}>
                   {Math.abs(quantityDifference)}{" "}
-                  {fruit.measurementUnits ? fruit.measurementUnits : ""}
                 </span>
+                {measurementUnit}
+                </>
               )}
               {quantityDifference > 0
-                ? "more than"
+                ? " more than"
                 : quantityDifference < 0
-                ? "less than"
-                : "equal to"}{" "}
+                ? " less than"
+                : " equal to"}{" "}
               {selectedItems?.name}.
             </p>
           )
