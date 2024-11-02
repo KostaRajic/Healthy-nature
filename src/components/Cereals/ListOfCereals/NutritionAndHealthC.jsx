@@ -16,7 +16,7 @@ export const NutritionAndHealthC = ({ cereals, goBack }) => {
       <section
         className={classes.info}
         style={{
-          display: compare ? "none" : "block",
+          display: compare || nutritionOnList ? "none" : "block",
         }}
       >
         <FontAwesomeIcon
