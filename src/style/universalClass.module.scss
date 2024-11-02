@@ -501,7 +501,6 @@
   background-color: wheat;
   border-radius: 20px;
 
-
   input {
     margin: 50px 0 0 50px;
     height: 50px;
@@ -665,7 +664,7 @@
       }
       .selectClassNutrition {
         width: 80%;
-        margin: 20px ;
+        margin: 20px;
         font-size: 20px;
       }
     }
@@ -768,7 +767,6 @@
       font-size: 14px;
       padding: 8px;
     }
-
     .nutritionClass {
       padding-bottom: 15px;
     }
@@ -828,7 +826,6 @@
       text-align: center;
     }
 
-
     input {
       font-size: 16px;
       padding: 8px;
@@ -848,19 +845,22 @@
   }
 
   .chooseVarietyInfo {
-    width: 100%;
+    width: 300px;
     display: flex;
     flex-direction: column;
 
     .closeVarietyList {
       padding-top: 15px;
       margin-left: 42%;
-          cursor: pointer;
+      cursor: pointer;
+    }
+    input {
+      width: 200px;
     }
   }
 
   .nutritionListInfo {
-    width: 100%;
+    width: 300px;
     padding: 10px;
 
     h3 {
@@ -876,9 +876,18 @@
       font-size: 20px;
       margin-left: 85%;
     }
-
+  }
+  .infoCultivation {
+    width: 300px;
+  }
+  .listOfVarietySearch {
+    margin: 10px;
+    width: 50px;
+    padding: 10px;
+    font-size: 15px;
   }
 
-
+  .accordionBackground {
+    width: 300px;
   }
-
+}

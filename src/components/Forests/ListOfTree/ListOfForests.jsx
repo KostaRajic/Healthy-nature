@@ -72,7 +72,7 @@ export const ListOfTree = ({ goBack }) => {
                   <button onClick={() => handleForests(tree)}>
                     Read More
                   </button>
-                  <button onClick={() => handleCultivation(cereals)}>
+                  <button onClick={() => handleCultivation(tree)}>
                     Cultivation
                   </button>
                 </aside>

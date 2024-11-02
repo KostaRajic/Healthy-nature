@@ -49,7 +49,7 @@ export const CompareVegetables = ({ vegetable, goBack }) => {
         className={classes.info}
         style={showVariety ? { display: "none" } : { display: "block" }}
       >
-        <div style={{ display: "flex" }}>
+        <div style={{margin: '30px auto'}}>
           <div>
             <h2 className={classes.compareHeading}>
               <span style={{ color: "red" }}>{vegetable.name}</span> nutrition:
