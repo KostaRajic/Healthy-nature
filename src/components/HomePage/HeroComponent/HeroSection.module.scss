@@ -5,14 +5,41 @@
   align-items: center;
 }
 
+.selectLanguageClass {
+  display: flex;
+  position: absolute;
+  top: 50px;
+  right: 83px;
+
+}
+
+.selectLanguageClass p {
+  color: white;
+  font-size: 22px;
+
+  margin-right: 20px;
+}
+
+.selectLanguageClass select {
+  border-radius: 20px;
+  width: 135px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 18px;
+  padding-left: 5px;
+}
+
 h1 {
   color: white;
   text-align: center;
-  font-size: 65px;
+  font-size: 75px;
+  padding-bottom: 20px;
+
 
   & span {
-    font-size: 95px;
+    font-size: 120px;
     color: white;
+
   }
 }
 
@@ -26,35 +53,46 @@ h1 {
   border-radius: 8px;
 
   & p {
-    font-size: 25px;
+    font-size: 33px;
     text-align: center;
     transition: all 1s ease-in-out;
     padding: 20px;
     color: #fff;
+    font-style: italic;
   }
 }
 
-@media (max-width: 370px) {
+
+@media (max-width: 431px) {
   .heroSectionContainer {
     height: auto;
     width: 100%;
     padding: 10px;
+    margin-top: 70px;
+  }
+
+  .selectLanguageClass {
+    display: flex;
+    position: absolute;
+    top: -36px;
+    right: 88px;
+  
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 20px;
     width: 100%;
     margin: 20px 0;
     padding: 0;
 
     & span {
-      font-size: 40px;
+      font-size: 60px;
     }
   }
 
   .sliderContainerClass {
     p {
-      font-size: 14px;
+      font-size: 18px;
       padding: 20px;
     }
   }

@@ -80,5 +80,5 @@ Vitamin B1, also known as thiamine, is a water-soluble vitamin essential for ene
     {
         element: `Vitamin C`,
         text: `Vitamin C, also known as ascorbic acid, is a powerful antioxidant essential for overall health. It plays a crucial role in collagen synthesis, promoting healthy skin, cartilage, and connective tissues. Vitamin C supports the immune system by enhancing the production of white blood cells, helping the body fight infections. Its antioxidant properties protect cells from oxidative stress and may reduce the risk of chronic diseases. Additionally, vitamin C aids in the absorption of iron from plant-based foods, preventing anemia. Good sources include citrus fruits, strawberries, bell peppers, and broccoli, making it important to incorporate these foods into a balanced diet.`
-    }
+    },
 ]

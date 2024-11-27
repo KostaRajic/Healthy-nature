@@ -10,9 +10,10 @@ export const useContextAuth = () => {
 
 export const UseContextProvider = ({ children }) => {
 
-    const [selectedItems, setSelectedItems] = useState(null);
+    const [ selectedItems, setSelectedItems ] = useState(null);
+    const [ switchLanguage, setSwitchLanguage ] = useState('')
 
-    const value = {selectedItems, setSelectedItems}
+    const value = {selectedItems, setSelectedItems, switchLanguage, setSwitchLanguage}
 
     return <div>
         <Context.Provider value = {value}>

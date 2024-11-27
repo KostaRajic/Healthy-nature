@@ -1108,7 +1108,7 @@ cultivation: [
   },
   {
     id: 26,
-    topic: "Fertilization",
+    topic: "Ђубрење",
     children: [
       {
         id: 261,
@@ -3021,5 +3021,308 @@ cultivation: [
 ]
 
   },
+    {
+      id: 11,
+      name: "Orchid",
+      img: ornamentalPlantsImages.orchid,
+      inGeneralHeading: `A Symbol of Beauty, Elegance, and Luxury`,
+      inGeneral: `Orchids (Orchidaceae) are one of the largest and most diverse families of flowering plants, with over 25,000 species found worldwide. Renowned for their exotic appearance, orchids are prized for their elegant flowers, which come in a wide range of colors, shapes, and sizes. They are native to various regions, including tropical, subtropical, and temperate zones, making them a versatile addition to gardens and indoor spaces. Orchids symbolize beauty, luxury, and strength across many cultures, often associated with love, fertility, and refinement.
+                    Orchids are characterized by their unique flower structure, with three petals and three sepals, often one of the petals being highly modified into a lip that can have intricate markings and colors. Some of the most popular varieties include the Phalaenopsis, Cattleya, and Dendrobium, which are commonly grown for their decorative appeal in homes and gardens. 
+                    While orchids are known for their beauty, they can also have symbolic meanings. In China, orchids represent integrity and friendship, while in the Western world, they are often associated with love and luxury. They are also widely used in floral arrangements, gifts, and ceremonial decorations.
+                    Caring for orchids requires specific conditions, including bright but indirect light, high humidity, and well-drained, airy soil. Most orchids grow best when placed in environments that simulate their natural habitats, such as humid greenhouses or indoor spaces with controlled temperature and humidity levels. Regular watering, proper air circulation, and occasional fertilization promote healthy growth and long-lasting blooms. 
+                    In summary, orchids are not only stunning in appearance but also carry significant cultural and symbolic value. Their exotic flowers, combined with their various uses in decoration, medicine, and even as gifts, make orchids a highly revered plant across the globe.`,
+      benefitsHeading: `Orchids are highly valued for their beauty, versatility, and medicinal properties. Known for their wide range of species and exquisite flowers, orchids are commonly found in both indoor and outdoor gardens, as well as in cultural practices around the world.`,
+      text: [
+        {
+          id: 101,
+          topic: `Characteristics of Orchids`,
+          children: [
+            {
+              id: 1011,
+              topic: `Flowers`,
+              text: `Orchid flowers are known for their complex structure and stunning appearance. The flowers typically have three petals and three sepals, with one petal modified into a lip or labellum, which is often large and ornate. Orchids can be found in almost every color imaginable, from soft pastels to bold, vibrant hues.`,
+            },
+            {
+              id: 1012,
+              topic: `Leaves`,
+              text: `The leaves of orchids vary depending on the species, but they are usually thick, leathery, and green. They can store water, helping the plant to survive in conditions where moisture is scarce.`,
+            },
+            {
+              id: 1013,
+              topic: `Growth Habit`,
+              text: `Orchids can be epiphytic (growing on trees), terrestrial (growing in the ground), or lithophytic (growing on rocks). Epiphytic orchids are the most commonly cultivated variety and are often seen hanging in containers or mounted on tree bark.`,
+            },
+            {
+              id: 1014,
+              topic: `Height and Spread`,
+              text: `Orchid plants can vary greatly in size depending on the species, with some reaching only a few inches in height while others grow up to 3 feet (90 cm) tall. Their spread also varies based on the growth habit, with some spreading over several feet and others growing in tight clumps.`,
+            },
+          ],
+        },
+        {
+          id: 92,
+          topic: `Benefits of Orchids`,
+          children: [
+            {
+              id: 921,
+              topic: `Ornamental Value`,
+              children: [
+                {
+                  id: 9211,
+                  topic: `Exotic Blooms`,
+                  text: `Orchids are often used in floral arrangements due to their striking, exotic appearance. Their elegant flowers add a touch of luxury and sophistication to any setting, making them a popular choice for weddings, events, and special occasions.`,
+                },
+                {
+                  id: 9212,
+                  topic: `Variety of Species`,
+                  text: `With over 25,000 species, orchids offer a wide variety of colors, shapes, and sizes, making them perfect for creating unique and diverse plant displays in homes, gardens, and greenhouses.`,
+                },
+              ],
+            },
+            {
+              id: 922,
+              topic: `Health Benefits`,
+              children: [
+                {
+                  id: 9221,
+                  topic: `Traditional Medicine`,
+                  text: `Orchids have been used in traditional medicine in various cultures, particularly in Asia, where orchid extracts are believed to have medicinal properties that can help treat respiratory issues, promote digestion, and improve skin health.`,
+                },
+                {
+                  id: 9222,
+                  topic: `Skin Care`,
+                  text: `Orchid extracts are often used in skincare products due to their hydrating and anti-aging properties. They are believed to help moisturize the skin, improve elasticity, and reduce the appearance of fine lines and wrinkles.`,
+                },
+              ],
+            },
+            {
+              id: 923,
+              topic: `Ecological Importance`,
+              children: [
+                {
+                  id: 9231,
+                  topic: `Pollinator Attraction`,
+                  text: `Orchid flowers are particularly attractive to certain types of pollinators, including bees, butterflies, and moths. Some orchid species have developed specialized mechanisms to attract specific pollinators, ensuring their survival.`,
+                },
+                {
+                  id: 9232,
+                  topic: `Biodiversity Support`,
+                  text: `Orchids play a vital role in ecosystems, supporting biodiversity by providing food and habitat for pollinators and other wildlife. They are particularly important in tropical regions where they thrive in the understory of rainforests.`,
+                },
+              ],
+            },
+            {
+              id: 924,
+              topic: `Cultural Significance`,
+              children: [
+                {
+                  id: 9241,
+                  topic: `Symbolism of Beauty and Strength`,
+                  text: `Orchids are often associated with beauty, strength, and refinement. In many cultures, they symbolize love, fertility, and strength. For example, in Chinese culture, orchids represent integrity, while in Western cultures, they are often seen as a symbol of luxury and sophistication.`,
+                },
+                {
+                  id: 9242,
+                  topic: `National Symbol`,
+                  text: `The orchid is the national flower of several countries, including Singapore, where it symbolizes the country's diversity and strength.`,
+                },
+              ],
+            },
+            {
+              id: 925,
+              topic: `Culinary Uses`,
+              children: [
+                {
+                  id: 9251,
+                  topic: `Edible Orchids`,
+                  text: `Some orchid species, like the Vanilla orchid, are edible and used in cooking. Vanilla beans are produced by orchids and are used extensively in flavoring sweets, beverages, and even savory dishes.`,
+                },
+                {
+                  id: 9252,
+                  topic: `Orchid Tea`,
+                  text: `In some cultures, orchid petals are used to make tea, which is believed to have calming and healing properties, especially for respiratory ailments.`,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 93,
+          topic: `Cautions`,
+          children: [
+            {
+              id: 931,
+              topic: `Cold Sensitivity`,
+              text: `Orchids, particularly tropical varieties, are sensitive to cold temperatures and should be kept in warm environments. They should not be exposed to frost or freezing temperatures, as this can damage the plant.`,
+            },
+            {
+              id: 932,
+              topic: `Pests and Diseases`,
+              text: `Orchids are susceptible to pests such as aphids, scale, and mealybugs, as well as fungal and bacterial infections. Regular care, including proper watering and pest management, can help keep orchids healthy.`,
+            },
+          ],
+        },
+      ],
+        "cultivationHeading": "Orchid cultivation requires specific conditions for optimal growth. Here is an overview of the key factors involved in growing Orchids:",
+        "cultivation": [
+          {
+            "id": 21,
+            "topic": "Climate",
+            "children": [
+              {
+                "id": 211,
+                "topic": "Temperature",
+                "text": "Orchids generally thrive in warm, humid climates. They prefer temperatures between 18°C to 29°C (65°F to 85°F) during the day and slightly cooler at night. Some varieties may tolerate cooler conditions but are sensitive to frost."
+              },
+              {
+                "id": 212,
+                "topic": "Humidity",
+                "text": "High humidity, ideally between 50% and 80%, is essential for Orchids. Regular misting or humidity trays can help maintain the right environment, especially in dry climates."
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "topic": "Soil",
+            "children": [
+              {
+                "id": 221,
+                "topic": "pH",
+                "text": "Orchids prefer slightly acidic to neutral soils with a pH range of 5.5 to 6.5."
+              },
+              {
+                "id": 222,
+                "topic": "Soil Type",
+                "text": "Orchids grow best in well-draining, loose, and airy media such as bark, sphagnum moss, or a specialized orchid potting mix."
+              },
+              {
+                "id": 223,
+                "topic": "Soil Preparation",
+                "text": "Use a well-draining, specialized orchid mix and avoid heavy, compacted soils. Adding coarse materials like perlite or sand can improve drainage."
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "topic": "Varieties",
+            "text": "Common varieties of Orchids include: - Phalaenopsis (Moth Orchid) - known for its long-lasting flowers and popular as a houseplant. - Cattleya - recognized for its large, fragrant flowers often used in corsages. - Dendrobium - a versatile variety with varying bloom forms."
+          },
+          {
+            "id": 24,
+            "topic": "Planting",
+            "children": [
+              {
+                "id": 241,
+                "topic": "Time",
+                "text": "The best time to plant Orchids is during their dormant period, typically in late winter or early spring when new growth begins."
+              },
+              {
+                "id": 242,
+                "topic": "Spacing",
+                "text": "Orchids should be spaced to allow air circulation around each plant. A general spacing of 30 cm (12 inches) between plants is recommended for optimal growth."
+              },
+              {
+                "id": 243,
+                "topic": "Pollination",
+                "text": "Orchids are typically pollinated by insects or birds, depending on the variety. Some Orchids require cross-pollination between different plants to set seeds."
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "topic": "Watering",
+            "children": [
+              {
+                "id": 251,
+                "topic": "Establishment Phase",
+                "text": "Young Orchids require frequent watering but should not be waterlogged. Water when the growing medium begins to dry out, usually every 7-10 days."
+              },
+              {
+                "id": 252,
+                "topic": "Mature Plants",
+                "text": "Once established, Orchids require less frequent watering but should still be watered deeply to encourage root growth."
+              },
+              {
+                "id": 253,
+                "topic": "Avoid Overwatering",
+                "text": "Overwatering is a common problem in Orchid care. Ensure that the growing medium dries out between waterings to avoid root rot."
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "topic": "Fertilization",
+            "children": [
+              {
+                "id": 261,
+                "topic": "Nutrients",
+                "text": "Orchids benefit from a balanced fertilizer with higher phosphorus content to promote flowering. A diluted orchid-specific fertilizer is ideal."
+              },
+              {
+                "id": 262,
+                "topic": "Timing",
+                "text": "Fertilizer should be applied once a month during the growing season, and less frequently during the dormant phase."
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "topic": "Pest and Disease Control",
+            "children": [
+              {
+                "id": 271,
+                "topic": "Pests",
+                "text": "Common pests affecting Orchids include mealybugs, scale, and spider mites. Regular inspection and the use of insecticidal soap can help manage these pests."
+              },
+              {
+                "id": 272,
+                "topic": "Diseases",
+                "text": "Orchids are susceptible to fungal and bacterial infections, particularly in humid environments. Proper air circulation and avoiding overhead watering can help prevent these issues."
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "topic": "Pruning",
+            "children": [
+              {
+                "id": 281,
+                "topic": "Timing",
+                "text": "Pruning should be done after flowering has finished. Remove spent flower spikes and dead leaves to encourage new growth."
+              },
+              {
+                "id": 282,
+                "topic": "Technique",
+                "text": "Cut flower spikes back to the base, and remove any yellowing or dead leaves to maintain plant health and appearance."
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "topic": "Harvesting",
+            "children": [
+              {
+                "id": 291,
+                "topic": "Time",
+                "text": "Orchid flowers can be harvested when they are fully open and vibrant. For most varieties, this is usually within a few days of the flowers opening."
+              },
+              {
+                "id": 292,
+                "topic": "Handling",
+                "text": "Handle harvested flowers with care to avoid damaging the delicate petals. Store them in a cool, dry place to preserve their freshness."
+              }
+            ]
+          },
+          {
+            "id": 30.2,
+            "topic": "Storage",
+            "text": "Orchid flowers can be stored in a cool environment or refrigerated for longer shelf life, but should be handled gently to avoid bruising."
+          },
+          {
+            "id": 31.2,
+            "topic": "Environmental Benefits",
+            "text": "Orchids play a role in local ecosystems by providing habitat for pollinators, including bees, butterflies, and birds, contributing to biodiversity."
+          }
+        ]
+      }
 ];
 export default ornamentalPlants;

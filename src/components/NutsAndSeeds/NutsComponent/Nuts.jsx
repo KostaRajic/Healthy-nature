@@ -13,10 +13,13 @@ import { nutsInfo } from "./nutsText";
 import { nutsImages } from "./nutsImages";
 import { useState } from "react";
 import { ListOfNuts } from "../ListOfNuts/ListOfNuts";
+import  orasastiPlodovi  from "../ListOfNuts/orasastiPlodovi";
+import  {orasastiPlodoviTekst}  from "./orasastiPlodoviTekst";
+import { useContextAuth } from "../../context/Context";
 
 export const Nuts = ({ turnOff }) => {
-
-  const [ nutsAndSeeds, setNutsAndSeeds ] = useState(false)
+  const [ nutsAndSeeds, setNutsAndSeeds ] = useState(false);
+  const { switchLanguage } = useContextAuth();
 
   const settings = {
     infinite: true,
@@ -38,7 +41,7 @@ export const Nuts = ({ turnOff }) => {
           className={classes.closeBtn}
           onClick={() => turnOff(false)}
         />
-        <h1>Nuts and Seeds</h1>
+        <h1>{switchLanguage ? 'NUTS AND SEEDS' : 'ОРАШАСТИ ПЛОДОВИ'}</h1>
         <section className={classes.imagesSection}>
           <Slider {...settings}>
             {nutsImages.map((image, index) => (
@@ -53,10 +56,10 @@ export const Nuts = ({ turnOff }) => {
           </Slider>
         </section>
         <section>
-          <NutsAccordion data={nutsInfo} />
+          <NutsAccordion data={switchLanguage ? nutsInfo : orasastiPlodoviTekst} />
         </section>
         <button className={classes.btnClass} onClick={() => setNutsAndSeeds(true)}>
-          Read More
+        { switchLanguage ? 'Read more' : 'Прочитајте више'}
         </button>
       </div>
       {nutsAndSeeds && <ListOfNuts goBack={() => setNutsAndSeeds(false)}/>}

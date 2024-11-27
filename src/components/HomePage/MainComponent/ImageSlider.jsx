@@ -16,16 +16,27 @@ import { Cereals } from "../../Cereals/CerealsComponent/Cereals";
 import { Nuts } from "../../NutsAndSeeds/NutsComponent/Nuts";
 import { Forests } from "../../Forests/ForestsComponent/Forests";
 import { OrnamentalPlants } from "../../OrnamentalPlants/OrnamentalPlantsComponent/OrnamentalPlants";
+import { useContextAuth } from "../../context/Context";
 
 const images = [cereals, fruits, nuts, ornamentalPlants, forests, vegetables];
 
 const switchText = (src) => {
-  if (src === cereals) return "Cereals";
-  if (src === fruits) return "Fruits";
-  if (src === vegetables) return "Vegetables";
-  if (src === nuts) return "Nuts";
-  if (src === ornamentalPlants) return "Ornamental Plants";
-  if (src === forests) return "Forests";
+  if (src === cereals) return "ЖИТАРИЦЕ";
+  if (src === fruits) return "ВОЋЕ";
+  if (src === vegetables) return "ПОВРЋЕ";
+  if (src === nuts) return "ОРАШАСТИ ПЛОДОВИ";
+  if (src === ornamentalPlants) return "УКРАСНЕ БИЉКЕ";
+  if (src === forests) return "ШУМЕ";
+  return "Unknown";
+};
+
+const switchTextEng = (src) => {
+  if (src === cereals) return "CEREALS";
+  if (src === fruits) return "FRUITS";
+  if (src === vegetables) return "VEGETABLES";
+  if (src === nuts) return "NUTS AND SEEDS";
+  if (src === ornamentalPlants) return "ORNAMENTAL PLANTS";
+  if (src === forests) return "FORESTS";
   return "Unknown";
 };
 
@@ -42,6 +53,7 @@ export const ImageSlider = () => {
   const timeoutRef = useRef(null);
   const [isHovered, setIsHovered] = useState(false);
   const [hoverStates, setHoverStates] = useState(new Array(6).fill(false));
+  const { switchLanguage } = useContextAuth();
 
   const wrapIndex = (index) => ((index % 6) + 6) % 6;
 
@@ -90,7 +102,7 @@ export const ImageSlider = () => {
     clearInterval(intervalRef.current);
     clearTimeout(timeoutRef.current);
   };
-  
+
   const handleMouseLeave = (index) => {
     setHoverStates((prevStates) => {
       const updatedHoverEffect = [...prevStates];
@@ -100,7 +112,6 @@ export const ImageSlider = () => {
     setIsHovered(false);
     intervalRef.current = setInterval(nextSlide, 5000);
   };
-
 
   return (
     <div className={classes.responsiveStyle}>
@@ -122,11 +133,18 @@ export const ImageSlider = () => {
                   className={classes.readMoreBtnClass}
                   onClick={() => handlePortal(src)}
                 >
-                  Read More
+                  {switchLanguage ? "Read more" : "Прочитајте више"}
                 </button>
               )}
             </div>
-            <p style={{ opacity: fade ? "1" : "0" }}>{switchText(src)}</p>
+            <p
+              style={{
+                fontSize: switchText(src) === "ornamentalPlants" ? "21px" : "",
+                opacity: fade ? "1" : "0",
+              }}
+            >
+              {switchLanguage ? switchTextEng(src) : switchText(src)}
+            </p>{" "}
           </div>
         ))}
       </div>
@@ -143,18 +161,19 @@ export const ImageSlider = () => {
                 src={src}
                 alt={`Slide${index + 4}`}
                 style={{ opacity: fade ? "1" : "0" }}
-
               />
               {hoverStates[index + 3] && (
                 <button
                   className={classes.readMoreBtnClass}
                   onClick={() => handlePortal(src)}
                 >
-                  Read More
+                  {switchLanguage ? "Read more" : "Прочитајте више"}
                 </button>
               )}
             </div>
-            <p style={{ opacity: fade ? "1" : "0" }}>{switchText(src)}</p>
+            <p style={{ opacity: fade ? "1" : "0" }}>
+              {switchLanguage ? switchTextEng(src) : switchText(src)}
+            </p>
           </div>
         ))}
       </div>
@@ -168,7 +187,9 @@ export const ImageSlider = () => {
 
       {turnForests && <Forests turnOff={() => setForests()} />}
 
-      {turnOrnamentalPlants && <OrnamentalPlants turnOff={() => setOrnamentalPlants()} />}
+      {turnOrnamentalPlants && (
+        <OrnamentalPlants turnOff={() => setOrnamentalPlants()} />
+      )}
     </div>
   );
 };

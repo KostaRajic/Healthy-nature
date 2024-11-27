@@ -23,9 +23,8 @@ export const VegetablesAccordion = ({ data }) => {
             <div
               style={{
                 padding: "10px",
-                backgroundColor: "#fff",
                 borderRadius: "20px",
-                marginTop: "20px",
+                margin: "20px 20xp 0 20px",
               }}
             >
               {item.text && (

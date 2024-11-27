@@ -7,12 +7,15 @@ import { ForestsAccordionInfo } from "./ForestsAccordionInfo";
 import { ForestsCultivation } from "./ForestsCultivation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
+import { sume } from "./sume";
+import { useContextAuth } from "../../context/Context";
 
 export const ListOfTree = ({ goBack }) => {
   const [selectedTree, setSelectedTree] = useState(null);
   const [showCultivation, setShowCultivation] = useState(false);
   const [showReadMore, setShowReadMore] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
+  const { switchLanguage } = useContextAuth();
 
   const handleForests = (tree) => {
     setSelectedTree(tree);
@@ -28,7 +31,7 @@ export const ListOfTree = ({ goBack }) => {
     setSearchTerm(event.target.value);
   };
 
-  const filteredItem = trees?.filter((item, index) =>
+  const filteredItem = (switchLanguage ? trees : sume)?.filter((item, index) =>
     item?.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
   return (
@@ -44,17 +47,53 @@ export const ListOfTree = ({ goBack }) => {
         }
       >
         <div className={classes.headerOfList}>
-        <h2 className={classes.headingOfList}>Forests</h2>
-        <input type="text" onChange={handleInput} placeholder="Search..." />
-        <FontAwesomeIcon
-          icon={faCircleXmark}
-          size="2x"
-          className={classes.closeBtn2}
-          onClick={() => goBack(false)}
-        />
+          <h2 className={classes.headingOfList}>
+            {switchLanguage ? "FORESTS" : "ШУМЕ"}
+          </h2>
+          <input
+            type="text"
+            onChange={handleInput}
+            placeholder={switchLanguage ? "Search..." : "Тражи..."}
+          />
+          <FontAwesomeIcon
+            icon={faCircleXmark}
+            size="2x"
+            className={classes.closeBtn2}
+            onClick={() => goBack(false)}
+          />
         </div>
         {filteredItem
           ? filteredItem?.map((tree) => (
+              <div key={tree.id} className={classes.flexClass}>
+                <div>
+                  <h2>{tree.name}</h2>
+                  <img
+                    className={classes.singleProduct}
+                    src={tree.img}
+                    alt={tree.name}
+                  />
+                </div>
+                <div className={classes.centralContent}>
+                  <div className={classes.inGeneralClass}>
+                    <h3>{tree.inGeneralHeading}</h3>
+                    {tree.inGeneral}
+                  </div>
+                </div>
+                <aside className={classes.asideButtonsClass}>
+                  <button onClick={() => handleForests(tree)}>
+                  {switchLanguage
+                      ? "Read more"
+                      : "Прочитајте више"}
+                  </button>
+                  <button onClick={() => handleCultivation(tree)}>
+                  {switchLanguage
+                      ? "Cultivation"
+                      : "Култивација"}
+                  </button>
+                </aside>
+              </div>
+            ))
+          : (switchLanguage ? trees : sume)?.map((tree) => (
               <div key={tree.id} className={classes.flexClass}>
                 <div>
                   <h2>{tree.name}</h2>
@@ -70,32 +109,14 @@ export const ListOfTree = ({ goBack }) => {
                 </div>
                 <aside className={classes.asideButtonsClass}>
                   <button onClick={() => handleForests(tree)}>
-                    Read More
+                  {switchLanguage
+                      ? "Read more"
+                      : "Прочитајте више"}
                   </button>
                   <button onClick={() => handleCultivation(tree)}>
-                    Cultivation
-                  </button>
-                </aside>
-              </div>
-            ))
-          : trees?.map((tree) => (
-              <div key={tree.id} className={classes.flexClass}>
-                <div>
-                  <h2>{tree.name}</h2>
-                  <img
-                    className={classes.singleProduct}
-                    src={tree.img}
-                    alt={tree.name}
-                  />
-                </div>
-                <div className={classes.centralContent}>
-                  <h3>{tree.inGeneralHeading}</h3>
-                  <div className={classes.inGeneralClass}>{tree.inGeneral}</div>
-                </div>
-                <aside className={classes.asideButtonsClass}>
-                  <button onClick={() => handleForests(tree)}>Read More</button>
-                  <button onClick={() => handleCultivation(tree)}>
-                    Cultivation
+                  {switchLanguage
+                      ? "Cultivation"
+                      : "Култивација"}
                   </button>
                 </aside>
               </div>
@@ -104,7 +125,7 @@ export const ListOfTree = ({ goBack }) => {
           className={classes.goBackFromList}
           onClick={() => goBack(false)}
         >
-          Go Back
+      {switchLanguage ? 'Back' : 'Назад'}
         </button>
       </div>
       {selectedTree && showReadMore && (

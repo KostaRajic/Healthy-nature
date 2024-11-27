@@ -6,16 +6,21 @@ import cereals from "../Cereals/ListOfCereals/cereals";
 import vegetables from "../Vegetables/ListOfVegetables/vegetables";
 import fruits from "../Fruits/ListOfFruits/fruits";
 import nuts from "../NutsAndSeeds/ListOfNuts/nuts";
+import zitarice from "../Cereals/ListOfCereals/zitarice";
+import povrce from "../Vegetables/ListOfVegetables/povrce";
+import voce from "../Fruits/ListOfFruits/voce";
+import orasastiPlodovi from "../NutsAndSeeds/ListOfNuts/orasastiPlodovi";
 import { useState } from "react";
 import { useContextAuth } from "../context/Context";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 
-const listOfVariety = [cereals, vegetables, fruits, nuts];
+const listOfVariety = [vegetables, cereals, fruits, nuts];
+const listaSorti = [povrce, zitarice, voce, orasastiPlodovi]
 
 export const ChooseVariety = ({ dontShow, goBack }) => {
   const [searchTerm, setSearchTerm] = useState("");
-  const { selectedItems, setSelectedItems } = useContextAuth();
+  const { selectedItems, setSelectedItems, switchLanguage } = useContextAuth();
 
   const handleInputChange = (event) => {
     setSearchTerm(event.target.value);
@@ -26,7 +31,7 @@ export const ChooseVariety = ({ dontShow, goBack }) => {
     goBack(false);
   };
 
-  const filteredItems = listOfVariety
+  const filteredItems = (switchLanguage ? listOfVariety : listaSorti)
     .flat()
     .filter((item) => 
       item.name.toLowerCase().includes(searchTerm.toLowerCase()) && 
@@ -47,7 +52,7 @@ export const ChooseVariety = ({ dontShow, goBack }) => {
             type="text"
             value={searchTerm}
             onChange={handleInputChange}
-            placeholder="Search varieties..."
+            placeholder={switchLanguage ? 'Search varieties...' : "Претражите сорте..."}
           />
 
           <div className={classes.searchedItem}>
@@ -80,7 +85,7 @@ export const ChooseVariety = ({ dontShow, goBack }) => {
         </div>
         </div>
         
-        <button className={classes.closeVarietyBtn} onClick={() => goBack(false)}>Go back</button>
+        <button className={classes.closeVarietyBtn} onClick={() => goBack(false)}>{switchLanguage ? 'Back' : 'Назад'}</button>
       </div>
       
     </div>

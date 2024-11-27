@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import classes from "../../../style/universalClass.module.scss";
+import { useContextAuth } from "../../context/Context";
 
 export const CerealsAccordion = ({ data }) => {
   const [activeId, setActiveId] = useState(null);
@@ -23,9 +24,8 @@ export const CerealsAccordion = ({ data }) => {
             <div
               style={{
                 padding: "20px",
-                backgroundColor: "#fff",
                 borderRadius: "20px",
-                marginTop: '20px',
+                margin: '20px 20px 0 20px',
               }}
             >
               {item.text && (

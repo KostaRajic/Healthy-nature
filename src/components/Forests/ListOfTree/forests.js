@@ -147,172 +147,173 @@ const trees = [
         ],
       },
     ],
-    cultivationHeading: "Oak tree cultivation requires specific conditions for optimal growth and longevity. Here is an overview of the key factors involved in growing oak trees:",
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    cultivationHeading:
+      "Oak tree cultivation requires specific conditions for optimal growth and longevity. Here is an overview of the key factors involved in growing oak trees:",
+    cultivation: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Oak trees are adaptable to a range of climates but generally prefer temperate regions. They thrive in temperatures between 15°C and 30°C (59°F to 86°F) and can tolerate cold winters."
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Oak trees are adaptable to a range of climates but generally prefer temperate regions. They thrive in temperatures between 15°C and 30°C (59°F to 86°F) and can tolerate cold winters.",
+          },
+          {
+            id: 212,
+            topic: "Rainfall",
+            text: "Oak trees require moderate rainfall, ideally between 600 mm and 1,200 mm (24 to 47 inches) annually. They can withstand periods of drought once established but prefer consistent moisture during their early years.",
+          },
+        ],
       },
       {
-        id: 212,
-        topic: "Rainfall",
-        text: "Oak trees require moderate rainfall, ideally between 600 mm and 1,200 mm (24 to 47 inches) annually. They can withstand periods of drought once established but prefer consistent moisture during their early years."
-      }
-    ]
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
-      {
-        id: 221,
-        topic: "pH",
-        text: "Oak trees grow best in slightly acidic to neutral soil, with a pH range of 6.0 to 7.0."
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Oak trees grow best in slightly acidic to neutral soil, with a pH range of 6.0 to 7.0.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Loamy or sandy soils with good drainage are ideal for oak trees. They can tolerate clay soils if they are well-drained.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Before planting, the soil should be enriched with organic matter such as compost to improve fertility and structure.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Loamy or sandy soils with good drainage are ideal for oak trees. They can tolerate clay soils if they are well-drained."
+        id: 23,
+        topic: "Varieties",
+        text: "Common oak tree species include: -White Oak- (Quercus alba) - known for its strong wood and longevity. -Red Oak- (Quercus rubra) - faster-growing and valued for its timber. -Live Oak- (Quercus virginiana) - characterized by its sprawling branches and resilience in coastal areas.",
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Before planting, the soil should be enriched with organic matter such as compost to improve fertility and structure."
-      }
-    ]
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: "Common oak tree species include: -White Oak- (Quercus alba) - known for its strong wood and longevity. -Red Oak- (Quercus rubra) - faster-growing and valued for its timber. -Live Oak- (Quercus virginiana) - characterized by its sprawling branches and resilience in coastal areas."
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant oak trees is during the dormant season (late fall to early spring) when they are less stressed."
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant oak trees is during the dormant season (late fall to early spring) when they are less stressed.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Oak trees should be spaced 6 to 12 meters (20 to 40 feet) apart to allow for their large canopy and root systems.",
+          },
+          {
+            id: 243,
+            topic: "Seed Quality",
+            text: "Use high-quality acorns or nursery-grown saplings to ensure a healthy start.",
+          },
+        ],
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Oak trees should be spaced 6 to 12 meters (20 to 40 feet) apart to allow for their large canopy and root systems."
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Young oak trees require regular watering during the first few years to establish a strong root system.",
+          },
+          {
+            id: 252,
+            topic: "Mature Trees",
+            text: "Once established, oaks are drought-tolerant but benefit from deep watering during dry spells.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Waterlogged conditions can harm oak trees, leading to root rot and other diseases.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Seed Quality",
-        text: "Use high-quality acorns or nursery-grown saplings to ensure a healthy start."
-      }
-    ]
-  },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Young oak trees require regular watering during the first few years to establish a strong root system."
+        id: 26,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 261,
+            topic: "Nutrients",
+            text: "Oaks generally do not require heavy fertilization. A balanced fertilizer (e.g., 10-10-10 NPK) can be applied if soil tests indicate nutrient deficiencies.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Fertilizer should be applied in early spring before new growth begins.",
+          },
+        ],
       },
       {
-        id: 252,
-        topic: "Mature Trees",
-        text: "Once established, oaks are drought-tolerant but benefit from deep watering during dry spells."
+        id: 27,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 271,
+            topic: "Pests",
+            text: "Common pests include oak leaf curl aphids, caterpillars, and borers. Monitoring and integrated pest management (IPM) strategies can help manage these issues.",
+          },
+          {
+            id: 272,
+            topic: "Diseases",
+            text: "Oaks can be affected by diseases such as oak wilt, powdery mildew, and root rot. Proper spacing, pruning, and fungicide applications when necessary can help control these problems.",
+          },
+        ],
       },
       {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Waterlogged conditions can harm oak trees, leading to root rot and other diseases."
-      }
-    ]
-  },
-  {
-    id: 26,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 261,
-        topic: "Nutrients",
-        text: "Oaks generally do not require heavy fertilization. A balanced fertilizer (e.g., 10-10-10 NPK) can be applied if soil tests indicate nutrient deficiencies."
+        id: 28,
+        topic: "Pruning",
+        children: [
+          {
+            id: 281,
+            topic: "Timing",
+            text: "Pruning should be done during the dormant season to reduce stress on the tree and minimize the risk of disease.",
+          },
+          {
+            id: 282,
+            topic: "Technique",
+            text: "Remove dead, damaged, or crowded branches to improve airflow and overall tree health.",
+          },
+        ],
       },
       {
-        id: 262,
-        topic: "Timing",
-        text: "Fertilizer should be applied in early spring before new growth begins."
-      }
-    ]
-  },
-  {
-    id: 27,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 271,
-        topic: "Pests",
-        text: "Common pests include oak leaf curl aphids, caterpillars, and borers. Monitoring and integrated pest management (IPM) strategies can help manage these issues."
+        id: 29,
+        topic: "Harvesting Acorns",
+        children: [
+          {
+            id: 291,
+            topic: "Time",
+            text: "Acorns typically mature in the fall (September to November), depending on the species and climate.",
+          },
+          {
+            id: 292,
+            topic: "Signs of Ripeness",
+            text: "Ripe acorns fall from the tree; they should be collected promptly to avoid spoilage or predation by wildlife.",
+          },
+          {
+            id: 293,
+            topic: "Handling",
+            text: "Acorns can be eaten after leaching out the tannins or used as a food source for wildlife.",
+          },
+        ],
       },
       {
-        id: 272,
-        topic: "Diseases",
-        text: "Oaks can be affected by diseases such as oak wilt, powdery mildew, and root rot. Proper spacing, pruning, and fungicide applications when necessary can help control these problems."
-      }
-    ]
-  },
-  {
-    id: 28,
-    topic: "Pruning",
-    children: [
-      {
-        id: 281,
-        topic: "Timing",
-        text: "Pruning should be done during the dormant season to reduce stress on the tree and minimize the risk of disease."
+        id: 30.2,
+        topic: "Storage",
+        text: "Acorns should be stored in a cool, dry place. For long-term storage, they can be frozen or dried to prevent spoilage.",
       },
       {
-        id: 282,
-        topic: "Technique",
-        text: "Remove dead, damaged, or crowded branches to improve airflow and overall tree health."
-      }
-    ]
-  },
-  {
-    id: 29,
-    topic: "Harvesting Acorns",
-    children: [
-      {
-        id: 291,
-        topic: "Time",
-        text: "Acorns typically mature in the fall (September to November), depending on the species and climate."
+        id: 31.2,
+        topic: "Environmental Benefits",
+        text: "Oak trees provide critical habitat for wildlife, improve air quality, and help prevent soil erosion. Their extensive root systems and large canopies also contribute to local ecosystems.",
       },
-      {
-        id: 292,
-        topic: "Signs of Ripeness",
-        text: "Ripe acorns fall from the tree; they should be collected promptly to avoid spoilage or predation by wildlife."
-      },
-      {
-        id: 293,
-        topic: "Handling",
-        text: "Acorns can be eaten after leaching out the tannins or used as a food source for wildlife."
-      }
-    ]
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Acorns should be stored in a cool, dry place. For long-term storage, they can be frozen or dried to prevent spoilage."
-  },
-  {
-    id: 31.2,
-    topic: "Environmental Benefits",
-    text: "Oak trees provide critical habitat for wildlife, improve air quality, and help prevent soil erosion. Their extensive root systems and large canopies also contribute to local ecosystems."
-  }
-]
+    ],
   },
 
   {
@@ -320,8 +321,10 @@ cultivation: [
     name: "Birch",
     img: imagesOfTrees.birch,
     inGeneralHeading: "Graceful and Adaptable",
-    inGeneral: "The birch tree (Betula) is a graceful and distinctive species known for its thin, papery bark and delicate leaves. Found primarily in the Northern Hemisphere, birches thrive in temperate and boreal climates across North America, Europe, and Asia. With around 60 species, birches are recognizable by their striking bark, which can be white, silver, yellow, or even black, depending on the species. The bark often peels away in thin layers, revealing smooth, colorful surfaces underneath, which contributes to the tree’s ornamental appeal.\nBirches are typically medium-sized deciduous trees that grow quickly, reaching heights of 40 to 70 feet, depending on the species. Their slender trunks and light canopies allow sunlight to filter through, creating a dappled effect on the forest floor. This helps support a wide variety of plants and animals, making birch trees valuable components of their ecosystems. The seeds of birch trees, known as samaras, are a food source for birds and small mammals.\nBirch trees are known for their adaptability, able to grow in a wide range of soil types, including those that are nutrient-poor or prone to flooding. This resilience makes birches a common pioneer species, one of the first to colonize areas after disturbances like fires or clear-cutting.\nIn addition to their ecological value, birch trees have long been valued for their wood and bark. Birch wood is light, strong, and fine-grained, making it a popular choice for furniture, plywood, and paper production. The bark of the birch tree, particularly from species like the white or paper birch (Betula papyrifera), has been used historically by indigenous peoples for building canoes, shelters, and containers.\nIn summary, birch trees are both elegant and resilient, providing ecological benefits and practical resources. Their striking appearance and adaptability make them a cherished part of many landscapes and cultures.",
-    benefitsHeading: "Birch trees are slender, deciduous trees known for their distinctive bark, often white or silver, that peels away in thin, papery layers. They are commonly found in the northern hemisphere, particularly in temperate and boreal forests. Birches are fast-growing and resilient, thriving in a range of soils and conditions.",
+    inGeneral:
+      "The birch tree (Betula) is a graceful and distinctive species known for its thin, papery bark and delicate leaves. Found primarily in the Northern Hemisphere, birches thrive in temperate and boreal climates across North America, Europe, and Asia. With around 60 species, birches are recognizable by their striking bark, which can be white, silver, yellow, or even black, depending on the species. The bark often peels away in thin layers, revealing smooth, colorful surfaces underneath, which contributes to the tree’s ornamental appeal.\nBirches are typically medium-sized deciduous trees that grow quickly, reaching heights of 40 to 70 feet, depending on the species. Their slender trunks and light canopies allow sunlight to filter through, creating a dappled effect on the forest floor. This helps support a wide variety of plants and animals, making birch trees valuable components of their ecosystems. The seeds of birch trees, known as samaras, are a food source for birds and small mammals.\nBirch trees are known for their adaptability, able to grow in a wide range of soil types, including those that are nutrient-poor or prone to flooding. This resilience makes birches a common pioneer species, one of the first to colonize areas after disturbances like fires or clear-cutting.\nIn addition to their ecological value, birch trees have long been valued for their wood and bark. Birch wood is light, strong, and fine-grained, making it a popular choice for furniture, plywood, and paper production. The bark of the birch tree, particularly from species like the white or paper birch (Betula papyrifera), has been used historically by indigenous peoples for building canoes, shelters, and containers.\nIn summary, birch trees are both elegant and resilient, providing ecological benefits and practical resources. Their striking appearance and adaptability make them a cherished part of many landscapes and cultures.",
+    benefitsHeading:
+      "Birch trees are slender, deciduous trees known for their distinctive bark, often white or silver, that peels away in thin, papery layers. They are commonly found in the northern hemisphere, particularly in temperate and boreal forests. Birches are fast-growing and resilient, thriving in a range of soils and conditions.",
     text: [
       {
         id: 21,
@@ -330,24 +333,24 @@ cultivation: [
           {
             id: 211,
             topic: "Bark",
-            text: "The most recognizable feature of birch trees is their bark, which can range from white to yellow, silver, or even black depending on the species. The bark peels in thin layers, giving it a unique texture."
+            text: "The most recognizable feature of birch trees is their bark, which can range from white to yellow, silver, or even black depending on the species. The bark peels in thin layers, giving it a unique texture.",
           },
           {
             id: 212,
             topic: "Leaves",
-            text: "Birch leaves are small, ovate, and typically toothed along the edges. They turn a striking yellow in autumn, adding to the tree’s visual appeal."
+            text: "Birch leaves are small, ovate, and typically toothed along the edges. They turn a striking yellow in autumn, adding to the tree’s visual appeal.",
           },
           {
             id: 213,
             topic: "Height",
-            text: "Birch trees typically grow to a height of 30 to 70 feet (9 to 21 meters) depending on the species and environmental conditions."
+            text: "Birch trees typically grow to a height of 30 to 70 feet (9 to 21 meters) depending on the species and environmental conditions.",
           },
           {
             id: 214,
             topic: "Branches",
-            text: "The branches are often graceful and arching, creating a delicate, airy canopy."
-          }
-        ]
+            text: "The branches are often graceful and arching, creating a delicate, airy canopy.",
+          },
+        ],
       },
       {
         id: 22,
@@ -356,24 +359,24 @@ cultivation: [
           {
             id: 221,
             topic: "Paper Birch (Betula papyrifera)",
-            text: "Known for its bright white bark, often used by indigenous peoples for crafting."
+            text: "Known for its bright white bark, often used by indigenous peoples for crafting.",
           },
           {
             id: 222,
             topic: "Silver Birch (Betula pendula)",
-            text: "Distinguished by its silver bark and drooping branches, commonly found in Europe."
+            text: "Distinguished by its silver bark and drooping branches, commonly found in Europe.",
           },
           {
             id: 223,
             topic: "Yellow Birch (Betula alleghaniensis)",
-            text: "Has golden-yellow bark and is valued for its hard, strong wood."
+            text: "Has golden-yellow bark and is valued for its hard, strong wood.",
           },
           {
             id: 224,
             topic: "River Birch (Betula nigra)",
-            text: "Features reddish-brown bark and thrives near water sources, often used in landscaping."
-          }
-        ]
+            text: "Features reddish-brown bark and thrives near water sources, often used in landscaping.",
+          },
+        ],
       },
       {
         id: 23,
@@ -382,183 +385,183 @@ cultivation: [
           {
             id: 231,
             topic: "Symbolism",
-            text: "In many cultures, birch symbolizes renewal, protection, and growth due to its quick regeneration after being cut or damaged. It's often associated with new beginnings."
+            text: "In many cultures, birch symbolizes renewal, protection, and growth due to its quick regeneration after being cut or damaged. It's often associated with new beginnings.",
           },
           {
             id: 232,
             topic: "Landscaping",
-            text: "Birch trees, with their distinctive white bark and elegant form, are popular in landscaping for adding visual interest to gardens and urban areas."
-          }
-        ]
+            text: "Birch trees, with their distinctive white bark and elegant form, are popular in landscaping for adding visual interest to gardens and urban areas.",
+          },
+        ],
       },
       {
         id: 24,
         topic: "Uses",
-        text: "Birch trees are highly valued for their beauty and utility. Their bark, sap, wood, and leaves have been used historically for various purposes, from medicinal applications to construction and crafting. Their rapid growth and attractive appearance also make them a favorite in landscaping, while their contribution to forest ecosystems helps support wildlife and maintain biodiversity."
-      }
+        text: "Birch trees are highly valued for their beauty and utility. Their bark, sap, wood, and leaves have been used historically for various purposes, from medicinal applications to construction and crafting. Their rapid growth and attractive appearance also make them a favorite in landscaping, while their contribution to forest ecosystems helps support wildlife and maintain biodiversity.",
+      },
     ],
-    cultivationHeading: "Birch tree cultivation requires specific conditions for optimal growth and longevity. Here is an overview of the key factors involved in growing birch trees:",
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    cultivationHeading:
+      "Birch tree cultivation requires specific conditions for optimal growth and longevity. Here is an overview of the key factors involved in growing birch trees:",
+    cultivation: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Birch trees prefer temperate climates and thrive in cool, moist conditions. They can tolerate temperatures between -30°C and 30°C (-22°F to 86°F), but they are sensitive to extreme heat."
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Birch trees prefer temperate climates and thrive in cool, moist conditions. They can tolerate temperatures between -30°C and 30°C (-22°F to 86°F), but they are sensitive to extreme heat.",
+          },
+          {
+            id: 212,
+            topic: "Rainfall",
+            text: "Birch trees require consistent moisture, typically needing about 600 mm to 1,200 mm (24 to 47 inches) of rainfall annually. They can tolerate some drought, but prolonged dry conditions can stress the tree.",
+          },
+        ],
       },
       {
-        id: 212,
-        topic: "Rainfall",
-        text: "Birch trees require consistent moisture, typically needing about 600 mm to 1,200 mm (24 to 47 inches) of rainfall annually. They can tolerate some drought, but prolonged dry conditions can stress the tree."
-      }
-    ]
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
-      {
-        id: 221,
-        topic: "pH",
-        text: "Birch trees prefer slightly acidic to neutral soils, with a pH range of 5.0 to 7.0."
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Birch trees prefer slightly acidic to neutral soils, with a pH range of 5.0 to 7.0.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Well-drained, loamy, or sandy soils are ideal for birch trees. They can tolerate a variety of soil types but should be planted in areas that do not retain excessive water.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Before planting, amend the soil with organic matter, such as compost, to improve fertility and drainage.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Well-drained, loamy, or sandy soils are ideal for birch trees. They can tolerate a variety of soil types but should be planted in areas that do not retain excessive water."
+        id: 23,
+        topic: "Varieties",
+        text: "Common birch species include: -White Birch- (Betula papyrifera) - known for its striking white bark and adaptability. -River Birch- (Betula nigra) - thrives in wetter conditions and has peeling bark. -Japanese Birch- (Betula platyphylla) - valued for its ornamental qualities and disease resistance.",
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Before planting, amend the soil with organic matter, such as compost, to improve fertility and drainage."
-      }
-    ]
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: "Common birch species include: -White Birch- (Betula papyrifera) - known for its striking white bark and adaptability. -River Birch- (Betula nigra) - thrives in wetter conditions and has peeling bark. -Japanese Birch- (Betula platyphylla) - valued for its ornamental qualities and disease resistance."
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant birch trees is during the dormant season (late fall to early spring) when they experience less stress."
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant birch trees is during the dormant season (late fall to early spring) when they experience less stress.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Birch trees should be spaced 3 to 5 meters (10 to 16 feet) apart to allow for their mature size and canopy spread.",
+          },
+          {
+            id: 243,
+            topic: "Seed Quality",
+            text: "Use high-quality seeds or nursery-grown saplings to ensure a healthy start.",
+          },
+        ],
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Birch trees should be spaced 3 to 5 meters (10 to 16 feet) apart to allow for their mature size and canopy spread."
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Young birch trees require regular watering during the first few years to establish a strong root system.",
+          },
+          {
+            id: 252,
+            topic: "Mature Trees",
+            text: "Once established, birch trees need moderate watering. They prefer moist soil conditions but can tolerate brief dry spells.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Birch trees are sensitive to waterlogged conditions, which can lead to root rot and other diseases.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Seed Quality",
-        text: "Use high-quality seeds or nursery-grown saplings to ensure a healthy start."
-      }
-    ]
-  },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Young birch trees require regular watering during the first few years to establish a strong root system."
+        id: 26,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 261,
+            topic: "Nutrients",
+            text: "Birch trees benefit from a balanced fertilizer (e.g., 10-10-10 NPK) if soil tests indicate nutrient deficiencies.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Fertilizer should be applied in early spring, just before the growing season begins.",
+          },
+        ],
       },
       {
-        id: 252,
-        topic: "Mature Trees",
-        text: "Once established, birch trees need moderate watering. They prefer moist soil conditions but can tolerate brief dry spells."
+        id: 27,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 271,
+            topic: "Pests",
+            text: "Common pests affecting birch trees include aphids, birch leaf miners, and bark beetles. Monitoring and integrated pest management (IPM) strategies can help manage these issues.",
+          },
+          {
+            id: 272,
+            topic: "Diseases",
+            text: "Birch trees can be susceptible to diseases such as birch canker, root rot, and powdery mildew. Good cultural practices, including proper pruning and watering, can help reduce the risk of these diseases.",
+          },
+        ],
       },
       {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Birch trees are sensitive to waterlogged conditions, which can lead to root rot and other diseases."
-      }
-    ]
-  },
-  {
-    id: 26,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 261,
-        topic: "Nutrients",
-        text: "Birch trees benefit from a balanced fertilizer (e.g., 10-10-10 NPK) if soil tests indicate nutrient deficiencies."
+        id: 28,
+        topic: "Pruning",
+        children: [
+          {
+            id: 281,
+            topic: "Timing",
+            text: "Pruning should be done in late winter or early spring while the tree is still dormant to minimize stress.",
+          },
+          {
+            id: 282,
+            topic: "Technique",
+            text: "Remove dead, damaged, or overcrowded branches to improve airflow and overall tree health.",
+          },
+        ],
       },
       {
-        id: 262,
-        topic: "Timing",
-        text: "Fertilizer should be applied in early spring, just before the growing season begins."
-      }
-    ]
-  },
-  {
-    id: 27,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 271,
-        topic: "Pests",
-        text: "Common pests affecting birch trees include aphids, birch leaf miners, and bark beetles. Monitoring and integrated pest management (IPM) strategies can help manage these issues."
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Sap Collection",
+            text: "Birch sap can be harvested in early spring, just as the sap starts to flow. It is collected by tapping the tree and can be enjoyed fresh or processed into syrup.",
+          },
+          {
+            id: 292,
+            topic: "Timing",
+            text: "Sap collection typically occurs when daytime temperatures rise above freezing and nighttime temperatures drop below freezing.",
+          },
+        ],
       },
       {
-        id: 272,
-        topic: "Diseases",
-        text: "Birch trees can be susceptible to diseases such as birch canker, root rot, and powdery mildew. Good cultural practices, including proper pruning and watering, can help reduce the risk of these diseases."
-      }
-    ]
-  },
-  {
-    id: 28,
-    topic: "Pruning",
-    children: [
-      {
-        id: 281,
-        topic: "Timing",
-        text: "Pruning should be done in late winter or early spring while the tree is still dormant to minimize stress."
+        id: 30.2,
+        topic: "Storage",
+        text: "Birch sap should be consumed fresh or stored in the refrigerator for a short period. It can also be boiled down into syrup and stored in airtight containers.",
       },
       {
-        id: 282,
-        topic: "Technique",
-        text: "Remove dead, damaged, or overcrowded branches to improve airflow and overall tree health."
-      }
-    ]
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Sap Collection",
-        text: "Birch sap can be harvested in early spring, just as the sap starts to flow. It is collected by tapping the tree and can be enjoyed fresh or processed into syrup."
+        id: 31.2,
+        topic: "Environmental Benefits",
+        text: "Birch trees provide habitat for various wildlife species, improve air quality, and prevent soil erosion. They are also valued for their ornamental qualities and play a role in forest ecosystems.",
       },
-      {
-        id: 292,
-        topic: "Timing",
-        text: "Sap collection typically occurs when daytime temperatures rise above freezing and nighttime temperatures drop below freezing."
-      }
-    ]
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Birch sap should be consumed fresh or stored in the refrigerator for a short period. It can also be boiled down into syrup and stored in airtight containers."
-  },
-  {
-    id: 31.2,
-    topic: "Environmental Benefits",
-    text: "Birch trees provide habitat for various wildlife species, improve air quality, and prevent soil erosion. They are also valued for their ornamental qualities and play a role in forest ecosystems."
-  }
-]
-
+    ],
   },
   {
     id: 3,
@@ -659,6 +662,160 @@ cultivation: [
         ],
       },
     ],
+    cultivationHeading: 
+  "Cultivation of Elm trees requires specific conditions to ensure healthy growth and longevity. Below is an overview of key factors involved in growing Elm trees:",
+
+cultivation: [
+  {
+    id: 21,
+    topic: "Climate",
+    children: [
+      {
+        id: 211,
+        topic: "Temperature",
+        text: "Elm trees thrive in temperate climates and are adaptable to a range of temperatures. They prefer mild, moderate conditions but can tolerate cold winters. They grow best in regions with temperatures ranging from -30°C to 30°C (-22°F to 86°F).",
+      },
+      {
+        id: 212,
+        topic: "Rainfall",
+        text: "Elm trees require regular rainfall, typically ranging from 600 mm to 1,200 mm (24 to 47 inches) annually. They can tolerate some drought but prefer consistently moist soil conditions.",
+      },
+    ],
+  },
+  {
+    id: 22,
+    topic: "Soil",
+    children: [
+      {
+        id: 221,
+        topic: "pH",
+        text: "Elm trees prefer slightly acidic to neutral soils, with a pH range of 6.0 to 7.5.",
+      },
+      {
+        id: 222,
+        topic: "Soil Type",
+        text: "Elm trees thrive in well-drained, fertile soils, including loamy or sandy types. They are tolerant of a range of soil types but should be planted in areas with good drainage.",
+      },
+      {
+        id: 223,
+        topic: "Soil Preparation",
+        text: "Before planting, amend the soil with organic matter, such as compost, to improve fertility and drainage. Avoid areas with heavy clay or poor drainage, which can lead to root rot.",
+      },
+    ],
+  },
+  {
+    id: 23,
+    topic: "Varieties",
+    text: "Common Elm species include: -American Elm (Ulmus americana) - known for its large canopy and tall stature. -English Elm (Ulmus procera) - valued for its ornamental beauty. -Siberian Elm (Ulmus pumila) - a hardier species used for reforestation and windbreaks.",
+  },
+  {
+    id: 24,
+    topic: "Planting",
+    children: [
+      {
+        id: 241,
+        topic: "Time",
+        text: "The best time to plant Elm trees is during the dormant season, in late fall or early spring, to minimize transplant shock.",
+      },
+      {
+        id: 242,
+        topic: "Spacing",
+        text: "Elm trees should be spaced 5 to 8 meters (16 to 26 feet) apart to allow for their mature size and broad canopy spread.",
+      },
+      {
+        id: 243,
+        topic: "Seed Quality",
+        text: "Use high-quality seeds or nursery-grown saplings to ensure successful growth and a healthy start.",
+      },
+    ],
+  },
+  {
+    id: 25,
+    topic: "Watering",
+    children: [
+      {
+        id: 251,
+        topic: "Establishment Phase",
+        text: "Young Elm trees need regular watering during the first few years to help establish a strong root system. Water deeply and consistently to encourage root growth.",
+      },
+      {
+        id: 252,
+        topic: "Mature Trees",
+        text: "Once established, Elm trees need moderate watering. They prefer moist, well-drained soil but can tolerate brief dry spells.",
+      },
+      {
+        id: 253,
+        topic: "Avoid Overwatering",
+        text: "Elm trees are sensitive to overwatering and waterlogged conditions, which can lead to root rot and other diseases.",
+      },
+    ],
+  },
+  {
+    id: 26,
+    topic: "Fertilization",
+    children: [
+      {
+        id: 261,
+        topic: "Nutrients",
+        text: "Elm trees benefit from a balanced fertilizer (e.g., 10-10-10 NPK) if soil tests indicate deficiencies. A slow-release fertilizer applied in spring is ideal for their growth.",
+      },
+      {
+        id: 262,
+        topic: "Timing",
+        text: "Fertilizer should be applied in early spring, just before the growing season begins, to promote healthy growth.",
+      },
+    ],
+  },
+  {
+    id: 27,
+    topic: "Pest and Disease Control",
+    children: [
+      {
+        id: 271,
+        topic: "Pests",
+        text: "Common pests that affect Elm trees include aphids, elm leaf beetles, and Japanese beetles. Integrated pest management (IPM) strategies can help control these pests.",
+      },
+      {
+        id: 272,
+        topic: "Diseases",
+        text: "Elm trees are susceptible to diseases like Dutch elm disease, elm canker, and powdery mildew. Good cultural practices, such as proper pruning and disease-resistant varieties, can help prevent these issues.",
+      },
+    ],
+  },
+  {
+    id: 28,
+    topic: "Pruning",
+    children: [
+      {
+        id: 281,
+        topic: "Timing",
+        text: "Pruning should be done during late winter or early spring, while the tree is still dormant, to reduce stress and promote healthy growth.",
+      },
+      {
+        id: 282,
+        topic: "Technique",
+        text: "Remove dead, damaged, or overcrowded branches to improve airflow and tree health. Avoid heavy pruning, as Elm trees can be sensitive to excessive cutting.",
+      },
+    ],
+  },
+  {
+    id: 29,
+    topic: "Harvesting",
+    children: [
+      {
+        id: 291,
+        topic: "Wood Harvesting",
+        text: "Elm wood is valuable for its strength and resistance to splitting, and can be harvested for use in furniture, flooring, and construction. It is important to allow the tree to mature before harvesting.",
+      },
+    ],
+  },
+  {
+    id: 30.2,
+    topic: "Environmental Benefits",
+    text: "Elm trees provide shade, improve air quality, and reduce the urban heat island effect. They also help prevent soil erosion and provide habitat for various wildlife species.",
+  },
+],
+
   },
   {
     id: 4,
@@ -800,7 +957,6 @@ In summary, the beech tree is a symbol of strength and longevity, with its majes
             ],
           },
         ],
-        
       },
       {
         id: 44,
@@ -819,168 +975,169 @@ In summary, the beech tree is a symbol of strength and longevity, with its majes
         ],
       },
     ],
-    cultivationHeading: "Elm tree cultivation requires specific conditions for optimal growth and durability. Here is an overview of the key factors involved in growing elm trees:",
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
-      {
-        id: 211,
-        topic: "Temperature",
-        text: "Elm trees prefer temperate climates and can tolerate a wide range of temperatures, typically from -30°C to 35°C (-22°F to 95°F). However, they are sensitive to extreme heat and prolonged drought."
-      },
-      {
-        id: 212,
-        topic: "Rainfall",
-        text: "Elm trees thrive in areas with annual rainfall ranging from 600 mm to 1,200 mm (24 to 47 inches). They prefer moist environments but can adapt to various moisture levels."
-      }
-    ]
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
-      {
-        id: 221,
-        topic: "pH",
-        text: "Elm trees grow best in slightly acidic to neutral soils, with a pH range of 6.0 to 7.5."
-      },
-      {
-        id: 222,
-        topic: "Soil Type",
-        text: "Well-drained, fertile soils such as loam or sandy loam are ideal for elm trees. They can tolerate clay soils but require proper drainage to prevent waterlogging."
-      },
-      {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Before planting, incorporate organic matter like compost to improve soil structure and fertility."
-      }
-    ]
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: "Common elm species include: -American Elm- (Ulmus americana) - valued for its size and shade, though susceptible to Dutch elm disease. -Chinese Elm- (Ulmus parvifolia) - known for its resistance to disease and adaptability. -Siberian Elm- (Ulmus pumila) - drought-tolerant and hardy, often used in landscaping."
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant elm trees is in early spring or fall when the tree is dormant, allowing for better establishment."
-      },
-      {
-        id: 242,
-        topic: "Spacing",
-        text: "Elm trees should be spaced 10 to 15 meters (33 to 50 feet) apart, depending on the variety, to accommodate their mature size."
-      },
-      {
-        id: 243,
-        topic: "Seed Quality",
-        text: "Use high-quality seeds or nursery-grown saplings to ensure a healthy start."
-      }
-    ]
-  },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Young elm trees require regular watering during their first few years to establish a strong root system."
-      },
-      {
-        id: 252,
-        topic: "Mature Trees",
-        text: "Once established, elm trees need moderate watering, preferring consistently moist soil but can tolerate brief dry periods."
-      },
-      {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Elm trees are sensitive to waterlogged conditions, which can lead to root rot and other diseases."
-      }
-    ]
-  },
-  {
-    id: 26,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 261,
-        topic: "Nutrients",
-        text: "Elm trees benefit from a balanced fertilizer (e.g., 10-10-10 NPK) if soil tests indicate nutrient deficiencies."
-      },
-      {
-        id: 262,
-        topic: "Timing",
-        text: "Fertilizer should be applied in early spring as new growth begins."
-      }
-    ]
-  },
-  {
-    id: 27,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 271,
-        topic: "Pests",
-        text: "Common pests affecting elm trees include elm leaf beetles, aphids, and spider mites. Monitoring and integrated pest management (IPM) strategies can help manage these issues."
-      },
-      {
-        id: 272,
-        topic: "Diseases",
-        text: "Elm trees are susceptible to Dutch elm disease, which can be devastating. Preventive measures include proper pruning, maintaining tree health, and using disease-resistant varieties."
-      }
-    ]
-  },
-  {
-    id: 28,
-    topic: "Pruning",
-    children: [
-      {
-        id: 281,
-        topic: "Timing",
-        text: "Pruning should be done in late winter or early spring while the tree is dormant to minimize stress."
-      },
-      {
-        id: 282,
-        topic: "Technique",
-        text: "Remove dead, damaged, or overcrowded branches to improve airflow and overall tree health."
-      }
-    ]
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Seed Collection",
-        text: "Elm seeds can be collected in late spring to early summer when they are ripe. They can be used for propagation or wildlife feed."
-      },
-      {
-        id: 292,
-        topic: "Wood Harvesting",
-        text: "Elm wood is valuable for its strength and durability, often used in furniture and cabinetry."
-      }
-    ]
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Seeds should be stored in a cool, dry place until ready for planting. Elm wood should be properly seasoned before use to prevent warping or splitting."
-  },
-  {
-    id: 31.2,
-    topic: "Environmental Benefits",
-    text: "Elm trees provide shade, improve air quality, and serve as habitat for various wildlife species. They play a significant role in urban landscaping and reforestation efforts."
-  }
-]
-
+      "cultivationHeading": "Beech tree cultivation requires specific conditions for optimal growth and longevity. Here is an overview of the key factors involved in growing beech trees:",
+      "cultivation": [
+        {
+          "id": 21,
+          "topic": "Climate",
+          "children": [
+            {
+              "id": 211,
+              "topic": "Temperature",
+              "text": "Beech trees thrive in temperate climates, preferring a moderate temperature range between -20°C to 30°C (-4°F to 86°F). They are not as tolerant to extreme heat or cold, making them best suited for regions with mild winters and summers."
+            },
+            {
+              "id": 212,
+              "topic": "Rainfall",
+              "text": "Beech trees need consistent moisture and do best in areas with annual rainfall of 750 mm to 1,500 mm (30 to 60 inches). They require moist soil but can tolerate short dry periods."
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "topic": "Soil",
+          "children": [
+            {
+              "id": 221,
+              "topic": "pH",
+              "text": "Beech trees prefer slightly acidic to neutral soils, with an ideal pH range of 5.5 to 7.0. Soils that are too alkaline may inhibit growth."
+            },
+            {
+              "id": 222,
+              "topic": "Soil Type",
+              "text": "Beech trees grow best in well-drained, fertile soils like loam or sandy loam. They can tolerate a variety of soil types but require good drainage to avoid waterlogging."
+            },
+            {
+              "id": 223,
+              "topic": "Soil Preparation",
+              "text": "Before planting, enrich the soil with organic matter, such as compost, to improve soil structure and fertility."
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "topic": "Varieties",
+          "text": "Common beech species include: -European Beech- (Fagus sylvatica) - prized for its smooth bark and dense canopy. -American Beech- (Fagus grandifolia) - native to North America, known for its large leaves and vibrant fall color."
+        },
+        {
+          "id": 24,
+          "topic": "Planting",
+          "children": [
+            {
+              "id": 241,
+              "topic": "Time",
+              "text": "The best time to plant beech trees is in early spring or fall, while the tree is dormant, to ensure better establishment."
+            },
+            {
+              "id": 242,
+              "topic": "Spacing",
+              "text": "Beech trees should be spaced 10 to 15 meters (33 to 50 feet) apart to allow for their mature size and spread."
+            },
+            {
+              "id": 243,
+              "topic": "Seed Quality",
+              "text": "Use high-quality seeds or nursery-grown saplings to give your beech tree the best chance for healthy growth."
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "topic": "Watering",
+          "children": [
+            {
+              "id": 251,
+              "topic": "Establishment Phase",
+              "text": "Young beech trees need regular watering during the first few years to develop a strong root system."
+            },
+            {
+              "id": 252,
+              "topic": "Mature Trees",
+              "text": "Once established, beech trees require moderate watering, preferring moist but well-drained soil."
+            },
+            {
+              "id": 253,
+              "topic": "Avoid Overwatering",
+              "text": "Beech trees are sensitive to overwatering, which can lead to root rot and other diseases."
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "topic": "Fertilization",
+          "children": [
+            {
+              "id": 261,
+              "topic": "Nutrients",
+              "text": "Beech trees benefit from a balanced fertilizer (e.g., 10-10-10 NPK) if soil tests indicate nutrient deficiencies."
+            },
+            {
+              "id": 262,
+              "topic": "Timing",
+              "text": "Fertilizer should be applied in early spring as new growth begins, before the growing season starts."
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "topic": "Pest and Disease Control",
+          "children": [
+            {
+              "id": 271,
+              "topic": "Pests",
+              "text": "Common pests affecting beech trees include aphids, caterpillars, and scale insects. Integrated pest management (IPM) strategies can help manage these issues."
+            },
+            {
+              "id": 272,
+              "topic": "Diseases",
+              "text": "Beech trees are susceptible to diseases like beech bark disease and powdery mildew. Proper tree care and disease-resistant varieties can help prevent these issues."
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "topic": "Pruning",
+          "children": [
+            {
+              "id": 281,
+              "topic": "Timing",
+              "text": "Prune beech trees in late winter or early spring when they are dormant to avoid stress and promote healthy growth."
+            },
+            {
+              "id": 282,
+              "topic": "Technique",
+              "text": "Remove dead, damaged, or crowded branches to improve airflow and overall tree health."
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "topic": "Harvesting",
+          "children": [
+            {
+              "id": 291,
+              "topic": "Seed Collection",
+              "text": "Beech tree seeds, or beech nuts, can be collected in late summer to early fall once they are ripe. They are used for propagation or wildlife feed."
+            },
+            {
+              "id": 292,
+              "topic": "Wood Harvesting",
+              "text": "Beech wood is highly prized for its hardness and durability and is used in furniture, flooring, and cabinetry."
+            }
+          ]
+        },
+        {
+          "id": 30.2,
+          "topic": "Storage",
+          "text": "Beech seeds should be stored in a cool, dry place until ready for planting. Beech wood should be seasoned properly before use to avoid warping or splitting."
+        },
+        {
+          "id": 31.2,
+          "topic": "Environmental Benefits",
+          "text": "Beech trees provide dense shade, help prevent soil erosion, and support diverse wildlife. They are also valuable in urban landscaping and forest management."
+        }
+      ]
+    
+    
   },
   {
     id: 5,
@@ -1135,168 +1292,168 @@ cultivation: [
         ],
       },
     ],
-    cultivationHeading: "Pine tree cultivation requires specific conditions for optimal growth and resilience. Here is an overview of the key factors involved in growing pine trees:",
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    cultivationHeading:
+      "Pine tree cultivation requires specific conditions for optimal growth and resilience. Here is an overview of the key factors involved in growing pine trees:",
+    cultivation: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Pine trees thrive in a variety of climates but generally prefer temperate to cool climates. Most species can tolerate temperatures ranging from -30°C to 30°C (-22°F to 86°F), but extreme heat or cold can affect their growth."
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Pine trees thrive in a variety of climates but generally prefer temperate to cool climates. Most species can tolerate temperatures ranging from -30°C to 30°C (-22°F to 86°F), but extreme heat or cold can affect their growth.",
+          },
+          {
+            id: 212,
+            topic: "Rainfall",
+            text: "Pine trees typically require annual rainfall between 500 mm and 1,200 mm (20 to 47 inches). While they are relatively drought-tolerant, they do best in consistently moist environments.",
+          },
+        ],
       },
       {
-        id: 212,
-        topic: "Rainfall",
-        text: "Pine trees typically require annual rainfall between 500 mm and 1,200 mm (20 to 47 inches). While they are relatively drought-tolerant, they do best in consistently moist environments."
-      }
-    ]
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
-      {
-        id: 221,
-        topic: "pH",
-        text: "Pine trees prefer acidic soils with a pH range of 4.5 to 6.0. However, some species can adapt to neutral soils."
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Pine trees prefer acidic soils with a pH range of 4.5 to 6.0. However, some species can adapt to neutral soils.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Well-drained sandy or loamy soils are ideal for pine trees. They can tolerate poorer soils but should be planted in locations with good drainage to prevent root rot.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Before planting, mix in organic matter such as compost to enhance soil fertility and structure.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Well-drained sandy or loamy soils are ideal for pine trees. They can tolerate poorer soils but should be planted in locations with good drainage to prevent root rot."
+        id: 23,
+        topic: "Varieties",
+        text: "Common pine species include: -Eastern White Pine- (Pinus strobus) - known for its tall, straight trunk and soft needles. -Scots Pine- (Pinus sylvestris) - adaptable to various climates, often used in forestry. -Loblolly Pine- (Pinus taeda) - widely planted in the southeastern United States for timber.",
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Before planting, mix in organic matter such as compost to enhance soil fertility and structure."
-      }
-    ]
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: "Common pine species include: -Eastern White Pine- (Pinus strobus) - known for its tall, straight trunk and soft needles. -Scots Pine- (Pinus sylvestris) - adaptable to various climates, often used in forestry. -Loblolly Pine- (Pinus taeda) - widely planted in the southeastern United States for timber."
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant pine trees is in early spring or fall when temperatures are cooler, allowing for better establishment."
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant pine trees is in early spring or fall when temperatures are cooler, allowing for better establishment.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Pine trees should be spaced 2 to 3 meters (6 to 10 feet) apart, depending on the species and intended use (landscaping, forestry, etc.).",
+          },
+          {
+            id: 243,
+            topic: "Seed Quality",
+            text: "Use high-quality seeds or nursery-grown saplings to ensure a healthy start.",
+          },
+        ],
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Pine trees should be spaced 2 to 3 meters (6 to 10 feet) apart, depending on the species and intended use (landscaping, forestry, etc.)."
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Young pine trees require regular watering during the first few years to establish a strong root system.",
+          },
+          {
+            id: 252,
+            topic: "Mature Trees",
+            text: "Once established, pine trees need moderate watering and are generally drought-tolerant. They prefer well-drained soils to avoid standing water.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Waterlogged conditions can lead to root rot, so ensure proper drainage.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Seed Quality",
-        text: "Use high-quality seeds or nursery-grown saplings to ensure a healthy start."
-      }
-    ]
-  },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Young pine trees require regular watering during the first few years to establish a strong root system."
+        id: 26,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 261,
+            topic: "Nutrients",
+            text: "Pine trees benefit from a balanced fertilizer, especially if soil tests indicate nutrient deficiencies.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Fertilizer should be applied in early spring as new growth begins, following soil recommendations.",
+          },
+        ],
       },
       {
-        id: 252,
-        topic: "Mature Trees",
-        text: "Once established, pine trees need moderate watering and are generally drought-tolerant. They prefer well-drained soils to avoid standing water."
+        id: 27,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 271,
+            topic: "Pests",
+            text: "Common pests affecting pine trees include pine bark beetles, aphids, and sawflies. Integrated pest management (IPM) practices can help manage these issues.",
+          },
+          {
+            id: 272,
+            topic: "Diseases",
+            text: "Pine trees can be susceptible to diseases such as needle blight, root rot, and pine wilt disease. Preventive measures include maintaining tree health and proper site management.",
+          },
+        ],
       },
       {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Waterlogged conditions can lead to root rot, so ensure proper drainage."
-      }
-    ]
-  },
-  {
-    id: 26,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 261,
-        topic: "Nutrients",
-        text: "Pine trees benefit from a balanced fertilizer, especially if soil tests indicate nutrient deficiencies."
+        id: 28,
+        topic: "Pruning",
+        children: [
+          {
+            id: 281,
+            topic: "Timing",
+            text: "Pruning should be done in late winter or early spring while the tree is dormant to minimize stress.",
+          },
+          {
+            id: 282,
+            topic: "Technique",
+            text: "Remove dead or damaged branches to improve airflow and overall tree health.",
+          },
+        ],
       },
       {
-        id: 262,
-        topic: "Timing",
-        text: "Fertilizer should be applied in early spring as new growth begins, following soil recommendations."
-      }
-    ]
-  },
-  {
-    id: 27,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 271,
-        topic: "Pests",
-        text: "Common pests affecting pine trees include pine bark beetles, aphids, and sawflies. Integrated pest management (IPM) practices can help manage these issues."
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Pine Nuts",
+            text: "Some pine species produce edible pine nuts, which can be harvested in late summer to early fall when they are ripe.",
+          },
+          {
+            id: 292,
+            topic: "Timber Harvesting",
+            text: "Pine wood is valuable for its strength and is commonly used in construction, furniture, and paper production.",
+          },
+        ],
       },
       {
-        id: 272,
-        topic: "Diseases",
-        text: "Pine trees can be susceptible to diseases such as needle blight, root rot, and pine wilt disease. Preventive measures include maintaining tree health and proper site management."
-      }
-    ]
-  },
-  {
-    id: 28,
-    topic: "Pruning",
-    children: [
-      {
-        id: 281,
-        topic: "Timing",
-        text: "Pruning should be done in late winter or early spring while the tree is dormant to minimize stress."
+        id: 30.2,
+        topic: "Storage",
+        text: "Seeds should be stored in a cool, dry place until ready for planting. Pine wood should be properly seasoned before use to prevent warping or splitting.",
       },
       {
-        id: 282,
-        topic: "Technique",
-        text: "Remove dead or damaged branches to improve airflow and overall tree health."
-      }
-    ]
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Pine Nuts",
-        text: "Some pine species produce edible pine nuts, which can be harvested in late summer to early fall when they are ripe."
+        id: 31.2,
+        topic: "Environmental Benefits",
+        text: "Pine trees provide habitat for wildlife, improve air quality, and help prevent soil erosion. They are also essential for reforestation and landscaping projects.",
       },
-      {
-        id: 292,
-        topic: "Timber Harvesting",
-        text: "Pine wood is valuable for its strength and is commonly used in construction, furniture, and paper production."
-      }
-    ]
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Seeds should be stored in a cool, dry place until ready for planting. Pine wood should be properly seasoned before use to prevent warping or splitting."
-  },
-  {
-    id: 31.2,
-    topic: "Environmental Benefits",
-    text: "Pine trees provide habitat for wildlife, improve air quality, and help prevent soil erosion. They are also essential for reforestation and landscaping projects."
-  }
-]
-
+    ],
   },
   {
     id: 6,
@@ -1446,168 +1603,168 @@ cultivation: [
         ],
       },
     ],
-    cultivationHeading: "Linden tree cultivation requires specific conditions for optimal growth and flowering. Here is an overview of the key factors involved in growing linden trees:",
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    cultivationHeading:
+      "Linden tree cultivation requires specific conditions for optimal growth and flowering. Here is an overview of the key factors involved in growing linden trees:",
+    cultivation: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Linden trees thrive in temperate climates and can tolerate a range of temperatures. They prefer a climate with warm summers and cold winters, with an ideal growing temperature between 15°C and 25°C (59°F to 77°F)."
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Linden trees thrive in temperate climates and can tolerate a range of temperatures. They prefer a climate with warm summers and cold winters, with an ideal growing temperature between 15°C and 25°C (59°F to 77°F).",
+          },
+          {
+            id: 212,
+            topic: "Rainfall",
+            text: "Linden trees require moderate rainfall, typically between 600 mm and 1,200 mm (24 to 47 inches) annually. They prefer consistent moisture but can tolerate short periods of drought once established.",
+          },
+        ],
       },
       {
-        id: 212,
-        topic: "Rainfall",
-        text: "Linden trees require moderate rainfall, typically between 600 mm and 1,200 mm (24 to 47 inches) annually. They prefer consistent moisture but can tolerate short periods of drought once established."
-      }
-    ]
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
-      {
-        id: 221,
-        topic: "pH",
-        text: "Linden trees prefer slightly acidic to neutral soils, with a pH range of 6.0 to 7.5."
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Linden trees prefer slightly acidic to neutral soils, with a pH range of 6.0 to 7.5.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Well-drained loamy or sandy soils are ideal for linden trees. They can tolerate clay soils as long as they are well-drained, as waterlogged conditions can lead to root rot.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Before planting, incorporate organic matter such as compost to improve soil fertility and structure.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Well-drained loamy or sandy soils are ideal for linden trees. They can tolerate clay soils as long as they are well-drained, as waterlogged conditions can lead to root rot."
+        id: 23,
+        topic: "Varieties",
+        text: "Common linden species include: -American Linden- (Tilia americana) - known for its large size and fragrant flowers. -European Linden- (Tilia europaea) - valued for its shade and ornamental qualities. -Littleleaf Linden- (Tilia cordata) - popular in urban settings for its smaller size and resilience.",
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Before planting, incorporate organic matter such as compost to improve soil fertility and structure."
-      }
-    ]
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: "Common linden species include: -American Linden- (Tilia americana) - known for its large size and fragrant flowers. -European Linden- (Tilia europaea) - valued for its shade and ornamental qualities. -Littleleaf Linden- (Tilia cordata) - popular in urban settings for its smaller size and resilience."
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant linden trees is in early spring or fall, when temperatures are cooler, allowing for better root establishment."
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant linden trees is in early spring or fall, when temperatures are cooler, allowing for better root establishment.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Linden trees should be spaced 6 to 10 meters (20 to 33 feet) apart, depending on the species and intended use (landscaping, shade, etc.).",
+          },
+          {
+            id: 243,
+            topic: "Pollination",
+            text: "Linden trees are generally self-pollinating, but planting multiple trees can enhance pollination and fruit set.",
+          },
+        ],
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Linden trees should be spaced 6 to 10 meters (20 to 33 feet) apart, depending on the species and intended use (landscaping, shade, etc.)."
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Young linden trees require regular watering during the first few years after planting to establish a strong root system.",
+          },
+          {
+            id: 252,
+            topic: "Mature Trees",
+            text: "Once established, linden trees are relatively drought-tolerant but prefer consistent moisture. Deep watering is recommended during dry spells.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Ensure proper drainage to prevent root rot, as linden trees do not tolerate waterlogged conditions.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Pollination",
-        text: "Linden trees are generally self-pollinating, but planting multiple trees can enhance pollination and fruit set."
-      }
-    ]
-  },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Young linden trees require regular watering during the first few years after planting to establish a strong root system."
+        id: 26,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 261,
+            topic: "Nutrients",
+            text: "Linden trees benefit from regular fertilization with a balanced fertilizer, particularly if soil tests indicate nutrient deficiencies.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Fertilizer should be applied in early spring, just before new growth begins. Avoid heavy fertilization late in the season to prevent excessive vegetative growth.",
+          },
+        ],
       },
       {
-        id: 252,
-        topic: "Mature Trees",
-        text: "Once established, linden trees are relatively drought-tolerant but prefer consistent moisture. Deep watering is recommended during dry spells."
+        id: 27,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 271,
+            topic: "Pests",
+            text: "Common pests affecting linden trees include aphids, leafhoppers, and caterpillars. Integrated pest management (IPM) practices can help manage these pests.",
+          },
+          {
+            id: 272,
+            topic: "Diseases",
+            text: "Linden trees can be susceptible to diseases such as powdery mildew and leaf spot. Maintaining tree health and proper spacing can help prevent these issues.",
+          },
+        ],
       },
       {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Ensure proper drainage to prevent root rot, as linden trees do not tolerate waterlogged conditions."
-      }
-    ]
-  },
-  {
-    id: 26,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 261,
-        topic: "Nutrients",
-        text: "Linden trees benefit from regular fertilization with a balanced fertilizer, particularly if soil tests indicate nutrient deficiencies."
+        id: 28,
+        topic: "Pruning",
+        children: [
+          {
+            id: 281,
+            topic: "Timing",
+            text: "Pruning should be done in late winter or early spring while the tree is dormant to minimize stress.",
+          },
+          {
+            id: 282,
+            topic: "Technique",
+            text: "Remove dead or damaged branches to improve airflow and overall tree health. Thinning the canopy can also enhance sunlight penetration.",
+          },
+        ],
       },
       {
-        id: 262,
-        topic: "Timing",
-        text: "Fertilizer should be applied in early spring, just before new growth begins. Avoid heavy fertilization late in the season to prevent excessive vegetative growth."
-      }
-    ]
-  },
-  {
-    id: 27,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 271,
-        topic: "Pests",
-        text: "Common pests affecting linden trees include aphids, leafhoppers, and caterpillars. Integrated pest management (IPM) practices can help manage these pests."
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Flowers",
+            text: "Linden flowers can be harvested in late spring to early summer when they are fully open. These fragrant flowers are often used in herbal teas and traditional remedies.",
+          },
+          {
+            id: 292,
+            topic: "Seeds",
+            text: "Linden trees produce small seeds in late summer to fall, which can be collected for propagation.",
+          },
+        ],
       },
       {
-        id: 272,
-        topic: "Diseases",
-        text: "Linden trees can be susceptible to diseases such as powdery mildew and leaf spot. Maintaining tree health and proper spacing can help prevent these issues."
-      }
-    ]
-  },
-  {
-    id: 28,
-    topic: "Pruning",
-    children: [
-      {
-        id: 281,
-        topic: "Timing",
-        text: "Pruning should be done in late winter or early spring while the tree is dormant to minimize stress."
+        id: 30.2,
+        topic: "Storage",
+        text: "Linden seeds should be stored in a cool, dry place until ready for planting. Cut branches for floral arrangements should be kept in water to maintain freshness.",
       },
       {
-        id: 282,
-        topic: "Technique",
-        text: "Remove dead or damaged branches to improve airflow and overall tree health. Thinning the canopy can also enhance sunlight penetration."
-      }
-    ]
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Flowers",
-        text: "Linden flowers can be harvested in late spring to early summer when they are fully open. These fragrant flowers are often used in herbal teas and traditional remedies."
+        id: 31.2,
+        topic: "Environmental Benefits",
+        text: "Linden trees provide shade, improve air quality, and support local wildlife. They are also known for their fragrant flowers, which attract pollinators such as bees.",
       },
-      {
-        id: 292,
-        topic: "Seeds",
-        text: "Linden trees produce small seeds in late summer to fall, which can be collected for propagation."
-      }
-    ]
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Linden seeds should be stored in a cool, dry place until ready for planting. Cut branches for floral arrangements should be kept in water to maintain freshness."
-  },
-  {
-    id: 31.2,
-    topic: "Environmental Benefits",
-    text: "Linden trees provide shade, improve air quality, and support local wildlife. They are also known for their fragrant flowers, which attract pollinators such as bees."
-  }
-]
-
+    ],
   },
   {
     id: 7,
@@ -1752,173 +1909,173 @@ cultivation: [
         ],
       },
     ],
-    cultivationHeading: "Chestnut tree cultivation requires specific conditions for optimal growth and nut production. Here is an overview of the key factors involved in growing chestnut trees:",
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    cultivationHeading:
+      "Chestnut tree cultivation requires specific conditions for optimal growth and nut production. Here is an overview of the key factors involved in growing chestnut trees:",
+    cultivation: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Chestnut trees thrive in temperate climates and prefer warm summers and cool winters. They require a growing temperature range of 20°C to 30°C (68°F to 86°F) for optimal growth."
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Chestnut trees thrive in temperate climates and prefer warm summers and cool winters. They require a growing temperature range of 20°C to 30°C (68°F to 86°F) for optimal growth.",
+          },
+          {
+            id: 212,
+            topic: "Rainfall",
+            text: "Chestnut trees require moderate rainfall, ideally between 700 mm and 1,200 mm (28 to 47 inches) annually. Consistent moisture is crucial, especially during the growing season.",
+          },
+        ],
       },
       {
-        id: 212,
-        topic: "Rainfall",
-        text: "Chestnut trees require moderate rainfall, ideally between 700 mm and 1,200 mm (28 to 47 inches) annually. Consistent moisture is crucial, especially during the growing season."
-      }
-    ]
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
-      {
-        id: 221,
-        topic: "pH",
-        text: "Chestnut trees prefer slightly acidic to neutral soils, with a pH range of 5.5 to 7.0."
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Chestnut trees prefer slightly acidic to neutral soils, with a pH range of 5.5 to 7.0.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Well-drained sandy loam or loamy soils are ideal for chestnut trees. They are sensitive to waterlogged conditions, so good drainage is essential.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Before planting, amend the soil with organic matter, such as compost, to improve soil structure and fertility.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Well-drained sandy loam or loamy soils are ideal for chestnut trees. They are sensitive to waterlogged conditions, so good drainage is essential."
+        id: 23,
+        topic: "Varieties",
+        text: "Common chestnut varieties include: -American Chestnut- (Castanea dentata) - known for its large size and sweet nuts but affected by blight. -European Chestnut- (Castanea sativa) - valued for its larger nuts and resistance to blight. -Chinese Chestnut- (Castanea mollissima) - hardy and adaptable, producing sweet, small nuts.",
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Before planting, amend the soil with organic matter, such as compost, to improve soil structure and fertility."
-      }
-    ]
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: "Common chestnut varieties include: -American Chestnut- (Castanea dentata) - known for its large size and sweet nuts but affected by blight. -European Chestnut- (Castanea sativa) - valued for its larger nuts and resistance to blight. -Chinese Chestnut- (Castanea mollissima) - hardy and adaptable, producing sweet, small nuts."
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant chestnut trees is in early spring or fall when the trees are dormant."
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant chestnut trees is in early spring or fall when the trees are dormant.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Chestnut trees should be spaced about 10 to 15 meters (33 to 50 feet) apart to allow for sufficient growth and airflow.",
+          },
+          {
+            id: 243,
+            topic: "Pollination",
+            text: "Chestnut trees are primarily wind-pollinated. Planting multiple trees can enhance pollination and improve nut production.",
+          },
+        ],
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Chestnut trees should be spaced about 10 to 15 meters (33 to 50 feet) apart to allow for sufficient growth and airflow."
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Young chestnut trees require regular watering to establish a strong root system, particularly during dry spells.",
+          },
+          {
+            id: 252,
+            topic: "Mature Trees",
+            text: "Once established, chestnut trees are drought-tolerant but benefit from deep watering during prolonged dry periods.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Excessive moisture can lead to root rot, so ensure the soil drains well.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Pollination",
-        text: "Chestnut trees are primarily wind-pollinated. Planting multiple trees can enhance pollination and improve nut production."
-      }
-    ]
-  },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Young chestnut trees require regular watering to establish a strong root system, particularly during dry spells."
+        id: 26,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 261,
+            topic: "Nutrients",
+            text: "Chestnut trees benefit from regular fertilization with a balanced fertilizer or organic compost to provide essential nutrients.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Fertilizer should be applied in early spring before new growth begins. Avoid fertilizing late in the season to prevent excessive vegetative growth.",
+          },
+        ],
       },
       {
-        id: 252,
-        topic: "Mature Trees",
-        text: "Once established, chestnut trees are drought-tolerant but benefit from deep watering during prolonged dry periods."
+        id: 27,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 271,
+            topic: "Pests",
+            text: "Common pests affecting chestnut trees include borers, aphids, and scale insects. Integrated pest management (IPM) practices can help control these pests.",
+          },
+          {
+            id: 272,
+            topic: "Diseases",
+            text: "Chestnut trees are susceptible to diseases such as chestnut blight, root rot, and leaf blight. Implementing good cultural practices and selecting resistant varieties can help mitigate these issues.",
+          },
+        ],
       },
       {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Excessive moisture can lead to root rot, so ensure the soil drains well."
-      }
-    ]
-  },
-  {
-    id: 26,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 261,
-        topic: "Nutrients",
-        text: "Chestnut trees benefit from regular fertilization with a balanced fertilizer or organic compost to provide essential nutrients."
+        id: 28,
+        topic: "Pruning",
+        children: [
+          {
+            id: 281,
+            topic: "Timing",
+            text: "Pruning should be done in late winter or early spring while the tree is dormant to minimize stress.",
+          },
+          {
+            id: 282,
+            topic: "Technique",
+            text: "Remove dead, diseased, or overcrowded branches to improve airflow and overall tree health. Pruning also helps maintain the desired shape of the tree.",
+          },
+        ],
       },
       {
-        id: 262,
-        topic: "Timing",
-        text: "Fertilizer should be applied in early spring before new growth begins. Avoid fertilizing late in the season to prevent excessive vegetative growth."
-      }
-    ]
-  },
-  {
-    id: 27,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 271,
-        topic: "Pests",
-        text: "Common pests affecting chestnut trees include borers, aphids, and scale insects. Integrated pest management (IPM) practices can help control these pests."
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Time",
+            text: "Chestnuts are typically ready for harvest in late summer to early fall, depending on the variety and climate.",
+          },
+          {
+            id: 292,
+            topic: "Signs of Ripeness",
+            text: "Chestnuts are ready to harvest when the burs (spiny cases) split open, revealing the nuts inside. The nuts should be shiny and firm.",
+          },
+          {
+            id: 293,
+            topic: "Handling",
+            text: "Harvested chestnuts should be handled gently to avoid bruising. They are best stored in a cool, dry place to maintain freshness.",
+          },
+        ],
       },
       {
-        id: 272,
-        topic: "Diseases",
-        text: "Chestnut trees are susceptible to diseases such as chestnut blight, root rot, and leaf blight. Implementing good cultural practices and selecting resistant varieties can help mitigate these issues."
-      }
-    ]
-  },
-  {
-    id: 28,
-    topic: "Pruning",
-    children: [
-      {
-        id: 281,
-        topic: "Timing",
-        text: "Pruning should be done in late winter or early spring while the tree is dormant to minimize stress."
+        id: 30.2,
+        topic: "Storage",
+        text: "Chestnuts can be stored for several months in a cool, dry place. For longer storage, they can be frozen or dried.",
       },
       {
-        id: 282,
-        topic: "Technique",
-        text: "Remove dead, diseased, or overcrowded branches to improve airflow and overall tree health. Pruning also helps maintain the desired shape of the tree."
-      }
-    ]
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Time",
-        text: "Chestnuts are typically ready for harvest in late summer to early fall, depending on the variety and climate."
+        id: 31.2,
+        topic: "Environmental Benefits",
+        text: "Chestnut trees provide shade, improve soil health, and support wildlife. Their nuts are a valuable food source for various animals.",
       },
-      {
-        id: 292,
-        topic: "Signs of Ripeness",
-        text: "Chestnuts are ready to harvest when the burs (spiny cases) split open, revealing the nuts inside. The nuts should be shiny and firm."
-      },
-      {
-        id: 293,
-        topic: "Handling",
-        text: "Harvested chestnuts should be handled gently to avoid bruising. They are best stored in a cool, dry place to maintain freshness."
-      }
-    ]
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Chestnuts can be stored for several months in a cool, dry place. For longer storage, they can be frozen or dried."
-  },
-  {
-    id: 31.2,
-    topic: "Environmental Benefits",
-    text: "Chestnut trees provide shade, improve soil health, and support wildlife. Their nuts are a valuable food source for various animals."
-  }
-]
-
+    ],
   },
   {
     id: 8,
@@ -2089,173 +2246,173 @@ cultivation: [
         ],
       },
     ],
-    cultivationHeading: "Maple tree cultivation requires specific conditions for optimal growth and sap production. Here is an overview of the key factors involved in growing maple trees:",
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    cultivationHeading:
+      "Maple tree cultivation requires specific conditions for optimal growth and sap production. Here is an overview of the key factors involved in growing maple trees:",
+    cultivation: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Maple trees thrive in temperate climates with cold winters and warm summers. They prefer a temperature range of 15°C to 25°C (59°F to 77°F) for optimal growth."
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Maple trees thrive in temperate climates with cold winters and warm summers. They prefer a temperature range of 15°C to 25°C (59°F to 77°F) for optimal growth.",
+          },
+          {
+            id: 212,
+            topic: "Rainfall",
+            text: "Maple trees require moderate rainfall, ideally between 800 mm and 1,200 mm (31 to 47 inches) annually. Consistent moisture is crucial, particularly during the growing season.",
+          },
+        ],
       },
       {
-        id: 212,
-        topic: "Rainfall",
-        text: "Maple trees require moderate rainfall, ideally between 800 mm and 1,200 mm (31 to 47 inches) annually. Consistent moisture is crucial, particularly during the growing season."
-      }
-    ]
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
-      {
-        id: 221,
-        topic: "pH",
-        text: "Maple trees prefer slightly acidic to neutral soils, with a pH range of 6.0 to 7.5."
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Maple trees prefer slightly acidic to neutral soils, with a pH range of 6.0 to 7.5.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Well-drained loamy or sandy soils are ideal for maple trees. They can tolerate a variety of soil types but are sensitive to waterlogged conditions.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Before planting, amend the soil with organic matter, such as compost, to improve soil structure and fertility.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Well-drained loamy or sandy soils are ideal for maple trees. They can tolerate a variety of soil types but are sensitive to waterlogged conditions."
+        id: 23,
+        topic: "Varieties",
+        text: "Common maple tree varieties include: -Sugar Maple- (Acer saccharum) - known for its sweet sap, used in syrup production. -Red Maple- (Acer rubrum) - valued for its vibrant fall foliage and adaptability. -Silver Maple- (Acer saccharinum) - fast-growing with soft wood, often used for shade.",
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Before planting, amend the soil with organic matter, such as compost, to improve soil structure and fertility."
-      }
-    ]
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: "Common maple tree varieties include: -Sugar Maple- (Acer saccharum) - known for its sweet sap, used in syrup production. -Red Maple- (Acer rubrum) - valued for its vibrant fall foliage and adaptability. -Silver Maple- (Acer saccharinum) - fast-growing with soft wood, often used for shade."
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant maple trees is in early spring or fall when the trees are dormant."
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant maple trees is in early spring or fall when the trees are dormant.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Maple trees should be spaced about 6 to 10 meters (20 to 30 feet) apart to allow for sufficient growth and airflow.",
+          },
+          {
+            id: 243,
+            topic: "Pollination",
+            text: "Maple trees are primarily wind-pollinated. Having multiple trees nearby can enhance pollination and improve seed production.",
+          },
+        ],
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Maple trees should be spaced about 6 to 10 meters (20 to 30 feet) apart to allow for sufficient growth and airflow."
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Young maple trees require regular watering to establish a strong root system, especially during dry spells.",
+          },
+          {
+            id: 252,
+            topic: "Mature Trees",
+            text: "Once established, maple trees are relatively drought-tolerant but benefit from deep watering during prolonged dry periods.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Excessive moisture can lead to root rot, so ensure the soil drains well.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Pollination",
-        text: "Maple trees are primarily wind-pollinated. Having multiple trees nearby can enhance pollination and improve seed production."
-      }
-    ]
-  },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Young maple trees require regular watering to establish a strong root system, especially during dry spells."
+        id: 26,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 261,
+            topic: "Nutrients",
+            text: "Maple trees benefit from regular fertilization with a balanced fertilizer or organic compost to provide essential nutrients.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Fertilizer should be applied in early spring before new growth begins. Avoid fertilizing late in the season to prevent excessive vegetative growth.",
+          },
+        ],
       },
       {
-        id: 252,
-        topic: "Mature Trees",
-        text: "Once established, maple trees are relatively drought-tolerant but benefit from deep watering during prolonged dry periods."
+        id: 27,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 271,
+            topic: "Pests",
+            text: "Common pests affecting maple trees include aphids, scale insects, and leafhoppers. Integrated pest management (IPM) practices can help control these pests.",
+          },
+          {
+            id: 272,
+            topic: "Diseases",
+            text: "Maple trees can be susceptible to diseases such as tar spot, anthracnose, and verticillium wilt. Good cultural practices and timely treatments can help mitigate these issues.",
+          },
+        ],
       },
       {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Excessive moisture can lead to root rot, so ensure the soil drains well."
-      }
-    ]
-  },
-  {
-    id: 26,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 261,
-        topic: "Nutrients",
-        text: "Maple trees benefit from regular fertilization with a balanced fertilizer or organic compost to provide essential nutrients."
+        id: 28,
+        topic: "Pruning",
+        children: [
+          {
+            id: 281,
+            topic: "Timing",
+            text: "Pruning should be done in late winter or early spring while the tree is dormant to minimize stress.",
+          },
+          {
+            id: 282,
+            topic: "Technique",
+            text: "Remove dead, diseased, or overcrowded branches to improve airflow and overall tree health. Pruning also helps maintain the desired shape of the tree.",
+          },
+        ],
       },
       {
-        id: 262,
-        topic: "Timing",
-        text: "Fertilizer should be applied in early spring before new growth begins. Avoid fertilizing late in the season to prevent excessive vegetative growth."
-      }
-    ]
-  },
-  {
-    id: 27,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 271,
-        topic: "Pests",
-        text: "Common pests affecting maple trees include aphids, scale insects, and leafhoppers. Integrated pest management (IPM) practices can help control these pests."
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Time",
+            text: "Maple sap is typically collected in late winter to early spring, during the thawing period when daytime temperatures rise above freezing, and nighttime temperatures drop below freezing.",
+          },
+          {
+            id: 292,
+            topic: "Signs of Sap Flow",
+            text: "Sap flow is stimulated by temperature fluctuations. Look for signs of sap dripping from the taps or spouts during warm days.",
+          },
+          {
+            id: 293,
+            topic: "Handling",
+            text: "Collected sap should be processed quickly to prevent spoilage. It can be boiled down to make maple syrup.",
+          },
+        ],
       },
       {
-        id: 272,
-        topic: "Diseases",
-        text: "Maple trees can be susceptible to diseases such as tar spot, anthracnose, and verticillium wilt. Good cultural practices and timely treatments can help mitigate these issues."
-      }
-    ]
-  },
-  {
-    id: 28,
-    topic: "Pruning",
-    children: [
-      {
-        id: 281,
-        topic: "Timing",
-        text: "Pruning should be done in late winter or early spring while the tree is dormant to minimize stress."
+        id: 30.2,
+        topic: "Storage",
+        text: "Maple syrup should be stored in a cool, dark place. Once opened, it can be refrigerated to maintain freshness. Properly sealed jars of syrup can last for years.",
       },
       {
-        id: 282,
-        topic: "Technique",
-        text: "Remove dead, diseased, or overcrowded branches to improve airflow and overall tree health. Pruning also helps maintain the desired shape of the tree."
-      }
-    ]
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Time",
-        text: "Maple sap is typically collected in late winter to early spring, during the thawing period when daytime temperatures rise above freezing, and nighttime temperatures drop below freezing."
+        id: 31.2,
+        topic: "Environmental Benefits",
+        text: "Maple trees provide shade, improve soil health, and support wildlife. They also play a role in carbon sequestration, helping mitigate climate change.",
       },
-      {
-        id: 292,
-        topic: "Signs of Sap Flow",
-        text: "Sap flow is stimulated by temperature fluctuations. Look for signs of sap dripping from the taps or spouts during warm days."
-      },
-      {
-        id: 293,
-        topic: "Handling",
-        text: "Collected sap should be processed quickly to prevent spoilage. It can be boiled down to make maple syrup."
-      }
-    ]
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Maple syrup should be stored in a cool, dark place. Once opened, it can be refrigerated to maintain freshness. Properly sealed jars of syrup can last for years."
-  },
-  {
-    id: 31.2,
-    topic: "Environmental Benefits",
-    text: "Maple trees provide shade, improve soil health, and support wildlife. They also play a role in carbon sequestration, helping mitigate climate change."
-  }
-]
-
+    ],
   },
   {
     id: 9,
@@ -2421,173 +2578,173 @@ cultivation: [
         ],
       },
     ],
-    cultivationHeading: "Spruce tree cultivation requires specific conditions for optimal growth. Here is an overview of the key factors involved in growing spruce trees:",
-cultivation: [
-  {
-    id: 21,
-    topic: "Climate",
-    children: [
+    cultivationHeading:
+      "Spruce tree cultivation requires specific conditions for optimal growth. Here is an overview of the key factors involved in growing spruce trees:",
+    cultivation: [
       {
-        id: 211,
-        topic: "Temperature",
-        text: "Spruce trees thrive in cooler climates. They prefer temperatures between -18°C to 18°C (0°F to 65°F) and are often found in mountainous regions."
+        id: 21,
+        topic: "Climate",
+        children: [
+          {
+            id: 211,
+            topic: "Temperature",
+            text: "Spruce trees thrive in cooler climates. They prefer temperatures between -18°C to 18°C (0°F to 65°F) and are often found in mountainous regions.",
+          },
+          {
+            id: 212,
+            topic: "Humidity",
+            text: "Moderate to high humidity is beneficial for spruce trees. They are well-adapted to regions with regular rainfall and can tolerate short dry spells.",
+          },
+        ],
       },
       {
-        id: 212,
-        topic: "Humidity",
-        text: "Moderate to high humidity is beneficial for spruce trees. They are well-adapted to regions with regular rainfall and can tolerate short dry spells."
-      }
-    ]
-  },
-  {
-    id: 22,
-    topic: "Soil",
-    children: [
-      {
-        id: 221,
-        topic: "pH",
-        text: "Spruce trees prefer acidic soils with a pH range of 4.5 to 6.5."
+        id: 22,
+        topic: "Soil",
+        children: [
+          {
+            id: 221,
+            topic: "pH",
+            text: "Spruce trees prefer acidic soils with a pH range of 4.5 to 6.5.",
+          },
+          {
+            id: 222,
+            topic: "Soil Type",
+            text: "Well-drained, sandy loam or loamy soils are ideal for spruce. They are sensitive to waterlogged conditions, which can lead to root rot.",
+          },
+          {
+            id: 223,
+            topic: "Soil Preparation",
+            text: "Before planting, incorporate organic matter, such as compost or peat moss, to improve soil fertility and structure.",
+          },
+        ],
       },
       {
-        id: 222,
-        topic: "Soil Type",
-        text: "Well-drained, sandy loam or loamy soils are ideal for spruce. They are sensitive to waterlogged conditions, which can lead to root rot."
+        id: 23,
+        topic: "Varieties",
+        text: "Common spruce varieties include: -Norway Spruce- (Picea abies) - widely cultivated for timber and ornamental purposes. -Blue Spruce- (Picea pungens) - known for its striking blue foliage and used in landscaping. -White Spruce- (Picea glauca) - valued for its fast growth and adaptability.",
       },
       {
-        id: 223,
-        topic: "Soil Preparation",
-        text: "Before planting, incorporate organic matter, such as compost or peat moss, to improve soil fertility and structure."
-      }
-    ]
-  },
-  {
-    id: 23,
-    topic: "Varieties",
-    text: "Common spruce varieties include: -Norway Spruce- (Picea abies) - widely cultivated for timber and ornamental purposes. -Blue Spruce- (Picea pungens) - known for its striking blue foliage and used in landscaping. -White Spruce- (Picea glauca) - valued for its fast growth and adaptability."
-  },
-  {
-    id: 24,
-    topic: "Planting",
-    children: [
-      {
-        id: 241,
-        topic: "Time",
-        text: "The best time to plant spruce trees is in early spring or fall when temperatures are cooler."
+        id: 24,
+        topic: "Planting",
+        children: [
+          {
+            id: 241,
+            topic: "Time",
+            text: "The best time to plant spruce trees is in early spring or fall when temperatures are cooler.",
+          },
+          {
+            id: 242,
+            topic: "Spacing",
+            text: "Spruce trees should be spaced about 3 to 6 meters (10 to 20 feet) apart, depending on the variety and intended use.",
+          },
+          {
+            id: 243,
+            topic: "Pollination",
+            text: "Spruce trees are primarily wind-pollinated. Planting multiple trees can enhance genetic diversity and seed production.",
+          },
+        ],
       },
       {
-        id: 242,
-        topic: "Spacing",
-        text: "Spruce trees should be spaced about 3 to 6 meters (10 to 20 feet) apart, depending on the variety and intended use."
+        id: 25,
+        topic: "Watering",
+        children: [
+          {
+            id: 251,
+            topic: "Establishment Phase",
+            text: "Young spruce trees require regular watering, especially during dry periods, to establish strong roots.",
+          },
+          {
+            id: 252,
+            topic: "Mature Trees",
+            text: "Once established, spruce trees are moderately drought-tolerant but benefit from deep watering during prolonged dry spells.",
+          },
+          {
+            id: 253,
+            topic: "Avoid Overwatering",
+            text: "Ensure proper drainage to prevent waterlogging, which can lead to root rot.",
+          },
+        ],
       },
       {
-        id: 243,
-        topic: "Pollination",
-        text: "Spruce trees are primarily wind-pollinated. Planting multiple trees can enhance genetic diversity and seed production."
-      }
-    ]
-  },
-  {
-    id: 25,
-    topic: "Watering",
-    children: [
-      {
-        id: 251,
-        topic: "Establishment Phase",
-        text: "Young spruce trees require regular watering, especially during dry periods, to establish strong roots."
+        id: 26,
+        topic: "Fertilization",
+        children: [
+          {
+            id: 261,
+            topic: "Nutrients",
+            text: "Spruce trees benefit from a balanced fertilizer or organic compost to provide essential nutrients, particularly nitrogen.",
+          },
+          {
+            id: 262,
+            topic: "Timing",
+            text: "Fertilizer should be applied in early spring before new growth begins. Avoid fertilizing late in the season.",
+          },
+        ],
       },
       {
-        id: 252,
-        topic: "Mature Trees",
-        text: "Once established, spruce trees are moderately drought-tolerant but benefit from deep watering during prolonged dry spells."
+        id: 27,
+        topic: "Pest and Disease Control",
+        children: [
+          {
+            id: 271,
+            topic: "Pests",
+            text: "Common pests affecting spruce trees include spruce budworm, aphids, and bark beetles. Integrated pest management (IPM) practices can help control these pests.",
+          },
+          {
+            id: 272,
+            topic: "Diseases",
+            text: "Spruce trees can be susceptible to diseases such as needle blight and root rot. Proper cultural practices and timely treatments can mitigate these issues.",
+          },
+        ],
       },
       {
-        id: 253,
-        topic: "Avoid Overwatering",
-        text: "Ensure proper drainage to prevent waterlogging, which can lead to root rot."
-      }
-    ]
-  },
-  {
-    id: 26,
-    topic: "Fertilization",
-    children: [
-      {
-        id: 261,
-        topic: "Nutrients",
-        text: "Spruce trees benefit from a balanced fertilizer or organic compost to provide essential nutrients, particularly nitrogen."
+        id: 28,
+        topic: "Pruning",
+        children: [
+          {
+            id: 281,
+            topic: "Timing",
+            text: "Pruning should be done in late winter or early spring while the tree is dormant to minimize stress.",
+          },
+          {
+            id: 282,
+            topic: "Technique",
+            text: "Remove dead, diseased, or overcrowded branches to promote airflow and overall tree health. Avoid excessive pruning, as spruce trees naturally have a pyramidal shape.",
+          },
+        ],
       },
       {
-        id: 262,
-        topic: "Timing",
-        text: "Fertilizer should be applied in early spring before new growth begins. Avoid fertilizing late in the season."
-      }
-    ]
-  },
-  {
-    id: 27,
-    topic: "Pest and Disease Control",
-    children: [
-      {
-        id: 271,
-        topic: "Pests",
-        text: "Common pests affecting spruce trees include spruce budworm, aphids, and bark beetles. Integrated pest management (IPM) practices can help control these pests."
+        id: 29,
+        topic: "Harvesting",
+        children: [
+          {
+            id: 291,
+            topic: "Time",
+            text: "Spruce trees are harvested for timber when they reach maturity, typically between 30 to 100 years, depending on the species and growing conditions.",
+          },
+          {
+            id: 292,
+            topic: "Signs of Maturity",
+            text: "Mature spruce trees have a straight trunk and full crown, indicating they are ready for harvesting.",
+          },
+          {
+            id: 293,
+            topic: "Handling",
+            text: "Care should be taken when handling harvested logs to prevent damage and ensure quality.",
+          },
+        ],
       },
       {
-        id: 272,
-        topic: "Diseases",
-        text: "Spruce trees can be susceptible to diseases such as needle blight and root rot. Proper cultural practices and timely treatments can mitigate these issues."
-      }
-    ]
-  },
-  {
-    id: 28,
-    topic: "Pruning",
-    children: [
-      {
-        id: 281,
-        topic: "Timing",
-        text: "Pruning should be done in late winter or early spring while the tree is dormant to minimize stress."
+        id: 30.2,
+        topic: "Storage",
+        text: "Spruce wood should be properly dried and stored in a cool, dry place to prevent warping and decay.",
       },
       {
-        id: 282,
-        topic: "Technique",
-        text: "Remove dead, diseased, or overcrowded branches to promote airflow and overall tree health. Avoid excessive pruning, as spruce trees naturally have a pyramidal shape."
-      }
-    ]
-  },
-  {
-    id: 29,
-    topic: "Harvesting",
-    children: [
-      {
-        id: 291,
-        topic: "Time",
-        text: "Spruce trees are harvested for timber when they reach maturity, typically between 30 to 100 years, depending on the species and growing conditions."
+        id: 31.2,
+        topic: "Environmental Benefits",
+        text: "Spruce trees provide habitat for wildlife, improve soil stability, and play a role in carbon sequestration, helping mitigate climate change.",
       },
-      {
-        id: 292,
-        topic: "Signs of Maturity",
-        text: "Mature spruce trees have a straight trunk and full crown, indicating they are ready for harvesting."
-      },
-      {
-        id: 293,
-        topic: "Handling",
-        text: "Care should be taken when handling harvested logs to prevent damage and ensure quality."
-      }
-    ]
-  },
-  {
-    id: 30.2,
-    topic: "Storage",
-    text: "Spruce wood should be properly dried and stored in a cool, dry place to prevent warping and decay."
-  },
-  {
-    id: 31.2,
-    topic: "Environmental Benefits",
-    text: "Spruce trees provide habitat for wildlife, improve soil stability, and play a role in carbon sequestration, helping mitigate climate change."
-  }
-]
-
+    ],
   },
 ];
 export default trees;

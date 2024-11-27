@@ -6,12 +6,15 @@ import { vegetables } from "./vegetables";
 import { VegetablesCultivation } from "./VegetablesCultivation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
+import povrce from "./povrce";
+import { useContextAuth } from "../../context/Context";
 
 export const ListOfVegetables = ({ goBack }) => {
   const [showNutritionAndHealth, setShowNutritionAndHealth] = useState(false);
   const [selectedVegetable, setSelectedVegetable] = useState(null);
   const [showCultivation, setShowCultivation] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
+  const { switchLanguage } = useContextAuth();
 
   const handleVegetables = (vegetable) => {
     setSelectedVegetable(vegetable);
@@ -28,8 +31,8 @@ export const ListOfVegetables = ({ goBack }) => {
     setSearchTerm(event.target.value);
   };
 
-  const filteredItem = vegetables?.filter((item, index) =>
-    item?.name.toLowerCase().includes(searchTerm.toLowerCase())
+  const filteredItem = (switchLanguage ? vegetables : povrce)?.filter(
+    (item, index) => item?.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
@@ -45,8 +48,14 @@ export const ListOfVegetables = ({ goBack }) => {
         }
       >
         <div className={classes.headerOfList}>
-          <h2 className={classes.headingOfList}>Vegetables</h2>
-          <input type="text" onChange={handleInput} placeholder="Search..." />
+          <h2 className={classes.headingOfList}>
+            {switchLanguage ? "VEGETABLES" : "ПОВРЋЕ"}
+          </h2>
+          <input
+            type="text"
+            onChange={handleInput}
+            placeholder={switchLanguage ? "Search..." : "Тражи..."}
+          />
           <FontAwesomeIcon
             icon={faCircleXmark}
             size="2x"
@@ -66,22 +75,24 @@ export const ListOfVegetables = ({ goBack }) => {
                   />
                 </div>
                 <div className={classes.centralContent}>
-                  <h3>{vegetable.inGeneralHeading}</h3>
                   <div className={classes.inGeneralClass}>
+                    <h3>{vegetable.inGeneralHeading}</h3>
                     {vegetable.inGeneral}
                   </div>
                 </div>
                 <aside className={classes.asideButtonsClass}>
                   <button onClick={() => handleVegetables(vegetable)}>
-                    Nutrition and Health
+                    {switchLanguage
+                      ? "Nutrition and health"
+                      : "Исхрана и здравље"}
                   </button>
                   <button onClick={() => handleCultivation(vegetable)}>
-                    Cultivation
+                  {switchLanguage ? 'Cultivation' : 'Култивација'}
                   </button>
                 </aside>
               </div>
             ))
-          : vegetables?.map((vegetable) => (
+          : (switchLanguage ? vegetables : povrce)?.map((vegetable) => (
               <div key={vegetable.id} className={classes.flexClass}>
                 <div>
                   <h2>{vegetable.name}</h2>
@@ -92,17 +103,17 @@ export const ListOfVegetables = ({ goBack }) => {
                   />
                 </div>
                 <div className={classes.centralContent}>
-                  <h3>{vegetable.inGeneralHeading}</h3>
                   <div className={classes.inGeneralClass}>
+                    <h3>{vegetable.inGeneralHeading}</h3>
                     {vegetable.inGeneral}
                   </div>
                 </div>
                 <aside className={classes.asideButtonsClass}>
                   <button onClick={() => handleVegetables(vegetable)}>
-                    Nutrition and Health
+                  {switchLanguage ? 'Nutrition and health' : 'Исхрана и здравље'}
                   </button>
                   <button onClick={() => handleCultivation(vegetable)}>
-                    Cultivation
+                  {switchLanguage ? 'Cultivation' : 'Култивација'}
                   </button>
                 </aside>
               </div>
@@ -111,7 +122,7 @@ export const ListOfVegetables = ({ goBack }) => {
           className={classes.goBackFromList}
           onClick={() => goBack(false)}
         >
-          Go Back
+          {switchLanguage ? 'Back' : 'Назад'}
         </button>
       </div>
       {showNutritionAndHealth && selectedVegetable && (

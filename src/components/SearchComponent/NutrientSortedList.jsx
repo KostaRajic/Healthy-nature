@@ -4,14 +4,21 @@ import vegetables from "../Vegetables/ListOfVegetables/vegetables";
 import fruits from "../Fruits/ListOfFruits/fruits";
 import nuts from "../NutsAndSeeds/ListOfNuts/nuts";
 import classes from "../../style/universalClass.module.scss";
+import zitarice from "../Cereals/ListOfCereals/zitarice";
+import povrce from "../Vegetables/ListOfVegetables/povrce";
+import voce from "../Fruits/ListOfFruits/voce";
+import orasastiPlodovi from "../NutsAndSeeds/ListOfNuts/orasastiPlodovi";
+import { useContextAuth } from "../context/Context";
 
 
-const listOfVariety = [cereals, vegetables, fruits, nuts];
+const listOfVariety = [vegetables, cereals, fruits, nuts];
+const listaSorti = [povrce, zitarice, voce, orasastiPlodovi]
+
 
 const NutrientSortedList = ({ item, name}) => {
+  const { switchLanguage } = useContextAuth();
 
-
-  const combinedNutrients = listOfVariety
+  const combinedNutrients = (switchLanguage ? listOfVariety : listaSorti)
     .flatMap((category) =>
       category
         .map((item) =>
@@ -44,7 +51,7 @@ const NutrientSortedList = ({ item, name}) => {
         <div key={index}>
           <p
             className={classes.elementFromList}
-            style={item.food === name ? { color: "red", textDecoration: 'underline' } : {}}
+            style={item.food === name ? { border: "2px solid white", padding: '10px' } : {}}
           >
             {item.food} {item.quantity} {item.measurementUnits}
           </p>

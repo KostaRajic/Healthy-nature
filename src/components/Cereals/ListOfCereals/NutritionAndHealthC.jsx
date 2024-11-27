@@ -6,10 +6,12 @@ import { useState } from "react";
 
 import { OnNutritionList } from "../../SearchComponent/OnNutritionList";
 import { CompareCereals } from "./CompareCereals";
+import { useContextAuth } from "../../context/Context";
 
 export const NutritionAndHealthC = ({ cereals, goBack }) => {
   const [compare, setCompare] = useState(false);
   const [nutritionOnList, setNutritionOnList] = useState(false);
+  const { switchLanguage } = useContextAuth();
 
   return (
     <div className={classes.background}>
@@ -27,9 +29,9 @@ export const NutritionAndHealthC = ({ cereals, goBack }) => {
         />
         <h1 style={{ fontSize: "45px" }}>{cereals.topic1}</h1>
         <h3 className={classes.nutritionHeading}>
-          List of <span>{cereals.name}</span> nutrition
+        {switchLanguage ? 'Food list for ' : 'Списак исхране за '}<span>{cereals.name}</span>
         </h3>
-        <h5 className={classes.per100Grams}>(per 100 grams)</h5>
+        <h5 className={classes.per100Grams}>({switchLanguage ? 'per 100 grams' : 'на 100 грама'})</h5>
         <div className={classes.nutritionClass}>
           {cereals?.nutritionText?.map((item, index) => (
             <div key={index} className={classes.nutritionDiv}>
@@ -48,13 +50,13 @@ export const NutritionAndHealthC = ({ cereals, goBack }) => {
             className={classes.btnClass1}
             onClick={() => setCompare(true)}
           >
-            Compare
+            {switchLanguage ? 'Compare' : 'Упоредите'}
           </button>
           <button
             className={classes.btnClass2}
             onClick={() => setNutritionOnList(true)}
           >
-            Show on list
+            {switchLanguage ? 'Show in list' : 'Прикажи на листи'}
           </button>
         </div>
       </section>

@@ -13,9 +13,12 @@ import { VegetablesAccordion } from "./VegetablesAccordion";
 import { vegetablesImages } from "./vegetablesImages";
 import { useState } from "react";
 import { ListOfVegetables } from "../ListOfVegetables/ListOfVegetables";
+import tekstPovrca from "./tekstPovrca";
+import { useContextAuth } from "../../context/Context";
 
 export const Vegetables = ({ turnOff }) => {
   const [vegetables, setVegetables] = useState(false);
+  const { switchLanguage } = useContextAuth();
 
   const settings = {
     infinite: true,
@@ -37,7 +40,7 @@ export const Vegetables = ({ turnOff }) => {
               className={classes.closeBtn}
               onClick={() => turnOff(false)}
             />
-            <h1>Vegetables</h1>
+            <h1>{switchLanguage ? 'VEGETABLES' : 'ПОВРЋЕ'}</h1>
             <section className={classes.imagesSection}> 
               <Slider {...settings}>
                 {vegetablesImages?.map((image, index) => (
@@ -52,13 +55,13 @@ export const Vegetables = ({ turnOff }) => {
               </Slider>
             </section>
             <section>
-              <VegetablesAccordion data={vegetablesInfo} />
+              <VegetablesAccordion data={switchLanguage ? vegetablesInfo : tekstPovrca} />
             </section>
             <button
               className={classes.btnClass}
               onClick={() => setVegetables(true)}
             >
-              Read More
+        { switchLanguage ? 'Read more' : 'Прочитајте више'}
             </button>
           </div>
           { vegetables && <ListOfVegetables goBack={() => setVegetables(false)}/> }

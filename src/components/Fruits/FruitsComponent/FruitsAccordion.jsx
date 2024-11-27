@@ -10,7 +10,7 @@ export const FruitsAccordion = ({ data }) => {
   };
 
   return (
-    <div style={{padding: '20px'}}>
+    <div>
       {data?.map((item) => (
         <div key={item.id} style={{ padding: "10px" }}>
           <div
@@ -23,9 +23,9 @@ export const FruitsAccordion = ({ data }) => {
             <div
               style={{
                 padding: "10px",
-                backgroundColor: "#fff",
+
                 borderRadius: "20px",
-                marginTop: '20px',
+                margin: '20px 20px 0 20px',
               }}
             >
               {item.text && (

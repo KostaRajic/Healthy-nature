@@ -6,6 +6,8 @@ import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 
 import NutrientSortedList from "./NutrientSortedList";
 import { nutritionBenefits } from "../nutritionBenefits";
+import { zdravstveniBenefiti } from "../zdravstveniBenefiti";
+import { useContextAuth } from "../context/Context";
 
 export const OnNutritionList = ({
   cereals,
@@ -15,6 +17,7 @@ export const OnNutritionList = ({
   goBack,
 }) => {
   const [selectedNutrient, setSelectedNutrient] = useState(null);
+  const { switchLanguage } = useContextAuth();
 
   const handleChange = (event) => {
     const selectedElement = event.target.value;
@@ -55,7 +58,9 @@ export const OnNutritionList = ({
             value={selectedNutrient?.element || ""}
           >
             <option value="" disabled>
-              Select a nutrient
+            {switchLanguage
+                  ? "Choose a nutrient"
+                  : "Изаберите хранљиву материју"}
             </option>
 
             {(
@@ -69,7 +74,7 @@ export const OnNutritionList = ({
               </option>
             ))}
           </select>
-          {nutritionBenefits
+          {(switchLanguage ? nutritionBenefits : zdravstveniBenefiti)
             ?.filter(
               (item) => item.element == selectedNutrient?.element.slice(0, -1)
             )
@@ -77,7 +82,7 @@ export const OnNutritionList = ({
               <p
                 key={index}
                 className={classes.nutritionBenefitClassText}
-                style={{ color: "black", fontSize: '20px' }}
+                style={{fontSize: '20px' }}
               >
                 {item.text}
               </p>

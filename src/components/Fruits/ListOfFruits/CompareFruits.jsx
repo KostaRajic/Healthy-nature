@@ -5,14 +5,15 @@ import classes from "../../../style/universalClass.module.scss";
 import { ChooseVariety } from "../../SearchComponent/ChooseAVariety";
 import { useContextAuth } from "../../context/Context";
 import { nutritionBenefits } from "../../nutritionBenefits";
+import { zdravstveniBenefiti } from "../../zdravstveniBenefiti";
 
 export const CompareFruits = ({ fruit, goBack }) => {
   const [selectedNutrient, setSelectedNutrient] = useState("");
   const [showVariety, setShowVariety] = useState(false);
-  const { selectedItems, setSelectedItems } = useContextAuth();
+  const { selectedItems, setSelectedItems, switchLanguage } = useContextAuth();
   const [fruitsQuantity, setFruitsQuantity] = useState(0);
   const [selectedItemQuantity, setSelectedItemQuantity] = useState(0);
-  const [measurementUnit, setMeasurementUnit] = useState(0)
+  const [measurementUnit, setMeasurementUnit] = useState(0);
 
   const handleChange = (event) => {
     const nutrient = event.target.value;
@@ -23,7 +24,7 @@ export const CompareFruits = ({ fruit, goBack }) => {
     );
     if (selectedFruitsNutrient) {
       setFruitsQuantity(selectedFruitsNutrient?.quantity || 0);
-      setMeasurementUnit(selectedFruitsNutrient.measurementUnits || "")
+      setMeasurementUnit(selectedFruitsNutrient.measurementUnits || "");
     }
 
     if (selectedItems) {
@@ -49,10 +50,11 @@ export const CompareFruits = ({ fruit, goBack }) => {
         className={classes.info}
         style={showVariety ? { display: "none" } : { display: "block" }}
       >
-        <div style={{margin: '30px auto'}}>
+        <div className={classes.compareFlexDisplay}>
           <div>
             <h2 className={classes.compareHeading}>
-              <span style={{ color: "red" }}>{fruit.name}</span> nutrition:
+              <span>{fruit.name}</span>{" "}
+              {switchLanguage ? " nutrition:" : " исхрана:"}
             </h2>
             <select
               className={classes.selectClassNutrition}
@@ -60,7 +62,9 @@ export const CompareFruits = ({ fruit, goBack }) => {
               value={selectedNutrient}
             >
               <option value="" disabled>
-                Select a nutrient
+                {switchLanguage
+                  ? "Choose a nutrient"
+                  : "Изаберите хранљиву материју"}
               </option>
               {fruit?.nutritionText?.map((nutrient, index) => (
                 <option key={index} value={nutrient.element}>
@@ -73,8 +77,8 @@ export const CompareFruits = ({ fruit, goBack }) => {
           {selectedItems && (
             <div>
               <h2 className={classes.compareHeading}>
-                <span style={{ color: "red" }}>{selectedItems?.name}</span>{" "}
-                nutrition:
+                <span>{selectedItems?.name}</span>{" "}
+                {switchLanguage ? "nutrition:" : "исхрана:"}
               </h2>
               <select
                 className={classes.selectClassNutrition}
@@ -82,7 +86,9 @@ export const CompareFruits = ({ fruit, goBack }) => {
                 value={selectedNutrient}
               >
                 <option value="" disabled>
-                  Select a nutrient
+                  {switchLanguage
+                    ? "Choose a nutrient"
+                    : "Изаберите хранљиву материју"}
                 </option>
                 {selectedItems?.nutritionText?.map((nutrient, index) => (
                   <option key={index} value={nutrient.element}>
@@ -94,44 +100,39 @@ export const CompareFruits = ({ fruit, goBack }) => {
             </div>
           )}
         </div>
-        {nutritionBenefits
+        {(switchLanguage ? nutritionBenefits : zdravstveniBenefiti)
           ?.filter(
             (item, index) => item.element == selectedNutrient.slice(0, -1)
           )
           .map((item, index) => (
-            <p
-              key={index}
-              className={classes.nutritionBenefitClassText}
-              style={{ color: "black" }}
-            >
+            <p key={index} className={classes.nutritionBenefitClassText}>
               {item.text}
             </p>
           ))}
 
         {!selectedItems ? (
-          <p
-            className={classes.nutritionBenefitClassText}
-            style={{ color: "grey" }}
-          >
-            Select a nutrient to see the quantity difference.
+          <p className={classes.nutritionBenefitClassText}>
+            {switchLanguage
+              ? "Select a type to see the quantity difference."
+              : "Изаберите тип да бисте видели количинску разлику."}
           </p>
         ) : (
           selectedNutrient && (
-            <p style={{ color: "black", fontSize: "32px" }}>
-              {fruit.name} has{" "}
+            <p style={{ textShadow: "black 5px 5px 5px", fontSize: "32px" }}>
+              {fruit.name} {switchLanguage ? 'has' : 'има'}{" "}
               {quantityDifference !== 0 && (
                 <>
-                <span style={{ color: "red" }}>
-                  {Math.abs(quantityDifference)}{" "}
-                </span>
-                {measurementUnit}
+                  <span style={{ color: "white" }}>
+                    {Math.abs(quantityDifference)}{" "}
+                  </span>
+                  {measurementUnit}
                 </>
               )}
               {quantityDifference > 0
-                ? " more than"
+                ? (switchLanguage ? ' more then' : " више од")
                 : quantityDifference < 0
-                ? " less than"
-                : " equal to"}{" "}
+                ? (switchLanguage ? ' less then' : " мање од")
+                : (switchLanguage ? ' equal to' : " једнако са")}{" "}
               {selectedItems?.name}.
             </p>
           )
@@ -141,10 +142,10 @@ export const CompareFruits = ({ fruit, goBack }) => {
             className={classes.btnClass1}
             onClick={() => setShowVariety(true)}
           >
-            Choose a variety
+           {switchLanguage ? 'Choose a variety' : 'Изаберите сорту'}
           </button>
           <button className={classes.btnClass2} onClick={handleCloseBtn}>
-            Go back
+          {switchLanguage ? 'Back' : 'Назад'}
           </button>
         </div>
       </div>

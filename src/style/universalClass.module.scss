@@ -4,28 +4,34 @@
   overflow: auto;
 }
 
+.backgroundNutrition {
+  z-index: 1000;
+}
+
 .info {
-  width: 1150px;
-  background-color: wheat;
+  width: 1250px;
+  background-color: #00000080;
   border-radius: 20px;
   margin: 50px auto;
 
   .headingOfList {
+    color: white;
     font-size: 46px;
     margin-left: 30px;
     transform: translateY(30px);
     display: inline-block;
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
   }
 
   .imagesSection {
-    padding-left: 25px;
-    padding-bottom: 20px;
+    padding: 0 0px 20px 50px;
   }
   h1 {
-    color: black;
+    color: rgb(255, 255, 255);
     padding-top: 50px;
     padding-bottom: 25px;
     margin-top: -77px;
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
   }
   img {
     min-width: 33%;
@@ -47,16 +53,24 @@
     height: 40px;
   }
 
+  .closeBtn path {
+    fill: white
+  }
+
   .closeBtn2 {
     text-align: right;
-    margin: -95px 0 74px 94%;
+    margin: -95px 0 64px 94%;
     cursor: pointer;
     width: 40px;
     height: 40px;
   }
+
+  .closeBtn2 path {
+    fill: white;
+  }
   .btnClass {
     display: block;
-    margin: 50px auto;
+    margin: 80px auto 90px auto;
     width: 170px;
     padding: 12px;
     background-color: white;
@@ -77,16 +91,16 @@
   .flexClass {
     display: flex;
     height: 350px;
-    border-top: 1px solid black;
+    border-top: 2px solid rgb(255, 255, 255);
 
     border-right: none;
-    margin: 0 30px;
+    margin: 30px 40px 40px 40px;
 
     .singleProduct {
       margin-bottom: 30px;
       padding: 0;
       cursor: default;
-      border: 1px solid black;
+      border: 2px solid rgb(255, 255, 255);
       width: 300px;
     }
 
@@ -94,21 +108,23 @@
       display: flex;
       flex-direction: column;
       text-align: center;
+      margin-left: 30px;
 
       h3 {
-        padding-top: 20px;
-        font-weight: 500;
+        font-weight: 600;
+        font-size: 22px;
+        padding: 20px 0 10px 0;
       }
     }
 
     .inGeneralClass {
       overflow: auto;
       width: 450px;
-      margin: 20px 30px 30px 50px;
+      margin: 50px 30px 12px 50px;
       letter-spacing: 1px;
       font-weight: 500;
       text-align: center;
-      padding: 25px;
+      padding: 0 25px 25px 25px;
       border: 1px dotted black;
       border-radius: 20px;
       background: white;
@@ -117,10 +133,12 @@
       display: none;
     }
     h2 {
+      color: white;
       text-align: center;
-      padding: 15px 0;
-      font-size: 28px;
+      padding: 30px 0 15px 0;
+      font-size: 35px;
       font-weight: 800;
+      text-shadow: rgb(0, 0, 0) 5px 5px 5px;
     }
 
     .asideButtonsClass {
@@ -132,14 +150,15 @@
 
       :first-child {
         margin: 30px;
-        width: 130px;
-        height: 50px;
+        height: 60px;
+        width: 220px;
         background-color: white;
         border-radius: 20px;
         border: 1px solid black;
         cursor: pointer;
         transition: transform 0.1s ease;
         font-weight: 800;
+        font-size: 18px;
       }
       :first-child:hover {
         transform: scale(1.1);
@@ -149,14 +168,15 @@
       }
       :last-child {
         margin: 30px;
-        height: 50px;
-        width: 130px;
+        height: 60px;
+        width: 220px;
         background-color: white;
         border-radius: 20px;
         border: 1px solid black;
         cursor: pointer;
         font-weight: 800;
         transition: transform 0.1s ease;
+        font-size: 18px;
       }
       :last-child:hover {
         transform: scale(1.1);
@@ -169,25 +189,29 @@
 
   .accordionTopic {
     border: 1px solid black;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 20px;
     cursor: pointer;
-    padding: 12px;
+    padding: 17px;
     background-color: #f0f0f0;
+    margin: 0 20px;
+    font-size: 20px;
   }
 
   .accordionText {
-    color: black;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 1.5;
-    padding: 0 10px 10px 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.8;
+    padding: 10px 30px;
+    text-shadow: black 5px 5px;
   }
 
   .goBackFromList {
-    margin: 30px 50%;
+    margin: 30px 50% 50px 50%;
     transform: translate(-50%);
     width: 170px;
+    height: 60px;
     padding: 12px;
     background-color: white;
     font-weight: 700;
@@ -211,20 +235,23 @@
   }
 
   .nutritionHeading {
+    color: white;
+    text-shadow: black 5px 5px 5px;
     text-align: center;
     font-size: 30px;
     padding: 20px;
     border-radius: 20px;
 
     span {
-      color: red;
+      color: rgb(255, 255, 255);
       text-decoration: underline;
-      font-size: 35px;
+      font-size: 38px;
     }
   }
 
   .per100Grams {
-    color: black;
+    color: rgb(255, 255, 255);
+    text-shadow: black 5px 5px 5px;
     text-align: center;
     font-size: 20px;
     margin-top: -5px;
@@ -236,35 +263,53 @@
     align-items: center;
     margin-bottom: 10px;
     border-radius: 20px;
+    margin: 0 20px;
+    padding: 0 20px;
+    text-align: left;
 
     .nutritionElements {
       margin-left: 20px;
-      color: black;
+      color: rgb(255, 255, 255);
+      text-shadow: black 5px 5px 5px;
       font-size: 22px;
       font-weight: 800;
+      text-align: left;
     }
 
     .nutritionQuantity {
-      color: red;
+      color: rgb(255, 255, 255);
+      text-shadow: black 5px 5px 5px;
+      text-decoration: underline;
       margin-left: 20px;
     }
 
     .measurementUnits {
-      color: black;
+      color: rgb(255, 255, 255);
+      text-shadow: black 5px 5px 5px;
       margin-left: 10px;
       font-size: 20px;
     }
 
     .description {
-      color: black;
+      color: rgb(255, 255, 255);
+      text-shadow: black 5px 5px 5px;
       margin-left: 15px;
-      font-size: 18px;
+      font-size: 20px;
     }
   }
 
   .compareHeading {
     padding: 35px 0 0 55px;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
     font-size: 35px;
+
+    span {
+      color: white;
+      text-shadow: black 5px 5px 5px;
+      text-decoration: underline;
+      font-size: 38px;
+    }
   }
   .selectClassNutrition {
     margin: 50px;
@@ -273,6 +318,11 @@
     font-size: 25px;
     font-weight: 600;
     width: 450px;
+  }
+
+  .compareFlexDisplay {
+    display: flex;
+    margin: 30px auto;
   }
 
   input {
@@ -295,6 +345,7 @@
   cursor: pointer;
   padding: 12px;
   background-color: #f0f0f0;
+  margin: 0 20px;
 }
 
 .nutritionInfo {
@@ -325,13 +376,10 @@
 }
 
 .accordionBackground {
-  position: fixed;
-  z-index: 10;
-  inset: 0;
   overflow: auto;
   margin: 50px auto;
   width: 1100px;
-  background-color: wheat;
+  background-color: #00000080;
   color: black;
   border-radius: 20px;
 
@@ -339,31 +387,45 @@
     display: none;
   }
 
+  .accordionTopic {
+    margin: 20px 40px;
+    font-size: 20px;
+  }
+
   .accordionText {
-    color: black;
+    color: rgb(255, 255, 255);
+    text-shadow: black 5px 5px 5px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.5;
     padding: 0 10px 10px 10px;
-    background-color: white;
   }
 
   h2 {
+    color: white;
+    text-shadow: black 5px 5px 5px;
     text-align: center;
-    margin: 30px;
-    font-size: 35px;
+    margin-bottom: -18px;
+    padding-top: 32px;
+    padding-bottom: 20px;
+    font-size: 45px;
 
     span {
-      color: red;
+      text-decoration: underline;
+      color: white;
     }
   }
 
   h3 {
+    color: white;
+    text-shadow: black 5px 5px 5px;
     text-align: center;
-    margin: 15px;
-    padding: 15px;
-    border: 2px dotted black;
+    margin: 40px;
+    padding: 20px;
+    line-height: 1.3;
+    border: 2px dotted rgb(255, 255, 255);
     border-radius: 20px;
+    font-size: 25px;
   }
 }
 
@@ -383,42 +445,54 @@
   .infoCultivation {
     margin: 50px auto;
     max-width: 1100px;
-    background-color: wheat;
+    background-color: #00000080;
     border-radius: 20px;
 
+    .accordionTopic {
+      margin: 20px 40px;
+      font-size: 20px;
+    }
+
     .activeIdClass {
-      padding: 20px;
-      background-color: white;
+
+
       border-radius: 20px;
       margin: 20px;
     }
 
     h2 {
+      color: white;
+      text-shadow: black 5px 5px 5px;
       text-align: center;
       margin-bottom: -18px;
-      padding-top: 22px;
-      font-size: 30px;
+      padding-top: 32px;
+      padding-bottom: 20px;
+      font-size: 45px;
 
       span {
-        color: red;
+        color: rgb(255, 255, 255);
       }
     }
 
     h3 {
+      color: white;
+      text-shadow: black 5px 5px 5px;
       text-align: center;
       margin: 40px;
       padding: 20px;
-      line-height: 1.6;
+      line-height: 1.3;
       border: 2px dotted black;
       border-radius: 20px;
+      font-size: 25px;
     }
 
     p {
-      color: black;
-      font-weight: 400;
-      font-size: 15px;
-      line-height: 1.5;
-      padding: 0 10px 10px 10px;
+      color: rgb(255, 255, 255);
+      text-shadow: black 5px 5px 5px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 1.8;
+      padding: 0 10px;
     }
   }
 }
@@ -431,7 +505,8 @@
 
   .btnClass1 {
     margin-right: 50px;
-    width: 170px;
+    height: 60px;
+    width: 220px;
     padding: 12px;
     background-color: white;
     font-weight: 700;
@@ -443,7 +518,8 @@
   }
   .btnClass2 {
     margin-left: 50px;
-    width: 170px;
+    height: 70px;
+    width: 220px;
     padding: 12px;
     background-color: white;
     font-weight: 700;
@@ -497,8 +573,8 @@
 
 .chooseVarietyInfo {
   margin: 50px auto;
-  width: 1100px;
-  background-color: wheat;
+  width: 1150px;
+  background-color: #00000080;
   border-radius: 20px;
 
   input {
@@ -508,6 +584,7 @@
     font-size: 20px;
     padding: 10px;
     font-weight: 600;
+    width: 600px;
   }
 
   .closeVarietyList {
@@ -515,11 +592,17 @@
     padding-top: 15px;
     display: flex;
     width: 100%;
+    height: 40px;
     cursor: pointer;
+  }
+  .closeVarietyList path {
+    fill: white;
   }
 }
 
 .listOfVarietySearch {
+  color: white;
+  text-shadow: black 5px 5px 5px;
   margin: 15px;
   font-size: 18px;
   font-weight: 800;
@@ -560,7 +643,7 @@
 .nutritionListInfo {
   margin: 50px auto;
   width: 500px;
-  background-color: wheat;
+  background-color: #00000080;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -568,7 +651,8 @@
 
   h3 {
     margin-top: 20px;
-    color: red;
+    color: rgb(255, 255, 255);
+    text-shadow: black 5px 5px 5px;
     font-size: 35px;
   }
 
@@ -582,7 +666,8 @@
   }
 
   .elementFromList {
-    color: black;
+    color: rgb(255, 255, 255);
+    text-shadow: black 5px 5px 5px;
     margin: 12px;
   }
 
@@ -596,8 +681,15 @@
     z-index: 10;
     width: 40px;
     height: 40px;
+    color: white;
+  }
+
+  .closeBtn path {
+    fill: white;
   }
 }
+
+
 
 .closeVarietyBtn {
   margin: 70px auto;
@@ -623,12 +715,17 @@
 
 .nutritionBenefitClassText {
   margin: 0 40px 40px 40px;
-  color: black;
+  line-height: 1.4;
+  color: grey;
+  text-shadow: black 5px 5px 5px;
 }
+
+
+
 
 // RESPONSIVE DESIGN
 
-@media (max-width: 370px) {
+@media (max-width: 431px) {
   .background {
     position: fixed;
     inset: 0;
@@ -653,9 +750,9 @@
         input {
           width: 200px;
           height: 40px;
-          left: -47px;
+          left: -34px;
           position: absolute;
-          top: 85px;
+          top: 104px;
         }
       }
       .compareHeading {
@@ -663,7 +760,7 @@
         margin-top: 20px;
       }
       .selectClassNutrition {
-        width: 80%;
+        width: 86%;
         margin: 20px;
         font-size: 20px;
       }
@@ -688,7 +785,7 @@
 
     img {
       width: 100px;
-      height: 120px;
+      height: 100px;
       border-radius: 20px;
     }
 
@@ -711,11 +808,9 @@
       height: 26px;
     }
     .closeBtn2 {
-      margin-left: 87%;
-      margin-top: 10px;
+      margin: 20px 0px 50px 87%;
       width: 26px;
       height: 26px;
-      margin-bottom: 59px;
     }
 
     .btnClass {
@@ -730,16 +825,28 @@
       margin: 0 15px;
 
       .singleProduct {
-        width: 85%;
-        margin: 20px;
+        margin: 20px 20px 20px 39px;
+        width: 70%;
+        height: 70%;
+      }
+
+      .centralContent {
+        font-weight: 700;
+        font-size: 15px;
+        padding: 20px 0 20px 0;
       }
 
       .inGeneralClass {
         width: 85%;
         height: 300px;
-        margin: 20px;
+        margin: 20px 20px 20px 6px;
         padding: 15px;
         font-size: 14px;
+      }
+
+      h3 {
+        padding: 20px 40px 20px 0;
+        font-size: 10px;
       }
 
       h2 {
@@ -754,10 +861,10 @@
 
         :first-child,
         :last-child {
-          width: 100px;
+          width: 140%;
           height: 40px;
           font-size: 11px;
-          margin: 10px;
+          margin: 15px;
         }
       }
     }
@@ -801,6 +908,7 @@
       .description {
         font-size: 16px;
         margin-left: 10px;
+        text-align: center;
       }
 
       div {
@@ -825,6 +933,9 @@
       padding: 20px;
       text-align: center;
     }
+    .compareFlexDisplay {
+      flex-direction: column;
+    }
 
     input {
       font-size: 16px;
@@ -839,8 +950,8 @@
 
     .btnClass1,
     .btnClass2 {
-      width: 140px;
-      margin: 10px 0;
+      width: 220px;
+      margin: 20px 0;
     }
   }
 
@@ -872,18 +983,19 @@
       width: 85%;
     }
 
-    
     .closeBtn {
-width: 26px;
-height: 26px;
-margin-left: 90%;
-margin-top: 3px;
+      width: 26px;
+      height: 26px;
+      margin-left: 90%;
+      margin-top: 3px;
     }
-
-
     .closeBtn2 {
       font-size: 20px;
       margin-left: 85%;
+    }
+
+    .nutritionBenefitClassText {
+      font-weight: 400;
     }
   }
   .infoCultivation {
@@ -896,7 +1008,19 @@ margin-top: 3px;
     font-size: 15px;
   }
 
+  .nutritionBenefitClassText {
+    font-weight: 400;
+  }
+
   .accordionBackground {
     width: 300px;
+    height: auto;
+    .accordionTopic {
+      margin: 20px 40px;
+    }
+  }
+  .accordionText {
+    height: 400px;
+    overflow: scroll;
   }
 }

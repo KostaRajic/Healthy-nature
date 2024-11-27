@@ -6,6 +6,8 @@ import ornamentalPlants from "./oranamentalPlants";
 import { OrnamentalPlantsCultivation } from "./OrnamentalPlantsCultivation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
+import { ukrasneBiljke } from "./ukrasneBiljke";
+import { useContextAuth } from "../../context/Context";
 
 export const ListOfOrnamentalPlants = ({ goBack }) => {
   const [selectedOrnamentalPlants, setSelectedOrnamentalPlants] =
@@ -13,6 +15,7 @@ export const ListOfOrnamentalPlants = ({ goBack }) => {
   const [showReadMore, setShowReadMore] = useState(false);
   const [showCultivation, setShowCultivation] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
+  const { switchLanguage } = useContextAuth();
 
   const handleOrnamentalPlants = (ornamentalPlants) => {
     setSelectedOrnamentalPlants(ornamentalPlants);
@@ -29,7 +32,7 @@ export const ListOfOrnamentalPlants = ({ goBack }) => {
     setSearchTerm(event.target.value);
   };
 
-  const filteredItem = ornamentalPlants?.filter((item, index) =>
+  const filteredItem = (switchLanguage ? ornamentalPlants : ukrasneBiljke)?.filter((item, index) =>
     item?.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
@@ -46,14 +49,13 @@ export const ListOfOrnamentalPlants = ({ goBack }) => {
         }
       >
         <div className={classes.headerOfList}>
-          <h2 className={classes.headingOfList} style={{fontSize: '35px'}}>Ornamental plants</h2>
-          <input type="text" onChange={handleInput} placeholder="Search..." style={{marginTop: '6px'}}/>
+          <h2 className={classes.headingOfList} style={{fontSize: '30px'}}>{switchLanguage ? 'ORNAMENTAL PLANTS' : 'УКРАСНЕ БИЉКЕ'}</h2>
+          <input type="text" onChange={handleInput} placeholder="Search..." style={{marginTop: '20px'}}/>
           <FontAwesomeIcon
             icon={faCircleXmark}
             size="2x"
             className={classes.closeBtn2}
             onClick={() => goBack(false)}
-            style={{margin: '-79px 0 64px 94%'}}
           />
         </div>
         {filteredItem
@@ -68,22 +70,27 @@ export const ListOfOrnamentalPlants = ({ goBack }) => {
                   />
                 </div>
                 <div className={classes.centralContent}>
-                  <h3>{plant.inGeneralHeading}</h3>
+                  
                   <div className={classes.inGeneralClass}>
+                  <h3>{plant.inGeneralHeading}</h3>
                     {plant.inGeneral}
                   </div>
                 </div>
                 <aside className={classes.asideButtonsClass}>
                   <button onClick={() => handleOrnamentalPlants(plant)}>
-                    Read More
+                  {switchLanguage
+                      ? "Read more"
+                      : "Прочитајте више"}
                   </button>
                   <button onClick={() => handleCultivation(plant)}>
-                    Cultivation
+                  {switchLanguage
+                      ? "Cultivation"
+                      : "Култивација"}
                   </button>
                 </aside>
               </div>
             ))
-          : ornamentalPlants?.map((ornamentalPlants) => (
+          : (switchLanguage ? ornamentalPlants : ukrasneBiljke)?.map((ornamentalPlants) => (
               <div key={ornamentalPlants.id} className={classes.flexClass}>
                 <div>
                   <h2>{ornamentalPlants.name}</h2>
@@ -94,8 +101,9 @@ export const ListOfOrnamentalPlants = ({ goBack }) => {
                   />
                 </div>
                 <div className={classes.centralContent}>
-                  <h3>{ornamentalPlants.inGeneralHeading}</h3>
+                  
                   <div className={classes.inGeneralClass}>
+                  <h3>{ornamentalPlants.inGeneralHeading}</h3>
                     {ornamentalPlants.inGeneral}
                   </div>
                 </div>
@@ -103,10 +111,14 @@ export const ListOfOrnamentalPlants = ({ goBack }) => {
                   <button
                     onClick={() => handleOrnamentalPlants(ornamentalPlants)}
                   >
-                    Read More
+                  {switchLanguage
+                      ? "Read more"
+                      : "Прочитајте више"}
                   </button>
                   <button onClick={() => handleCultivation(ornamentalPlants)}>
-                    Cultivation
+                  {switchLanguage
+                      ? "Cultivation"
+                      : "Култивација"}
                   </button>
                 </aside>
               </div>
@@ -115,7 +127,7 @@ export const ListOfOrnamentalPlants = ({ goBack }) => {
           className={classes.goBackFromList}
           onClick={() => goBack(false)}
         >
-          Go Back
+      {switchLanguage ? 'Back' : 'Назад'}
         </button>
       </div>
       {selectedOrnamentalPlants && showReadMore && (

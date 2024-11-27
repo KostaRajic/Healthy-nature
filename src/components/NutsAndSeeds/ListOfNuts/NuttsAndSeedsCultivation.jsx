@@ -20,7 +20,6 @@ export const NutsAndSeedsCultivation = ({ nuts, goBack }) => {
         <div
           className={classes.accordionTopic}
           onClick={() => toggleAccordion(item.id)}
-          style={{ margin: "20px" }}
         >
           {item.topic}
         </div>
@@ -43,7 +42,7 @@ export const NutsAndSeedsCultivation = ({ nuts, goBack }) => {
         <h3>{nuts?.cultivationHeading}</h3>
         {renderAccordion(nuts?.cultivation)}
         <button className={classes.btnClass} onClick={() => goBack(false)}>
-          Go Back
+        {switchLanguage ? 'Back' : 'Назад'}
         </button>
       </div>
     </div>

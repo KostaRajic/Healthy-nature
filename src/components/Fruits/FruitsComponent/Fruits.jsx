@@ -13,9 +13,11 @@ import fruitsInfo from "./fruitsText";
 import { useState } from "react";
 import { fruitsImages } from "./fruitsImages";
 import { ListOfFruits } from "../ListOfFruits/ListOfFruits";
+import tekstVoca from "./tekstVoca";
+import { useContextAuth } from "../../context/Context";
 
 export const Fruits = ({ turnOff }) => {
-
+  const { switchLanguage } = useContextAuth();
   const [fruits, setFruits] = useState(false);
 
   const settings = {
@@ -32,13 +34,15 @@ export const Fruits = ({ turnOff }) => {
   return (
         <div className={fruitsClass.fruitsBackground}>
           <div className={classes.info} style={fruits ? {display: 'none'} : {display: 'block'}}>
+          
             <FontAwesomeIcon
               icon={faCircleXmark}
               size="2x"
+              style={{ color: 'white' }}
               className={classes.closeBtn}
               onClick={() => turnOff(false)}
             />
-            <h1>Fruits</h1>
+            <h1>{switchLanguage ? 'FRUITS' : 'ВОЋЕ'}</h1>
             <section className={classes.imagesSection}>
               <Slider {...settings}>
                 {fruitsImages.map((image, index) => (
@@ -53,13 +57,13 @@ export const Fruits = ({ turnOff }) => {
               </Slider>
             </section>
             <section>
-              <FruitsAccordion data={fruitsInfo} />
+              <FruitsAccordion data={switchLanguage ? fruitsInfo : tekstVoca} />
             </section>
             <button
               className={classes.btnClass}
               onClick={() => setFruits(true)}
             >
-              Read More
+              {switchLanguage ? 'Read more' : 'Прочитајте више'}
             </button>
           </div>
           {fruits && <ListOfFruits goBack={() => setFruits()}/>}

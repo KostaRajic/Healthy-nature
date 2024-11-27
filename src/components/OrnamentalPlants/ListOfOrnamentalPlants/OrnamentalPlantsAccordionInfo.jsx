@@ -1,9 +1,12 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import classes from "../../../style/universalClass.module.scss";
+import { useContextAuth } from "../../context/Context";
 
 export const OrnamentalPlantsAccordionInfo = ({ plant, goBack }) => {
   const [activeIds, setActiveIds] = useState({});
+  const { switchLanguage } = useContextAuth();
+
   const toggleAccordion = (id) => {
     setActiveIds((prevState) => ({
       ...prevState,
@@ -13,7 +16,7 @@ export const OrnamentalPlantsAccordionInfo = ({ plant, goBack }) => {
 
   const renderAccordion = (plant) => {
     return plant.map((item) => (
-      <div key={item.id} style={{ padding: "10px" }}>
+      <div key={item.id}>
         <div
           className={classes.accordionTopic}
           onClick={() => toggleAccordion(item.id)}
@@ -24,8 +27,8 @@ export const OrnamentalPlantsAccordionInfo = ({ plant, goBack }) => {
           <div
             style={{
               padding: "20px",
-              backgroundColor: "#fff",
               borderRadius: "20px",
+              margin: '20px'
             }}
           >
             {item.text && <p className={classes.accordionText}>{item.text}</p>}
@@ -39,12 +42,12 @@ export const OrnamentalPlantsAccordionInfo = ({ plant, goBack }) => {
   return (
     <div className={classes.accordionBackground}>
       <h2>
-        <span>{plant.name}</span> info:
+        <span>{plant.name}</span> {switchLanguage ? 'information:' : 'информације:'}
       </h2>
       <h3>{plant.benefitsHeading}</h3>
       {renderAccordion(plant.text)}
       <button className={classes.btnClass} onClick={() => goBack(false)}>
-        Go Back
+      {switchLanguage ? 'Back' : 'Назад'}
       </button>
     </div>
   );

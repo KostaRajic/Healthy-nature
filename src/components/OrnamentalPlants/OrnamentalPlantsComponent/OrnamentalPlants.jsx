@@ -13,9 +13,12 @@ import { ornamentalPlantsInfo } from "./ornamentalPlantsText";
 import { ornamentalPlantsImages } from "./ornamentalPlantsImages";
 import { useState } from "react";
 import { ListOfOrnamentalPlants } from "../ListOfOrnamentalPlants/ListOfOrnamentalPlants";
+import { ukrasneBiljkeTekst } from "./ukrasneBiljkeTekst";
+import { useContextAuth } from "../../context/Context";
 
 export const OrnamentalPlants = ({ turnOff }) => {
   const [ ornamentalPlants, setOrnamentalPlants ] = useState(false)
+  const { switchLanguage } = useContextAuth();
 
   const settings = {
     infinite: true,
@@ -37,7 +40,7 @@ export const OrnamentalPlants = ({ turnOff }) => {
               className={classes.closeBtn}
               onClick={() => turnOff(false)}
             />
-            <h1>Ornamental Plants</h1>
+            <h1>{switchLanguage ? 'ORNAMENTAL PLANTS' : 'УКРАСНЕ БИЉКЕ'}</h1>
             <section className={classes.imagesSection}>
               <Slider {...settings}>
                 {ornamentalPlantsImages.map((image, index) => (
@@ -52,13 +55,13 @@ export const OrnamentalPlants = ({ turnOff }) => {
               </Slider>
             </section>
             <section>
-              <OrnamentalPlantsAccordion data={ornamentalPlantsInfo} />
+              <OrnamentalPlantsAccordion data={switchLanguage ? ornamentalPlantsInfo : ukrasneBiljkeTekst} />
             </section>
             <button
               className={classes.btnClass}
               onClick={() => setOrnamentalPlants(true)}
             >
-              Read More
+        { switchLanguage ? 'Read more' : 'Прочитајте више'}
             </button>
           </div>
           {ornamentalPlants && <ListOfOrnamentalPlants goBack={() => setOrnamentalPlants(false)}/>}

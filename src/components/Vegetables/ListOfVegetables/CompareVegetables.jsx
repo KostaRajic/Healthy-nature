@@ -5,11 +5,12 @@ import classes from "../../../style/universalClass.module.scss";
 import { ChooseVariety } from "../../SearchComponent/ChooseAVariety";
 import { useContextAuth } from "../../context/Context";
 import { nutritionBenefits } from "../../nutritionBenefits";
+import { zdravstveniBenefiti } from "../../zdravstveniBenefiti";
 
 export const CompareVegetables = ({ vegetable, goBack }) => {
   const [selectedNutrient, setSelectedNutrient] = useState("");
   const [showVariety, setShowVariety] = useState(false);
-  const { selectedItems, setSelectedItems } = useContextAuth();
+  const { selectedItems, setSelectedItems, switchLanguage } = useContextAuth();
   const [vegetableQuantity, setVegetableQuantity] = useState(0);
   const [selectedItemQuantity, setSelectedItemQuantity] = useState(0);
   const [measurementUnit, setMeasurementUnit] = useState(0);
@@ -49,10 +50,11 @@ export const CompareVegetables = ({ vegetable, goBack }) => {
         className={classes.info}
         style={showVariety ? { display: "none" } : { display: "block" }}
       >
-        <div style={{margin: '30px auto'}}>
+        <div className={classes.compareFlexDisplay}>
           <div>
             <h2 className={classes.compareHeading}>
-              <span style={{ color: "red" }}>{vegetable.name}</span> nutrition:
+              <span>{vegetable.name}</span>
+              {switchLanguage ? " nutrition:" : " исхрана:"}
             </h2>
             <select
               className={classes.selectClassNutrition}
@@ -60,7 +62,9 @@ export const CompareVegetables = ({ vegetable, goBack }) => {
               value={selectedNutrient}
             >
               <option value="" disabled>
-                Select a nutrient
+                {switchLanguage
+                  ? "Choose a nutrient"
+                  : "Изаберите хранљиву материју"}
               </option>
               {vegetable?.nutritionText?.map((nutrient, index) => (
                 <option key={index} value={nutrient.element}>
@@ -73,8 +77,8 @@ export const CompareVegetables = ({ vegetable, goBack }) => {
           {selectedItems && (
             <div>
               <h2 className={classes.compareHeading}>
-                <span style={{ color: "red" }}>{selectedItems?.name}</span>{" "}
-                nutrition:
+                <span>{selectedItems?.name}</span>{" "}
+                {switchLanguage ? " nutrition:" : " исхрана:"}
               </h2>
               <select
                 className={classes.selectClassNutrition}
@@ -82,7 +86,9 @@ export const CompareVegetables = ({ vegetable, goBack }) => {
                 value={selectedNutrient}
               >
                 <option value="" disabled>
-                  Select a nutrient
+                  {switchLanguage
+                    ? "Choose a nutrient"
+                    : "Изаберите хранљиву материју"}
                 </option>
                 {selectedItems?.nutritionText?.map((nutrient, index) => (
                   <option key={index} value={nutrient.element}>
@@ -94,43 +100,44 @@ export const CompareVegetables = ({ vegetable, goBack }) => {
             </div>
           )}
         </div>
-        {nutritionBenefits
+        {(switchLanguage ? nutritionBenefits : zdravstveniBenefiti)
           ?.filter(
             (item, index) => item.element == selectedNutrient.slice(0, -1)
           )
           .map((item, index) => (
-            <p
-              key={index}
-              className={classes.nutritionBenefitClassText}
-              style={{ color: "black" }}
-            >
+            <p key={index} className={classes.nutritionBenefitClassText}>
               {item.text}
             </p>
           ))}
         {!selectedItems ? (
-          <p
-            className={classes.nutritionBenefitClassText}
-            style={{ color: "grey" }}
-          >
-            Select a nutrient to see the quantity difference.
+          <p className={classes.nutritionBenefitClassText}>
+            {switchLanguage
+              ? "Select a type to see the quantity difference."
+              : "Изаберите тип да бисте видели количинску разлику."}
           </p>
         ) : (
           selectedNutrient && (
-            <p style={{ color: "black", fontSize: "32px" }}>
-              {vegetable.name} has{" "}
+            <p style={{ fontSize: "32px" }}>
+              {vegetable.name}  {switchLanguage ? 'has' : 'има'}{" "}
               {quantityDifference !== 0 && (
                 <>
-                  <span style={{ color: "red" }}>
+                  <span style={{ color: "white", textDecoration: "underline" }}>
                     {Math.abs(quantityDifference)}{" "}
                   </span>
                   {measurementUnit}
                 </>
               )}
               {quantityDifference > 0
-                ? " more than"
+                ? switchLanguage
+                  ? " more then"
+                  : " више од"
                 : quantityDifference < 0
-                ? " less than"
-                : " equal to"}{" "}
+                ? switchLanguage
+                  ? " less then"
+                  : " мање од"
+                : switchLanguage
+                ? " equal to"
+                : " једнако са"}{" "}
               {selectedItems?.name}.
             </p>
           )
@@ -140,10 +147,10 @@ export const CompareVegetables = ({ vegetable, goBack }) => {
             className={classes.btnClass1}
             onClick={() => setShowVariety(true)}
           >
-            Choose a variety
+            {switchLanguage ? "Choose a variety" : "Изаберите сорту"}
           </button>
           <button className={classes.btnClass2} onClick={handleCloseBtn}>
-            Go back
+            {switchLanguage ? "Back" : "Назад"}
           </button>
         </div>
       </div>

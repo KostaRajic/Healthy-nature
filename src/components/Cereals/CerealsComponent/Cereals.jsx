@@ -14,9 +14,13 @@ import { cerealsImages } from "./cerealsImages";
 import cerealsClass from "./CerealsClass.module.scss";
 import { useState } from "react";
 import { ListOfCereals } from "../ListOfCereals/ListOfCereals";
+import zitariceTekst from "./zitariceTekst";
+import { useContextAuth } from "../../context/Context";
 
 export const Cereals = ({ turnOff }) => {
   const [cereals, setCereals] = useState(false);
+  const { switchLanguage } = useContextAuth();
+
 
   const settings = {
     infinite: true,
@@ -41,7 +45,7 @@ export const Cereals = ({ turnOff }) => {
           className={classes.closeBtn}
           onClick={() => turnOff(false)}
         />
-        <h1>Cereals</h1>
+        <h1>{switchLanguage ? 'CEREALS' : 'ЖИТАРИЦЕ'}</h1>
         <section className={classes.imagesSection}>
           <Slider {...settings}>
             {cerealsImages.map((image, index) => (
@@ -52,10 +56,10 @@ export const Cereals = ({ turnOff }) => {
           </Slider>
         </section>
         <section>
-          <CerealsAccordion data={cerealsInfo} />
+          <CerealsAccordion data={switchLanguage ? cerealsInfo : zitariceTekst} />
         </section>
         <button className={classes.btnClass} onClick={() => setCereals(true)}>
-          Read More
+        { switchLanguage ? 'Read more' : 'Прочитајте више'}
         </button>
       </div>
       {cereals && <ListOfCereals goBack={() => setCereals(false)} />}

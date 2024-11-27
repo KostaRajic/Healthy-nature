@@ -1819,7 +1819,7 @@ const nuts = [
         children: [
           {
             id: 30.21,
-            topic: "Preservation",
+            topic: "Очување",
             text: "Pistachios can also be roasted or salted for enhanced flavor and longer shelf life.",
           },
         ],

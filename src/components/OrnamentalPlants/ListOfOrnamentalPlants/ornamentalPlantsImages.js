@@ -8,7 +8,7 @@ import ficus from '../../../assets/images/Ornamental plants/individuallyOrnament
 import rose from '../../../assets/images/Ornamental plants/individuallyOrnamentalPlant/rose.jpg'
 import hibiscus from '../../../assets/images/Ornamental plants/individuallyOrnamentalPlant/hibiscus.jpg'
 import summerChocolate from '../../../assets/images/Ornamental plants/individuallyOrnamentalPlant/summerChocolate.jpg'
-
+import orchid from '../../../assets/images/Ornamental plants/individuallyOrnamentalPlant/orchid.jpg'
 
 export const ornamentalPlantsImages = {
     adam,
@@ -20,5 +20,6 @@ export const ornamentalPlantsImages = {
     ficus,
     rose,
     summerChocolate,
-    hibiscus
+    hibiscus,
+    orchid
 }

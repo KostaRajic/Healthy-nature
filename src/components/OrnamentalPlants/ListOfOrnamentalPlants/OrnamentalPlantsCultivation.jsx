@@ -3,9 +3,11 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import classes from "../../../style/universalClass.module.scss";
+import { useContextAuth } from "../../context/Context";
 
 export const OrnamentalPlantsCultivation = ({ plant, goBack }) => {
   const [activeIds, setActiveIds] = useState({});
+  const { switchLanguage } = useContextAuth();
 
   const toggleAccordion = (id) => {
     setActiveIds((prevState) => ({
@@ -20,7 +22,6 @@ export const OrnamentalPlantsCultivation = ({ plant, goBack }) => {
         <div
           className={classes.accordionTopic}
           onClick={() => toggleAccordion(item.id)}
-          style={{ margin: "20px" }}
         >
           {item.topic}
         </div>
@@ -38,12 +39,12 @@ export const OrnamentalPlantsCultivation = ({ plant, goBack }) => {
     <div className={classes.cultivationBackground}>
       <div className={classes.infoCultivation}>
         <h2>
-          <span>{plant?.name}</span> cultivation:
+          <span>{plant?.name}</span> {switchLanguage ? 'cultivation:' : 'култивација:'}
         </h2>
         <h3>{plant?.cultivationHeading}</h3>
         {renderAccordion(plant?.cultivation)}
         <button className={classes.btnClass} onClick={() => goBack(false)}>
-          Go Back
+        {switchLanguage ? 'Back' : 'Назад'}
         </button>
       </div>
     </div>

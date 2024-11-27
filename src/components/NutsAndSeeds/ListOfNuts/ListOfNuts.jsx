@@ -6,12 +6,15 @@ import nuts from "./nuts";
 import { NutsAndSeedsCultivation } from "./NuttsAndSeedsCultivation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
+import orasastiPlodovi from "./orasastiPlodovi";
+import { useContextAuth } from "../../context/Context";
 
 export const ListOfNuts = ({ goBack }) => {
   const [showNutritionAndHealth, setShowNutritionAndHealth] = useState(false);
   const [selectedNuts, setSelectedNuts] = useState(null);
   const [showCultivation, setShowCultivation] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
+  const { switchLanguage } = useContextAuth();
 
   const handleNuts = (nuts) => {
     setSelectedNuts(nuts);
@@ -28,7 +31,7 @@ export const ListOfNuts = ({ goBack }) => {
     setSearchTerm(event.target.value);
   };
 
-  const filteredItem = nuts?.filter((item, index) =>
+  const filteredItem = (switchLanguage ? nuts : orasastiPlodovi)?.filter((item, index) =>
     item?.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
@@ -45,13 +48,14 @@ export const ListOfNuts = ({ goBack }) => {
         }
       >
         <div className={classes.headerOfList}>
-          <h2 className={classes.headingOfList}>Nuts</h2>
-          <input type="text" onChange={handleInput} placeholder="Search..." />
+          <h2 className={classes.headingOfList} style={{fontSize: '35px'}}>{switchLanguage ? 'NUTS AND SEEDS' : 'ОРАШАСТИ ПЛОДОВИ'}</h2>
+          <input type="text" onChange={handleInput} placeholder={switchLanguage ? 'Search...' :"Тражи..."} style={{transform: 'translateY(-13px)'}}/>
           <FontAwesomeIcon
             icon={faCircleXmark}
             size="2x"
             className={classes.closeBtn2}
             onClick={() => goBack(false)}
+
           />
         </div>
         {filteredItem
@@ -66,20 +70,24 @@ export const ListOfNuts = ({ goBack }) => {
                   />
                 </div>
                 <div className={classes.centralContent}>
+                  
+                  <div className={classes.inGeneralClass}>
                   <h3>{nuts.inGeneralHeading}</h3>
-                  <div className={classes.inGeneralClass}>{nuts.inGeneral}</div>
+                  {nuts.inGeneral}</div>
                 </div>
                 <aside className={classes.asideButtonsClass}>
                   <button onClick={() => handleNuts(nuts)}>
-                    Nutrition and Health
+                  {switchLanguage
+                      ? "Nutrition and health"
+                      : "Исхрана и здравље"}
                   </button>
                   <button onClick={() => handleCultivation(nuts)}>
-                    Cultivation
+                  {switchLanguage ? "Cultivation" : "Култивација"}
                   </button>
                 </aside>
               </div>
             ))
-          : nuts?.map((nuts) => (
+          : (switchLanguage ? nuts : orasastiPlodovi)?.map((nuts) => (
               <div key={nuts.id} className={classes.flexClass}>
                 <div>
                   <h2>{nuts.name}</h2>
@@ -90,15 +98,19 @@ export const ListOfNuts = ({ goBack }) => {
                   />
                 </div>
                 <div className={classes.centralContent}>
+                  
+                  <div className={classes.inGeneralClass}>
                   <h3>{nuts.inGeneralHeading}</h3>
-                  <div className={classes.inGeneralClass}>{nuts.inGeneral}</div>
+                  {nuts.inGeneral}</div>
                 </div>
                 <aside className={classes.asideButtonsClass}>
                   <button onClick={() => handleNuts(nuts)}>
-                    Nutrition and Health
+                  {switchLanguage
+                      ? "Nutrition and health"
+                      : "Исхрана и здравље"}
                   </button>
                   <button onClick={() => handleCultivation(nuts)}>
-                    Cultivation
+                  {switchLanguage ? "Cultivation" : "Култивација"}
                   </button>
                 </aside>
               </div>
@@ -107,7 +119,7 @@ export const ListOfNuts = ({ goBack }) => {
           className={classes.goBackFromList}
           onClick={() => goBack(false)}
         >
-          Go Back
+          {switchLanguage ? 'Back' : 'Назад'}
         </button>
       </div>
       {showNutritionAndHealth && selectedNuts && (
